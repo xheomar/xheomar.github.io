@@ -3,7 +3,7 @@
 while [ 1 ]
 do
 		echo `date` > result.txt
-		echo " " >> result.txt
+		echo "<br>" >> result.txt
 		echo PR-POSITIVE
 		while [ 1 ] 
 		do 
@@ -16,7 +16,8 @@ do
 			fi
 		done 
 		tail -n 50 temp.txt >> result.txt
-		
+		echo "<br>" >> result.txt		
+	
 		echo YMAT
 		while [ 1 ] 
 		do 
@@ -29,6 +30,7 @@ do
 			fi
 		done 
 		tail -n 50 temp.txt >> result.txt
+		echo "<br>" >> result.txt
 		
 		echo XHEO
 		while [ 1 ] 
@@ -42,6 +44,7 @@ do
 			fi
 		done 
 		tail -n 50 temp.txt >> result.txt
+		echo "<br>" >> result.txt
 
 		echo BUSOTIR
 		while [ 1 ] 
@@ -55,6 +58,7 @@ do
 			fi
 		done 
 		tail -n 50 temp.txt >> result.txt
+		echo "<br>" >> result.txt
 
 		echo CRON314
 		while [ 1 ] 
@@ -68,6 +72,7 @@ do
 			fi
 		done 
 		tail -n 50 temp.txt >> result.txt
+		echo "<br>" >> result.txt
 
 		echo MILANA
 		while [ 1 ] 
@@ -81,6 +86,7 @@ do
 			fi
 		done 
 		tail -n 50 temp.txt >> result.txt
+		echo "<br>" >> result.txt
 
 		find -type f -name result.txt -exec sed -i -r 's/Фелипе\ Ан\.\.\./Фелипе\ Андерсон/g' {} \;
 		find -type f -name result.txt -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
@@ -90,5 +96,5 @@ do
 		cat result.txt >> index.html
 		cat bottom.txt >> index.html
 
-		gfuck
+		git add index.html && git commit -m "A new commit `date`" && git push -u origin master
 done
