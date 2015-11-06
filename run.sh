@@ -69,16 +69,28 @@ do
 			fi	
 			if [ "$li_type" == "player" ]
 			then
-				find -type f -name player.html -exec sed -i -r "s/PLAYER/$under_start$line$under_end/g" {} \;
+				points[$index]=$line
+				find -type f -name player.html -exec sed -i -r "s/PLAYER/$under_start${players[$index]}$under_end/g" {} \;
 			fi		
-			let "count = $count + 1"			
-			#count=$((1 + $count))			
+			let "count = $count + 1"		
 		done < $file
-		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>		
-		cat player.html >> index.html
+		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>
+		mv player.html ${points[$index]}".xml"
+		#cat player.html >> index.html
 		let "index = $index + 1"
 	done	
-		
+	
+	files=( `ls -v *.xml` )
+	files_count=${#files[@]}
+	index=0
+	while [ "$index" -lt "$files_count" ]
+	do
+		cat ${files[$index]} >> index.html
+		let "index = $index + 1"
+	done
+	
+	rm -rf *.xml
+	
 	find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Фелипе\ Андерсон/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
