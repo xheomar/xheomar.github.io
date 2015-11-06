@@ -51,6 +51,9 @@ page.open(siteName, function (status)
 				if (debug_on == true) console.log("We need " + need_forwards + " more forwards!");
 			}
 			
+			// OTHERS
+			var others_points = [], others_names = [];
+			
 			// HALFBACKS
 			var min_halfbacks = 2, need_halfbacks = 0;
 			var halfback_points = [], halfback_names = [];
@@ -63,6 +66,11 @@ page.open(siteName, function (status)
 					halfback_names.push(halfbacks_n[i].innerText);
 					points += parseInt(halfbacks_p[i].innerText);
 					players++;
+				}
+				else
+				{
+					others_points.push(halfbacks_p[i].innerText);
+					others_names.push(halfbacks_n[i].innerText);
 				}
 			}
 			if (debug_on == true) console.log("The points of halfbacks: " + halfback_points);
@@ -84,6 +92,11 @@ page.open(siteName, function (status)
 					defender_names.push(defenders_n[i].innerText);
 					points += parseInt(defenders_p[i].innerText);
 					players++;
+				}
+				else
+				{
+					others_points.push(defenders_p[i].innerText);
+					others_names.push(defenders_n[i].innerText);
 				}				
 			}
 			if (debug_on == true) console.log("The points of defenders: " + defender_points);
@@ -106,6 +119,11 @@ page.open(siteName, function (status)
 					points += parseInt(goalkeepers_p[i].innerText);
 					players++;
 				}
+				else
+				{
+					others_points.push(goalkeepers_p[i].innerText);
+					others_names.push(goalkeepers_n[i].innerText);
+				}	
 			}
 			if (debug_on == true) console.log("The points of goalkeepers: " + goalkeeper_points);
 			if (goalkeeper_points.length < min_goalkeepers)
@@ -129,6 +147,11 @@ page.open(siteName, function (status)
 					reserve_position.push(reserves_2[i].innerText);
 					reserve_names.push(reserves_3[i].innerText);
 					reserve_used.push("false");
+				}
+				else // Collect zero-points reserved players
+				{
+					others_points.push(reserves_1[i].innerText);
+					others_names.push(reserves_3[i].innerText);
 				}
 			}
 			if (debug_on == true) console.log("The points of reserves: " + reserve_points);
@@ -228,9 +251,18 @@ page.open(siteName, function (status)
 					console.log(reserve_names[i] + " - " + reserve_points[i]);
 				}
 			}
-			//console.log("--------------------");
+			console.log("--------------------");			
+			for (var i = 0; i < others_names.length; i++) {
+				console.log(others_names[i] + " - " + others_points[i]);
+			}
+			for (var i = 0; i < reserve_used.length; i++) {
+				if (reserve_used[i] == "false") {
+					console.log(reserve_names[i] + " - " + reserve_points[i]);
+				}
+			}
 			return points;
 		});
+		console.log("++++++++++++++++++++");
 		console.log(playerName + " - " + data);
 		// console.log("");
 	}
