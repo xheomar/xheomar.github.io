@@ -269,9 +269,7 @@ page.open(siteName, function (status)
 			return points;
 		});
 		console.log("++++++++++++++++++++");
-		// console.log(playerName + " - " + data);
 		console.log(data);
-		// console.log("");
 	}
 	phantom.exit();
 });

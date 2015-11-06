@@ -5,6 +5,8 @@ strike_end="\<\/s\>"
 bold_start="\<b\>"
 bold_end="\<\/b\>"
 
+rm -rf *.xml
+
 declare -a teams
 teams=( 1553274 1557043 1559624 1558719 1562633 1557039 )
 declare -a players
@@ -76,7 +78,6 @@ do
 		done < $file
 		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>
 		mv player.html ${points[$index]}".xml"
-		#cat player.html >> index.html
 		let "index = $index + 1"
 	done	
 	
@@ -97,7 +98,7 @@ do
 	find -type f -name index.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
 	
-	today=`date`
+	today=`date +"%A %d-%m-%Y %T"`
 	find -type f -name index.html -exec sed -i -r "s/TODAY/$today/g" {} \;
 	
 	cat bottom.html >> index.html
