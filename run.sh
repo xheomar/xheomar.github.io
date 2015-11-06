@@ -70,7 +70,7 @@ do
 			if [ "$li_type" == "player" ]
 			then
 				points[$index]=$line
-				find -type f -name player.html -exec sed -i -r "s/PLAYER/$under_start${players[$index]}$under_end/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/PLAYER/$under_start${players[$index]}\ ${points[$index]}$under_end/g" {} \;
 			fi		
 			let "count = $count + 1"		
 		done < $file
@@ -80,7 +80,7 @@ do
 		let "index = $index + 1"
 	done	
 	
-	files=( `ls -v *.xml` )
+	files=( `ls -v -r *.xml` )
 	files_count=${#files[@]}
 	index=0
 	while [ "$index" -lt "$files_count" ]
