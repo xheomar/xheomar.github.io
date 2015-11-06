@@ -1,4 +1,3 @@
-
 body {
     margin: 60px auto;
     width: 85%;
@@ -47,13 +46,13 @@ ul.posts li {
     display: table-cell;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 	width: 15%;
+	font-size: 0.5em;
 }
 
 .players {
     display: table;
-	font-size: 1.1em;
 }
 
 .player-points {
-	font-size: 1.3em;
+	font-size: 0.8em;
 }
