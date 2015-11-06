@@ -1,6 +1,6 @@
 body {
     margin: 60px auto;
-    width: 80%;
+    width: 85%;
 }
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -44,6 +44,8 @@ ul.posts li {
 
 .player {
     display: table-cell;
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+	width: 15%;
 }
 
 .players {
