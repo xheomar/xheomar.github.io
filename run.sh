@@ -62,7 +62,7 @@ do
 		cat player.html >> index.html
 	
 		echo YMAT
-		while [ 1 ] 
+		while [ 0 ] 
 		do 
 			phantomjs getPoints.js http://www.sports.ru/fantasy/football/team/1557043.html ymat > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
@@ -74,7 +74,7 @@ do
 		done 
 		
 		echo XHEO
-		while [ 1 ] 
+		while [ 0 ] 
 		do 
 			phantomjs getPoints.js http://www.sports.ru/fantasy/football/team/1559624.html xheo > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
@@ -86,7 +86,7 @@ do
 		done 
 
 		echo BUSOTIR
-		while [ 1 ] 
+		while [ 0 ] 
 		do 
 			phantomjs getPoints.js http://www.sports.ru/fantasy/football/team/1558719.html busotir > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
@@ -98,7 +98,7 @@ do
 		done 
 
 		echo CRON314
-		while [ 1 ] 
+		while [ 0 ] 
 		do 
 			phantomjs getPoints.js http://www.sports.ru/fantasy/football/team/1562633.html cron314 > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
@@ -110,7 +110,7 @@ do
 		done 
 
 		echo MILANA
-		while [ 1 ] 
+		while [ 0 ] 
 		do 
 			phantomjs getPoints.js http://www.sports.ru/fantasy/football/team/1557039.html PrincipessaMilana > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
@@ -124,6 +124,9 @@ do
 		find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Фелипе\ Андерсон/g' {} \;
 		find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
 		find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
+		
+		today=`date`
+		find -type f -name index.html -exec sed -i -r "s/TODAY/$today/g" {} \;
 		
 		cat bottom.html >> index.html
 
