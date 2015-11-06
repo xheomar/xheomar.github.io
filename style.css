@@ -1,3 +1,4 @@
+
 body {
     margin: 60px auto;
     width: 85%;
@@ -50,4 +51,9 @@ ul.posts li {
 
 .players {
     display: table;
+	font-size: 1.1em;
+}
+
+.player-points {
+	font-size: 1.3em;
 }
