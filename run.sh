@@ -4,8 +4,6 @@ strike_start="\<s\>"
 strike_end="\<\/s\>"
 bold_start="\<b\>"
 bold_end="\<\/b\>"
-under_start="\<u\>"
-under_end="\<\/u\>"
 
 declare -a teams
 teams=( 1553274 1557043 1559624 1558719 1562633 1557039 )
@@ -13,7 +11,7 @@ declare -a players
 players=( pr-positive ymat xheo busotir cron314 PrincipessaMilana )
 declare -a points
 points=( 0 0 0 0 0 0 )
-url="http://www.sports.ru/fantasy/football/team/"
+sports_ru_url="http://www.sports.ru/fantasy/football/team/"
 
 element_count=${#teams[@]}
 
@@ -32,7 +30,7 @@ do
 		echo ${players[$index]}
 		while [ 1 ] 
 		do 
-			phantomjs getPoints.js $url${teams[$index]}".html" ${players[$index]} > temp.txt
+			phantomjs getPoints.js $sports_ru_url${teams[$index]}".html" ${players[$index]} > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
 			MUN=`grep -c "gstatic.com"  ./temp.txt`
 			if [[ ${NUM} -ne 0 || ${MUN} -ne 0 ]]
@@ -70,7 +68,9 @@ do
 			if [ "$li_type" == "player" ]
 			then
 				points[$index]=$line
-				find -type f -name player.html -exec sed -i -r "s/PLAYER/$under_start${players[$index]}\ ${points[$index]}$under_end/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/URL/${teams[$index]}/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/PLAYER/${players[$index]}/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/POINTS/${points[$index]}/g" {} \;
 			fi		
 			let "count = $count + 1"		
 		done < $file
