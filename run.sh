@@ -86,7 +86,9 @@ do
 		find -type f -name result.txt -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
 		find -type f -name result.txt -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
 
-		git add result.txt
-		git commit -m "Again and again..."
-		git push -u origin master
+		cat top.txt > index.html
+		cat result.txt >> index.html
+		cat bottom.txt >> index.html
+
+		gfuck
 done
