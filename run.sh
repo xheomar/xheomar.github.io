@@ -59,7 +59,7 @@ do
 			fi			
 			if [ "$li_type" == "bold" ]
 			then
-				find -type f -name player.html -exec sed -i -r "s/$member$count/$bold_start$line$bold_end/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/$member$count/$line/g" {} \;
 			fi			
 			if [ "$li_type" == "strike" ]
 			then
