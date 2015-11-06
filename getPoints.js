@@ -3,7 +3,7 @@ var system = require('system');
 
 // Route "console.log()" calls from within the Page context to the main Phantom context (i.e. current "this")
 page.onConsoleMessage = function(msg) {
-    console.log(msg + "<br>");
+    console.log(msg);
 };
 
 if (system.args.length === 1) 
@@ -228,12 +228,11 @@ page.open(siteName, function (status)
 					console.log(reserve_names[i] + " - " + reserve_points[i]);
 				}
 			}
-			console.log("--------------------");
+			//console.log("--------------------");
 			return points;
 		});
 		console.log(playerName + " - " + data);
-		//console.log("--------------------");
-		console.log("");
+		// console.log("");
 	}
 	phantom.exit();
 });
