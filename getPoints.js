@@ -43,6 +43,11 @@ page.open(siteName, function (status)
 					points += parseInt(forwards_p[i].innerText);
 					players++;
 				}
+				else
+				{
+					others_points.push(forwards_p[i].innerText);
+					others_names.push(forwards_n[i].innerText);
+				}
 			}
 			if (debug_on == true) console.log("The points of forwards: " + forward_points);
 			if (forward_points.length < min_defenders)
