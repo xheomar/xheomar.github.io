@@ -30,6 +30,10 @@ page.open(siteName, function (status)
 			var debug_on = false;
 			var points = 0;
 			var players = 0;
+			
+			// OTHERS
+			var others_points = [], others_names = [];
+			
 			// FORWARDS
 			var min_forwards = 1, need_forwards = 0;
 			var forward_points = [], forward_names = [];
@@ -54,10 +58,7 @@ page.open(siteName, function (status)
 			{
 				need_forwards = min_forwards - forward_points.length;
 				if (debug_on == true) console.log("We need " + need_forwards + " more forwards!");
-			}
-			
-			// OTHERS
-			var others_points = [], others_names = [];
+			}		
 			
 			// HALFBACKS
 			var min_halfbacks = 2, need_halfbacks = 0;
