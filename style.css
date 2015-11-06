@@ -41,3 +41,11 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+
+.player {
+    display: table-cell;
+}
+
+.players {
+    display: table;
+}
