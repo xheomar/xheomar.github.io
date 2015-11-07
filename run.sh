@@ -159,32 +159,32 @@ do
 	poin="${files[0]%%_*}"
 	name="${files[0]##*_}"
 	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL1ST/$name\ \-\ $poin/g" {} \;
+	find -type f -name index.html -exec sed -i -r "s/ALL1/$name\ \-\ $poin/g" {} \;
 	
 	poin="${files[1]%%_*}"
 	name="${files[1]##*_}"
 	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL2ST/$name\ \-\ $poin/g" {} \;
+	find -type f -name index.html -exec sed -i -r "s/ALL2/$name\ \-\ $poin/g" {} \;
 	
 	poin="${files[2]%%_*}"
 	name="${files[2]##*_}"
 	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL3ST/$name\ \-\ $poin/g" {} \;
+	find -type f -name index.html -exec sed -i -r "s/ALL3/$name\ \-\ $poin/g" {} \;
 	
 	poin="${files[3]%%_*}"
 	name="${files[3]##*_}"
 	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL4ST/$name\ \-\ $poin/g" {} \;
+	find -type f -name index.html -exec sed -i -r "s/ALL4/$name\ \-\ $poin/g" {} \;
 	
 	poin="${files[4]%%_*}"
 	name="${files[4]##*_}"
 	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL5ST/$name\ \-\ $poin/g" {} \;
+	find -type f -name index.html -exec sed -i -r "s/ALL5/$name\ \-\ $poin/g" {} \;
 	
 	poin="${files[5]%%_*}"
 	name="${files[5]##*_}"
 	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL6ST/$name\ \-\ $poin/g" {} \;
+	find -type f -name index.html -exec sed -i -r "s/ALL6/$name\ \-\ $poin/g" {} \;
 	
 	rm -rf *.xml
 	
