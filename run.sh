@@ -77,7 +77,7 @@ do
 			let "count = $count + 1"		
 		done < $file
 		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>
-		mv player.html ${points[$index]}".xml"
+		mv player.html "${points[$index]}_${players[$index]}"".xml"
 		let "index = $index + 1"
 	done	
 	
@@ -90,7 +90,7 @@ do
 		let "index = $index + 1"
 	done
 	
-	rm -rf *.xml
+	#rm -rf *.xml
 	
 	find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Фелипе\ Андерсон/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
@@ -102,6 +102,35 @@ do
 	find -type f -name index.html -exec sed -i -r "s/TODAY/$today/g" {} \;
 	
 	cat bottom.html >> index.html
+	
+	files=( `ls -v -r *.xml` )
+	poin="${files[0]%%_*}"
+	name="${files[0]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/1ST/$name\ \-\ $poin/g" {} \;
+	poin="${files[1]%%_*}"
+	name="${files[1]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/2ST/$name\ \-\ $poin/g" {} \;
+	poin="${files[2]%%_*}"
+	name="${files[2]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/3ST/$name\ \-\ $poin/g" {} \;
+	poin="${files[3]%%_*}"
+	name="${files[3]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/4ST/$name\ \-\ $poin/g" {} \;
+	poin="${files[4]%%_*}"
+	name="${files[4]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/5ST/$name\ \-\ $poin/g" {} \;
+	poin="${files[5]%%_*}"
+	name="${files[5]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/6ST/$name\ \-\ $poin/g" {} \;
+	
+	rm -rf *.xml
+	
 	git add --all && git commit -m "A new commit `date`" && git push -u origin master
 
 done
