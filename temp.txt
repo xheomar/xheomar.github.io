@@ -1,3 +1,7 @@
+TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
+
+  http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
+  http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
 Бакка - 2
 Игуаин - 6
 Эдер - 1
