@@ -35,6 +35,8 @@ do
 			phantomjs getPoints.js $sports_ru_url${teams[$index]}".html" ${players[$index]} > temp.txt
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
 			MUN=`grep -c "gstatic.com"  ./temp.txt`
+			#MUM=`grep -c "TypeError"  ./temp.txt`
+			#if [[ ${NUM} -ne 0 || ${MUN} -ne 0 || ${MUM} -ne 0 ]]
 			if [[ ${NUM} -ne 0 || ${MUN} -ne 0 ]]
 				then continue;
 				else break;
@@ -46,9 +48,19 @@ do
 		file="temp.txt"
 		member="MEMBER-"
 		count=10
+		ravno_string="eshe_ne_byla"
 		while read line
-		do			
-			#echo "$line"			
+		do				
+			if [ "$line" != "====================" ]
+			then 
+				if [  "$ravno_string" == "eshe_ne_byla"  ]
+				then
+					continue
+				fi								
+			else
+				ravno_string="uzhe_byla"
+				continue
+			fi				
 			if [ "$line" == "--------------------" ]
 			then 
 				li_type="strike"

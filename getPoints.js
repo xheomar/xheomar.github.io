@@ -240,6 +240,7 @@ page.open(siteName, function (status)
 			if (debug_on == true) console.log("The overall points: " + points);
 			if (debug_on == true) console.log("--------------------");
 			// Print all names
+			console.log("====================");
 			for (var i = 0; i < forward_names.length; i++) {
 				console.log(forward_names[i] + " - " + forward_points[i]);
 			}
