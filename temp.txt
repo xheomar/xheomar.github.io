@@ -17,7 +17,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 --------------------
 Икарди - -
 Ронкалья - -
-Аднан - -
+Аднан - 0
 Буффон - 6
 ++++++++++++++++++++
 38
