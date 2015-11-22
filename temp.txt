@@ -5,7 +5,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 ====================
 Бакка - 2
 Игуаин - 6
-Икарди - 4
+Икарди - 6
 Бонавенту... - 4
 Гомес - 2
 Инсинье - 10
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан - 1
 Буффон - 6
 ++++++++++++++++++++
-44
+46
