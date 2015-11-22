@@ -12,7 +12,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Гулям - 6
 Манолас - 0
 Тэтэрушану - 0
-Сапонара - 3
+Сапонара - 5
 А. Масьел... - 0
 --------------------
 Икарди - -
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан - 0
 Буффон - 6
 ++++++++++++++++++++
-38
+40
