@@ -4,10 +4,10 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
 ====================
 Бакка - 2
-Игуаин - 0
+Игуаин - 4
 Бонавенту... - 4
 Гомес - 0
-Инсинье - 4
+Инсинье - 7
 Пьянич - 7
 Гулям - 0
 Манолас - 0
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Сапонара - -
 Аднан - -
 ++++++++++++++++++++
-23
+30
