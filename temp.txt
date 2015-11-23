@@ -2,12 +2,6 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
-ReferenceError: Can't find variable: crtg_content
-
-  http://www.sports.ru/fantasy/football/team/points/1557039.html:113
-ReferenceError: Can't find variable: crtg_content
-
-  http://www.sports.ru/fantasy/football/team/points/1557039.html:2954
 ====================
 Бакка - 2
 Игуаин - 6
