@@ -80,7 +80,7 @@ do
 			if [ "$li_type" == "bench" ]
 			then
 				name="${line%%-*}"
-				o4ki=="${line##*-}"
+				o4ki="${line##*-}"
 				class="danger"
 				find -type f -name player.html -exec sed -i -r "s/$member_class$count/$class/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/$member_name$count/$name/g" {} \;
