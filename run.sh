@@ -1,10 +1,5 @@
 #!/bin/bash
 
-strike_start="\<s\>"
-strike_end="\<\/s\>"
-bold_start="\<b\>"
-bold_end="\<\/b\>"
-
 rm -rf *.xml
 
 declare -a teams
@@ -44,9 +39,11 @@ do
 		done 
 		# Here we have temp.txt with actual roster with points
 		cp player_template.html player.html
-		li_type="bold"
+		li_type="field"
 		file="temp.txt"
-		member="MEMBER-"
+		member_class="CLASS-"
+		member_name="MEMBER-"
+		member_o4ki="POINTS-"
 		count=10
 		ravno_string="eshe_ne_byla"
 		while read line
@@ -63,7 +60,7 @@ do
 			fi				
 			if [ "$line" == "--------------------" ]
 			then 
-				li_type="strike"
+				li_type="bench"
 				continue				
 			fi			
 			if [ "$line" == "++++++++++++++++++++" ]
@@ -71,13 +68,23 @@ do
 				li_type="player"
 				continue				
 			fi			
-			if [ "$li_type" == "bold" ]
+			if [ "$li_type" == "field" ]
 			then
-				find -type f -name player.html -exec sed -i -r "s/$member$count/$line/g" {} \;
+				name="${line%%-*}"
+				o4ki=="${line##*-}"
+				class="success"
+				find -type f -name player.html -exec sed -i -r "s/$member_class$count/$class/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/$member_name$count/$name/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/$member_o4ki$count/$o4ki/g" {} \;
 			fi			
-			if [ "$li_type" == "strike" ]
+			if [ "$li_type" == "bench" ]
 			then
-				find -type f -name player.html -exec sed -i -r "s/$member$count/$strike_start$line$strike_end/g" {} \;
+				name="${line%%-*}"
+				o4ki=="${line##*-}"
+				class="danger"
+				find -type f -name player.html -exec sed -i -r "s/$member_class$count/$class/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/$member_name$count/$name/g" {} \;
+				find -type f -name player.html -exec sed -i -r "s/$member_o4ki$count/$o4ki/g" {} \;
 			fi	
 			if [ "$li_type" == "player" ]
 			then
