@@ -5,6 +5,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 11183
 12113
 ====================
+Глик - 0
 --------------------
 Бакка - -
 Игуаин - -
@@ -13,7 +14,6 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Инсинье - -
 Пьянич - -
 Сапонара - -
-Глик - -
 Гулям - -
 Н. Бурдис... - -
 Буффон - -
