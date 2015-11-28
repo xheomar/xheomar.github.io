@@ -71,7 +71,7 @@ do
 			if [ "$li_type" == "field" ]
 			then
 				name="${line%%-*}"
-				o4ki=="${line##*-}"
+				o4ki="${line##*-}"
 				class="success"
 				find -type f -name player.html -exec sed -i -r "s/$member_class$count/$class/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/$member_name$count/$name/g" {} \;
