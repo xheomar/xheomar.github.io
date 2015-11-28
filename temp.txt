@@ -2,24 +2,23 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
-11183
-12113
+[object NodeList]
 ====================
-Глик - 0
+Бакка-0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бонавенту...-10:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Глик-6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 --------------------
-Бакка - -
-Игуаин - -
-Калинич - -
-Бонавенту... - -
-Инсинье - -
-Пьянич - -
-Сапонара - -
-Гулям - -
-Н. Бурдис... - -
-Буффон - -
-Гомес - -
-Манолас - -
-Аднан - -
-Тэтэрушану - -
+Игуаин--:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Калинич--:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Инсинье--:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Пьянич--:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Сапонара--:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
+Гулям--:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Н. Бурдис...--:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
+Буффон--:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Гомес--:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+Манолас--:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Аднан--:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Тэтэрушану--:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
-0
+16

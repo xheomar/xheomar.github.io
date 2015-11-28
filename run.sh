@@ -41,6 +41,7 @@ do
 		cp player_template.html player.html
 		li_type="field"
 		file="temp.txt"
+		member_logo="LOGO-"
 		member_class="CLASS-"
 		member_name="MEMBER-"
 		member_o4ki="POINTS-"
@@ -68,24 +69,28 @@ do
 				li_type="player"
 				continue				
 			fi			
-			if [ "$li_type" == "field" ]
+			if [[ "$li_type" == "field" || "$li_type" == "bench" ]]
 			then
+				# name = всё, что до первого "-"
 				name="${line%%-*}"
+				# o4ki = всё, что перед последнего с конца "-"
 				o4ki="${line##*-}"
-				class="success"
+				o4ki="${o4ki%%:*}"
+				# logo = всё, что после первого с конца "/"
+				logo="${line##*/}"
+				if [ "$li_type" == "field" ]
+				then
+					class="success"
+				fi
+				if [ "$li_type" == "bench" ]
+				then
+					class="danger"
+				fi
+				find -type f -name player.html -exec sed -i -r "s/$member_logo$count/$logo/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/$member_class$count/$class/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/$member_name$count/$name/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/$member_o4ki$count/$o4ki/g" {} \;
 			fi			
-			if [ "$li_type" == "bench" ]
-			then
-				name="${line%%-*}"
-				o4ki="${line##*-}"
-				class="danger"
-				find -type f -name player.html -exec sed -i -r "s/$member_class$count/$class/g" {} \;
-				find -type f -name player.html -exec sed -i -r "s/$member_name$count/$name/g" {} \;
-				find -type f -name player.html -exec sed -i -r "s/$member_o4ki$count/$o4ki/g" {} \;
-			fi	
 			if [ "$li_type" == "player" ]
 			then
 				points[$index]=$line

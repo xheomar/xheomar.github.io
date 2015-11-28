@@ -32,18 +32,21 @@ page.open(siteName, function (status)
 			var players = 0;
 			
 			// OTHERS
-			var others_points = [], others_names = [];
+			var others_points = [], others_names = [], others_logos = [];
 			
 			// FORWARDS
 			var min_forwards = 1, need_forwards = 0;
-			var forward_points = [], forward_names = [];
+			var forward_points = [], forward_names = [], forward_logos = [];
 			var forwards_p = document.querySelectorAll('div.forward-container ins.player.hold.player-base span.pl-descr i.ico.point');
 			var forwards_n = document.querySelectorAll('div.forward-container ins.player.hold.player-base span.name');
+			var forwards_l = document.querySelectorAll('div.forward-container ins.player.hold.player-base img.t-shirt');
+			console.log(forwards_l);
 			for (var i = 0; i < forwards_p.length; i++) {
 				if (forwards_p[i].innerText != "-")
 				{
 					forward_points.push(forwards_p[i].innerText);
 					forward_names.push(forwards_n[i].innerText);
+					forward_logos.push(forwards_l[i].getAttribute('src'));
 					points += parseInt(forwards_p[i].innerText);
 					players++;
 				}
@@ -51,6 +54,7 @@ page.open(siteName, function (status)
 				{
 					others_points.push(forwards_p[i].innerText);
 					others_names.push(forwards_n[i].innerText);
+					others_logos.push(forwards_l[i].getAttribute('src'));
 				}
 			}
 			if (debug_on == true) console.log("The points of forwards: " + forward_points);
@@ -62,14 +66,16 @@ page.open(siteName, function (status)
 			
 			// HALFBACKS
 			var min_halfbacks = 2, need_halfbacks = 0;
-			var halfback_points = [], halfback_names = [];
+			var halfback_points = [], halfback_names = [], halfback_logos = [];
 			var halfbacks_p = document.querySelectorAll('div.halfback-container ins.player.hold.player-base span.pl-descr i.ico.point');
 			var halfbacks_n = document.querySelectorAll('div.halfback-container ins.player.hold.player-base span.name');
+			var halfbacks_l = document.querySelectorAll('div.halfback-container ins.player.hold.player-base img.t-shirt');
 			for (var i = 0; i < halfbacks_p.length; i++) {
 				if (halfbacks_p[i].innerText != "-")
 				{
 					halfback_points.push(halfbacks_p[i].innerText);
 					halfback_names.push(halfbacks_n[i].innerText);
+					halfback_logos.push(halfbacks_l[i].getAttribute('src'));
 					points += parseInt(halfbacks_p[i].innerText);
 					players++;
 				}
@@ -77,6 +83,7 @@ page.open(siteName, function (status)
 				{
 					others_points.push(halfbacks_p[i].innerText);
 					others_names.push(halfbacks_n[i].innerText);
+					others_logos.push(halfbacks_l[i].getAttribute('src'));
 				}
 			}
 			if (debug_on == true) console.log("The points of halfbacks: " + halfback_points);
@@ -88,14 +95,16 @@ page.open(siteName, function (status)
 			
 			// DEFENDERS
 			var min_defenders = 3, need_defenders = 0;
-			var defender_points = [], defender_names = [];
+			var defender_points = [], defender_names = [], defender_logos = [];
 			var defenders_p = document.querySelectorAll('div.defender-container ins.player.hold.player-base span.pl-descr i.ico.point');
 			var defenders_n = document.querySelectorAll('div.defender-container ins.player.hold.player-base span.name');
+			var defenders_l = document.querySelectorAll('div.defender-container ins.player.hold.player-base img.t-shirt');
 			for (var i = 0; i < defenders_p.length; i++) {
 				if (defenders_p[i].innerText != "-")
 				{
 					defender_points.push(defenders_p[i].innerText);
 					defender_names.push(defenders_n[i].innerText);
+					defender_logos.push(defenders_l[i].getAttribute('src'));
 					points += parseInt(defenders_p[i].innerText);
 					players++;
 				}
@@ -103,6 +112,7 @@ page.open(siteName, function (status)
 				{
 					others_points.push(defenders_p[i].innerText);
 					others_names.push(defenders_n[i].innerText);
+					others_logos.push(defenders_l[i].getAttribute('src'));
 				}				
 			}
 			if (debug_on == true) console.log("The points of defenders: " + defender_points);
@@ -114,14 +124,16 @@ page.open(siteName, function (status)
 			
 			// GOALKEEPER
 			var min_goalkeepers = 1, need_goalkeepers = 0;
-			var goalkeeper_points = [], goalkeeper_names = [];
+			var goalkeeper_points = [], goalkeeper_names = [], goalkeeper_logos = [];
 			var goalkeepers_p = document.querySelectorAll('div.goalkeeper-container ins.player.hold.player-base span.pl-descr i.ico.point');
 			var goalkeepers_n = document.querySelectorAll('div.goalkeeper-container ins.player.hold.player-base span.name');
+			var goalkeepers_l = document.querySelectorAll('div.goalkeeper-container ins.player.hold.player-base img.t-shirt');
 			for (var i = 0; i < goalkeepers_p.length; i++) {
 				if (goalkeepers_p[i].innerText != "-")
 				{
 					goalkeeper_points.push(goalkeepers_p[i].innerText);
 					goalkeeper_names.push(goalkeepers_n[i].innerText);
+					goalkeeper_logos.push(goalkeepers_l[i].getAttribute('src'));
 					points += parseInt(goalkeepers_p[i].innerText);
 					players++;
 				}
@@ -129,6 +141,7 @@ page.open(siteName, function (status)
 				{
 					others_points.push(goalkeepers_p[i].innerText);
 					others_names.push(goalkeepers_n[i].innerText);
+					others_logos.push(goalkeepers_l[i].getAttribute('src'));
 				}	
 			}
 			if (debug_on == true) console.log("The points of goalkeepers: " + goalkeeper_points);
@@ -142,22 +155,26 @@ page.open(siteName, function (status)
 			var reserve_points = [];
 			var reserve_position = [];
 			var reserve_names = [];
+			var reserve_logos = [];
 			var reserve_used = [];
 			var reserves_1 = document.querySelectorAll('div.reserve-container ins.player.hold.player-reserve span.pl-descr i.ico.point');
 			var reserves_2 = document.querySelectorAll('div.reserve-container ins.player.hold.player-reserve span.role');
 			var reserves_3 = document.querySelectorAll('div.reserve-container ins.player.hold.player-reserve span.name');
+			var reserves_4 = document.querySelectorAll('div.reserve-container ins.player.hold.player-reserve img.t-shirt');
 			for (var i = 0; i < reserves_1.length; i++) {
 				if (reserves_1[i].innerText != "-")
 				{
 					reserve_points.push(reserves_1[i].innerText);
 					reserve_position.push(reserves_2[i].innerText);
 					reserve_names.push(reserves_3[i].innerText);
+					reserve_logos.push(reserves_4[i].getAttribute('src'));
 					reserve_used.push("false");
 				}
 				else // Collect zero-points reserved players
 				{
 					others_points.push(reserves_1[i].innerText);
 					others_names.push(reserves_3[i].innerText);
+					others_logos.push(reserves_4[i].getAttribute('src'));
 				}
 			}
 			if (debug_on == true) console.log("The points of reserves: " + reserve_points);
@@ -242,29 +259,29 @@ page.open(siteName, function (status)
 			// Print all names
 			console.log("====================");
 			for (var i = 0; i < forward_names.length; i++) {
-				console.log(forward_names[i] + " - " + forward_points[i]);
+				console.log(forward_names[i] + "-" + forward_points[i] + ":" + forward_logos[i]);
 			}
 			for (var i = 0; i < halfback_names.length; i++) {
-				console.log(halfback_names[i] + " - " + halfback_points[i]);
+				console.log(halfback_names[i] + "-" + halfback_points[i] + ":" + halfback_logos[i]);
 			}
 			for (var i = 0; i < defender_names.length; i++) {
-				console.log(defender_names[i] + " - " + defender_points[i]);
+				console.log(defender_names[i] + "-" + defender_points[i] + ":" + defender_logos[i]);
 			}
 			for (var i = 0; i < goalkeeper_names.length; i++) {
-				console.log(goalkeeper_names[i] + " - " + goalkeeper_points[i]);
+				console.log(goalkeeper_names[i] + "-" + goalkeeper_points[i] + ":" + goalkeeper_logos[i]);
 			}
 			for (var i = 0; i < reserve_used.length; i++) {
 				if (reserve_used[i] != "false") {
-					console.log(reserve_names[i] + " - " + reserve_points[i]);
+					console.log(reserve_names[i] + "-" + reserve_points[i] + ":" + reserve_logos[i]);
 				}
 			}
 			console.log("--------------------");			
 			for (var i = 0; i < others_names.length; i++) {
-				console.log(others_names[i] + " - " + others_points[i]);
+				console.log(others_names[i] + "-" + others_points[i] + ":" + others_logos[i]);
 			}
 			for (var i = 0; i < reserve_used.length; i++) {
 				if (reserve_used[i] == "false") {
-					console.log(reserve_names[i] + " - " + reserve_points[i]);
+					console.log(reserve_names[i] + "-" + reserve_points[i] + ":" + reserve_logos[i]);
 				}
 			}
 			return points;
