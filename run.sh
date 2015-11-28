@@ -116,6 +116,9 @@ do
 	find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
+	
 	
 	today=`date +"%A %d-%m-%Y %T"`
 	find -type f -name index.html -exec sed -i -r "s/TODAY/$today/g" {} \;
