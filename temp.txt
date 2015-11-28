@@ -4,7 +4,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
 ====================
 Бакка-2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Бонавенту...-14:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бонавенту...-20:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Глик-6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 --------------------
 Игуаин--:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан--:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Тэтэрушану--:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
-22
+28
