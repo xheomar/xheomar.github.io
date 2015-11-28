@@ -5,8 +5,8 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 11183
 12113
 ====================
-Бакка-0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Бонавенту...-10:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бакка-2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бонавенту...-14:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Глик-6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 --------------------
 Игуаин--:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -22,4 +22,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан--:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Тэтэрушану--:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
-16
+22
