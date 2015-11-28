@@ -31,6 +31,10 @@ page.open(siteName, function (status)
 			var points = 0;
 			var players = 0;
 			
+			// CAPITAN
+			//var capitan = document.querySelectorAll('i.ico.c');
+			//console.log(capitan[0].innerText);
+			
 			// OTHERS
 			var others_points = [], others_names = [], others_logos = [];
 			
@@ -40,7 +44,6 @@ page.open(siteName, function (status)
 			var forwards_p = document.querySelectorAll('div.forward-container ins.player.hold.player-base span.pl-descr i.ico.point');
 			var forwards_n = document.querySelectorAll('div.forward-container ins.player.hold.player-base span.name');
 			var forwards_l = document.querySelectorAll('div.forward-container ins.player.hold.player-base img.t-shirt');
-			console.log(forwards_l);
 			for (var i = 0; i < forwards_p.length; i++) {
 				if (forwards_p[i].innerText != "-")
 				{
