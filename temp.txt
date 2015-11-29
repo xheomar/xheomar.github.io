@@ -2,6 +2,12 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
+Error: Script error for: utils/local-storage
+http://requirejs.org/docs/errors.html#scripterror
+
+  http://s5o.ru/build/libs/require.js:8 in ca
+  http://s5o.ru/build/libs/require.js:12 in w
+  http://s5o.ru/build/libs/require.js:30
 11183
 12113
 ====================
