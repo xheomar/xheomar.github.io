@@ -262,29 +262,29 @@ page.open(siteName, function (status)
 			// Print all names
 			console.log("====================");
 			for (var i = 0; i < forward_names.length; i++) {
-				console.log(forward_names[i] + "-" + forward_points[i] + ":" + forward_logos[i]);
+				console.log(forward_names[i] + "+" + forward_points[i] + ":" + forward_logos[i]);
 			}
 			for (var i = 0; i < halfback_names.length; i++) {
-				console.log(halfback_names[i] + "-" + halfback_points[i] + ":" + halfback_logos[i]);
+				console.log(halfback_names[i] + "+" + halfback_points[i] + ":" + halfback_logos[i]);
 			}
 			for (var i = 0; i < defender_names.length; i++) {
-				console.log(defender_names[i] + "-" + defender_points[i] + ":" + defender_logos[i]);
+				console.log(defender_names[i] + "+" + defender_points[i] + ":" + defender_logos[i]);
 			}
 			for (var i = 0; i < goalkeeper_names.length; i++) {
-				console.log(goalkeeper_names[i] + "-" + goalkeeper_points[i] + ":" + goalkeeper_logos[i]);
+				console.log(goalkeeper_names[i] + "+" + goalkeeper_points[i] + ":" + goalkeeper_logos[i]);
 			}
 			for (var i = 0; i < reserve_used.length; i++) {
 				if (reserve_used[i] != "false") {
-					console.log(reserve_names[i] + "-" + reserve_points[i] + ":" + reserve_logos[i]);
+					console.log(reserve_names[i] + "+" + reserve_points[i] + ":" + reserve_logos[i]);
 				}
 			}
 			console.log("--------------------");			
 			for (var i = 0; i < others_names.length; i++) {
-				console.log(others_names[i] + "-" + others_points[i] + ":" + others_logos[i]);
+				console.log(others_names[i] + "+" + others_points[i] + ":" + others_logos[i]);
 			}
 			for (var i = 0; i < reserve_used.length; i++) {
 				if (reserve_used[i] == "false") {
-					console.log(reserve_names[i] + "-" + reserve_points[i] + ":" + reserve_logos[i]);
+					console.log(reserve_names[i] + "+" + reserve_points[i] + ":" + reserve_logos[i]);
 				}
 			}
 			return points;
