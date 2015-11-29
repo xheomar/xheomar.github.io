@@ -2,6 +2,9 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
+11183
+12113
+Sports: Error while getting /ajax/user/info/
 ====================
 Бакка-2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...-20:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
