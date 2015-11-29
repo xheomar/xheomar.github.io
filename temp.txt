@@ -2,6 +2,8 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
+11183
+12113
 ====================
 Бакка+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -9,7 +11,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Сапонара+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Глик+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Н. Бурдис...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-Гомес+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+Гомес+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Манолас+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 --------------------
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -20,4 +22,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Тэтэрушану+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-40
+43
