@@ -8,7 +8,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Пьянич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Глик+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Н. Бурдис...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-Гомес+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+Гомес+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Манолас+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 --------------------
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Тэтэрушану+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
-28
+33
