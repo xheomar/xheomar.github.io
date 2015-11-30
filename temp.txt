@@ -4,14 +4,14 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
 ====================
 Бакка+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Игуаин+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Игуаин+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Калинич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Бонавенту...+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Инсинье+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Пьянич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сапонара+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Глик+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Н. Бурдис...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Тэтэрушану+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
-49
+53
