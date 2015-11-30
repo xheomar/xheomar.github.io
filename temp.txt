@@ -17,7 +17,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Калинич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Тэтэрушану+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Тэтэрушану+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
 50
