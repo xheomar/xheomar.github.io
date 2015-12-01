@@ -2,13 +2,6 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
   http://st.s5o.ru/source/_desktop/build/libs/measure.js:1
-TypeError: 'undefined' is not an object (evaluating 'participants[1].replace')
-
-  http://aff2.mediarotate.com/js_ban/ban1.js:185 in html5_parse
-  http://aff2.mediarotate.com/js_ban/ban1.js:157 in html5_start
-  http://aff2.mediarotate.com/js_ban/ban1.js:42
-Javascript error in event handler! Event Type = timeline
-Javascript error in event handler! Event Type = timeline
 ====================
 Бакка+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Игуаин+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
