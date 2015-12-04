@@ -116,7 +116,7 @@ do
 	
 	#rm -rf *.xml
 	
-	find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Фелипе\ Андерсон/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Филиппок/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
