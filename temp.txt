@@ -12,11 +12,11 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Манолас+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Мурильо+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Сапонара+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Глик+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Тэтэрушану+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
