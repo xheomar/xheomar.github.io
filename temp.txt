@@ -18,6 +18,6 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Тэтэрушану+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Тэтэрушану+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
 55
