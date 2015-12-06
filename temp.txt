@@ -6,7 +6,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Дибала+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гомес+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
-Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Иличич+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Инсинье+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Манолас+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -20,4 +20,4 @@ TypeError: 'undefined' is not an object (evaluating 'window.performance.timing')
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Тэтэрушану+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 ++++++++++++++++++++
-44
+49
