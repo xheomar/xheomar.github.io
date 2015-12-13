@@ -1,11 +1,11 @@
 ====================
 Бакка+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Игуаин+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Игуаин+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Бонавенту...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Гомес+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Инсинье+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гонсалес+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Мурильо+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Сапонара+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
-35
+43
