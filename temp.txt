@@ -1,4 +1,5 @@
 ====================
+Сапонара+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -11,7 +12,6 @@
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Мурильо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Гонсалес+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
