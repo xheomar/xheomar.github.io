@@ -4,9 +4,9 @@
 Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Инсинье+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Пьянич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-9
+11
