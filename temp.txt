@@ -8,7 +8,7 @@
 Пьянич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бонуччи+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Мурильо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Мурильо+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Сапонара+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
@@ -16,4 +16,4 @@
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-44
+45
