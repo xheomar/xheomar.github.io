@@ -8,11 +8,11 @@
 Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
+Гонсалес+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Мурильо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Гонсалес+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
