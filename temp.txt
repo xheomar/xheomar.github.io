@@ -12,8 +12,8 @@
 Гонсалес+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
 Мурильо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Сапонара+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
+Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 35
