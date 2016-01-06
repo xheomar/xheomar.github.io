@@ -4,7 +4,7 @@
 Ньянг+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Инсинье+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Инсинье+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кандрева+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бонуччи+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -16,4 +16,4 @@
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-65
+68
