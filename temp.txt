@@ -1,11 +1,11 @@
 ====================
-Дибала+14:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Дибала+18:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Ньянг+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Кандрева+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
@@ -16,4 +16,4 @@
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-37
+53
