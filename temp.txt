@@ -1,5 +1,5 @@
 ====================
-Дибала+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Дибала+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Ньянг+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
@@ -16,4 +16,4 @@
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-1
+9
