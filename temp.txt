@@ -3,6 +3,7 @@
 Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Ньянг+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -13,7 +14,6 @@
 Мурильо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 0
