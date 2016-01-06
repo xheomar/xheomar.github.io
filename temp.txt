@@ -1,12 +1,12 @@
 ====================
 Дибала+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Ньянг+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кандрева+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
