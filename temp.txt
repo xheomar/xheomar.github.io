@@ -6,14 +6,14 @@
 Кандрева+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Врсалько+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Мурильо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
-Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-0
+1
