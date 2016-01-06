@@ -1,6 +1,6 @@
 ====================
 Дибала+18:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Игуаин+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Игуаин+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Ньянг+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
@@ -16,4 +16,4 @@
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-61
+60
