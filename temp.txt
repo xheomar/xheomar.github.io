@@ -5,7 +5,7 @@
 Иличич+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Кандрева+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бонуччи+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Мурильо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Мурильо+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -16,4 +16,4 @@
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-57
+56
