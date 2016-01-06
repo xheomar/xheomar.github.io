@@ -2,7 +2,7 @@
 Дибала+14:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Ньянг+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонавенту...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Иличич+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Иличич+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Кандрева+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-31
+34
