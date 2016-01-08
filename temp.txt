@@ -1,3 +1,8 @@
+TypeError: 'undefined' is not an object (evaluating 'participants[1].replace')
+
+  http://mediarotate.com/js_ban/ban1.js:198 in html5_parse
+  http://mediarotate.com/js_ban/ban1.js:160 in html5_start
+  http://mediarotate.com/js_ban/ban1.js:43
 ====================
 Дибала+18:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
