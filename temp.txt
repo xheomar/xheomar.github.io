@@ -1,4 +1,5 @@
 ====================
+Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -13,7 +14,6 @@
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 0
