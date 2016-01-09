@@ -1,5 +1,5 @@
 ====================
-Иличич+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Иличич+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-4
+5
