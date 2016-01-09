@@ -1,4 +1,5 @@
 ====================
+Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -6,7 +7,6 @@
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Гомес+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
-Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
