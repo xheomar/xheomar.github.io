@@ -1,5 +1,5 @@
 ====================
-Бонавенту...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-5
+7
