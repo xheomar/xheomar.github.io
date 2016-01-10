@@ -2,7 +2,7 @@
 Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -16,4 +16,4 @@
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-9
+10
