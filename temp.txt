@@ -2,7 +2,7 @@
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Икарди+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Гомес+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+Гомес+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Иличич+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Миранда+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Сапонара+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
@@ -16,4 +16,4 @@
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
-39
+41
