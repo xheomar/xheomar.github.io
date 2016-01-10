@@ -5,7 +5,7 @@
 Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Гомес+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Иличич+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Миранда+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
@@ -16,4 +16,4 @@
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-40
+43
