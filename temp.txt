@@ -1,3 +1,9 @@
+Error: Script error for: ya.context
+http://requirejs.org/docs/errors.html#scripterror
+
+  http://s5o.ru/build/libs/require.js:8 in ca
+  http://s5o.ru/build/libs/require.js:12 in w
+  http://s5o.ru/build/libs/require.js:30
 ====================
 Дибала+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
