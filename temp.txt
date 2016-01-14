@@ -1,3 +1,19 @@
+TypeError: 'undefined' is not a function (evaluating 'c.play()')
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:240
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:241
+  http://banners.adfox.ru/151229/adfox/450850/index_edge.js:2
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:104
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:114
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:109
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:108
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:139
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:60 in w
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:60 in w
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:69
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:70
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:50 in k
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:53 in c
 ====================
 Дибала+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -17,3 +33,19 @@
 Доннарумма+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 51
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
