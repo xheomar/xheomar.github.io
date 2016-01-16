@@ -1,9 +1,9 @@
 ====================
-Игуаин+16:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Миранда+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Врсалько+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-23
+30
