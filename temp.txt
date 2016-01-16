@@ -1,4 +1,5 @@
 ====================
+Миранда+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -9,7 +10,6 @@
 Сориано+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Миранда+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
