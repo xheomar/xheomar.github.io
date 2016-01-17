@@ -2,12 +2,12 @@
 Дибала+16:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Пьянич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Пьянич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сориано+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
-Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Миранда+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-48
+62
