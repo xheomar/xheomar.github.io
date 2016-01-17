@@ -1,5 +1,5 @@
 ====================
-Дибала+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Дибала+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Пьянич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-34
+37
