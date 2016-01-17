@@ -1,5 +1,5 @@
 ====================
-Бакка+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бакка+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+16:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Иличич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
@@ -16,4 +16,4 @@
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-69
+71
