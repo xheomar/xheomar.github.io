@@ -1,17 +1,18 @@
+ [  0.000s] [studio.sdk] 
 ====================
+Дибала+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Эль-Шаара...+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Манолас+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Врсалько+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сапонара+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
