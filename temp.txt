@@ -1,5 +1,5 @@
- [  0.000s] [studio.sdk] 
- [  1.002s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
+ [  0.001s] [studio.sdk] 
+ [  1.003s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
 ====================
 Эль-Шаара...+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Манолас+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
