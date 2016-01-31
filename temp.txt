@@ -14,6 +14,6 @@
 Сапонара+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Аднан+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Доннарумма+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 59
