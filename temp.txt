@@ -9,11 +9,11 @@
 Бонуччи+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гонсало+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Кулибали+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Сапонара+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Аднан+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-52
+56
