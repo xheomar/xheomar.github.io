@@ -5,7 +5,7 @@
 Инсинье+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гонсало+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Кулибали+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Кулибали+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Мурильо+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-45
+51
