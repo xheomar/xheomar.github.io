@@ -1,10 +1,12 @@
+ [  0.001s] [studio.sdk] 
+ [  1.003s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
 ====================
 Бакка+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Эль-Шаара...+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Эль-Шаара...+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Гонсало+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Кулибали+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Мурильо+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
@@ -16,4 +18,4 @@
 Врсалько+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Доннарумма+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-59
+61
