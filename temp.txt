@@ -1,4 +1,5 @@
- [  0.000s] [studio.sdk] 
+ [  0.001s] [studio.sdk] 
+ [  1.003s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
 ====================
 Бакка+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
