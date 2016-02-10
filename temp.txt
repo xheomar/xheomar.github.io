@@ -1,3 +1,4 @@
+ [  0.001s] [studio.sdk] 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
@@ -18,18 +19,15 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL https://media.lowermybills.com/cookE/geoip/iframe?spacedesc=26666196_16833144_300x600_26666195_26666196&target=_blank&random=348000562&@CPSC@=https://adclick.g.doubleclick.net/aclk?sa=l&ai=CzUS045G7VpKNJInVBf2-gcAL2_aagAj7s96HvAK_4R4QASCD6ZAkYMkGoAG1uLTJA8gBCeACAKgDAaoEuAFP0EguGuO7FFdqy0pJ8J33D81YGBJTxW9sBakQsrY4UT4OtJKL0fEajSz-rFO7KTWWj30vRWTgBPB9IqHZkAbWuvI6UpTxFRz-H2bsfoQrwLfP-lnzs-cU3fw5rjDnevuvQNbUer1YWZeQKjf0mnyT-6MfPz1E-N2JVplkEsZC4Mdp1w3VdvYuktcYjOeJUZq0HZx07gmbNTw0Ti2UeLe3vZ_iNHdKJQPZrLvApizlUacTsJmBONxr4AQBoAYRgAezx8s2qAemvhvYBwDYEwg&num=1&sig=AOD64_02TBHzBCSiU9qK57vKrjcC1fPGjA&client=ca-pub-9041987464336118&adurl=. Domains, protocols and ports must match.
 
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL https://media.lowermybills.com/cookE/geoip/iframe?spacedesc=26666196_16833144_300x600_26666195_26666196&target=_blank&random=627690072&@CPSC@=https://adclick.g.doubleclick.net/aclk?sa=l&ai=C3Xs4d5G7VoOdFdDSpAOhn6rgDNv2moAI-7Peh7wCv-EeEAEgg-mQJGDJBqABtbi0yQPIAQngAgCoAwGqBLQBT9A73aus-LiZFZfI8-hkmGYUuFaiL7g0R6mO-inK_6UqIQnRAUC0kDgfDrac_K8L7roSNzMXwaWKK9CxQ-7wYMCCdPkBlPLuhVJSAmqxo--a5MwMmB4LsoNRJV7M1WVje1LGiAmUWNstggjsuHORGVpx8iMftUZbKPQGXSpzV7mRQp2G4N7KU915QhD42f-SCiSuS1nqmbk40x7spSan2z3tEc1WwfyM56stklRexlBsbB3N4AQBoAYRgAezx8s2qAemvhvYBwDYEwg&num=1&sig=AOD64_0ywmyS7h9o0rYCG2ESFExTpEzKZg&client=ca-pub-9041987464336118&adurl=. Domains, protocols and ports must match.
-
-te_re[0.3.6] - register tag: 24bb686c-388f-4430-8e3e-0361954d64e6 [object Object]
+te_re[0.3.6] - register tag: 05961015-00de-4413-aeba-9aa30287e871 [object Object]
 te_re[0.3.6] - Invalid feature specified! name: tag [object Object]
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
+ [  1.004s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1557039.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-2/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
