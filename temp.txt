@@ -1,5 +1,41 @@
 SyntaxError: Parse error
 
+TypeError: 'undefined' is not an object (evaluating 'n.instance')
+
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1 in s
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/libs/require.js:29
+  http://s5o.ru/build/libs/require.js:18
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:17
+  http://s5o.ru/build/libs/require.js:26
+TypeError: 'undefined' is not an object (evaluating 'n.instance')
+
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/banners/main.js?ver=9:1 in s
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/libs/require.js:29
+  http://s5o.ru/build/libs/require.js:18
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:17
+  http://s5o.ru/build/libs/require.js:26
+Error: Script error for: common/models/account
+http://requirejs.org/docs/errors.html#scripterror
+
+  http://s5o.ru/build/libs/require.js:8 in ca
+  http://s5o.ru/build/libs/require.js:12 in w
+  http://s5o.ru/build/libs/require.js:30
 ====================
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
