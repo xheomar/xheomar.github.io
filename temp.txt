@@ -1,3 +1,5 @@
+SyntaxError: Parse error
+
 ====================
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
