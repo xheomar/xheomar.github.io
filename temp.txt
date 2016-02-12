@@ -1,3 +1,39 @@
+TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("Version/")[1].split')
+
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in o
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/libs/require.js:29
+  http://s5o.ru/build/libs/require.js:18
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:17
+  http://s5o.ru/build/libs/require.js:14 in E
+  http://s5o.ru/build/libs/require.js:28
+  http://s5o.ru/build/libs/require.js:29
 ====================
 Эль-Шаара...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 --------------------
