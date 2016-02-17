@@ -1,61 +1,50 @@
-TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("Version/")[1].split')
+ReferenceError: Can't find variable: jQuery
 
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1
-  http://s5o.ru/build/core/main.js?ver=9:1 in r
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in r
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in o
-  http://s5o.ru/build/core/main.js?ver=9:1
-  http://s5o.ru/build/core/main.js?ver=9:1
-  http://s5o.ru/build/libs/require.js:29
-  http://s5o.ru/build/libs/require.js:18
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:8
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:7 in v
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:19
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:8
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:7 in v
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:19
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:8
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:7 in v
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:19
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:8
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:7 in v
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:19
-  http://s5o.ru/build/libs/require.js:23
-  http://s5o.ru/build/libs/require.js:17
-  http://s5o.ru/build/libs/require.js:14 in E
-  http://s5o.ru/build/libs/require.js:28
-  http://s5o.ru/build/libs/require.js:29
+  http://s5o.ru/common.min.js?:1
+ReferenceError: Can't find variable: jQuery
+
+  http://s5o.ru/fantasy.min.js?:1
+ReferenceError: Can't find variable: jQuery
+
+  http://s5o.ru/common/js/auth-sandbox.js?:1
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:36
+ReferenceError: Can't find variable: jQuery
+
+  http://s5o.ru/fantasy/js/field.football.js?:502
+ReferenceError: Can't find variable: jQuery
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:43
+ReferenceError: Can't find variable: jQuery
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:70
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:86
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:341
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:343
+ReferenceError: Can't find variable: jQuery
+
+  http://s5o.ru/common/js/gadget.js?:258
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3156
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3287
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3291
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3325
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3359
+ReferenceError: Can't find variable: $
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3496
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:3502
 ====================
-Бакка+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Дибала+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Игуаин+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Бонавенту...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Инсинье+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Сапонара+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
-Эль-Шаара...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Врсалько+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Мурильо+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Кулибали+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 --------------------
-Масина+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
-Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Иличич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
-33
+0
