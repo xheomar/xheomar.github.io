@@ -30,12 +30,19 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
   http://s5o.ru/build/libs/require.js:23
   http://s5o.ru/build/libs/require.js:19
   http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
   http://s5o.ru/build/libs/require.js:17
   http://s5o.ru/build/libs/require.js:14 in E
   http://s5o.ru/build/libs/require.js:28
   http://s5o.ru/build/libs/require.js:29
+ [  0.001s] [studio.sdk] 
 ====================
-Иммобиле+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Иммобиле+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Сапонара+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Бруно Пер...+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
@@ -52,4 +59,4 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-25
+24
