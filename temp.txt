@@ -41,7 +41,7 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
 Бруно Пер...+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Мурильо+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Аднан+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Аднан+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -52,4 +52,4 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-24
+25
