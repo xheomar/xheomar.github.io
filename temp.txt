@@ -1,19 +1,55 @@
+TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("Version/")[1].split')
+
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in o
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/core/main.js?ver=9:1
+  http://s5o.ru/build/libs/require.js:29
+  http://s5o.ru/build/libs/require.js:18
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:8
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:7 in v
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:19
+  http://s5o.ru/build/libs/require.js:23
+  http://s5o.ru/build/libs/require.js:17
+  http://s5o.ru/build/libs/require.js:14 in E
+  http://s5o.ru/build/libs/require.js:28
+  http://s5o.ru/build/libs/require.js:29
 ====================
-Бакка+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Дибала+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Игуаин+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Бирса+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
-Бонавенту...+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Инсинье+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Бонуччи+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Бруно Пер...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Кулибали+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Доннарумма+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Игуаин+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Инсинье+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Эль-Шаара...+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Кулибали+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Иличич+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 --------------------
-Мурильо+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Аднан+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Иличич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Буффон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Сансоне+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Масина+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
+Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бруно Пер...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-48
+21
