@@ -1,1 +1,19 @@
-Network Problem
+====================
+Бакка+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Дибала+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Игуаин+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Бонавенту...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Инсинье+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Сансоне+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Эль-Шаара...+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Кулибали+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Масина+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
+Буффон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+--------------------
+Бруно Пер...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Иличич+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Доннарумма+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+++++++++++++++++++++
+49
