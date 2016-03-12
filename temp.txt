@@ -5,7 +5,8 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
   http://s5o.ru/build/desktop/common/main.js?ver=9:1
   http://s5o.ru/build/desktop/common/main.js?ver=9:1
   http://s5o.ru/build/core/main.js?ver=9:1 in r
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in s
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in r
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in o
   http://s5o.ru/build/core/main.js?ver=9:1
   http://s5o.ru/build/core/main.js?ver=9:1
   http://s5o.ru/build/core/main.js?ver=9:1
@@ -50,21 +51,6 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
   http://s5o.ru/build/libs/require.js:28
   http://s5o.ru/build/libs/require.js:29
 ====================
-Дибала+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
-Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Алонсо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Кулибали+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Эль-Шаара...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Динь+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-18
+0
