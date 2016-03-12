@@ -5,8 +5,7 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
   http://s5o.ru/build/desktop/common/main.js?ver=9:1
   http://s5o.ru/build/desktop/common/main.js?ver=9:1
   http://s5o.ru/build/core/main.js?ver=9:1 in r
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in r
-  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in o
+  http://s5o.ru/build/desktop/common/main.js?ver=9:1 in s
   http://s5o.ru/build/core/main.js?ver=9:1
   http://s5o.ru/build/core/main.js?ver=9:1
   http://s5o.ru/build/core/main.js?ver=9:1
