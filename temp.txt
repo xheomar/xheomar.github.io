@@ -62,3 +62,17 @@ TypeError: 'undefined' is not an object (evaluating 'navigator.userAgent.split("
 Доннарумма+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 53
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL file://getPoints.js. Domains, protocols and ports must match.
+
