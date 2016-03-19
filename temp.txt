@@ -1,6 +1,6 @@
 ====================
-Салах+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Эль-Шаара...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Эль-Шаара...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Динь+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-2
+6
