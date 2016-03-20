@@ -1,5 +1,5 @@
 ====================
-Калинич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Калинич+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Погба+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-15
+14
