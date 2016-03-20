@@ -1,11 +1,11 @@
 ====================
-Калинич+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Погба+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Калинич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Погба+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Сансоне+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Алонсо+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Бонуччи+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Сансоне+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Алонсо+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Бонуччи+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Эль-Шаара...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Динь+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 --------------------
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-14
+30
