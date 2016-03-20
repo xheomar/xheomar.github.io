@@ -7,7 +7,7 @@
 Сансоне+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Алонсо+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Бонуччи+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Кулибали+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Кулибали+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Эль-Шаара...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 --------------------
@@ -16,4 +16,4 @@
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Динь+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 ++++++++++++++++++++
-29
+28
