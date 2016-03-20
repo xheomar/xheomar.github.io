@@ -3,7 +3,7 @@
 Погба+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Алонсо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Алонсо+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Эль-Шаара...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-6
+5
