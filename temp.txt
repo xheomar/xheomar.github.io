@@ -1,7 +1,7 @@
 ====================
 Игуаин+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Калинич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Инсинье+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Инсинье+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -16,4 +16,4 @@
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Динь+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 ++++++++++++++++++++
-28
+27
