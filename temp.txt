@@ -1,3 +1,6 @@
+ReferenceError: Can't find variable: swiffyobject
+
+  http://banners.adfox.ru/160323/adfox/558941/1614617_1.html:9
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
