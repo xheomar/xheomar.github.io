@@ -1,3 +1,19 @@
+TypeError: 'undefined' is not a function (evaluating '(function () {
+            container.style.opacity = 1;
+            this.startAnimation();
+        }).bind(this)')
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:65 in Banner
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:618
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:620
+TypeError: 'undefined' is not a function (evaluating '(function () {
+            container.style.opacity = 1;
+            this.startAnimation();
+        }).bind(this)')
+
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:65 in Banner
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:618
+  http://www.sports.ru/fantasy/football/team/points/1557039.html:620
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Игуаин+20:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
