@@ -2,13 +2,13 @@
 Игуаин+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Салах+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Эль-Шаара...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Кулибали+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Эль-Шаара...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Алонсо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Антонелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Белотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
