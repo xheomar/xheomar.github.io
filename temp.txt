@@ -1,5 +1,5 @@
 ====================
-Игуаин+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Игуаин+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сансоне+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -16,4 +16,4 @@
 Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-32
+30
