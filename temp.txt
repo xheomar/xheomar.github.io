@@ -1,6 +1,6 @@
 ====================
 Бакка+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Погба+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Погба+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сансоне+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
-2
+7
