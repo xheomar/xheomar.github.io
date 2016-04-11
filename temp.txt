@@ -3,7 +3,7 @@
 Белотти+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Инсинье+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Салах+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Эль-Шаара...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Алонсо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
@@ -16,4 +16,4 @@
 Бонуччи+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
-29
+34
