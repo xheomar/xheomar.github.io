@@ -1,3 +1,5 @@
+Could not load Gateway Error: Script error for: //pq-direct.revsci.net/pql?placementIdList=Z25Fuq,ztVdr5&cb=1460695962807
+http://requirejs.org/docs/errors.html#scripterror
 ====================
 Бакка+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Белотти+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
