@@ -2,7 +2,7 @@
 Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Де Мео+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Альбиоль+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Берарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-7
+6
