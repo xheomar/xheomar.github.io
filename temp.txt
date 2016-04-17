@@ -1,6 +1,6 @@
 ====================
 Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Берарди+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Берарди+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+16:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -16,4 +16,4 @@
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-40
+39
