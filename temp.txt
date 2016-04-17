@@ -1,3 +1,4 @@
+Sports: Error while getting /ajax/user/info/
 ====================
 Бакка+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
