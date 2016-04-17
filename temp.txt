@@ -3,7 +3,7 @@
 Берарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Салах+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Де Мео+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 Динь+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-17
+19
