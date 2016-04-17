@@ -1,4 +1,19 @@
 ====================
+Бакка+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Берарди+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Бонавенту...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Погба+22:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Де Мео+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
+Динь+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Буффон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
+Калинич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-0
+60
