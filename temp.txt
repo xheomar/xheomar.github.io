@@ -14,6 +14,6 @@
 Калинич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Аднан+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 72
