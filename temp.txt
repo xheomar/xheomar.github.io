@@ -3,7 +3,7 @@
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Салах+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Де Мео+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-Динь+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Динь+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-16
+17
