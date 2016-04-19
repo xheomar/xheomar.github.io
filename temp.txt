@@ -1,6 +1,6 @@
 ====================
-Инсинье+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-0
+7
