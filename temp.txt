@@ -8,7 +8,7 @@
 Гобби+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Белотти+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Белотти+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Аднан+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Динь+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-16
+15
