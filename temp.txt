@@ -1,6 +1,6 @@
 ====================
 Икарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Берарди+-3:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Берарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -16,4 +16,4 @@
 Динь+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-4
+7
