@@ -1,10 +1,10 @@
 ====================
+Берарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Берарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Погба+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
