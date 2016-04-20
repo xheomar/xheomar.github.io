@@ -1,3 +1,4 @@
+Sports: Error while getting /ajax/user/info/
 ====================
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
