@@ -4,7 +4,7 @@
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гобби+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Динь+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-43
+46
