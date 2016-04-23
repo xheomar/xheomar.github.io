@@ -1,3 +1,4 @@
+Sports: Error while getting /ajax/user/info/
 ====================
 Бакка+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Икарди+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
