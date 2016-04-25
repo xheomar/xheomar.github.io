@@ -7,8 +7,8 @@
 Салах+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Гобби+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Гулям+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Романьоли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Романьоли+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Инсинье+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 --------------------
 Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Динь+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Буффон+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
-28
+30
