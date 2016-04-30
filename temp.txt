@@ -1,6 +1,6 @@
 ====================
 Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Иличич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Бруно Пер...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
@@ -16,4 +16,4 @@
 Мариу Руй+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-8
+9
