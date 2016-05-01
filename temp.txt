@@ -5,6 +5,7 @@
 Погба+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Бруно Пер...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Мариу Руй+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -13,7 +14,6 @@
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Динь+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Мариу Руй+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
 25
