@@ -2,9 +2,9 @@
 Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Берарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Иличич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Погба+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Погба+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Бруно Пер...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Аднан+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Мариу Руй+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-13
+25
