@@ -1,3 +1,4 @@
+Sports: Error while getting /ajax/user/info/
 ====================
 Белотти+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Игуаин+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
