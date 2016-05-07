@@ -1,5 +1,5 @@
 ====================
-Перишич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Перишич+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Мариу Руй+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,4 +16,4 @@
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-0
+3
