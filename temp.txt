@@ -1,8 +1,8 @@
 ====================
-Бакка+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Перишич+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Мариу Руй+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
-Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -16,4 +16,4 @@
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-14
+22
