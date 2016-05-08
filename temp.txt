@@ -1,7 +1,7 @@
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Берарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Иличич+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Перишич+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Салах+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Динь+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -16,4 +16,4 @@
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 ++++++++++++++++++++
-31
+32
