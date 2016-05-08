@@ -4,7 +4,7 @@
 Иличич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Перишич+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Салах+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Динь+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Динь+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Мариу Руй+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
@@ -16,4 +16,4 @@
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-23
+29
