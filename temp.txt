@@ -6,7 +6,7 @@
 Салах+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Динь+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Мариу Руй+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
-Аднан+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+Аднан+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
 Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -16,4 +16,4 @@
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 ++++++++++++++++++++
-32
+31
