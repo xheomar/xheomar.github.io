@@ -1,6 +1,8 @@
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Перишич+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Салах+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Динь+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Мариу Руй+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
@@ -8,10 +10,8 @@
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Берарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Динь+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
