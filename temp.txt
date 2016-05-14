@@ -4,16 +4,16 @@
 Игуаин+28:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Погба+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Салах+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Салах+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Бонуччи+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Динь+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
 Мариу Руй+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Соррентино+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 Аднан+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 ++++++++++++++++++++
-83
+88
