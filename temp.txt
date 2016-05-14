@@ -1,7 +1,7 @@
 ====================
 Дибала+13:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Погба+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Погба+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -16,4 +16,4 @@
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 ++++++++++++++++++++
-19
+28
