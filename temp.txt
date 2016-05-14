@@ -1,13 +1,13 @@
 ====================
+Дибала+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Погба+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Игуаин+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Инсинье+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Погба+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сансоне+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Мариу Руй+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 Соррентино+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
