@@ -3,11 +3,11 @@
 rm -rf *.xml
 
 declare -a teams
-teams=( 1553274 1557043 1559624 1558719 1562633 1557039 )
+teams=( 1553274 1557043 1559624 1558719 1562633 1557039 1562633 1557039 )
 declare -a players
-players=( pr-positive ymat xheo busotir cron314 PrincipessaMilana )
+players=( pr-positive ymat xheo busotir cron314 PrincipessaMilana xhna xvka)
 declare -a points
-points=( 0 0 0 0 0 0 )
+points=( 0 0 0 0 0 0 0 0 )
 sports_ru_url="http://www.sports.ru/fantasy/football/team/"
 
 element_count=${#teams[@]}
@@ -182,6 +182,22 @@ do
 	let "poin = $poin + $last_poin"
 	mv "${files[5]}" "${poin}_${name}.xml"	
 	
+	poin="${files[6]%%_*}"
+	name="${files[6]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/7ST/$name\ \-\ $poin/g" {} \;
+	last_poin=$(cat last_points/${name})
+	let "poin = $poin + $last_poin"
+	mv "${files[6]}" "${poin}_${name}.xml"	
+	
+	poin="${files[7]%%_*}"
+	name="${files[7]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/8ST/$name\ \-\ $poin/g" {} \;
+	last_poin=$(cat last_points/${name})
+	let "poin = $poin + $last_poin"
+	mv "${files[7]}" "${poin}_${name}.xml"
+	
 	
 	files=( `ls -v -r *.xml` )
 	
@@ -214,6 +230,16 @@ do
 	name="${files[5]##*_}"
 	name="${name%.*}"
 	find -type f -name index.html -exec sed -i -r "s/ALL6/$name\ \-\ $poin/g" {} \;
+	
+	poin="${files[6]%%_*}"
+	name="${files[6]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/ALL7/$name\ \-\ $poin/g" {} \;
+	
+	poin="${files[7]%%_*}"
+	name="${files[7]##*_}"
+	name="${name%.*}"
+	find -type f -name index.html -exec sed -i -r "s/ALL8/$name\ \-\ $poin/g" {} \;
 	
 	rm -rf *.xml
 	
