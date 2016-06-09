@@ -169,14 +169,14 @@ page.open(siteName, function (status)
 				{
 					reserve_points.push(reserves_1[i].innerText);
 					reserve_position.push(reserves_2[i].innerText);
-					reserve_names.push("<i>" + reserves_3[i].innerText + "</i>");
+					reserve_names.push("@" + reserves_3[i].innerText + "#");
 					reserve_logos.push(reserves_4[i].getAttribute('src'));
 					reserve_used.push("false");
 				}
 				else // Collect zero-points reserved players
 				{
 					others_points.push(reserves_1[i].innerText);
-					others_names.push("<i>" + reserves_3[i].innerText + "</i>");
+					others_names.push("@" + reserves_3[i].innerText + "#");
 					others_logos.push(reserves_4[i].getAttribute('src'));
 				}
 			}
