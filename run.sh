@@ -123,6 +123,8 @@ do
 	find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
 	
 	
 	today=`date +"%A %d-%m-%Y %T"`
