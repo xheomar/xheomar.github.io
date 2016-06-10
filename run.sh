@@ -105,7 +105,7 @@ do
 				find -type f -name player.html -exec sed -i -r 's/Гризманн/<b>Гризманн<\/b>/g' {} \;
 				;;
 			"PrincipessaMilana")
-				find -type f -name player.html -exec sed -i -r 's/Левандовски/<b>Левандовски<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Левандовски<\/b>/g' {} \;
 				;;
 			"busotir")
 				find -type f -name player.html -exec sed -i -r 's/Мюллер/<b>Мюллер<\/b>/g' {} \;
