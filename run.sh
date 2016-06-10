@@ -100,6 +100,13 @@ do
 				find -type f -name player.html -exec sed -i -r "s/POINTS/${points[$index]}/g" {} \;
 			fi
 			
+			find -type f -name player.html -exec sed -i -r 's/Левандовс\.\.\./Левандовски/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Ибрагимов\.\.\./Ибрагимович/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Эль-Шаара\.\.\./Эль-Шаарави/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Алдервейр\.\.\./Алдервейрелд/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Андре\ Гом\.\.\./Андре\ Гомеш/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Лихтштайн\.\.\./Лихтштайнер/g' {} \;
+			
 			case "${players[$index]}" in
 			"ymat")
 				find -type f -name player.html -exec sed -i -r 's/Гризманн/<b>Гризманн<\/b>/g' {} \;
@@ -145,16 +152,14 @@ do
 	
 	#rm -rf *.xml
 	
-	find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Филиппок/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
+	#find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Филиппок/g' {} \;
+	#№find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
+	#find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
+	#find -type f -name index.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
+	#find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
+	#find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
+	#find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
-	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
-	
 	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
 	
 	
