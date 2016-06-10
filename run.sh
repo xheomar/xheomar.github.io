@@ -6,7 +6,7 @@ declare -a teams
 #teams=( 1553274 1557043 1559624 1558719 1562633 1557039 1562633 1557039 )
 teams=( 1674259 1557043 1674996 1674953 1557043 1674689 1675289 1676289 )
 declare -a players
-players=( ymat PrincipessaMilana busotir xheo cron314  pr-positive Ganna4ka xvka)
+players=( ymat PrincipessaMilana busotir xheo cron314 pr-positive Ganna4ka xvka )
 declare -a points
 points=( 0 0 0 0 0 0 0 0 )
 sports_ru_url="http://www.sports.ru/fantasy/football/team/"
