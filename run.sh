@@ -98,7 +98,35 @@ do
 				find -type f -name player.html -exec sed -i -r "s/URL/${teams[$index]}/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/PLAYER/${players[$index]}/g" {} \;
 				find -type f -name player.html -exec sed -i -r "s/POINTS/${points[$index]}/g" {} \;
-			fi		
+			fi
+			
+			case "${players[$index]}" in
+			"ymat")
+				find -type f -name player.html -exec sed -i -r 's/Гризманн/<b>Гризманн<\/b>/g' {} \;
+				;;
+			"PrincipessaMilana")
+				find -type f -name player.html -exec sed -i -r 's/Левандовски/<b>Левандовски<\/b>/g' {} \;
+				;;
+			"busotir")
+				find -type f -name player.html -exec sed -i -r 's/Мюллер/<b>Мюллер<\/b>/g' {} \;
+				;;
+			"xheo")
+				find -type f -name player.html -exec sed -i -r 's/Кандрева/<b>Кандрева<\/b>/g' {} \;
+				;;
+			"cron314")
+				find -type f -name player.html -exec sed -i -r 's/Роналду/<b>Роналду<\/b>/g' {} \;
+				;;
+			"pr-positive")
+				find -type f -name player.html -exec sed -i -r 's/Погба/<b>Погба<\/b>/g' {} \;
+				;;
+			"Ganna4ka")
+				find -type f -name player.html -exec sed -i -r 's/Нойер/<b>Нойер<\/b>/g' {} \;
+				;;
+			"xvka")
+				find -type f -name player.html -exec sed -i -r 's/Ибрагимович/<b>Ибрагимович<\/b>/g' {} \;
+				;;
+			esac
+			
 			let "count = $count + 1"		
 		done < $file
 		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>
@@ -125,6 +153,8 @@ do
 	find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
+	
 	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
 	
 	
