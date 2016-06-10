@@ -273,6 +273,7 @@ do
 	find -type f -name index.html -exec sed -i -r "s/ALL8/$name\ \-\ $poin/g" {} \;
 	
 	phantomjs pic.js http://www.livescore.com/euro/today/
+	phantomjs stat.js http://www.sports.ru/fantasy/football/league/102422.html
 	
 	rm -rf *.xml
 	
