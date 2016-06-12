@@ -106,6 +106,8 @@ do
 			find -type f -name player.html -exec sed -i -r 's/Алдервейр\.\.\./Алдервейрелд/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Андре\ Гом\.\.\./Андре\ Гомеш/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Лихтштайн\.\.\./Лихтштайнер/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Блашчиков\.\.\./Блашчиковски/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Хадльвред\.\.\./Хадльвредсон/g' {} \;
 			
 			case "${players[$index]}" in
 			"ymat")
@@ -159,6 +161,7 @@ do
 	#find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
 	#find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
 	#find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
+	
 	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
 	
