@@ -1,5 +1,5 @@
 ====================
-Ибрагимов...+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
+Ибрагимов...+4:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
 Гаши+1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 Капустка+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Попа+1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-22
+26
