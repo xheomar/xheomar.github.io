@@ -3,7 +3,7 @@
 Капустка+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Попа+1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
 Сидорчук+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
-Пике+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/spain.png
+Пике+6:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/spain.png
 Бабаджан+3:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/turkey.png
 italic_startЭмболоitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
 --------------------
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-10
+16
