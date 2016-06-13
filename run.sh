@@ -100,7 +100,10 @@ do
 				find -type f -name player.html -exec sed -i -r "s/POINTS/${points[$index]}/g" {} \;
 			fi
 			
-			find -type f -name player.html -exec sed -i -r 's/Левандовс\.\.\./Левандовски/g' {} \;
+			let "count = $count + 1"		
+		done < $file
+		
+		find -type f -name player.html -exec sed -i -r 's/Левандовс\.\.\./Левандовски/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Ибрагимов\.\.\./Ибрагимович/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Эль-Шаара\.\.\./Эль-Шаарави/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Алдервейр\.\.\./Алдервейрелд/g' {} \;
@@ -136,8 +139,6 @@ do
 				;;
 			esac
 			
-			let "count = $count + 1"		
-		done < $file
 		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>
 		mv player.html "${points[$index]}_${players[$index]}"".xml"
 		let "index = $index + 1"
@@ -153,7 +154,6 @@ do
 	done
 	
 	#rm -rf *.xml
-	
 	#find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Филиппок/g' {} \;
 	#№find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
 	#find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
