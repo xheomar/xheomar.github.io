@@ -1,5 +1,6 @@
 ====================
 italic_startЭмболоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
+italic_startЛиляitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 --------------------
 Ибрагимов...+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
 Роналду+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
@@ -13,7 +14,6 @@ italic_startЭмболоitalic_end+0:http://www.sports.ru/storage/img/fantasy/sh
 Пике+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/spain.png
 Бабаджан+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/turkey.png
 italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/czech.png
-italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
 0
