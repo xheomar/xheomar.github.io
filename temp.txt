@@ -1,4 +1,5 @@
 ====================
+Капустка+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Сидорчук+1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
 italic_startЭмболоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
 italic_startЛиляitalic_end+6:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
@@ -6,7 +7,6 @@ italic_startЛиляitalic_end+6:http://www.sports.ru/storage/img/fantasy/shirts
 Ибрагимов...+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
 Роналду+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 Гаши+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
-Капустка+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Попа+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
 Рыбалка+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
 Алдервейр...+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
