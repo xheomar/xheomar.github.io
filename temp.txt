@@ -27,6 +27,14 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
 Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1676289.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
@@ -42,9 +50,9 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 Попа+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
 Врсалько+-1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/croatia.png
 Пике+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/spain.png
-Бабаджан+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/turkey.png
+Бабаджан+6:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/turkey.png
 italic_startЭмболоitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
-italic_startПудилitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/czech.png
+italic_startПудилitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/czech.png
 --------------------
 Ибрагимов...+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
 Роналду+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
@@ -55,4 +63,4 @@ italic_startПудилitalic_end+0:http://www.sports.ru/storage/img/fantasy/shir
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 italic_startЛиляitalic_end+6:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 ++++++++++++++++++++
-5
+12
