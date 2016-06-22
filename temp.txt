@@ -1,3 +1,4 @@
+[SPORTS][DFP] Warning: There is no banner with such a config: [object Object]
 ====================
 Капустка+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Попа+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
