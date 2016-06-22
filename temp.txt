@@ -1,3 +1,4 @@
+Sports: Error while getting /ajax/user/info/
 ====================
 Капустка+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Попа+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
