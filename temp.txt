@@ -1,5 +1,5 @@
 ====================
-Роналду+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
+Роналду+5:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 italic_startЭмболоitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
 --------------------
 Ибрагимов...+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-4
+7
