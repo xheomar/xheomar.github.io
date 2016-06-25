@@ -1,8 +1,8 @@
 ====================
+Роналду+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 italic_startЭмболоitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
 --------------------
 Ибрагимов...+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/sweden.png
-Роналду+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 Гаши+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 Капустка+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 Попа+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/romania.png
