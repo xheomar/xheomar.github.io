@@ -112,6 +112,7 @@ do
 			find -type f -name player.html -exec sed -i -r 's/Блашчиков\.\.\./Блашчиковски/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Хадльвред\.\.\./Хадльвредсон/g' {} \;
 			
+			
 			case "${players[$index]}" in
 			"ymat")
 				find -type f -name player.html -exec sed -i -r 's/Гризманн/<b>Гризманн<\/b>/g' {} \;
@@ -135,7 +136,7 @@ do
 				find -type f -name player.html -exec sed -i -r 's/Нойер/<b>Нойер<\/b>/g' {} \;
 				;;
 			"xvka")
-				find -type f -name player.html -exec sed -i -r 's/Ибрагимович/<b>Ибрагимович<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Э\.\ Азар/<b>Э\.\ Азар<\/b>/g' {} \;
 				;;
 			esac
 			
