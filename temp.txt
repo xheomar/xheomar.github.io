@@ -1,6 +1,6 @@
 ====================
 Роналду+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
-Капустка+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
+Капустка+-1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
 --------------------
 Пелле+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Рыбалка+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-0
+-1
