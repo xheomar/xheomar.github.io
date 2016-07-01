@@ -1,7 +1,7 @@
 ====================
 Роналду+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 Капустка+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
-Э. Азар+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
+Э. Азар+6:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 Алдервейр...+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 --------------------
 Пелле+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-2
+8
