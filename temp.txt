@@ -2,7 +2,7 @@
 Пелле+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Роналду+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 Капустка+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
-Стураро+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
+Стураро+-1:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Э. Азар+10:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 Алдервейр...+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-12
+11
