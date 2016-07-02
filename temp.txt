@@ -6,7 +6,7 @@
 Э. Азар+10:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 Алдервейр...+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 Бонуччи+8:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
-Буффон+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
+Буффон+3:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 --------------------
 Рыбалка+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
 Сидорчук+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
@@ -16,4 +16,4 @@ italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
 italic_startМандандаitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/france.png
 ++++++++++++++++++++
-24
+25
