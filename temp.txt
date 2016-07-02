@@ -1,16 +1,16 @@
 ====================
+Пелле+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Роналду+2:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/portugal.png
 Капустка+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/poland.png
+Стураро+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Э. Азар+10:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
 Алдервейр...+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/belgium.png
+Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
+Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 --------------------
-Пелле+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Рыбалка+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
 Сидорчук+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/ukraine.png
-Стураро+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
-Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 Врсалько+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/croatia.png
-Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/italy.png
 italic_startЭмболоitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/switzerland.png
 italic_startПудилitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/czech.png
 italic_startЛиляitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/euro2016/albania.png
