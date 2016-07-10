@@ -133,7 +133,7 @@ do
 				find -type f -name player.html -exec sed -i -r 's/Гетце/<b>Гетце<\/b>/g' {} \;
 				;;
 			"Ganna4ka")
-				find -type f -name player.html -exec sed -i -r 's/Нойер/<b>Нойер<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Нани/<b>Нани<\/b>/g' {} \;
 				;;
 			"xvka")
 				find -type f -name player.html -exec sed -i -r 's/Э\.\ Азар/<b>Э\.\ Азар<\/b>/g' {} \;
