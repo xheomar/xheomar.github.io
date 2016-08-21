@@ -102,7 +102,7 @@ do
 			let "count = $count + 1"		
 		done < $file
 		
-		find -type f -name player.html -exec sed -i -r 's/Левандовс\.\.\./Левандовски/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Левандовс\.\.\./Левандовски/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Ибрагимов\.\.\./Ибрагимович/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Эль-Шаара\.\.\./Эль-Шаарави/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Алдервейр\.\.\./Алдервейрелд/g' {} \;
@@ -160,7 +160,7 @@ do
 		let "index = $index + 1"
 	done
 	
-	rm -rf *.xml
+	#rm -rf *.xml
 	
 	
 	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
