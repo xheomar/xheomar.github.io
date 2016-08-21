@@ -3,12 +3,11 @@
 rm -rf *.xml
 
 declare -a teams
-#teams=( 1553274 1557043 1559624 1558719 1562633 1557039 1562633 1557039 )
-teams=( 1674259 1676841 1674996 1674953 1672245 1674689 1675289 1676289 )
+teams=( 1756613 1756645 1756537 1756677 1756596 1756596 )
 declare -a players
-players=( ymat PrincipessaMilana busotir xheo cron314 pr-positive Ganna4ka xvka )
+players=( busotir cron314 ymat xheo pr-positive PrincipessaMilana )
 declare -a points
-points=( 0 0 0 0 0 0 0 0 )
+points=( 0 0 0 0 0 0 )
 sports_ru_url="http://www.sports.ru/fantasy/football/team/"
 
 element_count=${#teams[@]}
@@ -115,22 +114,22 @@ do
 			
 			case "${players[$index]}" in
 			"ymat")
-				find -type f -name player.html -exec sed -i -r 's/Гризманн/<b>Гризманн<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
 				;;
 			"PrincipessaMilana")
 				find -type f -name player.html -exec sed -i -r 's/Левандовски/<b>Левандовски<\/b>/g' {} \;
 				;;
 			"busotir")
-				find -type f -name player.html -exec sed -i -r 's/Мюллер/<b>Мюллер<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
 				;;
 			"xheo")
-				find -type f -name player.html -exec sed -i -r 's/Пайет/<b>Пайет<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Ньянг/<b>Ньянг<\/b>/g' {} \;
 				;;
 			"cron314")
-				find -type f -name player.html -exec sed -i -r 's/Роналду/<b>Роналду<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
 				;;
 			"pr-positive")
-				find -type f -name player.html -exec sed -i -r 's/Гетце/<b>Гетце<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
 				;;
 			"Ganna4ka")
 				find -type f -name player.html -exec sed -i -r 's/Нани/<b>Нани<\/b>/g' {} \;
@@ -222,21 +221,21 @@ do
 	let "poin = $poin + $last_poin"
 	mv "${files[5]}" "${poin}_${name}.xml"	
 	
-	poin="${files[6]%%_*}"
-	name="${files[6]##*_}"
-	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/7ST/$name\ \-\ $poin/g" {} \;
-	last_poin=$(cat last_points/${name})
-	let "poin = $poin + $last_poin"
-	mv "${files[6]}" "${poin}_${name}.xml"	
+	#poin="${files[6]%%_*}"
+	#name="${files[6]##*_}"
+	#name="${name%.*}"
+	#find -type f -name index.html -exec sed -i -r "s/7ST/$name\ \-\ $poin/g" {} \;
+	#last_poin=$(cat last_points/${name})
+	#let "poin = $poin + $last_poin"
+	#mv "${files[6]}" "${poin}_${name}.xml"	
 	
-	poin="${files[7]%%_*}"
-	name="${files[7]##*_}"
-	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/8ST/$name\ \-\ $poin/g" {} \;
-	last_poin=$(cat last_points/${name})
-	let "poin = $poin + $last_poin"
-	mv "${files[7]}" "${poin}_${name}.xml"
+	#poin="${files[7]%%_*}"
+	#name="${files[7]##*_}"
+	#name="${name%.*}"
+	#find -type f -name index.html -exec sed -i -r "s/8ST/$name\ \-\ $poin/g" {} \;
+	#last_poin=$(cat last_points/${name})
+	#let "poin = $poin + $last_poin"
+	#mv "${files[7]}" "${poin}_${name}.xml"
 	
 	
 	files=( `ls -v -r *.xml` )
@@ -271,15 +270,15 @@ do
 	name="${name%.*}"
 	find -type f -name index.html -exec sed -i -r "s/ALL6/$name\ \-\ $poin/g" {} \;
 	
-	poin="${files[6]%%_*}"
-	name="${files[6]##*_}"
-	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL7/$name\ \-\ $poin/g" {} \;
+	#poin="${files[6]%%_*}"
+	#name="${files[6]##*_}"
+	#name="${name%.*}"
+	#find -type f -name index.html -exec sed -i -r "s/ALL7/$name\ \-\ $poin/g" {} \;
 	
-	poin="${files[7]%%_*}"
-	name="${files[7]##*_}"
-	name="${name%.*}"
-	find -type f -name index.html -exec sed -i -r "s/ALL8/$name\ \-\ $poin/g" {} \;
+	#poin="${files[7]%%_*}"
+	#name="${files[7]##*_}"
+	#name="${name%.*}"
+	#find -type f -name index.html -exec sed -i -r "s/ALL8/$name\ \-\ $poin/g" {} \;
 	
 	#phantomjs pic.js http://www.livescore.com/euro/today/
 	#phantomjs stat.js http://www.sports.ru/fantasy/football/league/102422.html
