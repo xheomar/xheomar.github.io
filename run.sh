@@ -110,6 +110,13 @@ do
 			find -type f -name player.html -exec sed -i -r 's/Лихтштайн\.\.\./Лихтштайнер/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Блашчиков\.\.\./Блашчиковски/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Хадльвред\.\.\./Хадльвредсон/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Филиппок/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
 			
 			
 			case "${players[$index]}" in
@@ -153,14 +160,8 @@ do
 		let "index = $index + 1"
 	done
 	
-	#rm -rf *.xml
-	#find -type f -name index.html -exec sed -i -r 's/Фелипе\ Ан\.\.\./Филиппок/g' {} \;
-	#№find -type f -name index.html -exec sed -i -r 's/Бонавенту\.\.\./Бонавентура/g' {} \;
-	#find -type f -name index.html -exec sed -i -r 's/А\.\ Масьел\.\.\./А\.\ Масьелло/g' {} \;
-	#find -type f -name index.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
-	#find -type f -name index.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
-	#find -type f -name index.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
-	#find -type f -name index.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
+	rm -rf *.xml
+	
 	
 	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
