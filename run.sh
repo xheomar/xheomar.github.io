@@ -3,7 +3,7 @@
 rm -rf *.xml
 
 declare -a teams
-teams=( 1756613 1756645 1756537 1756677 1756596 1756596 )
+teams=( 1756613 1756645 1756537 1756677 1756596 1765524 )
 declare -a players
 players=( busotir cron314 ymat xheo pr-positive PrincipessaMilana )
 declare -a points
@@ -124,13 +124,13 @@ do
 				find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
 				;;
 			"PrincipessaMilana")
-				find -type f -name player.html -exec sed -i -r 's/Левандовски/<b>Левандовски<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Берарди/<b>Берарди<\/b>/g' {} \;
 				;;
 			"busotir")
 				find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
 				;;
 			"xheo")
-				find -type f -name player.html -exec sed -i -r 's/Ньянг/<b>Ньянг<\/b>/g' {} \;
+				find -type f -name player.html -exec sed -i -r 's/Бакка/<b>Бакка<\/b>/g' {} \;
 				;;
 			"cron314")
 				find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
