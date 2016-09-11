@@ -3,18 +3,18 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
 ====================
 Дибала+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Иммобиле+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Мертенс+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Перотти+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бруно Пер...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Н. Бурдис...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 Буффон+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Иммобиле+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
-Н. Бурдис...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 italic_startКатальдиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 italic_startГомесitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startКонсильиitalic_end+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
