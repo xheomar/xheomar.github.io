@@ -2,6 +2,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
 ====================
+Бакка+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Дибала+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Иммобиле+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
@@ -13,7 +14,6 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Буффон+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 --------------------
-Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 italic_startКатальдиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 italic_startГомесitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
