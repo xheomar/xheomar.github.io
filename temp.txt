@@ -31,6 +31,10 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
 Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
@@ -61,22 +65,42 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
 
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836096&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836096&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
 
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
@@ -101,7 +125,15 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 
 Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
- [  1.044s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
+
+ [  1.030s] [studio.sdk] Using default ad parameters in test environment. Simulating local events.
 SyntaxError: Parse error
 
 Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=855201&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
@@ -111,305 +143,10 @@ Unsafe JavaScript attempt to access frame with URL about:blank from frame with U
 Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
 
 Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-SyntaxError: Parse error
-
-SyntaxError: Parse error
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ls.hit.gemius.pl/lsget.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://bh.contextweb.com/bh/visitormatch?tag=504035&pid=560047 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.IAB24,PUBLISHER.560047,,CAMPAIGN.0.0,AA_30000,AA_30102,AA_30301,AA_30601,AA_30803,AA_30206,AA_30902,ADSIZE.300X600,ZIPCODE.60007,PUBLISHERDOMAIN.sports.ru from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://bh.contextweb.com/bh/visitormatch?tag=217962&pid=557821 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.IAB24,PUBLISHER.557821,,CAMPAIGN.0.0,AA_30000,AA_30102,AA_30301,AA_30601,AA_30803,AA_30206,AA_30902,ADSIZE.728X90,ZIPCODE.60007,PUBLISHERDOMAIN.sports.ru from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://aktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet?operId=1&pubId=38381&siteId=156872&adId=802390&adServerId=165&kefact=0.700000&kaxefact=0.700000&kadNetFrequecy=0&kadwidth=728&kadheight=90&kadsizeid=7&kltstamp=1474211586&indirectAdId=601472&adServerOptimizerId=1&ranreq=0.43987868377007544&kpbmtpfact=0.000000&dcId=1&tldId=0&passback=25&imprId=1B4BBCFD-8BE3-47BE-9C44-5632FBC0F1DD&oid=1B4BBCFD-8BE3-47BE-9C44-5632FBC0F1DD&ias=257&crID=0&ucrid=9318203617120632179&campaignId=0&pageURL=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://aktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet?operId=1&pubId=38381&siteId=156872&adId=836097&adServerId=165&kefact=1.200000&kaxefact=1.200000&kadNetFrequecy=0&kadwidth=728&kadheight=90&kadsizeid=7&kltstamp=1474211586&indirectAdId=633042&adServerOptimizerId=1&ranreq=0.622455743374303&kpbmtpfact=0.000000&dcId=1&tldId=0&passback=25&imprId=6DF2F695-7BE6-4E80-B837-6E2D85084897&oid=6DF2F695-7BE6-4E80-B837-6E2D85084897&ias=257&crID=0&ucrid=875180570270242547&campaignId=0&pageURL=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=855201&it=0&kdntuid=1&bce=1 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://aktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet?operId=1&pubId=38381&siteId=156872&adId=855201&adServerId=165&kefact=0.750000&kaxefact=0.750000&kadNetFrequecy=0&kadwidth=300&kadheight=600&kadsizeid=26&kltstamp=1474211586&indirectAdId=650940&adServerOptimizerId=1&ranreq=0.9926279622595757&kpbmtpfact=0.000000&dcId=1&tldId=20829378&passback=25&imprId=49E17330-5713-447F-AE1C-A696C56891B3&oid=49E17330-5713-447F-AE1C-A696C56891B3&ias=257&crID=0&ucrid=16919118377160355741&campaignId=0&pageURL=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL https://um2.eqads.com/um/pp from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://connexity.net/c/cse?a=Q&B=11 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836096&it=0&kdntuid=1&bce=1 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://ads.pubmatic.com/AdServer/js/showad.js from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://bh.contextweb.com/bh/visitormatch?tag=217961&pid=557821 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://pixel.quantserve.com/pixel/p-01-0VIaSjnOLg.gif?tags=CONTEXTWEB.IAB24,PUBLISHER.557821,,CAMPAIGN.0.0,AA_30000,AA_30102,AA_30301,AA_30601,AA_30803,AA_30206,AA_30902,ADSIZE.300X250,ZIPCODE.60007,PUBLISHERDOMAIN.sports.ru from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://aktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet?operId=1&pubId=38381&siteId=156872&adId=802387&adServerId=165&kefact=0.700000&kaxefact=0.700000&kadNetFrequecy=0&kadwidth=300&kadheight=250&kadsizeid=9&kltstamp=1474211586&indirectAdId=601469&adServerOptimizerId=1&ranreq=0.20548004750162363&kpbmtpfact=0.000000&dcId=1&tldId=20926059&passback=25&imprId=16E24675-365C-42CF-90F6-58D91ECE1225&oid=16E24675-365C-42CF-90F6-58D91ECE1225&ias=257&crID=0&ucrid=9497371540891572884&campaignId=0&pageURL=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://aktrack.pubmatic.com/AdServer/AdDisplayTrackerServlet?operId=1&pubId=38381&siteId=156872&adId=836096&adServerId=165&kefact=1.200000&kaxefact=1.200000&kadNetFrequecy=0&kadwidth=300&kadheight=250&kadsizeid=9&kltstamp=1474211586&indirectAdId=633040&adServerOptimizerId=1&ranreq=0.8974817625712603&kpbmtpfact=0.000000&dcId=1&tldId=20758413&passback=25&imprId=F292CE43-A9A2-45B2-9C2A-CC80AF434EB7&oid=F292CE43-A9A2-45B2-9C2A-CC80AF434EB7&ias=257&crID=0&ucrid=7253849528703943886&campaignId=0&pageURL=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://s.amazon-adsystem.com/iu3?cm3ppd=1&d=dtb-pub&csif=t from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://us-u.openx.net/w/1.0/pd?plm=6&ph=94ef58655625200a8cfc5b15afcd0b94ad52d590 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://us-u.openx.net/w/1.0/pd?plm=6&ph=94ef58655625200a8cfc5b15afcd0b94ad52d590 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://idsync.rlcdn.com/420486.gif?partner_uid=227F10AF-1454-4E29-B76A-99A16EE69866&redirect=1 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://image4.pubmatic.com/AdServer/SPug?partnerID=133799&xid=E0 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://pr-bh.ybp.yahoo.com/sync/pubmatic/227F10AF-1454-4E29-B76A-99A16EE69866 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxNzcmdGw9MTI5NjAw&piggybackCookie=CAESEFUYzlHghncNhlr243crVN4&google_cver=1 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTMwNzYmdGw9MTI5NjAw&r= from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTI4NDkmdGw9MTI5NjAw&piggybackCookie=1bab1741-b1a6-4cf1-80c0-8007d42c940e from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTM2MiZ0bD00MzIwMA==&piggybackCookie=uid:c46657df-af02-4200-9370-74ee8c05303a from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://connexity.net/c/cse?a=Q&B=11 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL https://googleads.g.doubleclick.net/xbbe/pixel?d=CPYDEOemTBjf7ZwN&v=APEucNWxxUhUI1mCcdOUvxbVkZmG3tZnQqrP-luxEEAKfdpu8izg5K8jGpXwUjTc0Cc7LMULPtEW from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://connexity.net/c/cse?a=Q&B=11 from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL about:blank. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL about:blank. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru from frame with URL https://ad.doubleclick.net/ddm/adi/N6410.1081839.AUDIENCETRADING.CO/B10030843.134635251;dc_ver=33.86;sz=728x90;dc_adk=798949726;ord=53u3pq;click=http%3A%2F%2Fpixel.mathtag.com%2Fclick%2Fimg%3Fmt_aid%3D3242305624014418948%26mt_id%3D2768304%26mt_adid%3D108042%26mt_sid%3D781123%26mt_exid%3D4%26mt_inapp%3D0%26mt_uuid%3Dc46657df-af02-4200-9370-74ee8c05303a%26mt_3pck%3Dhttps%253A%2F%2Fadclick.g.doubleclick.net%2Faclk%253Fsa%253DL%2526ai%253DCAgTLBK_eV6CMA9aFBfjkvbgL4N2QqQfAhtmCxgLAjbcBEAEgAGDJBoIBF2NhLXB1Yi01MDQ1MDYyNDcxNDY2ODU2yAEJ4AIAqAMBqgS_AU_QvLtaz_PrTfwV1-KW4PrT70dzld3uP0dt9pOahSwM3wPxj3rOSX57WCKsDggNx6eqV7UuRl41GxXCcSEGejX4Lg5fx0H_PXu7h7Q-kGLpRdXkU6yqpx2A3Lur8Gn8a-tzzvWg1ROSOqGEj78j0jw-Y4LCF6c0bwi2UVTpflo-BEG04UW_ptzix27LW51xhzWkgkIXCxr-aFoxfvYLrPGikx_ibjUYWgODMIRFkCdttFH6Ji8CbWslFUY5mtsh4AQBgAajiIbKufngvyigBiGoB6a-G9gHANIIBQiAYRAB%2526num%253D1%2526sig%253DAOD64_31S3_25Sfb2UwIKi09w4bHGf3C4A%2526client%253Dca-pub-5045062471466856%2526adurl%253D%26mt_lp%3Dhttps%253A%2F%2Fwww.westernunion.com%2Fus%2Fen%2Fus-money-transfer.html%253Fsrc%253Ddisplay_WUcomDMT1F%26redirect%3D;dc_rfl=3,,,,http%3A%2F%2Ftpc.googlesyndication.com%2Fsafeframe%2F1-0-4%2Fhtml%2Fcontainer.html%3Fn%3D2%23xpc%3Dsf-gdn-exp-1%26p%3Dhttp%253A%2F%2Fwww.sports.ru$0;xdt=1;crlt=5K_3fFyTPf;sttr=122;prcl=s?. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/football/team/points/1765524.html from frame with URL http://tpc.googlesyndication.com/safeframe/1-0-4/html/container.html?n=2#xpc=sf-gdn-exp-1&p=http%3A//www.sports.ru. Domains, protocols and ports must match.
 
 ====================
 Боррьелло+10:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
+Дибала+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Иммобиле+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бирса+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+14:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -419,11 +156,10 @@ Unsafe JavaScript attempt to access frame with URL http://www.sports.ru/fantasy/
 italic_startБазеллиitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startКрафтitalic_end+-2:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 --------------------
-Дибала+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бруно Пер...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-italic_startБуффонitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+italic_startБуффонitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 ++++++++++++++++++++
 38
