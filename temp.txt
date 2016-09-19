@@ -1,43 +1,6 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
-[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836097&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836096&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js#PIX&p=38381&s=156872&a=836096&it=0&kdntuid=1&bce=1. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
-Unsafe JavaScript attempt to access frame with URL about:blank from frame with URL http://ads.pubmatic.com/AdServer/js/showad.js. Domains, protocols and ports must match.
-
 ====================
 Боррьелло+10:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
 Дибала+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
