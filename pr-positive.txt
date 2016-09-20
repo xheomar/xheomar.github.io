@@ -4,13 +4,13 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 [SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Иммобиле+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Фелипе Ан...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 --------------------
 Дестро+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Кальехон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кандрева+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-Фелипе Ан...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Пелузо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Хюсай+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
