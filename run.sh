@@ -119,9 +119,9 @@ do
 			find -type f -name player.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Бурдиссо/g' {} \;
-			find -type f -name player.html -exec sed -i -r 's/Н\.\ Милинкови\.\.\./Серёга/g' {} \;
-			find -type f -name player.html -exec sed -i -r 's/Н\.\ де Сильве\.\.\./де Сильвестри/g' {} \;
-			find -type f -name player.html -exec sed -i -r 's/Н\.\ де Гастальде\.\.\./Гастальделло/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Милинкови\.\.\./Серёга/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/де Сильве\.\.\./де Сильвестри/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Гастальде\.\.\./Гастальделло/g' {} \;
 			
 			
 			#case "${players[$index]}" in
