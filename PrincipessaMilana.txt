@@ -2,9 +2,9 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
 ====================
-Иммобиле+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-italic_startГомесitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Доннарумма+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
 Боррьелло+-:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
 bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -19,4 +19,4 @@ italic_startБазеллиitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startКонсильиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-0
+9
