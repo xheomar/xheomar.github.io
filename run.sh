@@ -27,7 +27,8 @@ do
 		echo ${players[$index]}
 		while [ 1 ] 
 		do 
-			phantomjs getPoints.js $sports_ru_url${teams[$index]}".html" ${players[$index]} > temp.txt
+			#phantomjs getPoints.js $sports_ru_url${teams[$index]}".html" ${players[$index]} > temp.txt
+			phantomjs getPoints.js $sports_ru_url${teams[$index]}".html" ${players[$index]} > ${players[$index]}".txt"
 			NUM=`grep -c "ads.adfox.ru" ./temp.txt` 
 			MUN=`grep -c "gstatic.com"  ./temp.txt`
 			#MUM=`grep -c "TypeError"  ./temp.txt`
@@ -100,7 +101,8 @@ do
 			fi
 			
 			let "count = $count + 1"		
-		done < $file
+		#done < $file
+		done < ${players[$index]}".txt"
 		
 			find -type f -name player.html -exec sed -i -r 's/Левандовс\.\.\./Левандовски/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Ибрагимов\.\.\./Ибрагимович/g' {} \;
@@ -116,35 +118,38 @@ do
 			find -type f -name player.html -exec sed -i -r 's/Педру\ Пер\.\.\./Педру\ Перейра/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Бернардес\.\.\./Бернардески/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Куальярел\.\.\./Куальярелла/g' {} \;
-			find -type f -name player.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Н\.\ Бурдиссо/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Н\.\ Бурдис\.\.\./Бурдиссо/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Н\.\ Милинкови\.\.\./Серёга/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Н\.\ де Сильве\.\.\./де Сильвестри/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Н\.\ де Гастальде\.\.\./Гастальделло/g' {} \;
 			
 			
-			case "${players[$index]}" in
-			"ymat")
-				find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
-				;;
-			"PrincipessaMilana")
-				find -type f -name player.html -exec sed -i -r 's/Берарди/<b>Берарди<\/b>/g' {} \;
-				;;
-			"busotir")
-				find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
-				;;
-			"xheo")
-				find -type f -name player.html -exec sed -i -r 's/Бакка/<b>Бакка<\/b>/g' {} \;
-				;;
-			"cron314")
-				find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
-				;;
-			"pr-positive")
-				find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
-				;;
-			"Ganna4ka")
-				find -type f -name player.html -exec sed -i -r 's/Нани/<b>Нани<\/b>/g' {} \;
-				;;
-			"xvka")
-				find -type f -name player.html -exec sed -i -r 's/Э\.\ Азар/<b>Э\.\ Азар<\/b>/g' {} \;
-				;;
-			esac
+			#case "${players[$index]}" in
+			#"ymat")
+			#	find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
+			#	;;
+			#"PrincipessaMilana")
+			#	find -type f -name player.html -exec sed -i -r 's/Берарди/<b>Берарди<\/b>/g' {} \;
+			#	;;
+			#"busotir")
+			#	find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
+			#	;;
+			#"xheo")
+			#	find -type f -name player.html -exec sed -i -r 's/Бакка/<b>Бакка<\/b>/g' {} \;
+			#	;;
+			#"cron314")
+			#	find -type f -name player.html -exec sed -i -r 's/Салах/<b>Салах<\/b>/g' {} \;
+			#	;;
+			#"pr-positive")
+			#	find -type f -name player.html -exec sed -i -r 's/Дибала/<b>Дибала<\/b>/g' {} \;
+			#	;;
+			#"Ganna4ka")
+			#	find -type f -name player.html -exec sed -i -r 's/Нани/<b>Нани<\/b>/g' {} \;
+			#	;;
+			#"xvka")
+			#	find -type f -name player.html -exec sed -i -r 's/Э\.\ Азар/<b>Э\.\ Азар<\/b>/g' {} \;
+			#	;;
+			#esac
 			
 		# After that we have upgraded player.html file which should be put in index.html instead of PLAYER<i>
 		mv player.html "${points[$index]}_${players[$index]}"".xml"
@@ -165,6 +170,9 @@ do
 	
 	find -type f -name index.html -exec sed -i -r 's/italic_start/<i>/g' {} \;
 	find -type f -name index.html -exec sed -i -r 's/italic_end/<\/i>/g' {} \;
+	
+	find -type f -name index.html -exec sed -i -r 's/bold_start/<b>/g' {} \;
+	find -type f -name index.html -exec sed -i -r 's/bold_end/<\/b>/g' {} \;
 	
 	
 	today=`date +"%A %d-%m-%Y %T"`

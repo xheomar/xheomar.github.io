@@ -30,10 +30,17 @@ page.open(siteName, function (status)
 			var debug_on = false;
 			var points = 0;
 			var players = 0;
+			var CAPTAIN = "";
 			
-			// CAPITAN
-			//var capitan = document.querySelectorAll('i.ico.c');
-			//console.log(capitan[0].innerText);
+			// FIND the captain of the team
+			var cap_i = document.querySelectorAll('ins.player.hold.player-base');
+			for (i = 0; i < cap_i.length; i++) {
+				//console.log(cap_i[i].querySelector('span.name').innerText);
+				if (cap_i[i].querySelector('i.ico.c') != 'null' && cap_i[i].querySelector('i.ico.c') != null) 
+				{
+					CAPTAIN = cap_i[i].querySelector('span.name').innerText;
+				}
+			}
 			
 			// OTHERS
 			var others_points = [], others_names = [], others_logos = [];
@@ -48,7 +55,10 @@ page.open(siteName, function (status)
 				if (forwards_p[i].innerText != "-")
 				{
 					forward_points.push(forwards_p[i].innerText);
-					forward_names.push(forwards_n[i].innerText);
+					if (forwards_n[i].innerText == CAPTAIN) 
+						forward_names.push("bold_start" + forwards_n[i].innerText + "bold_end");
+					else 
+						forward_names.push(forwards_n[i].innerText);
 					forward_logos.push(forwards_l[i].getAttribute('src'));
 					points += parseInt(forwards_p[i].innerText);
 					players++;
@@ -56,7 +66,10 @@ page.open(siteName, function (status)
 				else
 				{
 					others_points.push(forwards_p[i].innerText);
-					others_names.push(forwards_n[i].innerText);
+					if (forwards_n[i].innerText == CAPTAIN)
+						others_names.push("bold_start" + forwards_n[i].innerText + "bold_end");
+					else
+						others_names.push(forwards_n[i].innerText);
 					others_logos.push(forwards_l[i].getAttribute('src'));
 				}
 			}
@@ -77,7 +90,10 @@ page.open(siteName, function (status)
 				if (halfbacks_p[i].innerText != "-")
 				{
 					halfback_points.push(halfbacks_p[i].innerText);
-					halfback_names.push(halfbacks_n[i].innerText);
+					if (halfbacks_n[i].innerText == CAPTAIN)
+						halfback_names.push("bold_start" + halfbacks_n[i].innerText + "bold_end");
+					else
+						halfback_names.push(halfbacks_n[i].innerText);
 					halfback_logos.push(halfbacks_l[i].getAttribute('src'));
 					points += parseInt(halfbacks_p[i].innerText);
 					players++;
@@ -85,7 +101,10 @@ page.open(siteName, function (status)
 				else
 				{
 					others_points.push(halfbacks_p[i].innerText);
-					others_names.push(halfbacks_n[i].innerText);
+					if (halfbacks_n[i].innerText == CAPTAIN)
+						others_names.push("bold_start" + halfbacks_n[i].innerText + "bold_end");
+					else
+						others_names.push(halfbacks_n[i].innerText);
 					others_logos.push(halfbacks_l[i].getAttribute('src'));
 				}
 			}
@@ -106,7 +125,10 @@ page.open(siteName, function (status)
 				if (defenders_p[i].innerText != "-")
 				{
 					defender_points.push(defenders_p[i].innerText);
-					defender_names.push(defenders_n[i].innerText);
+					if (defenders_n[i].innerText == CAPTAIN)
+						defender_names.push("bold_start" + defenders_n[i].innerText + "bold_end");
+					else
+						defender_names.push(defenders_n[i].innerText);
 					defender_logos.push(defenders_l[i].getAttribute('src'));
 					points += parseInt(defenders_p[i].innerText);
 					players++;
@@ -114,7 +136,10 @@ page.open(siteName, function (status)
 				else
 				{
 					others_points.push(defenders_p[i].innerText);
-					others_names.push(defenders_n[i].innerText);
+					if (defenders_n[i].innerText == CAPTAIN)
+						others_names.push("bold_start" + defenders_n[i].innerText + "bold_end");
+					else
+						others_names.push(defenders_n[i].innerText);
 					others_logos.push(defenders_l[i].getAttribute('src'));
 				}				
 			}
@@ -135,7 +160,10 @@ page.open(siteName, function (status)
 				if (goalkeepers_p[i].innerText != "-")
 				{
 					goalkeeper_points.push(goalkeepers_p[i].innerText);
-					goalkeeper_names.push(goalkeepers_n[i].innerText);
+					if (goalkeepers_n[i].innerText == CAPTAIN)
+						goalkeeper_names.push("bold_start" + goalkeepers_n[i].innerText + "bold_end");
+					else
+						goalkeeper_names.push(goalkeepers_n[i].innerText);
 					goalkeeper_logos.push(goalkeepers_l[i].getAttribute('src'));
 					points += parseInt(goalkeepers_p[i].innerText);
 					players++;
@@ -143,7 +171,10 @@ page.open(siteName, function (status)
 				else
 				{
 					others_points.push(goalkeepers_p[i].innerText);
-					others_names.push(goalkeepers_n[i].innerText);
+					if (goalkeepers_n[i].innerText == CAPTAIN)
+						others_names.push("bold_start" + goalkeepers_n[i].innerText + "bold_end");
+					else
+						others_names.push(goalkeepers_n[i].innerText);
 					others_logos.push(goalkeepers_l[i].getAttribute('src'));
 				}	
 			}
@@ -287,6 +318,7 @@ page.open(siteName, function (status)
 					console.log(reserve_names[i] + "+" + reserve_points[i] + ":" + reserve_logos[i]);
 				}
 			}
+			
 			return points;
 		});
 		console.log("++++++++++++++++++++");

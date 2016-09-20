@@ -1,0 +1,22 @@
+TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
+
+  http://www.sports.ru/fantasy/football/team/points/1756645.html:120
+====================
+Бакка+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Икарди+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Бирса+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
+Гамшик+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+bold_startСалахbold_end+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Гулям+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Кьеллини+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Манолас+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+italic_startАсториitalic_end+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+--------------------
+Нтчам+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
+italic_startТоццоitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
+italic_startРеджиниitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
+italic_startПерицаitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+++++++++++++++++++++
+38

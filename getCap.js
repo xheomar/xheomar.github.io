@@ -12,7 +12,7 @@ if (system.args.length === 1)
 } 
 else 
 {
-	//console.log('Trying to open ' + system.args[1] + '...');
+	console.log('Trying to open ' + system.args[1] + '...');
 	var siteName = system.args[1];
 	var playerName = system.args[2];
 }
@@ -32,34 +32,31 @@ page.open(siteName, function (status)
 			var players = 0;
 			
 			// CAPITAN
-			var capitan = document.querySelectorAll('i.ico.c');
-			console.log(capitan[0].innerText);
+			//var capitan = document.querySelectorAll('i.ico.c');
+			//console.log(capitan[0].innerText);
 			
 			// OTHERS
 			var others_points = [], others_names = [], others_logos = [];
 			
-			// FORWARDS
-			var min_forwards = 1, need_forwards = 0;
-			var forward_points = [], forward_names = [], forward_logos = [];
-			var forwards_p = document.querySelectorAll('div.forward-container ins.player.hold.player-base span.pl-descr i.ico.point');
-			var forwards_n = document.querySelectorAll('div.forward-container ins.player.hold.player-base span.name');
-			var forwards_l = document.querySelectorAll('div.forward-container ins.player.hold.player-base img.t-shirt');
-			for (var i = 0; i < forwards_p.length; i++) {
-				if (forwards_p[i].innerText != "-")
+
+			//var cap_c = document.querySelectorAll('ins.player.hold.player-base i.ico.c');
+			//var cap_n = document.querySelectorAll('ins.player.hold.player-base span.name');
+			
+			//for (var i = 0; i < cap_n.length; i++) {
+				//console.log(cap_n[i].innerText);
+				//if (cap_c[i].innerText != null)
+					//console.log(cap_c[i]);
+			//}	
+			
+			var cap_i = document.querySelectorAll('ins.player.hold.player-base');
+			for (i = 0; i < cap_i.length; i++) {
+				console.log(cap_i[i].querySelector('span.name').innerText);
+				if (cap_i[i].querySelector('i.ico.c') != 'null' && cap_i[i].querySelector('i.ico.c') != null) 
 				{
-					forward_points.push(forwards_p[i].innerText);
-					forward_names.push(forwards_n[i].innerText);
-					forward_logos.push(forwards_l[i].getAttribute('src'));
-					points += parseInt(forwards_p[i].innerText);
-					players++;
+					console.log("CAPTAIN");
 				}
-				else
-				{
-					others_points.push(forwards_p[i].innerText);
-					others_names.push(forwards_n[i].innerText);
-					others_logos.push(forwards_l[i].getAttribute('src'));
-				}
-			}	
+					
+			}
 				
 			return points;
 		});
