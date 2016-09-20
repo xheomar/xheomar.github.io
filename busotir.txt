@@ -1,6 +1,6 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
-  http://www.sports.ru/fantasy/football/team/points/1756613.html:120
+  http://www.sports.ru/fantasy/football/team/points/1756613.html:150
 ====================
 Куальярел...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 bold_startМиликbold_end+18:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
