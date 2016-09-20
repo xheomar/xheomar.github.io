@@ -1,23 +1,22 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756596.html:150
-[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
-bold_startДибалаbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Иммобиле+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Велозу+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-Кальехон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Фелипе Ан...+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Пелузо+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Томович+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Хюсай+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-italic_startГастальде...italic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 --------------------
 Дестро+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
+bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Иммобиле+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Кальехон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Кандрева+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Фелипе Ан...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+Пелузо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Хюсай+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+italic_startТомовичitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 italic_startДимаркоitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-44
+0
