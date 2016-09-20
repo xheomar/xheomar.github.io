@@ -1,6 +1,7 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756677.html:150
+[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Сусо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 де Врей+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
