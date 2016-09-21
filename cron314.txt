@@ -3,6 +3,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
   http://www.sports.ru/fantasy/football/team/points/1756645.html:150
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 --------------------
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перица+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
@@ -16,7 +17,6 @@ bold_startКальехонbold_end+-:http://www.sports.ru/storage/img/fantasy/sh
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startНтчамitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-italic_startРеджиниitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 italic_startПосавецitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
 6
