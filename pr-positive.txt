@@ -4,7 +4,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 [SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Дестро+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
-bold_startИгуаинbold_end+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+bold_startИгуаинbold_end+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Базелли+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -20,4 +20,4 @@ italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startТомовичitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 ++++++++++++++++++++
-25
+29
