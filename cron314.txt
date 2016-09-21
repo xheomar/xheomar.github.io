@@ -4,7 +4,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 [SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-Икарди+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Икарди+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перица+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Бирса+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
@@ -20,4 +20,4 @@ italic_startНтчамitalic_end+0:http://www.sports.ru/storage/img/fantasy/shir
 italic_startРеджиниitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 italic_startПосавецitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-10
+14
