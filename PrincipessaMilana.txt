@@ -9,15 +9,15 @@ bold_startИгуаинbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts
 Бирса+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Перишич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Бруно Пер...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Томович+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Доннарумма+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startБазеллиitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 --------------------
 Перотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Бруно Пер...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
+italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startКонсильиitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-10
+9
