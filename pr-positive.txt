@@ -13,11 +13,11 @@ bold_startИгуаинbold_end+8:http://www.sports.ru/storage/img/fantasy/shirts
 Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Пелузо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Хюсай+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startТомовичitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 ++++++++++++++++++++
-20
+21

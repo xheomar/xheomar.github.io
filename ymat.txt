@@ -10,7 +10,7 @@ bold_startДибалаbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts
 Мертенс+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startКессиэitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 --------------------
 Калинич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
@@ -20,4 +20,4 @@ italic_startВиттуриниitalic_end+-:http://www.sports.ru/storage/img/fant
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startАльдеганиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pescara.png
 ++++++++++++++++++++
-8
+9
