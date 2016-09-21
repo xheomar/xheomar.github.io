@@ -4,15 +4,15 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 [SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Куальярел...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
+Милик+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Милинкови...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Каччаторе+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 --------------------
 Белотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Милик+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Перотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 bold_startСалахbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Каччаторе+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кьеллини+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startПолитаноitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
