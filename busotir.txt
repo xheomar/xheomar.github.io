@@ -1,14 +1,13 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756613.html:150
-[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Белотти+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Куальярел...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 Милик+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Милинкови...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 bold_startСалахbold_end+22:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Каччаторе+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кьеллини+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -20,4 +19,4 @@ italic_startАбатеitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startАрмероitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 ++++++++++++++++++++
-34
+40
