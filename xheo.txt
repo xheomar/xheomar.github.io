@@ -6,7 +6,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Джеко+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Икарди+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Милик+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Бирса+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
+Бирса+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 bold_startСалахbold_end+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Сусо+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -20,4 +20,4 @@ italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startГомесitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 ++++++++++++++++++++
-21
+24
