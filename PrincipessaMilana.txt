@@ -6,7 +6,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Боррьелло+1:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
 bold_startИгуаинbold_end+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Бирса+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
+Бирса+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Перишич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Бруно Пер...+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -18,6 +18,6 @@ italic_startБазеллиitalic_end+3:http://www.sports.ru/storage/img/fantasy/
 Перотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-italic_startКонсильиitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+italic_startКонсильиitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-36
+38
