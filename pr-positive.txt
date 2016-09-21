@@ -4,6 +4,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 [SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Дестро+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
+bold_startИгуаинbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -12,12 +13,11 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Пелузо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Хюсай+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-italic_startТомовичitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
+Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
-bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
+italic_startТомовичitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 ++++++++++++++++++++
 7
