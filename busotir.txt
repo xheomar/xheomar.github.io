@@ -6,6 +6,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Куальярел...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 Милик+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Милинкови...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+bold_startСалахbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Каччаторе+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кьеллини+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -14,7 +15,6 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Белотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Перотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-bold_startСалахbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startПолитаноitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 italic_startАбатеitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startАрмероitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
