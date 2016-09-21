@@ -6,16 +6,16 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Дестро+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кандрева+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Фелипе Ан...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+Пелузо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Хюсай+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 italic_startТомовичitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 --------------------
 bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Кальехон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Пелузо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Хюсай+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
