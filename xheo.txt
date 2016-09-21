@@ -5,6 +5,8 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 ====================
 Сусо+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 де Врей+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+italic_startГомесitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 --------------------
 Джеко+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
@@ -13,9 +15,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Кальехон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 bold_startСалахbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Ачерби+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-italic_startГомесitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
