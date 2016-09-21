@@ -1,13 +1,14 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756645.html:150
+[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Икарди+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 italic_startКессиэitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 italic_startПосавецitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
-Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перица+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Бирса+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png

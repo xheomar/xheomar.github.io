@@ -3,6 +3,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
 ====================
 Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Перишич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Доннарумма+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -11,7 +12,6 @@ italic_startГомесitalic_end+1:http://www.sports.ru/storage/img/fantasy/shir
 bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Бирса+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бруно Пер...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Томович+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
