@@ -8,7 +8,7 @@ bold_startДибалаbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts
 Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Бонавенту...+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Мертенс+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Салах+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Салах+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startКессиэitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
@@ -20,4 +20,4 @@ italic_startВиттуриниitalic_end+-:http://www.sports.ru/storage/img/fant
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startАльдеганиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pescara.png
 ++++++++++++++++++++
-3
+8
