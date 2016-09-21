@@ -6,13 +6,13 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Джеко+8:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 bold_startДибалаbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Калинич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
-Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Базелли+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Бонавенту...+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Мертенс+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Салах+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Альбиоль+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-italic_startКессиэitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
+italic_startКессиэitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 --------------------
 Астори+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 де Сильве...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
@@ -20,4 +20,4 @@ italic_startВиттуриниitalic_end+-:http://www.sports.ru/storage/img/fant
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startАльдеганиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pescara.png
 ++++++++++++++++++++
-30
+32
