@@ -17,7 +17,7 @@ bold_startИгуаинbold_end+12:http://www.sports.ru/storage/img/fantasy/shirt
 --------------------
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-italic_startТомовичitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+italic_startТомовичitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 ++++++++++++++++++++
 29
