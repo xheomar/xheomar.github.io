@@ -8,7 +8,7 @@ bold_startИгуаинbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts
 Иммобиле+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Кандрева+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Кандрева+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Фелипе Ан...+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Кессиэ+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Пелузо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -20,4 +20,4 @@ italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startТомовичitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 italic_startДимаркоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 ++++++++++++++++++++
-9
+12
