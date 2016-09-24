@@ -1,16 +1,17 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756596.html:150
+[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
+bold_startИгуаинbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Бонуччи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Дестро+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
-bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Иммобиле+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Кальехон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кандрева+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Стротман+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Фелипе Ан...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Бонуччи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Хюсай+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Консильи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
