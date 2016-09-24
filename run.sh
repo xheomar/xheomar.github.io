@@ -123,6 +123,7 @@ do
 			find -type f -name player.html -exec sed -i -r 's/де Сильве\.\.\./де Сильвестри/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Гастальде\.\.\./Гастальделло/g' {} \;
 			find -type f -name player.html -exec sed -i -r 's/Бруно Пер\.\.\./Бруно\ Перес/g' {} \;
+			find -type f -name player.html -exec sed -i -r 's/Алекс Сан\.\.\./Алекс\ Сандро/g' {} \;
 			
 			
 			#case "${players[$index]}" in
