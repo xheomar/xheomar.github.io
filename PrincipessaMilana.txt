@@ -5,7 +5,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 ====================
 Игуаин+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Бирса+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
-Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Кальехон+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 italic_startАлеэсамиitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
 Боррьелло+-:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
@@ -20,4 +20,4 @@ italic_startБазеллиitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startКонсильиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-3
+6
