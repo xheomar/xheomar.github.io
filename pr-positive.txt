@@ -9,13 +9,13 @@ bold_startИгуаинbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts
 Стротман+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Фелипе Ан...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бонуччи+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Консильи+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+italic_startПелузоitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Дестро+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 Кандрева+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Хюсай+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Консильи+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
-italic_startПелузоitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 italic_startДимаркоitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/emp.png
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
