@@ -11,11 +11,11 @@ bold_startСалахbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/i
 Гулям+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кьеллини+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+italic_startПолитаноitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Иличич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Сантон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
-italic_startПолитаноitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 italic_startАбатеitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startАрмероitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
