@@ -11,7 +11,7 @@ bold_startИгуаинbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts
 Стротман+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Фелипе Ан...+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Бонуччи+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Консильи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Консильи+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 italic_startПелузоitalic_end+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
@@ -20,4 +20,4 @@ italic_startДимаркоitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-43
+44
