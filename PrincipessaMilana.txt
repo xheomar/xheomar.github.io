@@ -8,6 +8,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Кальехон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Перотти+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бруно Пер...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+italic_startБазеллиitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startАлеэсамиitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
 Боррьелло+-:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
@@ -16,7 +17,6 @@ bold_startИкардиbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts
 Антей+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Кессиэ+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-italic_startБазеллиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startКонсильиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
