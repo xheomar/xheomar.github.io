@@ -9,7 +9,7 @@ bold_startИкардиbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts
 Кальехон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Лаксальт+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Сусо+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Сусо+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Алекс Сан...+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Ачерби+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -20,4 +20,4 @@ italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/sh
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startБирсаitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 ++++++++++++++++++++
-38
+41

@@ -11,7 +11,7 @@ bold_startИкардиbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts
 Перотти+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Антей+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Бруно Пер...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Доннарумма+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Доннарумма+11:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startБазеллиitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 --------------------
@@ -20,4 +20,4 @@ italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shir
 italic_startАлеэсамиitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 italic_startКонсильиitalic_end+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-41
+47
