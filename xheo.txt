@@ -12,7 +12,7 @@ bold_startИкардиbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts
 Ачерби+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startБирсаitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
-italic_startКрафтitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
+italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Сусо+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -20,4 +20,4 @@ italic_startКрафтitalic_end+0:http://www.sports.ru/storage/img/fantasy/shir
 italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 ++++++++++++++++++++
-24
+26
