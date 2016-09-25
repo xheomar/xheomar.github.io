@@ -3,9 +3,9 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
   http://www.sports.ru/fantasy/football/team/points/1756677.html:150
 ====================
 Джеко+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-bold_startИкардиbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+bold_startИкардиbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Кальехон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Лаксальт+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
+Лаксальт+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 Салах+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Алекс Сан...+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Ачерби+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
@@ -19,4 +19,4 @@ italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shir
 italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 ++++++++++++++++++++
-32
+38

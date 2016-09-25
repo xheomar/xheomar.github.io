@@ -4,10 +4,10 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 [SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Игуаин+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-bold_startИкардиbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+bold_startИкардиbold_end+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Бирса+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Перишич+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Перишич+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перотти+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Антей+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Бруно Пер...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
@@ -20,4 +20,4 @@ italic_startКонсильиitalic_end+6:http://www.sports.ru/storage/img/fantas
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startАлеэсамиitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-36
+42
