@@ -1,13 +1,12 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
-[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
 Игуаин+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Бирса+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кальехон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Перотти+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Бруно Пер...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Бруно Пер...+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startБазеллиitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startАлеэсамиitalic_end+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
@@ -20,4 +19,4 @@ bold_startИкардиbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startКонсильиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 ++++++++++++++++++++
-11
+10
