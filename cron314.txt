@@ -9,12 +9,12 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:12 in w
   http://s5o.ru/build/libs/require.js:30
 ====================
+Бирса+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перица+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Бирса+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
