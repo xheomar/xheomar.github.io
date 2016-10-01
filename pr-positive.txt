@@ -10,7 +10,7 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:30
 ====================
 Иммобиле+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
-Стракоша+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
+Стракоша+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 --------------------
 bold_startИгуаинbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Сау+-:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
@@ -26,4 +26,4 @@ italic_startДимаркоitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-10
+16
