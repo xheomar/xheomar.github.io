@@ -2,7 +2,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 
   http://www.sports.ru/fantasy/football/team/points/1756645.html:150
 ====================
-Бирса+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
+Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
@@ -19,4 +19,4 @@ italic_startНтчамitalic_end+-:http://www.sports.ru/storage/img/fantasy/shir
 italic_startРеджиниitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 italic_startПосавецitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-3
+6
