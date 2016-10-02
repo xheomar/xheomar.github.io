@@ -9,9 +9,9 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:12 in w
   http://s5o.ru/build/libs/require.js:30
 ====================
-bold_startМиликbold_end+-2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Алвеш+0:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+bold_startМиликbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Алвеш+2:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
+Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кьеллини+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startМилинкови...italic_end+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
@@ -26,4 +26,4 @@ italic_startКаччатореitalic_end+-:http://www.sports.ru/storage/img/fant
 italic_startАрмероitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 ++++++++++++++++++++
-16
+24

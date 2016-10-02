@@ -5,7 +5,7 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 Перица+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кьеллини+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startНтчамitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
@@ -19,4 +19,4 @@ italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startПосавецitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-22
+24
