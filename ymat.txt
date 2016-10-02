@@ -10,16 +10,16 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:30
 ====================
 bold_startДибалаbold_end+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Калинич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
+Бонавенту...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Кальехон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Астори+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 де Врей+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
-Калинич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
-Бонавенту...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Астори+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
 де Сильве...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startДжекоitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startВиттуриниitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pescara.png
