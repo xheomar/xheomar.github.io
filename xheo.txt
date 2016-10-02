@@ -10,6 +10,8 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:30
 ====================
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
+Алекс Сан...+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Белотти+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
@@ -17,10 +19,8 @@ http://requirejs.org/docs/errors.html#scripterror
 Базелли+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 bold_startКальехонbold_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Алекс Сан...+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Ачерби+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Гулям+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Буффон+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startЛаксальтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startКрафтitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
