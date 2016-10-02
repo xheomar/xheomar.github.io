@@ -8,6 +8,7 @@ bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/sh
 Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кьеллини+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+italic_startНтчамitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
@@ -16,7 +17,6 @@ italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Манолас+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
-italic_startНтчамitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
 italic_startПосавецitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
 22
