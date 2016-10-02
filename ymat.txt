@@ -10,7 +10,7 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:30
 ====================
 bold_startДибалаbold_end+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Кальехон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
+Кальехон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 де Врей+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
 Буффон+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
@@ -26,4 +26,4 @@ italic_startВиттуриниitalic_end+-:http://www.sports.ru/storage/img/fant
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startАльдеганиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pescara.png
 ++++++++++++++++++++
-24
+25
