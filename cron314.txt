@@ -9,7 +9,7 @@ http://requirejs.org/docs/errors.html#scripterror
   http://s5o.ru/build/libs/require.js:12 in w
   http://s5o.ru/build/libs/require.js:30
 ====================
-Бакка+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бакка+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Перица+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -26,4 +26,4 @@ italic_startРеджиниitalic_end+2:http://www.sports.ru/storage/img/fantasy/
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startПосавецitalic_end+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-28
+32
