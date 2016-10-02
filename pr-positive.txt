@@ -8,7 +8,7 @@ bold_startИгуаинbold_end+20:http://www.sports.ru/storage/img/fantasy/shirt
 Кальехон+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Кандрева+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Салах+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Стротман+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
+Стротман+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Бонуччи+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Хюсай+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Стракоша+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/laz.png
@@ -19,4 +19,4 @@ italic_startДимаркоitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startЦука-Дозиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/crotone.png
 italic_startСкуффетitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 ++++++++++++++++++++
-56
+58

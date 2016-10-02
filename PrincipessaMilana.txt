@@ -4,10 +4,10 @@ TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 
 ====================
 Боррьелло+2:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
 Игуаин+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Икарди+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Икарди+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
-Перишич+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
+Перишич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Салах+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Алекс Сан...+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Алеэсами+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
@@ -19,4 +19,4 @@ italic_startБазеллиitalic_end+1:http://www.sports.ru/storage/img/fantasy/
 italic_startАнтейitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 italic_startПосавецitalic_end+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-43
+47
