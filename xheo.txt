@@ -1,15 +1,15 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756677.html:150
-[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 Error: Script error for: https://www.googletagservices.com/tag/js/gpt.js
 http://requirejs.org/docs/errors.html#scripterror
 
   http://s5o.ru/build/libs/require.js:8 in ca
   http://s5o.ru/build/libs/require.js:12 in w
   http://s5o.ru/build/libs/require.js:30
+[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
 ====================
-Бакка+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
+Бакка+4:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Белотти+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -26,4 +26,4 @@ italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shir
 italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 ++++++++++++++++++++
-40
+44

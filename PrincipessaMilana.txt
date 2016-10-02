@@ -17,7 +17,7 @@ bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/sh
 Алеэсами+5:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 Крафт+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 Доннарумма+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
-italic_startАнтейitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+italic_startАнтейitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 --------------------
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
@@ -26,4 +26,4 @@ italic_startБазеллиitalic_end+-:http://www.sports.ru/storage/img/fantasy/
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startПосавецitalic_end+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-36
+35
