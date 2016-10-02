@@ -14,7 +14,7 @@ http://requirejs.org/docs/errors.html#scripterror
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Алекс Сан...+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
-Ачерби+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
+Ачерби+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
 Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Буффон+7:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 italic_startЛаксальтitalic_end+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
@@ -26,4 +26,4 @@ italic_startКрафтitalic_end+2:http://www.sports.ru/storage/img/fantasy/shir
 italic_startБубничitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
 italic_startСаррitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 ++++++++++++++++++++
-34
+40
