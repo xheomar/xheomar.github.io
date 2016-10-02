@@ -13,6 +13,7 @@ http://requirejs.org/docs/errors.html#scripterror
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 Кьеллини+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Буффон+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
+italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
 --------------------
 Бакка+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
@@ -23,7 +24,6 @@ bold_startКальехонbold_end+-:http://www.sports.ru/storage/img/fantasy/sh
 Манолас+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startНтчамitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/gen.png
-italic_startРеджиниitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sam.png
-italic_startПосавецitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
+italic_startПосавецitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
 8
