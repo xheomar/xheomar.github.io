@@ -24,6 +24,6 @@ italic_startРеджиниitalic_end+0:http://www.sports.ru/storage/img/fantasy/
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 Манолас+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
-italic_startПосавецitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
+italic_startПосавецitalic_end+-1:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
 22
