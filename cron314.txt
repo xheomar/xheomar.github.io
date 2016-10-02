@@ -11,7 +11,7 @@ http://requirejs.org/docs/errors.html#scripterror
 ====================
 Бакка+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 Перица+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/udi.png
-Базелли+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
+Базелли+1:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 Бирса+6:http://www.sports.ru/storage/img/fantasy/shirts/italy/chi.png
 bold_startКальехонbold_end+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Гулям+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
@@ -26,4 +26,4 @@ italic_startРеджиниitalic_end+2:http://www.sports.ru/storage/img/fantasy/
 italic_startКессиэitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/ata.png
 italic_startПосавецitalic_end+3:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 ++++++++++++++++++++
-34
+35
