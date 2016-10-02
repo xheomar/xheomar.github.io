@@ -15,12 +15,12 @@ http://requirejs.org/docs/errors.html#scripterror
 bold_startКальехонbold_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/nap.png
 Алекс Сан...+9:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Алеэсами+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
+Крафт+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 italic_startПосавецitalic_end+0:http://www.sports.ru/storage/img/fantasy/shirts/italy/pal.png
 --------------------
 Икарди+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Перишич+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/int.png
 Салах+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/rom.png
-Крафт+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/bol.png
 Доннарумма+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/mil.png
 italic_startБазеллиitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/tor.png
 italic_startАнтейitalic_end+-:http://www.sports.ru/storage/img/fantasy/shirts/italy/sas.png
