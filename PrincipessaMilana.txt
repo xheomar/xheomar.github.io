@@ -1,16 +1,6 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1765524.html:150
-[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
-Error: Script error for: https://www.googletagservices.com/tag/js/gpt.js
-http://requirejs.org/docs/errors.html#scripterror
-
-  http://s5o.ru/build/libs/require.js:8 in ca
-  http://s5o.ru/build/libs/require.js:12 in w
-  http://s5o.ru/build/libs/require.js:30
-log Ya:renderDirect directRightBanner
-log Ya:loader.request: http://an.yandex.ru/page/28471?target-ref=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html&charset=utf-8&enable-flat-highlight=1&stat-id=1073741841&partner-stat-id=1073741841&grab=dFNxdWFkcmEgaW1wYXp6aXRhIC0g0YHQtdGA0LjRjyDQkCDQmNGC0LDQu9C40Y8gLSBGYW50YXN5IEZvb3RiYWxsIC0gU3BvcnRzLnJ1CjFTcXVhZHJhIGltcGF6eml0YSAKM9Cc0LDRgtGH0Lgg0YLRg9GA0LAgCjPQp9Cw0YIgCjPQndC-0LLQvtGB0YLQuCDRgtGD0YDQvdC40YDQsCAKM9Cd0L7QstC-0YHRgtC4INCh0JzQmDIgCjPQkdC70L7Qs9C4IAoz0KTQvtGA0YPQvNGLIAoz0KHRgtCw0YLQuNGB0YLQuNC60LAgCjPQm9Cj0KfQqNCY0JUg0JzQkNCi0JXQoNCY0JDQm9CrIAoz0KHQvtCx0YHRgtCy0LXQvdC90LDRjyDQutCw0YDRgtC40L3QsCDQvNC40YDQsCAKM9Ch0LDQvNC-0LLRi9GA0LDQttC10L3QuNC1IAoz0KHQv9C-0YDRgtC40LLQvdGL0LUg0LjQs9GA0YsgCjPQntCx0YnQtdC90LjQtSDRgSDQu9GD0YfRiNC40LzQuCAKM9CS0YXQvtC0INCx0LXQtyDRgNC10LPQuNGB0YLRgNCw0YbQuNC4IAo=&layout-config=%7B%22win_width%22%3A400%2C%22win_height%22%3A300%2C%22width%22%3A300%2C%22height%22%3A0%2C%22left%22%3A775%2C%22top%22%3A419%2C%22visible%22%3A0%2C%22ad_no%22%3A0%2C%22limit%22%3A3%2C%22block%22%3A0%2C%22title_size%22%3A14%2C%22title_bold%22%3A0%2C%22req_no%22%3A0%7D
-log Ya:loader.response: http://an.yandex.ru/page/28471?target-ref=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1765524.html&charset=utf-8&enable-flat-highlight=1&stat-id=1073741841&partner-stat-id=1073741841&grab=dFNxdWFkcmEgaW1wYXp6aXRhIC0g0YHQtdGA0LjRjyDQkCDQmNGC0LDQu9C40Y8gLSBGYW50YXN5IEZvb3RiYWxsIC0gU3BvcnRzLnJ1CjFTcXVhZHJhIGltcGF6eml0YSAKM9Cc0LDRgtGH0Lgg0YLRg9GA0LAgCjPQp9Cw0YIgCjPQndC-0LLQvtGB0YLQuCDRgtGD0YDQvdC40YDQsCAKM9Cd0L7QstC-0YHRgtC4INCh0JzQmDIgCjPQkdC70L7Qs9C4IAoz0KTQvtGA0YPQvNGLIAoz0KHRgtCw0YLQuNGB0YLQuNC60LAgCjPQm9Cj0KfQqNCY0JUg0JzQkNCi0JXQoNCY0JDQm9CrIAoz0KHQvtCx0YHRgtCy0LXQvdC90LDRjyDQutCw0YDRgtC40L3QsCDQvNC40YDQsCAKM9Ch0LDQvNC-0LLRi9GA0LDQttC10L3QuNC1IAoz0KHQv9C-0YDRgtC40LLQvdGL0LUg0LjQs9GA0YsgCjPQntCx0YnQtdC90LjQtSDRgSDQu9GD0YfRiNC40LzQuCAKM9CS0YXQvtC0INCx0LXQtyDRgNC10LPQuNGB0YLRgNCw0YbQuNC4IAo=&layout-config=%7B%22win_width%22%3A400%2C%22win_height%22%3A300%2C%22width%22%3A300%2C%22height%22%3A0%2C%22left%22%3A775%2C%22top%22%3A419%2C%22visible%22%3A0%2C%22ad_no%22%3A0%2C%22limit%22%3A3%2C%22block%22%3A0%2C%22title_size%22%3A14%2C%22title_bold%22%3A0%2C%22req_no%22%3A0%7D&callback=Ya[1475534296862]
 ====================
 Боррьелло+2:http://s5o.ru/fantasy/images/shirts/football/italy/cagliari.png
 Игуаин+10:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
