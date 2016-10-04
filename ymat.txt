@@ -1,6 +1,16 @@
 TypeError: 'undefined' is not an object (evaluating 'window.Sports.a.dimension1 = "Футбол"')
 
   http://www.sports.ru/fantasy/football/team/points/1756537.html:150
+[SPORTS][DFP] Warning: default targeting is not OK or may not be needed. TypeError: 'undefined' is not an object (evaluating 't.pageType')
+Error: Script error for: https://www.googletagservices.com/tag/js/gpt.js
+http://requirejs.org/docs/errors.html#scripterror
+
+  http://s5o.ru/build/libs/require.js:8 in ca
+  http://s5o.ru/build/libs/require.js:12 in w
+  http://s5o.ru/build/libs/require.js:30
+log Ya:renderDirect directRightBanner
+log Ya:loader.request: http://an.yandex.ru/page/28471?target-ref=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1756537.html&charset=utf-8&enable-flat-highlight=1&stat-id=1073741841&partner-stat-id=1073741841&grab=dHltYXQgLSDRgdC10YDQuNGPINCQINCY0YLQsNC70LjRjyAtIEZhbnRhc3kgRm9vdGJhbGwgLSBTcG9ydHMucnUKMXltYXQgCjPQnNCw0YLRh9C4INGC0YPRgNCwIAoz0KfQsNGCIAoz0J3QvtCy0L7RgdGC0Lgg0YLRg9GA0L3QuNGA0LAgCjPQndC-0LLQvtGB0YLQuCDQodCc0JgyIAoz0JHQu9C-0LPQuCAKM9Ck0L7RgNGD0LzRiyAKM9Ch0YLQsNGC0LjRgdGC0LjQutCwIAoz0JvQo9Cn0KjQmNCVINCc0JDQotCV0KDQmNCQ0JvQqyAKM9Ch0L7QsdGB0YLQstC10L3QvdCw0Y8g0LrQsNGA0YLQuNC90LAg0LzQuNGA0LAgCjPQodCw0LzQvtCy0YvRgNCw0LbQtdC90LjQtSAKM9Ch0L_QvtGA0YLQuNCy0L3Ri9C1INC40LPRgNGLIAoz0J7QsdGJ0LXQvdC40LUg0YEg0LvRg9GH0YjQuNC80LggCjPQktGF0L7QtCDQsdC10Lcg0YDQtdCz0LjRgdGC0YDQsNGG0LjQuCAK&layout-config=%7B%22win_width%22%3A400%2C%22win_height%22%3A300%2C%22width%22%3A300%2C%22height%22%3A0%2C%22left%22%3A775%2C%22top%22%3A419%2C%22visible%22%3A0%2C%22ad_no%22%3A0%2C%22limit%22%3A3%2C%22block%22%3A0%2C%22title_size%22%3A14%2C%22title_bold%22%3A0%2C%22req_no%22%3A0%7D
+log Ya:loader.response: http://an.yandex.ru/page/28471?target-ref=http%3A%2F%2Fwww.sports.ru%2Ffantasy%2Ffootball%2Fteam%2Fpoints%2F1756537.html&charset=utf-8&enable-flat-highlight=1&stat-id=1073741841&partner-stat-id=1073741841&grab=dHltYXQgLSDRgdC10YDQuNGPINCQINCY0YLQsNC70LjRjyAtIEZhbnRhc3kgRm9vdGJhbGwgLSBTcG9ydHMucnUKMXltYXQgCjPQnNCw0YLRh9C4INGC0YPRgNCwIAoz0KfQsNGCIAoz0J3QvtCy0L7RgdGC0Lgg0YLRg9GA0L3QuNGA0LAgCjPQndC-0LLQvtGB0YLQuCDQodCc0JgyIAoz0JHQu9C-0LPQuCAKM9Ck0L7RgNGD0LzRiyAKM9Ch0YLQsNGC0LjRgdGC0LjQutCwIAoz0JvQo9Cn0KjQmNCVINCc0JDQotCV0KDQmNCQ0JvQqyAKM9Ch0L7QsdGB0YLQstC10L3QvdCw0Y8g0LrQsNGA0YLQuNC90LAg0LzQuNGA0LAgCjPQodCw0LzQvtCy0YvRgNCw0LbQtdC90LjQtSAKM9Ch0L_QvtGA0YLQuNCy0L3Ri9C1INC40LPRgNGLIAoz0J7QsdGJ0LXQvdC40LUg0YEg0LvRg9GH0YjQuNC80LggCjPQktGF0L7QtCDQsdC10Lcg0YDQtdCz0LjRgdGC0YDQsNGG0LjQuCAK&layout-config=%7B%22win_width%22%3A400%2C%22win_height%22%3A300%2C%22width%22%3A300%2C%22height%22%3A0%2C%22left%22%3A775%2C%22top%22%3A419%2C%22visible%22%3A0%2C%22ad_no%22%3A0%2C%22limit%22%3A3%2C%22block%22%3A0%2C%22title_size%22%3A14%2C%22title_bold%22%3A0%2C%22req_no%22%3A0%7D&callback=Ya[1475570468166]
 ====================
 bold_startДибалаbold_end+12:http://www.sports.ru/storage/img/fantasy/shirts/italy/juv.png
 Калинич+2:http://www.sports.ru/storage/img/fantasy/shirts/italy/fio.png
