@@ -158,7 +158,7 @@ function a(){
 				content += '</tr>';
 			}
 		}
-		global_points[ids] = points;
+		global_points[count-1] = points;
 		content += "</table></div></div></div>";
 		contents.push(content);
 		$('#tables').append(content);
