@@ -113,7 +113,7 @@ function a(){
 		var tr_class;
 		var teamName = teams[count++].name;	
 		var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
-		content += '<div class="spoiler-body">'
+		content += '<div class="spoiler-body id="' + teamName + '">';
 		content += '<table ';
 		content += " border='1'><tr><th>Клуб</th><th>Фамилия</th><th>Позиция</th><th>Очки</th><th>Голы</th><th>Пасы</th><th>Мин</th><th>ЖК</th><th>КК</th></tr>";
 		//content += "<caption>" + teams[id].name + "</caption>";
@@ -174,8 +174,8 @@ function a(){
 			$.each(sortedDivs, function (index, value) {
 			    $('#tables').append(value);
 			});
-		$('.spoiler-body').hide();
-		$('.spoiler-title').click(function(){
+		$('.spoiler-body'  + '#' + teams[points_count].name).hide();
+		$('.spoiler-title' + '#' + teams[points_count].name).click(function(){
 			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
 	   			});	
 	 });
