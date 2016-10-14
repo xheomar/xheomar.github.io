@@ -10,7 +10,7 @@ var contents = [];
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/7574.json";
-var global_points = [];
+var global_points = ["0","0","0","0","0","0"];
 var points_count = 0;
 
 a();
@@ -158,7 +158,7 @@ function a(){
 				content += '</tr>';
 			}
 		}
-		global_points.push(points);
+		global_points[ids] = points;
 		content += "</table></div></div></div>";
 		contents.push(content);
 		$('#tables').append(content);
