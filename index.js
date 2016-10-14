@@ -5,13 +5,9 @@ var teams = [{userId: "1756677", name: "xheo"},
 			 {userId: "1765524", name: "PrincipessaMilana"},
 			 {userId: "1756537", name: "ymat"}];
 var ids = 0;
-var count = 0;
-var contents = [];
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/7574.json";
-var global_points = ["0","0","0","0","0","0"];
-var points_count = 0;
 
 a();
 
@@ -24,7 +20,7 @@ function a(){
 	   {
 	   	var json = response;
 	    
-	    var MIN_GOALKEEPER_COUNT = 1;
+	    	var MIN_GOALKEEPER_COUNT = 1;
 		var MIN_DEFENDER_COUNT = 3;
 		var MIN_HALFBACK_COUNT = 2;
 		var MIN_FORWARD_COUNT = 1;
@@ -54,7 +50,6 @@ function a(){
 			else 
 				Positions[5].push(json.players[i]);
 		}
-		
 		
 		if (Goalkeepers.length < MIN_GOALKEEPER_COUNT) need_goalkeepers = MIN_GOALKEEPER_COUNT - Goalkeepers.length;
 		if (Defenders.length < MIN_DEFENDER_COUNT) need_defenders = MIN_DEFENDER_COUNT - Defenders.length;
@@ -88,8 +83,7 @@ function a(){
 		// Допустим, чисто технически замены не нужны, но в команде некомплект
 		// Нужно накинуть столько игроков, сколько не хватает до 11ти
 		// из тех, кто остался на скамейке
-		
-		
+
 		var need_to_be_completed = 11 - (Goalkeepers.length + Defenders.length + Halfbacks.length + Forwards.length);
 		
 		if (need_to_be_completed > 0 && need_defenders == 0 && need_halfbacks == 0 && need_forwards == 0)
@@ -117,7 +111,6 @@ function a(){
 		content += '<div class="spoiler-body" id="'+teamName+ '">';
 		content += '<table ';
 		content += " border='1'><tr><th>Клуб</th><th>Фамилия</th><th>Позиция</th><th>Очки</th><th>Голы</th><th>Пасы</th><th>Мин</th><th>ЖК</th><th>КК</th></tr>";
-		//content += "<caption>" + teams[id].name + "</caption>";
 		for (var pos = 0; pos < Positions.length; pos++)
 		{
 			for (i = 0; i < Positions[pos].length; i++)
@@ -157,50 +150,26 @@ function a(){
 				content += '<td>' + Positions[pos][i].rcard + '</td>';
 				content += '</tr>';
 			}
-		}
-		global_points[ids] = points;
-		console.log(teamName + " " + points);		
+		}	
 		content += "</table></div></div></div>";
-		contents.push(content);
 		$('#tables').append(content);
-		//$('#' + teamName).text(teamName + " = " + points);
-		$('.spoiler-title' + '#' + teams[ids].name).text(teams[ids].name + " = " + global_points[ids]);
-		console.log(ids + " " + teams[ids].name + " " + global_points[ids]);
+		$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points);
+		console.log(ids + " " + teamName + " " + points);
 	 	// Сортировка DIV'ов
-			$('#sorting.'+teams[ids].name).attr("data-sort", global_points[ids]);	 	
-	 		var sortedDivs = $("div#sorting").toArray().sort(sorter);
-			console.log(sortedDivs);
-			$("div.container").remove();
-			$.each(sortedDivs, function (index, value) {
-			    $('#tables').append(value);
-			});
+		$('#sorting.'+teamName).attr("data-sort", points);	 	
+	 	var sortedDivs = $("div#sorting").toArray().sort(sorter);
+		//console.log(sortedDivs);
+		$("div.container").remove();
+		$.each(sortedDivs, function (index, value) {
+			$('#tables').append(value);
+		});
 		// Анимация спойлера	
-		$('.spoiler-body'  + '#' + teams[ids].name).hide();
-		$('.spoiler-title' + '#' + teams[ids].name).click(function(){
-			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
-	   			});	
+		$('.spoiler-body'  + '#' + teamName).hide();
+		$('.spoiler-title' + '#' + teamName).click(function(){
+			$(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
+	   	});	
 	   }
 	 )
-	 /*.done(function (){
-	 	console.log("json loaded - 4");
-		// Добавление количества очков в H3	
-	 	$('.spoiler-title' + '#' + teams[points_count].name).text(teams[points_count].name + " = " + global_points[points_count]);
-		console.log(points_count + " " + teams[points_count].name + " " + global_points[points_count]);
-	 	// Сортировка DIV'ов
-			$('#sorting.'+teams[points_count].name).attr("data-sort", global_points[points_count]);	 	
-	 		var sortedDivs = $("div#sorting").toArray().sort(sorter);
-			console.log(sortedDivs);
-			$("div.container").remove();
-			$.each(sortedDivs, function (index, value) {
-			    $('#tables').append(value);
-			});
-		// Анимация спойлера	
-		$('.spoiler-body'  + '#' + teams[points_count].name).hide();
-		$('.spoiler-title' + '#' + teams[points_count].name).click(function(){
-			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
-	   			});	
-		points_count++;
-	     });*/
 	 })(ids);
      }
 }
@@ -208,4 +177,3 @@ function a(){
 function sorter(a, b) {
     return b.getAttribute('data-sort') - a.getAttribute('data-sort');
 };
-
