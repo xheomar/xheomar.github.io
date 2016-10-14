@@ -113,7 +113,7 @@ function a(){
 		var tr_class;
 		var teamName = teams[count++].name;	
 		var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
-		content += '<div class="spoiler-body id="' + teamName + '">';
+		content += '<div class="spoiler-body" id="' + teamName + '">';
 		content += '<table ';
 		content += " border='1'><tr><th>Клуб</th><th>Фамилия</th><th>Позиция</th><th>Очки</th><th>Голы</th><th>Пасы</th><th>Мин</th><th>ЖК</th><th>КК</th></tr>";
 		//content += "<caption>" + teams[id].name + "</caption>";
