@@ -174,6 +174,10 @@ function a(){
 			$.each(sortedDivs, function (index, value) {
 			    $('#tables').append(value);
 			});
+		$('.spoiler-body').hide();
+		$('.spoiler-title').click(function(){
+			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
+	   			});	
 	 });
 	}
 }
