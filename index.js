@@ -7,13 +7,13 @@ var teams = [{userId: "1756677", name: "xheo"},
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/7574.json";
+var JsonUrlTemplate = "/7575.json";
 
-var animation_content = '<div class="animation">';
+/*var animation_content = '<div class="animation">';
 for (var j = 0, len = teams.length; j < len; j++) {
 	animation_content += '<h3 id="animation_' + teams[j].name + '">' + teams[j].name +'</h3>'
 }
-animation_content += '</div>';
+animation_content += '</div>';*/
 a();
 
 function a(){
