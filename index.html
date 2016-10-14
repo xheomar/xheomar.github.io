@@ -1,0 +1,37 @@
+<html>
+	
+	<head>
+	  <meta charset="utf-8">
+	  <title>jQuery.getJSON demo</title>
+	  <script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>
+	  <script src="index.js"></script>
+	  <link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	
+	<body>
+		
+		
+		<div id="tables"></div>
+		
+    <script type="text/javascript">
+		$(document).ready(function(){
+			
+			
+			$('.spoiler-body').hide();
+			$('.spoiler-title').click(function(){
+			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
+			    //if($(this).hasClass('opened')) {
+			    //    $(this).html('Скрыть текст');
+			    //}
+			    //else {
+			    //    $(this).html('Показать текст');
+			    //}
+			   
+			});
+			
+		});
+	</script>
+
+	</body>
+	
+</html>
