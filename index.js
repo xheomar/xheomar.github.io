@@ -112,7 +112,7 @@ function a(){
 	
 		var points = 0;
 		var tr_class;
-		var teamName = teams[count++].name;	
+		var teamName = teams[count].name;	
 		var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
 		content += '<div class="spoiler-body" id="'+teamName+ '">';
 		content += '<table ';
@@ -158,8 +158,9 @@ function a(){
 				content += '</tr>';
 			}
 		}
-		global_points[count-1] = points;
-		console.log(teamName + " " + global_points[count-1]);
+		global_points[count] = points;
+		console.log(teamName + " " + global_points[count]);
+		count += 1;
 		content += "</table></div></div></div>";
 		contents.push(content);
 		$('#tables').append(content);
