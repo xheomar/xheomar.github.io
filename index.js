@@ -7,7 +7,8 @@ var teams = [{userId: "1756677", name: "xheo"},
 var ids = 0;
 var count = 0;
 var contents = [];
-var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
+var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
+//var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/7574.json";
 var global_points = [];
 var points_count = 0;
@@ -113,7 +114,7 @@ function a(){
 		var tr_class;
 		var teamName = teams[count++].name;	
 		var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
-		content += '<div class="spoiler-body" id="' + teamName + '">';
+		content += '<div class="spoiler-body" id="'+teamName+ '">';
 		content += '<table ';
 		content += " border='1'><tr><th>Клуб</th><th>Фамилия</th><th>Позиция</th><th>Очки</th><th>Голы</th><th>Пасы</th><th>Мин</th><th>ЖК</th><th>КК</th></tr>";
 		//content += "<caption>" + teams[id].name + "</caption>";
@@ -166,8 +167,7 @@ function a(){
 	 .done(function (){
 	 	console.log("json loaded");
 	 	$('#' + teams[points_count].name).text(teams[points_count].name + " = " + global_points[points_count]);
-	 	$('#sorting.'+teams[points_count].name).attr("data-sort", global_points[points_count]);
-	 	points_count++;
+	 	$('#sorting.'+teams[points_count].name).attr("data-sort", global_points[points_count]);	 	
 	 		var sortedDivs = $("div#sorting").toArray().sort(sorter);
 			console.log(sortedDivs);
 			$("div.container").remove();
@@ -178,6 +178,7 @@ function a(){
 		$('.spoiler-title' + '#' + teams[points_count].name).click(function(){
 			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
 	   			});	
+		points_count++;
 	 });
 	}
 }
