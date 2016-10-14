@@ -16,8 +16,8 @@ var points_count = 0;
 a();
 
 function a(){
-	for (ids = 0; ids < teams.length; ids++)
-	{
+	for (ids = 0; ids < teams.length; ids++) {
+	   (function(ids) {
 		var json_url = SportsRuUrlTemplate + teams[ids].userId + JsonUrlTemplate;
 		$.getJSON( json_url, 
 	   function( response ) 
@@ -112,7 +112,7 @@ function a(){
 	
 		var points = 0;
 		var tr_class;
-		var teamName = teams[count].name;	
+		var teamName = teams[ids].name;	
 		var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
 		content += '<div class="spoiler-body" id="'+teamName+ '">';
 		content += '<table ';
@@ -158,7 +158,7 @@ function a(){
 				content += '</tr>';
 			}
 		}
-		global_points[count] = points;
+		global_points[ids] = points;
 		console.log(teamName + " " + points);		
 		content += "</table></div></div></div>";
 		contents.push(content);
@@ -186,8 +186,9 @@ function a(){
 			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
 	   			});	
 		points_count++;
-	 });
-	}
+	     });
+	 })(ids);
+     }
 }
 
 function sorter(a, b) {
