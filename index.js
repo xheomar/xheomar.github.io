@@ -163,13 +163,13 @@ function a(){
 		content += "</table></div></div></div>";
 		contents.push(content);
 		$('#tables').append(content);
-		$('#' + teamName).text(teamName + " = " + points);
+		//$('#' + teamName).text(teamName + " = " + points);
 		count += 1;
 	   }
 	 )
 	 .done(function (){
-	 	console.log("json loaded -2");
-	 	//$('#' + teams[points_count].name).text(teams[points_count].name + " = " + global_points[points_count]);
+	 	console.log("json loaded -3");
+	 	$('#' + teams[points_count].name + ' h3').text(teams[points_count].name + " = " + global_points[points_count]);
 		console.log(points_count + " " + teams[points_count].name + " " + global_points[points_count]);
 	 	$('#sorting.'+teams[points_count].name).attr("data-sort", global_points[points_count]);	 	
 	 		var sortedDivs = $("div#sorting").toArray().sort(sorter);
