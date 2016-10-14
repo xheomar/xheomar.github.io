@@ -159,7 +159,7 @@ function a(){
 			}
 		}
 		global_points[count] = points;
-		console.log(teamName + " " + global_points[count]);
+		console.log(teamName + " " + points);
 		count += 1;
 		content += "</table></div></div></div>";
 		contents.push(content);
