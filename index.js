@@ -164,10 +164,24 @@ function a(){
 		contents.push(content);
 		$('#tables').append(content);
 		//$('#' + teamName).text(teamName + " = " + points);
-		count += 1;
+		$('.spoiler-title' + '#' + teams[ids].name).text(teams[ids].name + " = " + global_points[ids]);
+		console.log(ids + " " + teams[ids].name + " " + global_points[ids]);
+	 	// Сортировка DIV'ов
+			$('#sorting.'+teams[ids].name).attr("data-sort", global_points[ids]);	 	
+	 		var sortedDivs = $("div#sorting").toArray().sort(sorter);
+			console.log(sortedDivs);
+			$("div.container").remove();
+			$.each(sortedDivs, function (index, value) {
+			    $('#tables').append(value);
+			});
+		// Анимация спойлера	
+		$('.spoiler-body'  + '#' + teams[ids].name).hide();
+		$('.spoiler-title' + '#' + teams[ids].name).click(function(){
+			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
+	   			});	
 	   }
 	 )
-	 .done(function (){
+	 /*.done(function (){
 	 	console.log("json loaded - 4");
 		// Добавление количества очков в H3	
 	 	$('.spoiler-title' + '#' + teams[points_count].name).text(teams[points_count].name + " = " + global_points[points_count]);
@@ -186,7 +200,7 @@ function a(){
 			    $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
 	   			});	
 		points_count++;
-	     });
+	     });*/
 	 })(ids);
      }
 }
