@@ -9,6 +9,11 @@ var ids = 0;
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/7574.json";
 
+var animation_content = '<div class="animation">';
+for (var j = 0, len = teams.length; j < len; j++) {
+	animation_content += '<h3 id="animation_' + teams[j].name + '">' + teams[j].name +'</h3>'
+}
+animation_content += '</div>';
 a();
 
 function a(){
@@ -152,6 +157,7 @@ function a(){
 			}
 		}	
 		content += "</table></div></div></div>";
+		$("#animation_"+teamName).hide();
 		$('#tables').append(content);
 		$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points);
 		console.log(ids + " " + teamName + " " + points);
@@ -171,6 +177,7 @@ function a(){
 	   }
 	 )
 	 })(ids);
+	$(".animation").show();	
      }
 }
 
