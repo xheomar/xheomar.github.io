@@ -169,6 +169,7 @@ function a(){
 	 .done(function (){
 	 	console.log("json loaded");
 	 	$('#' + teams[points_count].name).text(teams[points_count].name + " = " + global_points[points_count]);
+		console.log(points_count + " " + teams[points_count].name + " " global_points[points_count]);
 	 	$('#sorting.'+teams[points_count].name).attr("data-sort", global_points[points_count]);	 	
 	 		var sortedDivs = $("div#sorting").toArray().sort(sorter);
 			console.log(sortedDivs);
