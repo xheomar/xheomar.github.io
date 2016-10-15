@@ -139,6 +139,8 @@ function a(){
 					content += 'disqual '; 
 				if (Number(Positions[pos][i].is_injured) != 0) 
 					content += 'injured '; 
+				if (Number(Positions[pos][i].row) == 0) 
+					content += 'italic '; 
 				content += tr_class + '">'
 				content += '<td>';
 				content += '<img ';
