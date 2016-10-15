@@ -1,10 +1,10 @@
 var teams = 
-    	[{userId: "1756677", name: "xheo"},
-	{userId: "1756645", name: "cron314"},
-	{userId: "1756596", name: "pr-positive"},
-	{userId: "1756613", name: "busotir"},
-	{userId: "1765524", name: "PrincipessaMilana"},
-	{userId: "1756537", name: "ymat"}];
+    	[{userId: "1756677", name: "xheo", result: 336},
+	{userId: "1756645", name: "cron314", result: 328},
+	{userId: "1756596", name: "pr-positive", result: 307},
+	{userId: "1756613", name: "busotir", result: 304},
+	{userId: "1765524", name: "PrincipessaMilana", result: 284},
+	{userId: "1756537", name: "ymat", result: 277}];
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
@@ -113,6 +113,7 @@ function a(){
 		var points = 0;
 		var tr_class;
 		var teamName = teams[ids].name;	
+		var res = teams[ids].result;
 		var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
 		content += '<div class="spoiler-body" id="'+teamName+ '">';
 		content += '<table ';
@@ -160,7 +161,7 @@ function a(){
 		content += "</table></div></div></div>";
 		$("#animation_"+teamName).hide();
 		$('#tables').append(content);
-		$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points);
+		$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points + " (" + res + ")");
 		console.log(ids + " " + teamName + " " + points);
 	 	// Сортировка DIV'ов
 		$('#sorting.'+teamName).attr("data-sort", points);	 	
