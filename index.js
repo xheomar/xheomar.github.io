@@ -8,7 +8,7 @@ var teams =
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/7574.json";
+var JsonUrlTemplate = "/7575.json";
 
 /*var animation_content = '<div class="animation">';
 for (var j = 0, len = teams.length; j < len; j++) {
@@ -161,7 +161,7 @@ function a(){
 		content += "</table></div></div></div>";
 		$("#animation_"+teamName).hide();
 		$('#tables').append(content);
-		$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points + " (" + res + ")");
+		$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points + " (" + Number(Number(res)+Number(points)) + ")");
 		console.log(ids + " " + teamName + " " + points);
 	 	// Сортировка DIV'ов
 		$('#sorting.'+teamName).attr("data-sort", points);	 	
