@@ -92,11 +92,9 @@ function a(){
 
 		var need_to_be_completed = 11 - (Goalkeepers.length + Defenders.length + Halfbacks.length + Forwards.length);
 		console.log("Need To be completed: " + need_to_be_completed + ": for " + teams[ids].name + 
-			    + " Goalkeepers.length: " + Goalkeepers.length +
-			    + " Defenders.length: " + Defenders.length +
-			    + " Halfbacks.length: " + Halfbacks.length +
-			    + " Forwards.length: " + Forwards.length);
-		if (need_to_be_completed > 0 && need_defenders == 0 && need_halfbacks == 0 && need_forwards == 0)
+			    + Number(Goalkeepers.length) + Number(Defenders.length) +
+			    Number(Halfbacks.length) + Number(Forwards.length));
+		if (need_to_be_completed > 0 && (need_defenders == 0 || need_halfbacks == 0 || need_forwards == 0))
 		{
 			for (i = 0; i < Bench.length; i++)
 			{
