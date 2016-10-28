@@ -176,14 +176,14 @@ function a(){
 		$('.spoiler-body'  + '#' + teamName).hide();
 		$('.spoiler-title' + '#' + teamName).click(function(){
 			$(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
-	   	});	
+	   	});
+		if (ids == (teams.length - 1))
+			$(".cssload-jumping").fadeOut(300);	
 	   }
 	 )
 	 })(ids);
      }
 }
-
-$(".cssload-jumping").fadeOut(300);
 
 
 function sorter(a, b) {
