@@ -1,14 +1,14 @@
 var teams = 
-    	[{userId: "1756677", name: "xheo", result: 650},
-	{userId: "1756645", name: "cron314", result: 614},
-	{userId: "1756596", name: "pr-positive", result: 622},
-	{userId: "1756613", name: "busotir", result: 599},
-	{userId: "1765524", name: "PrincipessaMilana", result: 549},
-	{userId: "1756537", name: "ymat", result: 544}];
+    	[{userId: "1756677", name: "xheo", result: 722},
+	{userId: "1756596", name: "pr-positive", result: 664},
+	{userId: "1756645", name: "cron314", result: 649},	
+	{userId: "1756613", name: "busotir", result: 646},
+	{userId: "1765524", name: "PrincipessaMilana", result: 605},
+	{userId: "1756537", name: "ymat", result: 602}];
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/7581.json";
+var JsonUrlTemplate = "/7582.json";
 
 a();
 
@@ -70,15 +70,15 @@ function a(){
 			{
 				for (i = 0; i < Bench.length; i++)
 				{
-					//if (Bench[i].amplua == 1)
-					//{
+					if (Bench[i].amplua == 1)
+					{
 						if (needings[need] > 0)
 						{
 							Positions[need].push(Bench[i]);
 							Bench.splice(i, 1);
 							needings[need]--;
 						}
-					//}
+					}
 				}
 			}
 		}
