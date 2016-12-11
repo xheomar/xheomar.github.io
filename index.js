@@ -8,7 +8,7 @@ var teams =
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/7582.json";
+var JsonUrlTemplate = "/7583.json";
 
 a();
 
