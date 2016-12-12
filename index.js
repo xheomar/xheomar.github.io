@@ -70,7 +70,7 @@ function a(){
 			{
 				for (i = 0; i < Bench.length; i++)
 				{
-					if (Bench[i].amplua == 1)
+					if (Bench[i].amplua != 1)
 					{
 						if (needings[need] > 0)
 						{
