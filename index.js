@@ -1,10 +1,10 @@
 var teams = 
-    	[{userId: "1756677", name: "xheo", result: 722},
-	{userId: "1756596", name: "pr-positive", result: 664},
-	{userId: "1756645", name: "cron314", result: 649},	
-	{userId: "1756613", name: "busotir", result: 646},
-	{userId: "1765524", name: "PrincipessaMilana", result: 605},
-	{userId: "1756537", name: "ymat", result: 602}];
+    	[{userId: "1756677", name: "xheo", result: 758},
+	{userId: "1756596", name: "pr-positive", result: 704},
+	{userId: "1756645", name: "cron314", result: 688},	
+	{userId: "1756613", name: "busotir", result: 682},
+	{userId: "1765524", name: "PrincipessaMilana", result: 640},
+	{userId: "1756537", name: "ymat", result: 649}];
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
