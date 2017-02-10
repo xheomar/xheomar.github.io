@@ -1,14 +1,14 @@
 var teams = 
-    	[{userId: "1756677", name: "xheo", result: 1053},
-	{userId: "1756596", name: "pr-positive", result: 1049},
-	{userId: "1756645", name: "cron314", result: 958},	
-	{userId: "1756613", name: "busotir", result: 995},
-	{userId: "1765524", name: "PrincipessaMilana", result: 982},
-	{userId: "1756537", name: "ymat", result: 979}]; 
+    	[{userId: "1756677", name: "xheo", result: 1131},
+	{userId: "1756596", name: "pr-positive", result: 1127},
+	{userId: "1756645", name: "cron314", result: 1002},	
+	{userId: "1756613", name: "busotir", result: 1075},
+	{userId: "1765524", name: "PrincipessaMilana", result: 1076},
+	{userId: "1756537", name: "ymat", result: 1070}]; 
 var ids = 0;
 //var SportsRuUrlTemplate = "http://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/7590.json";
+var JsonUrlTemplate = "/7591.json";
 
 a();
 
