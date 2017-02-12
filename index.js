@@ -6,8 +6,8 @@ var teams =
 	{userId: "1765524", name: "PrincipessaMilana", result: 1076},
 	{userId: "1756537", name: "ymat", result: 1070}]; 
 var ids = 0;
-var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
-//var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
+//var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
+var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/7591.json";
 
 a();
