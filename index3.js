@@ -224,7 +224,7 @@ $(function(){
     },
     columnLines: false,	  
     columns: [
-	    {index: 'name', title: 'League', width: 300},
+	    {index: 'name', title: 'League', width: 400},
 	    {index: 'gp', title: 'GP', width: 70, type: 'number'},
 	    {index: 'avg', title: 'AVG', width: 70, type: 'number'},
 	    {index: 'over2', title: 'over 2.5', width: 70, type: 'number', render: renderChangesFn},
