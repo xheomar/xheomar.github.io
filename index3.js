@@ -223,8 +223,8 @@ $(function(){
   new FancyGrid({
     title: 'Totals and other',
     renderTo: 'container',
-    width: 1900,
-    height: 700,
+    width: 1300,
+    height: 600,
     data: data,
     multiSort: true,
     defaults: {
@@ -245,7 +245,7 @@ $(function(){
 	    {index: 'aos', title: 'Any Other', width: 70, type: 'number'},
 	    {index: '33', title: '3:3', width: 70, type: 'number'},
 	    {index: '22', title: '2:2', width: 70, type: 'number'},
-	    {index: 'bts', title: 'Both Score', width: 70, type: 'number'}
+	    {index: 'bts', title: 'Both Score', width: 80, type: 'number'}
     ]
   });
 
