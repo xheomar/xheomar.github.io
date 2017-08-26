@@ -234,16 +234,16 @@ $(function(){
       sortable: true
     },
     columns: [
-	    {index: 'name', title: 'League', width: 50},
-	    {index: 'gp', title: 'Game Played', width: 50, type: 'number'},
-	    {index: 'over2', title: 'over 2.5', width: 50, type: 'number'},
-	    {index: 'over3', title: 'over 3.5', width: 50, type: 'number'},
-	    {index: 'over4', title: 'over 4.5', width: 50, type: 'number'},
-	    {index: 'over5', title: 'over 5.5', width: 50, type: 'number'},
-	    {index: 'aos', title: 'aos', width: 50, type: 'number'},
-	    {index: '33', title: '33', width: 50, type: 'number'},
-	    {index: '22', title: '22', width: 50, type: 'number'},
-	    {index: 'bts', title: 'bts', width: 50, type: 'number'}
+	    {index: 'name', title: 'League', width: 300},
+	    {index: 'gp', title: 'GP', width: 70, type: 'number'},
+	    {index: 'over2', title: 'over 2.5', width: 70, type: 'number'},
+	    {index: 'over3', title: 'over 3.5', width: 70, type: 'number'},
+	    {index: 'over4', title: 'over 4.5', width: 70, type: 'number'},
+	    {index: 'over5', title: 'over 5.5', width: 70, type: 'number'},
+	    {index: 'aos', title: 'Any Other', width: 70, type: 'number'},
+	    {index: '33', title: '3:3', width: 70, type: 'number'},
+	    {index: '22', title: '2:2', width: 70, type: 'number'},
+	    {index: 'bts', title: 'Both Score', width: 70, type: 'number'}
     ]
   });
 
