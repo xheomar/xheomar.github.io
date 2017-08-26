@@ -218,7 +218,7 @@ $(function(){
     defaults: {
       type: 'string',
       width: 100,
-      editable: true,
+      editable: fasle,
       resizable: true,
       sortable: true
     },
