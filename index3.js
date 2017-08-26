@@ -202,12 +202,18 @@ var renderChangesFn = function(o) {
 $(function(){
 
   new FancyGrid({
-    title: 'Totals and other',
+    title: {
+    text: 'Totals and any other score',
+    style: {
+      'text-align': 'center'
+    }
+  },
     renderTo: 'container',
     width: 1400,
     height: 600,
     data: data,
     multiSort: true,
+    trackOver: true,
     textSelection: true,
     defaults: {
       type: 'string',
@@ -229,7 +235,7 @@ $(function(){
 	    {index: 'threes', title: '3:3', width: 70, type: 'number', render: renderChangesFn},
 	    {index: 'twoes', title: '2:2', width: 70, type: 'number', render: renderChangesFn},
 	    {index: 'zeroes', title: '0:0', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'bts', title: 'Both Score', width: 80, type: 'number', render: renderChangesFn}
+	    {index: 'bts', title: 'Both to Score', width: 90, type: 'number', render: renderChangesFn}
     ]
   });
 
