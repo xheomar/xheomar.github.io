@@ -223,8 +223,8 @@ $(function(){
   new FancyGrid({
     title: 'Totals and other',
     renderTo: 'container',
-    width: 700,
-    height: 400,
+    width: 1900,
+    height: 700,
     data: data,
     multiSort: true,
     defaults: {
