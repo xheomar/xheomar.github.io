@@ -23,7 +23,7 @@ function a(){
 		$.getJSON( json_url, 
 	   function( response ) 
 	   {
-	   	var json = response;
+	   	var json = response.body;
 	    
 	    	var MIN_GOALKEEPER_COUNT = 1;
 		var MIN_DEFENDER_COUNT = 3;
