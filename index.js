@@ -7,10 +7,10 @@ var teams =
 	{userId: "1892171", name: "PrincipessaMilana", result: 64},
 	{userId: "1892280", name: "ymat", result: 61}];
 var ids = 0;
-var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
+//var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
 //var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-//var SportsRuUrlTemplate = "https://cdn.tribuna.com/fetch/?url=http://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/8316.json";
+var SportsRuUrlTemplate = "http://cors-proxy.htmldriven.com/?url=http://www.sports.ru/fantasy/football/team/points/";
+var JsonUrlTemplate = "/8317.json";
 
 a();
 
