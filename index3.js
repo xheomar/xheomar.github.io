@@ -253,6 +253,7 @@ $(function(){
 	    {
 		    index: 'name', 
 		    title: 'League',
+		    width: 400, 
 		    filter: {
         		header: true,
         		emptyText: 'Поиск по лиге'
