@@ -237,8 +237,8 @@ $(function(){
     }
   },
     renderTo: 'container',
-    width: 1400,
-    height: 600,
+    width: 'fit',
+    height: 'fit',
     data: data,
     multiSort: true,
     trackOver: true,
@@ -253,24 +253,23 @@ $(function(){
     columns: [
 	    {
 		    index: 'name', 
-		    title: 'League', 
-		    width: 400,
+		    title: 'League',
 		    filter: {
         		header: true,
         		emptyText: 'Поиск по лиге'
       			}
 	    },
-	    {index: 'gp', title: 'GP', width: 70, type: 'number'},
-	    {index: 'avg', title: 'AVG', width: 70, type: 'number'},
-	    {index: 'over2', title: 'over 2.5', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'over3', title: 'over 3.5', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'over4', title: 'over 4.5', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'over5', title: 'over 5.5', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'aos', title: 'Any Other', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'threes', title: '3:3', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'twoes', title: '2:2', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'zeroes', title: '0:0', width: 70, type: 'number', render: renderChangesFn},
-	    {index: 'bts', title: 'Both to Score', width: 90, type: 'number', render: renderChangesFn}
+	    {index: 'gp', title: 'GP', type: 'number'},
+	    {index: 'avg', title: 'AVG', type: 'number'},
+	    {index: 'over2', title: 'over 2.5', type: 'number', render: renderChangesFn},
+	    {index: 'over3', title: 'over 3.5', type: 'number', render: renderChangesFn},
+	    {index: 'over4', title: 'over 4.5', type: 'number', render: renderChangesFn},
+	    {index: 'over5', title: 'over 5.5', type: 'number', render: renderChangesFn},
+	    {index: 'aos', title: 'Any Other', type: 'number', render: renderChangesFn},
+	    {index: 'threes', title: '3:3', type: 'number', render: renderChangesFn},
+	    {index: 'twoes', title: '2:2', type: 'number', render: renderChangesFn},
+	    {index: 'zeroes', title: '0:0', type: 'number', render: renderChangesFn},
+	    {index: 'bts', title: 'Both to Score', type: 'number', render: renderChangesFn}
     ]
   });
 
