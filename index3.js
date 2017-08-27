@@ -245,7 +245,6 @@ $(function(){
     textSelection: true,
     defaults: {
       type: 'string',
-      width: 100,
       resizable: true,
       sortable: true
     },
