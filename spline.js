@@ -9,7 +9,7 @@ $(function() {
       marginRight: 20
     },
     title: {
-      text: 'Я ваше лигу СПАЛ'
+      text: 'Я вашу лигу СПАЛ'
     },
     xAxis: {
       categories: ['0', '1', '2']
