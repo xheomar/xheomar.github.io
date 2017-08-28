@@ -563,7 +563,7 @@ var renderChangesFn = function(o) {
   else if (o.value < 40 ) { o.style = { color: '#B67B18'};}
   else if (o.value < 60 ) { o.style = { color: '#679A1E'};}
   else if (o.value < 70 ) { o.style = { color: '#4C931F'};}
-  else if (o.value < 80 ) { o.style = { color: '#348D20'};}
+  else if (o.value > 71 ) { o.style = { color: '#348D20'};}
 
   o.value = o.value + '%';
 
