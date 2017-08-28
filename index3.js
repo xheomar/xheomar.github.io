@@ -586,7 +586,6 @@ $(function(){
     height: 'fit',
     data: data,
     multiSort: true,
-    trackOver: true,
     textSelection: true,
     defaults: {
       type: 'string',
