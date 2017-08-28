@@ -49,7 +49,7 @@ $(function() {
 var data = [
 	{tour: 0, xheo: 0, positive: 0, busotir: 0, Евгений: 0, PrincipessaMilana: 0, ymat: 0},
 	{tour: 1, xheo: 54, positive: 52, busotir: 0, Евгений: 60, PrincipessaMilana: 64, ymat: 61},
-	{tour: 2, xheo: 85, positive: 61, busotir: 42, Евгений: 88, PrincipessaMilana: 102, ymat: 101}
+	{tour: 2, xheo: 115, positive: 86, busotir: 68, Евгений: 103, PrincipessaMilana: 133, ymat: 128}
 ];	
 
   new FancyGrid({
