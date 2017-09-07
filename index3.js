@@ -337,26 +337,80 @@ var data = [
  { name: 'Ирландия. Премьер-дивизион', source: 'Марафон', type: 'Чемпионаты', gp: 161, avg: 2.752, over2: 52.80, over3: 27.33, over4: 13.04, over5: 3.73, aos: 14.29, threes: 0.00, twoes: 2.48, zeroes: 5.59, draw25: 2.48, bts: 50.93, bnts25: 15.53}
 ];
 
+
+var render25 = function(o) {
+  if (o.value < 25 ) { o.style = { color: 'Red'};}
+  else if (o.value < 30 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 50 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 60 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 80 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value >= 80 ) { o.style = { color: 'Green'};}
+  o.value = o.value + '%';
+  return o;
+};
+
+var render35 = function(o) {
+  if (o.value < 10 ) { o.style = { color: 'Red'};}
+  else if (o.value < 20 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 35 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 45 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 65 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value >= 65 ) { o.style = { color: 'Green'};}
+  o.value = o.value + '%';
+  return o;
+};
+
+var render45 = function(o) {
+  if (o.value <= 0 ) { o.style = { color: 'Red'};}
+  else if (o.value < 10 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 15 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 20 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 25 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value >= 25 ) { o.style = { color: 'Green'};}
+  o.value = o.value + '%';
+  return o;
+};
+
+var render55 = function(o) {
+  if (o.value <= 0 ) { o.style = { color: 'Red'};}
+  else if (o.value < 5 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 10 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 15 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 20 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value >= 20 ) { o.style = { color: 'Green'};}
+  o.value = o.value + '%';
+  return o;
+};
+
+var renderLDS = function(o) {
+  if (o.value <= 0 ) { o.style = { color: 'Red'};}
+  else if (o.value < 5 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 10 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 15 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 20 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value >= 20 ) { o.style = { color: 'Green'};}
+  o.value = o.value + '%';
+  return o;
+};
+
 var renderChangesFn = function(o) {
-  if (o.value == 0 ) { o.style = {color: '#D10E20'};} 
-  else if (o.value < 10 ) { o.style = { color: '#CB1811'};}
-  else if (o.value < 20 ) { o.style = { color: '#C43D14'};}
-  else if (o.value < 40 ) { o.style = { color: '#BD5E16'};}
-  else if (o.value < 50 ) { o.style = { color: '#B67B18'};}
-  else if (o.value < 70 ) { o.style = { color: '#679A1E'};}
-  else if (o.value < 80 ) { o.style = { color: '#4C931F'};}
-  else if (o.value <= 100 ) { o.style = { color: '#348D20'};}
+  if (o.value < 10 ) { o.style = { color: 'Red'};}
+  else if (o.value < 20 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 30 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 35 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 45 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value >= 65 ) { o.style = { color: 'Green'};}
   o.value = o.value + '%';
   return o;
 };
 
 var renderAVG = function(o) {
-  if (o.value < 2 ) { o.style = { color: '#C43D14'};}
-  else if (o.value < 2.5 ) { o.style = { color: '#BD5E16'};}
-  else if (o.value < 3 ) { o.style = { color: '#B67B18'};}
-  else if (o.value < 3.5 ) { o.style = { color: '#679A1E'};}
-  else if (o.value < 4 ) { o.style = { color: '#4C931F'};}
-  else if (o.value <= 5 ) { o.style = { color: '#348D20'};}
+  if (o.value < 2 ) { o.style = { color: 'Red'};}
+  else if (o.value < 2.5 ) { o.style = { color: 'OrangeRed'};}
+  else if (o.value < 3 ) { o.style = { color: 'Orange'};}
+  else if (o.value < 3.5 ) { o.style = { color: 'Yellow'};}
+  else if (o.value < 4 ) { o.style = { color: 'YellowGreen'};}
+  else if (o.value <= 5 ) { o.style = { color: 'Green'};}
   // o.value = o.value + '%';
   return o;
 };
@@ -376,7 +430,7 @@ $(function(){
     height: 1000,
     data: data,
     selModel: 'rows',
-    multiSort: true,
+    //multiSort: true,
     trackOver: true,
     textSelection: true,
     defaults: {
@@ -402,11 +456,11 @@ $(function(){
 	    {index: 'source', title: 'Букмекер', width: 70, type: 'string'},
 	    {index: 'gp', title: 'GP', width: 50, type: 'number'},
 	    {index: 'avg', title: 'AVG', width: 50, type: 'number', render: renderAVG},
-	    {index: 'over2', title: 'ТБ2.5', width: 60, type: 'number', render: renderChangesFn},
-	    {index: 'over3', title: 'ТБ3.5', width: 60, type: 'number', render: renderChangesFn},
-	    {index: 'over4', title: 'ТБ4.5', width: 60, type: 'number', render: renderChangesFn},
-	    {index: 'over5', title: 'ТБ5.5', width: 60, type: 'number', render: renderChangesFn},
-	    {index: 'aos', title: 'ЛДС', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'over2', title: 'ТБ2.5', width: 60, type: 'number', render: render25},
+	    {index: 'over3', title: 'ТБ3.5', width: 60, type: 'number', render: render35},
+	    {index: 'over4', title: 'ТБ4.5', width: 60, type: 'number', render: render45},
+	    {index: 'over5', title: 'ТБ5.5', width: 60, type: 'number', render: render55},
+	    {index: 'aos', title: 'ЛДС', width: 60, type: 'number', render: renderLDS},
 	    {index: 'threes', title: '3:3', width: 60, type: 'number', render: renderChangesFn},
 	    {index: 'twoes', title: '2:2', width: 60, type: 'number', render: renderChangesFn},
 	    {index: 'zeroes', title: '0:0', width: 60, type: 'number', render: renderChangesFn},
