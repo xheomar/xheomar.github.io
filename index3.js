@@ -347,16 +347,25 @@ var renderChangesFn = function(o) {
   else if (o.value < 70 ) { o.style = { color: '#679A1E'};}
   else if (o.value < 80 ) { o.style = { color: '#4C931F'};}
   else if (o.value <= 100 ) { o.style = { color: '#348D20'};}
-
   o.value = o.value + '%';
+  return o;
+};
 
+var renderAVG = function(o) {
+  if (o.value < 2 ) { o.style = { color: '#C43D14'};}
+  else if (o.value < 2.5 ) { o.style = { color: '#BD5E16'};}
+  else if (o.value < 3 ) { o.style = { color: '#B67B18'};}
+  else if (o.value < 3.5 ) { o.style = { color: '#679A1E'};}
+  else if (o.value < 4 ) { o.style = { color: '#4C931F'};}
+  else if (o.value <= 5 ) { o.style = { color: '#348D20'};}
+  // o.value = o.value + '%';
   return o;
 };
 
 $(function(){
 
   new FancyGrid({
-    theme: 'bootstrap',
+    theme: 'dark',
     title: {
     text: 'Totals and any other score',
     style: {
@@ -365,11 +374,11 @@ $(function(){
   },
     renderTo: 'container',
     width: 'fit',
-    height: 'fit',
+    height: 1000,
     data: data,
     selModel: 'rows',
     multiSort: true,
-    trackOver: false,
+    trackOver: true,
     textSelection: true,
     defaults: {
       type: 'string',
@@ -385,26 +394,26 @@ $(function(){
 	    {
 		    index: 'name', 
 		    title: 'League',
-		    width: 400, 
+		    width: 300, 
 		    filter: {
         		header: true,
         		emptyText: 'Поиск по лиге'
       			}
 	    },
-	    {index: 'source', title: 'Бук', type: 'string'},
-	    {index: 'gp', title: 'GP', type: 'number'},
-	    {index: 'avg', title: 'AVG', type: 'number'},
-	    {index: 'over2', title: 'тб2.5', type: 'number', render: renderChangesFn},
-	    {index: 'over3', title: 'тб3.5', type: 'number', render: renderChangesFn},
-	    {index: 'over4', title: 'тб4.5', type: 'number', render: renderChangesFn},
-	    {index: 'over5', title: 'тб5.5', type: 'number', render: renderChangesFn},
-	    {index: 'aos', title: 'ЛДС', type: 'number', render: renderChangesFn},
-	    {index: 'threes', title: '3:3', type: 'number', render: renderChangesFn},
-	    {index: 'twoes', title: '2:2', type: 'number', render: renderChangesFn},
-	    {index: 'zeroes', title: '0:0', type: 'number', render: renderChangesFn},
-	    {index: 'draw25', title: 'Н+тб2.5', type: 'number', render: renderChangesFn},
-	    {index: 'bts', title: 'ОЗ', type: 'number', render: renderChangesFn},
-            {index: 'bnts25', title: 'ОЗнет+тб2.5', width: 100, type: 'number', render: renderChangesFn}
+	    {index: 'source', title: 'Букмекер', width: 70, type: 'string'},
+	    {index: 'gp', title: 'GP', width: 50, type: 'number'},
+	    {index: 'avg', title: 'AVG', width: 50, type: 'number', render: renderAVG},
+	    {index: 'over2', title: 'ТБ2.5', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'over3', title: 'ТБ3.5', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'over4', title: 'ТБ4.5', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'over5', title: 'ТБ5.5', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'aos', title: 'ЛДС', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'threes', title: '3:3', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'twoes', title: '2:2', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'zeroes', title: '0:0', width: 60, type: 'number', render: renderChangesFn},
+	    {index: 'draw25', title: 'Н+ТБ2.5', width: 75, type: 'number', render: renderChangesFn},
+	    {index: 'bts', title: 'ОЗ', width: 60, type: 'number', render: renderChangesFn},
+      {index: 'bnts25', title: '!ОЗ+ТБ2.5', width: 100, type: 'number', render: renderChangesFn}
     ]
   });
 
