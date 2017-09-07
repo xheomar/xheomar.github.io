@@ -399,7 +399,7 @@ var renderChangesFn = function(o) {
   else if (o.value < 30 ) { o.style = { color: 'Orange'};}
   else if (o.value < 35 ) { o.style = { color: 'Yellow'};}
   else if (o.value < 45 ) { o.style = { color: 'YellowGreen'};}
-  else if (o.value >= 65 ) { o.style = { color: 'Green'};}
+  else if (o.value >= 45 ) { o.style = { color: 'Green'};}
   o.value = o.value + '%';
   return o;
 };
@@ -410,7 +410,7 @@ var renderAVG = function(o) {
   else if (o.value < 3 ) { o.style = { color: 'Orange'};}
   else if (o.value < 3.5 ) { o.style = { color: 'Yellow'};}
   else if (o.value < 4 ) { o.style = { color: 'YellowGreen'};}
-  else if (o.value <= 5 ) { o.style = { color: 'Green'};}
+  else if (o.value >= 4 ) { o.style = { color: 'Green'};}
   // o.value = o.value + '%';
   return o;
 };
