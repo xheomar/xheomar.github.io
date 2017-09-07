@@ -337,7 +337,6 @@ var data = [
  { name: 'Ирландия. Премьер-дивизион', source: 'Марафон', type: 'Чемпионаты', gp: 161, avg: 2.752, over2: 52.80, over3: 27.33, over4: 13.04, over5: 3.73, aos: 14.29, threes: 0.00, twoes: 2.48, zeroes: 5.59, draw25: 2.48, bts: 50.93, bnts25: 15.53}
 ];
 
-
 var renderChangesFn = function(o) {
   if (o.value == 0 ) { o.style = {color: '#D10E20'};} 
   else if (o.value < 10 ) { o.style = { color: '#CB1811'};}
