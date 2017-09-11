@@ -12,7 +12,7 @@ $(function() {
       text: 'Я вашу лигу СПАЛ'
     },
     xAxis: {
-      categories: ['0', '1', '2']
+      categories: ['0', '1', '2', '3']
     },
     yAxis: {
       //allowDecimals: false,
@@ -49,7 +49,8 @@ $(function() {
 var data = [
 	{tour: 0, xheo: 0, positive: 0, busotir: 0, Евгений: 0, PrincipessaMilana: 0, ymat: 0},
 	{tour: 1, xheo: 54, positive: 52, busotir: 0, Евгений: 60, PrincipessaMilana: 64, ymat: 61},
-	{tour: 2, xheo: 115, positive: 86, busotir: 68, Евгений: 103, PrincipessaMilana: 133, ymat: 128}
+	{tour: 2, xheo: 115, positive: 86, busotir: 68, Евгений: 103, PrincipessaMilana: 133, ymat: 128},
+	{tour: 3, xheo: 158, positive: 151, busotir: 120, Евгений: 134, PrincipessaMilana: 180, ymat: 173}
 ];	
 
   new FancyGrid({
