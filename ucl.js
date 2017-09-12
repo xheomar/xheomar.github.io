@@ -1,6 +1,7 @@
 var teams = 
     	[{userId: "1910925", name: "xheo", result: 0}, 
-	{userId: "1910480", name: "pr-positive", result: 0},	
+	{userId: "1910480", name: "pr-positive", result: 0},
+	 {userId: "1911310", name: "cron314", result: 0},
 	{userId: "1908919", name: "busotir", result: 0}];
 var ids = 0;
 //var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
