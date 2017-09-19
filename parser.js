@@ -1,7 +1,6 @@
 $('form').submit(function() {
 event.preventDefault();
 var SportsRuUrlTemplate = "https://www.sports.ru/api/comment/get/message.json?order_type=old&limit=100&message_class=Sports%3A%3ABlog%3A%3APost%3A%3APost&new_time=1&style=newjs&message_id=";
-
 if ($('.input').val() !== '') {
 
     var newTask = $('.input').val();
