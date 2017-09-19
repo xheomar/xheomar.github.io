@@ -19,10 +19,10 @@ function a(){
 		
 	   (function(ids) {
 		var json_url = SportsRuUrlTemplate + teams[ids].userId + JsonUrlTemplate;
-		$.getJSON( json_url + '&callback=?', 
+		$.getJSON( json_url + '?callback=?', 
 	   function( response ) 
 	   {
-	   	var json = JSON.parse(response.body);
+	   	var json = JSON.parse(response);
 	    
 	    	var MIN_GOALKEEPER_COUNT = 1;
 		var MIN_DEFENDER_COUNT = 3;
