@@ -6,9 +6,9 @@ var teams =
 	{userId: "1892171", name: "PrincipessaMilana", result: 266},
 	{userId: "1892280", name: "ymat", result: 246}];
 var ids = 0;
-//var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
-//var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
-var SportsRuUrlTemplate = "http://cors-proxy.htmldriven.com/?url=http://www.sports.ru/fantasy/football/team/points/";
+var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
+// var SportsRuUrlTemplate = "https://crossorigin.me/http://www.sports.ru/fantasy/football/team/points/";
+// var SportsRuUrlTemplate = "http://cors-proxy.htmldriven.com/?url=http://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/8320.json";
 
 a();
@@ -19,7 +19,7 @@ function a(){
 		
 	   (function(ids) {
 		var json_url = SportsRuUrlTemplate + teams[ids].userId + JsonUrlTemplate;
-		$.getJSON( json_url, 
+		$.getJSON( json_url + '&callback=?', 
 	   function( response ) 
 	   {
 	   	var json = JSON.parse(response.body);
