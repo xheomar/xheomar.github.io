@@ -6,7 +6,7 @@ var teams =
 	{userId: "1892171", name: "PrincipessaMilana", result: 266},
 	{userId: "1892280", name: "ymat", result: 246}];
 var ids = 0;
-var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
+var SportsRuUrlTemplate = "https://cors.io/?https://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/8320.json";
 
 a();
@@ -18,16 +18,17 @@ function a(){
 	    var yql_url = 'https://query.yahooapis.com/v1/public/yql';
 		var json_url = SportsRuUrlTemplate + teams[ids].userId + JsonUrlTemplate;
 		$.ajax({
-			'url': yql_url,
-			'data': {
-				'q': 'SELECT * FROM json WHERE url="'+json_url+'"',
-				'format': 'json',
-				'jsonCompat': 'new',
-			},
-		'dataType': 'jsonp',
+			'url': json_url,
+			//'data': {
+			//	'q': 'SELECT * FROM json WHERE url="'+json_url+'"',
+			//	'format': 'json',
+			//	'jsonCompat': 'new',
+			//},
+		'dataType': 'json',
 		'success': function(response) {
 	   	
-			var json = response.query.results.json;
+			// var json = response.query.results.json;
+			var json = response;
 			
 			var MIN_GOALKEEPER_COUNT = 1, MIN_DEFENDER_COUNT = 3, MIN_HALFBACK_COUNT = 2, MIN_FORWARD_COUNT = 1;
 
