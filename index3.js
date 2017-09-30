@@ -555,7 +555,7 @@ $(function(){
 	    {
 		    index: 'name', 
 		    title: 'League',
-		    width: 300, 
+		    width: 280, 
 		    filter: {
         		header: true,
         		emptyText: 'Поиск по лиге'
