@@ -52,7 +52,8 @@ var data = [
 	{tour: 2, xheo: 115, positive: 86, busotir: 68, Евгений: 103, PrincipessaMilana: 133, ymat: 128},
 	{tour: 3, xheo: 158, positive: 151, busotir: 120, Евгений: 134, PrincipessaMilana: 180, ymat: 173},
 	{tour: 4, xheo: 214, positive: 204, busotir: 212, Евгений: 178, PrincipessaMilana: 266, ymat: 246},
-	{tour: 5, xheo: 262, positive: 252, busotir: 250, Евгений: 221, PrincipessaMilana: 327, ymat: 296}
+	{tour: 5, xheo: 262, positive: 252, busotir: 250, Евгений: 221, PrincipessaMilana: 327, ymat: 296},
+	{tour: 6, xheo: 303, positive: 303, busotir: 299, Евгений: 259, PrincipessaMilana: 380, ymat: 344}
 ];	
 
   new FancyGrid({
