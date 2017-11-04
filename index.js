@@ -1,13 +1,13 @@
 var teams = 
-   [{userId: "1890113", name: "xheo", result: 494}, 
-	{userId: "1892071", name: "pr-positive", result: 470},
-	{userId: "1895810", name: "busotir", result: 466},
-	{userId: "1889520", name: "Евгений", result: 451},
-	{userId: "1892171", name: "PrincipessaMilana", result: 561},
-	{userId: "1892280", name: "ymat", result: 532}];
+   [{userId: "1890113", name: "xheo", result: 561}, 
+	{userId: "1892071", name: "pr-positive", result: 524},
+	{userId: "1895810", name: "busotir", result: 525},
+	{userId: "1889520", name: "Евгений", result: 474},
+	{userId: "1892171", name: "PrincipessaMilana", result: 622},
+	{userId: "1892280", name: "ymat", result: 581}];
 var ids = 0;
 var SportsRuUrlTemplate = "https://cors.io/?https://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/8326.json";
+var JsonUrlTemplate = "/8327.json";
 
 a();
 
