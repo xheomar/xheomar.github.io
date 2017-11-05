@@ -573,10 +573,15 @@ $(function(){
       resizable: true,
       sortable: true
     },
-	grouping: 
-	  {
-		  by: 'type'
-	  },
+	//grouping: 
+	  //{
+		//  by: 'type'
+	  //},
+    paging: {
+	  barType: 'tbar',
+    pageSize: 10,
+    pageSizeData: [5,10,20,50]
+		},
     columnLines: false,	  
     columns: [
 	    {
