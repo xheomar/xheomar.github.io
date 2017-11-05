@@ -708,8 +708,6 @@ $(function(){
     ]
   });
 
-});
-  
     new FancyGrid({
     theme: 'dark',
     title: {
