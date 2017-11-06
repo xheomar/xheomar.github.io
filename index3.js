@@ -488,7 +488,7 @@ $(function(){
     paging: {
 	  barType: 'tbar',
     pageSize: 10,
-    pageSizeData: [5,10,20,50]
+    pageSizeData: [5,10,15,20,25,50]
 		},
     columnLines: false,	  
     columns: [
