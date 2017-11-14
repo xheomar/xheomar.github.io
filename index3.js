@@ -680,6 +680,11 @@ $(function(){
 	  {
 		  by: 'type'
 	  },*/
+	  paging: {
+	  barType: 'tbar',
+    pageSize: 15,
+    pageSizeData: [5,10,15,20,25,50,100]
+		},
     columnLines: false,	  
     columns: [
 	    {
