@@ -292,3 +292,47 @@ $(function(){
     ]
   });
   });
+
+$(function(){
+  new FancyGrid({
+    theme: 'sand',
+    title: 
+    {
+    	text: 'ЛДС сегодня',
+    	style: 
+      {
+      	'text-align': 'center'
+    	}
+  	},
+    renderTo: 'container3',
+    width: 'fit',
+    height: 'fit',
+    data: data_lds,
+    selModel: 'rows',
+    //multiSort: true,
+    trackOver: true,
+    textSelection: true,
+    defaults: {
+      type: 'string',
+      resizable: true,
+      sortable: true
+    },
+	/*grouping: 
+	  {
+		  by: 'type'
+	  },*/
+	  paging: {
+	  barType: 'tbar',
+    pageSize: 15,
+    pageSizeData: [5,10,15,20,25,50,100]
+		},
+    columnLines: false,	  
+    columns: [
+	    	{index: 'name', title: 'Чемпионат', width: 200 },
+      		{index: 'date', title: 'Дата', width: 80, type: 'string'},
+      		{index: 'event', title: 'Событие', width: 65, type: 'string'},
+	    	{index: 'count', title: 'Игры', width: 50, type: 'number'},
+		{index: 'games', title: 'Коэффы', width: 600, type: 'number'}
+    ]
+  });
+  });
