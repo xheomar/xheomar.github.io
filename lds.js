@@ -1,6 +1,5 @@
 var data_lds = [
-
-, { name: 'Clubs. International. AFC Champions League. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '13.00 (19:00)  '}
+  { name: 'Clubs. International. AFC Champions League. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '13.00 (19:00)  '}
 , { name: 'Australia. A-League. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '6.10 (11:50)  '}
 , { name: 'Austria. Bundesliga. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '12.00 (18:00) 11.50 (20:30) 12.50 (20:30) 6.60 (20:30)  '}
 , { name: 'Austria. Regionalliga. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '5.70 (16:00) 7.60 (17:00)  '}
@@ -12,23 +11,23 @@ var data_lds = [
 , { name: 'England. Isthmian League. ', date: '2017/11/18', event: 'AnyOther', count: '11', games: '4.40 (18:00) 4.70 (18:00) 5.30 (18:00) 5.50 (18:00) 5.60 (18:00) 5.80 (18:00) 5.80 (18:00) 5.80 (18:00) 6.20 (18:00) 6.70 (18:00) 6.70 (18:00)  '}
 , { name: 'England. National League. ', date: '2017/11/18', event: 'AnyOther', count: '12', games: '11.00 (18:00) 11.50 (18:00) 13.50 (18:00) 14.00 (18:00) 14.50 (18:00) 17.50 (18:00) 6.10 (18:00) 6.60 (18:00) 7.50 (18:00) 8.50 (18:00) 8.60 (18:00) 9.40 (18:00)  '}
 , { name: 'England. Premier League 2. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '5.60 (15:00) 5.70 (16:00) 6.00 (17:00) 5.10 (22:00)  '}
-, { name: 'England. National League North. ', date: '2017/11/18', event: 'AnyOther', count: '11', games: '10.50 (16:30) 2.75 (18:00) 4.90 (18:00) 5.20 (18:00) 6.20 (18:00) 6.50 (18:00) 7.10 (18:00) 7.50 (18:00) 7.60 (18:00) 8.60 (18:00) 9.10 (18:00)  '}
-, { name: 'England. Northern Premier League. ', date: '2017/11/18', event: 'AnyOther', count: '12', games: '4.40 (18:00) 5.40 (18:00) 5.40 (18:00) 5.80 (18:00) 6.00 (18:00) 6.00 (18:00) 6.20 (18:00) 6.30 (18:00) 6.30 (18:00) 6.30 (18:00) 6.30 (18:00) 6.60 (18:00)  '}
-, { name: 'England. National League South. ', date: '2017/11/18', event: 'AnyOther', count: '11', games: '4.75 (18:00) 5.00 (18:00) 5.10 (18:00) 5.60 (18:00) 7.00 (18:00) 7.20 (18:00) 7.40 (18:00) 7.50 (18:00) 7.50 (18:00) 7.80 (18:00) 8.10 (18:00)  '}
+, { name: 'England. National League North. ', date: '2017/11/18', event: 'AnyOther', count: '11', games: '10.50 (16:30) 2.75 (18:00) 4.90 (18:00) 5.20 (18:00) 6.20 (18:00) 6.50 (18:00) 7.00 (18:00) 7.50 (18:00) 7.60 (18:00) 8.60 (18:00) 9.10 (18:00)  '}
+, { name: 'England. Northern Premier League. ', date: '2017/11/18', event: 'AnyOther', count: '12', games: '4.40 (18:00) 5.40 (18:00) 5.40 (18:00) 5.80 (18:00) 6.00 (18:00) 6.00 (18:00) 6.10 (18:00) 6.30 (18:00) 6.30 (18:00) 6.30 (18:00) 6.30 (18:00) 6.60 (18:00)  '}
+, { name: 'England. National League South. ', date: '2017/11/18', event: 'AnyOther', count: '11', games: '4.75 (18:00) 5.00 (18:00) 5.10 (18:00) 5.60 (18:00) 7.00 (18:00) 7.20 (18:00) 7.30 (18:00) 7.40 (18:00) 7.50 (18:00) 7.70 (18:00) 8.10 (18:00)  '}
 , { name: 'England. Southern Football League. ', date: '2017/11/18', event: 'AnyOther', count: '12', games: '2.06 (18:00) 4.25 (18:00) 4.50 (18:00) 4.70 (18:00) 4.90 (18:00) 5.30 (18:00) 5.40 (18:00) 6.30 (18:00) 6.30 (18:00) 6.70 (18:00) 6.70 (18:00) 6.90 (18:00)  '}
 , { name: 'Argentina. Primera Division. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '21.00 (03:30) 11.00 (23:00) 8.70 (23:00)  '}
-, { name: 'Argentina. Primera B Nacional. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '15.50 (23:00) 18.50 (23:05)  '}
+, { name: 'Argentina. Primera B Nacional. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '15.50 (23:00) 19.50 (23:05)  '}
 , { name: 'Belarus. Vysshaya League. ', date: '2017/11/18', event: 'AnyOther', count: '8', games: '13.50 (14:00) 16.50 (14:00) 3.46 (14:00) 3.58 (14:00) 5.40 (14:00) 5.90 (14:00) 6.00 (14:00) 9.40 (14:00)  '}
 , { name: 'Belgium. 1st Division A. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '5.50 (20:00) 8.30 (22:00) 7.10 (22:30)  '}
 , { name: 'Belgium. 1st Division B. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '10.00 (19:00) 8.30 (22:30)  '}
 , { name: 'Bulgaria. 1st League. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '14.50 (14:00) 4.75 (16:00) 5.30 (18:30)  '}
 , { name: 'Bolivia. LFPB. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '7.90 (22:00)  '}
-, { name: 'Brazil. Serie B. ', date: '2017/11/18', event: 'AnyOther', count: '8', games: '17.00 (02:30) 14.00 (22:00) 16.50 (22:00) 11.50 (22:30) 13.00 (22:30) 16.00 (22:30) 17.50 (22:30) 9.60 (22:30)  '}
+, { name: 'Brazil. Serie B. ', date: '2017/11/18', event: 'AnyOther', count: '7', games: '14.00 (22:00) 16.50 (22:00) 11.50 (22:30) 13.00 (22:30) 16.00 (22:30) 17.50 (22:30) 9.60 (22:30)  '}
 , { name: 'Hungary. NB I. ', date: '2017/11/18', event: 'AnyOther', count: '6', games: '10.00 (17:30) 10.50 (17:30) 11.00 (17:30) 8.20 (17:30) 9.80 (17:30) 11.00 (21:30)  '}
 , { name: 'Germany. Bundesliga. ', date: '2017/11/18', event: 'AnyOther', count: '6', games: '10.00 (17:30) 2.40 (17:30) 6.10 (17:30) 7.20 (17:30) 8.30 (17:30) 10.50 (20:30)  '}
 , { name: 'Germany. Bundesliga 2. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '10.00 (15:00) 6.30 (15:00) 9.20 (15:00)  '}
 , { name: 'Germany. 3rd Liga. ', date: '2017/11/18', event: 'AnyOther', count: '7', games: '10.00 (16:00) 10.50 (16:00) 11.00 (16:00) 12.00 (16:00) 12.00 (16:00) 8.20 (16:00) 9.60 (16:00)  '}
-, { name: 'Germany. Regionalliga. ', date: '2017/11/18', event: 'AnyOther', count: '27', games: '5.10 (15:00) 7.90 (15:00) 8.10 (15:00) 4.35 (15:30) 8.40 (15:30) 4.05 (16:00) 4.80 (16:00) 4.85 (16:00) 4.90 (16:00) 5.10 (16:00) 5.60 (16:00) 6.10 (16:00) 6.40 (16:00) 6.80 (16:00) 7.10 (16:00) 7.10 (16:00) 7.20 (16:00) 7.40 (16:00) 7.40 (16:00) 7.60 (16:00) 7.60 (16:00) 7.80 (16:00) 7.80 (16:00) 8.00 (16:00) 8.10 (16:00) 8.20 (16:00) 7.00 (17:00)  '}
+, { name: 'Germany. Regionalliga. ', date: '2017/11/18', event: 'AnyOther', count: '27', games: '5.10 (15:00) 7.90 (15:00) 8.10 (15:00) 4.50 (15:30) 8.40 (15:30) 4.05 (16:00) 4.80 (16:00) 4.85 (16:00) 4.90 (16:00) 5.10 (16:00) 5.60 (16:00) 6.10 (16:00) 6.40 (16:00) 6.80 (16:00) 7.10 (16:00) 7.10 (16:00) 7.20 (16:00) 7.40 (16:00) 7.40 (16:00) 7.60 (16:00) 7.60 (16:00) 7.80 (16:00) 7.80 (16:00) 8.00 (16:00) 8.10 (16:00) 8.20 (16:00) 7.00 (17:00)  '}
 , { name: 'Greece. Super League. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '18.50 (16:00) 21.00 (18:15) 2.56 (20:30)  '}
 , { name: 'Denmark. Superliga. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '8.00 (18:00)  '}
 , { name: 'Egypt. Premier League. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '15.50 (18:00)  '}
@@ -37,7 +36,7 @@ var data_lds = [
 , { name: 'Jordan. Premier League. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '7.20 (17:00) 5.50 (19:30)  '}
 , { name: 'Spain. Primera Division. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '14.00 (15:00) 4.85 (18:15) 5.80 (20:30) 9.40 (22:45)  '}
 , { name: 'Spain. Segunda Division. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '14.00 (18:00) 15.00 (20:00) 9.80 (20:00) 31.00 (22:00)  '}
-, { name: 'Spain. Segunda Division B. ', date: '2017/11/18', event: 'AnyOther', count: '8', games: '10.50 (18:00) 17.50 (18:00) 10.50 (19:00) 15.00 (19:00) 12.00 (20:00) 13.50 (20:00) 8.50 (20:00) 11.00 (20:30)  '}
+, { name: 'Spain. Segunda Division B. ', date: '2017/11/18', event: 'AnyOther', count: '8', games: '10.50 (18:00) 17.50 (18:00) 10.50 (19:00) 15.00 (19:00) 12.00 (20:00) 13.50 (20:00) 8.60 (20:00) 11.00 (20:30)  '}
 , { name: 'Italy. Serie A. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '6.50 (20:00) 4.55 (22:45)  '}
 , { name: 'Italy. Serie B. ', date: '2017/11/18', event: 'AnyOther', count: '7', games: '11.50 (17:00) 15.50 (17:00) 18.50 (17:00) 5.40 (17:00) 5.70 (17:00) 5.90 (17:00) 8.50 (17:00)  '}
 , { name: 'Italy. Serie C. ', date: '2017/11/18', event: 'AnyOther', count: '9', games: '11.50 (16:30) 12.50 (16:30) 14.50 (16:30) 16.50 (16:30) 17.00 (16:30) 17.50 (16:30) 17.50 (18:30) 18.50 (22:30) 8.40 (22:30)  '}
@@ -46,12 +45,12 @@ var data_lds = [
 , { name: 'Colombia. Primera A. ', date: '2017/11/18', event: 'AnyOther', count: '6', games: '10.50 (23:30) 11.50 (23:30) 12.00 (23:30) 6.50 (23:30) 8.50 (23:30) 9.50 (23:30)  '}
 , { name: 'Costa Rica. Primera Division. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '9.90 (23:30)  '}
 , { name: 'Morocco. Cup. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '26.00 (19:00)  '}
-, { name: 'Mexico. Primera Division. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '9.00 (04:00) 8.10 (06:00)  '}
+, { name: 'Mexico. Primera Division. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '8.90 (04:00) 8.00 (06:00)  '}
 , { name: 'Netherlands. Eredivisie. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '3.60 (20:30) 7.00 (20:30) 3.28 (22:45) 9.70 (22:45)  '}
-, { name: 'New Zealand. Premiership. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '4.70 (03:00)  '}
+, { name: 'New Zealand. Premiership. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '4.75 (03:00)  '}
 , { name: 'Norway. 1st Division. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '8.30 (20:00)  '}
 , { name: 'Norway. Cup. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '7.00 (03 дек 15:15)  '}
-, { name: 'UAE. Arabian Gulf League. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '5.30 (15:40) 4.55 (15:45) 5.30 (18:45)  '}
+, { name: 'UAE. Arabian Gulf League. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '5.30 (15:40) 4.55 (15:45) 5.20 (18:45)  '}
 , { name: 'Peru. Primera Division. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '8.30 (20:30) 6.30 (23:00)  '}
 , { name: 'Poland. Ekstraklasa. ', date: '2017/11/18', event: 'AnyOther', count: '3', games: '10.00 (17:30) 11.00 (20:00) 9.40 (22:30)  '}
 , { name: 'Poland. I Liga. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '12.00 (18:00) 13.00 (18:00) 12.50 (19:00) 13.50 (19:00)  '}
@@ -59,11 +58,11 @@ var data_lds = [
 , { name: 'Portugal. Cup. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '3.74 (21:15) 16.50 (23:30)  '}
 , { name: 'Korea Republic. K-League. 1st Division. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '13.00 (09:00) 15.50 (09:00) 8.60 (09:00) 8.90 (09:00)  '}
 , { name: 'Russia. Premier League. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '10.50 (12:00) 21.00 (14:00) 10.00 (16:30) 29.00 (19:00)  '}
-, { name: 'Russia. FNL. ', date: '2017/11/18', event: 'AnyOther', count: '9', games: '14.00 (13:00) 15.00 (13:00) 5.20 (13:00) 7.60 (14:00) 17.50 (15:00) 11.50 (16:00) 14.50 (18:00) 18.00 (18:30) 17.50 (19:00)  '}
+, { name: 'Russia. FNL. ', date: '2017/11/18', event: 'AnyOther', count: '9', games: '14.00 (13:00) 15.00 (13:00) 5.20 (13:00) 7.60 (14:00) 17.50 (15:00) 12.00 (16:00) 14.50 (18:00) 18.00 (18:30) 17.50 (19:00)  '}
 , { name: 'Russia. Premier Reserve League. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '5.30 (04:00) 4.75 (13:00) 7.70 (14:00) 5.80 (16:00)  '}
 , { name: 'Romania. Liga I. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '14.00 (17:00) 5.70 (20:00)  '}
 , { name: 'Saudi Arabia. Pro League. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '8.20 (17:50)  '}
-, { name: 'Northern Ireland. Premiership. ', date: '2017/11/18', event: 'AnyOther', count: '6', games: '2.60 (18:00) 2.875 (18:00) 4.50 (18:00) 5.10 (18:00) 8.00 (18:00) 8.80 (18:00)  '}
+, { name: 'Northern Ireland. Premiership. ', date: '2017/11/18', event: 'AnyOther', count: '6', games: '2.60 (18:00) 2.82 (18:00) 4.50 (18:00) 5.10 (18:00) 8.00 (18:00) 8.80 (18:00)  '}
 , { name: 'Serbia. SuperLiga. ', date: '2017/11/18', event: 'AnyOther', count: '4', games: '2.14 (18:00) 11.50 (19:00) 5.50 (19:00) 6.30 (19:00)  '}
 , { name: 'Singapore. S.League. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '5.40 (14:30) 6.40 (14:30)  '}
 , { name: 'Slovakia. Fortuna Liga. ', date: '2017/11/18', event: 'AnyOther', count: '5', games: '13.50 (16:00) 5.90 (16:00) 6.20 (16:00) 6.20 (16:00) 6.60 (17:00)  '}
@@ -84,7 +83,7 @@ var data_lds = [
 , { name: 'Switzerland. Super League. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '3.58 (21:00) 8.20 (21:00)  '}
 , { name: 'Switzerland. Challenge League. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '6.50 (21:00) 9.50 (21:00)  '}
 , { name: 'Scotland. Premiership. ', date: '2017/11/18', event: 'AnyOther', count: '5', games: '2.99 (15:30) 11.00 (18:00) 3.92 (18:00) 7.00 (18:00) 7.50 (18:00)  '}
-, { name: 'Scotland. FA Cup. ', date: '2017/11/18', event: 'AnyOther', count: '16', games: '2.41 (16:00) 1.86 (18:00) 2.23 (18:00) 3.56 (18:00) 3.96 (18:00) 4.65 (18:00) 5.20 (18:00) 5.30 (18:00) 5.50 (18:00) 5.80 (18:00) 6.00 (18:00) 6.30 (18:00) 7.20 (18:00) 8.40 (18:00) 9.50 (18:00) 9.90 (18:00)  '}
+, { name: 'Scotland. FA Cup. ', date: '2017/11/18', event: 'AnyOther', count: '16', games: '2.41 (16:00) 1.86 (18:00) 2.23 (18:00) 3.56 (18:00) 3.96 (18:00) 4.65 (18:00) 5.20 (18:00) 5.30 (18:00) 5.50 (18:00) 5.70 (18:00) 6.00 (18:00) 6.30 (18:00) 7.20 (18:00) 8.40 (18:00) 9.50 (18:00) 9.90 (18:00)  '}
 , { name: 'Scotland. League 2. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '10.00 (18:00)  '}
 , { name: 'Ecuador. Serie A. ', date: '2017/11/18', event: 'AnyOther', count: '2', games: '8.30 (04:00) 8.20 (23:30)  '}
 , { name: 'South Africa. League Cup. ', date: '2017/11/18', event: 'AnyOther', count: '1', games: '21.00 (16:30)  '}
