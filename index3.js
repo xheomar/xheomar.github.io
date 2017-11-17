@@ -332,7 +332,7 @@ $(function(){
       		{index: 'date', title: 'Дата', width: 80, type: 'string'},
       		{index: 'event', title: 'Событие', width: 65, type: 'string'},
 	    	{index: 'count', title: 'Игры', width: 50, type: 'number'},
-		{index: 'games', title: 'Коэффы', width: 600, type: 'number'}
+		{index: 'games', title: 'Коэффы', width: 750, type: 'number'}
     ]
   });
   });
