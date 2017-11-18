@@ -92,6 +92,12 @@ var renderGTP = function(o) {
   return o;
 };
 
+var renderLDS = function(o) {
+  if (o.value == '-' ) {o.value = '';}
+  else {o.value = o.value + '%';}  
+  return o;
+};
+
 
 $(function(){
   new FancyGrid({
@@ -332,9 +338,9 @@ $(function(){
       		{index: 'date', title: 'Дата', width: 80, type: 'string'},
       		{index: 'event', title: 'Событие', width: 65, type: 'string'},
 	    	{index: 'count', title: 'Игры', width: 55, type: 'number'},
-			{index: 'lds', title: 'ЛДС бывает', width: 70, type: 'number', render: renderGTP},
-			{index: 'avg', title: 'ЛДС ждут', width: 70, type: 'number', render: renderGTP},
-			{index: 'diff', title: 'Разница ожиданий', width: 80, type: 'number', render: renderGTP},
+			{index: 'lds', title: 'ЛДС бывает', width: 100, type: 'number', render: renderLDS},
+			{index: 'avg', title: 'ЛДС ждут', width: 100, type: 'number', render: renderLDS},
+			{index: 'diff', title: 'Разница ожиданий', width: 100, type: 'number', render: renderLDS},
 			{index: 'games', title: 'Коэффы', width: 900, type: 'number'}
     ]
   });
