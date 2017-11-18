@@ -93,7 +93,7 @@ var renderGTP = function(o) {
 };
 
 var renderLDS = function(o) {
-  if (o.value == '-' ) {o.value = '';}
+  if (o.value == '-' ) {o.value = '0%';}
   else {o.value = o.value + '%';}  
   return o;
 };
@@ -334,14 +334,17 @@ $(function(){
 		},
     columnLines: false,	  
     columns: [
-	    	{index: 'name', title: 'Чемпионат', width: 200 },
+	    	{index: 'name', title: 'Чемпионат', width: 250, filter: {
+        		header: true,
+        		emptyText: 'Поиск по лиге'
+      			} },
       		{index: 'date', title: 'Дата', width: 80, type: 'string'},
       		{index: 'event', title: 'Событие', width: 65, type: 'string'},
 	    	{index: 'count', title: 'Игры', width: 55, type: 'number'},
-			{index: 'lds', title: 'ЛДС бывает', width: 100, type: 'number', render: renderLDS},
-			{index: 'avg', title: 'ЛДС ждут', width: 100, type: 'number', render: renderLDS},
-			{index: 'diff', title: 'Разница ожиданий', width: 100, type: 'number', render: renderLDS},
-			{index: 'games', title: 'Коэффы', width: 900, type: 'number'}
+			{index: 'lds', title: 'ЛДС бывает', width: 90, type: 'number', render: renderLDS},
+			{index: 'avg', title: 'ЛДС ждут', width: 90, type: 'number', render: renderLDS},
+			{index: 'diff', title: 'Разница', width: 90, type: 'number', render: renderLDS},
+			{index: 'games', title: 'Коэффы', width: 400, type: 'number'}
     ]
   });
   });
