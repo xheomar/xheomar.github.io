@@ -295,7 +295,7 @@ $(function(){
 
 $(function(){
   new FancyGrid({
-    theme: 'sand',
+    theme: 'default',
     title: 
     {
     	text: 'ЛДС сегодня',
@@ -331,8 +331,11 @@ $(function(){
 	    	{index: 'name', title: 'Чемпионат', width: 200 },
       		{index: 'date', title: 'Дата', width: 80, type: 'string'},
       		{index: 'event', title: 'Событие', width: 65, type: 'string'},
-	    	{index: 'count', title: 'Игры', width: 50, type: 'number'},
-		{index: 'games', title: 'Коэффы', width: 900, type: 'number'}
+	    	{index: 'count', title: 'Игры', width: 55, type: 'number'},
+			{index: 'lds', title: 'ЛДС бывает', width: 70, type: 'number', render: renderGTP},
+			{index: 'avg', title: 'ЛДС ждут', width: 70, type: 'number', render: renderGTP},
+			{index: 'diff', title: 'Разница ожиданий', width: 80, type: 'number', render: renderGTP},
+			{index: 'games', title: 'Коэффы', width: 900, type: 'number'}
     ]
   });
   });
