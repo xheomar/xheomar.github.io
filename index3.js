@@ -158,7 +158,13 @@ $(function(){
         {index: 'draw', title: 'Н', width: 40, type: 'number', render: renderChangesFn},
         {index: 'p2', title: 'П2', width: 40, type: 'number', render: renderChangesFn}
         ]
-  		}, 
+  		},
+	{
+        text: 'Тоталы меньше',
+        columns: [
+         {index: 'less1', title: 'ТМ1.5', width: 45, type: 'number', render: render25}
+	    ]
+  	  },
       {
         text: 'Тоталы больше',
         columns: [
@@ -167,7 +173,7 @@ $(function(){
         {index: 'over4', title: 'ТБ4.5', width: 45, type: 'number', render: render45},
         {index: 'over5', title: 'ТБ5.5', width: 45, type: 'number', render: render55}
 	    	]
-  		},
+  	  },
       {index: 'aos', title: 'ЛДС', width: 45, type: 'number', render: renderLDS},
       {index: 'fourZeroOrZeroFour', title: '4:0 0:4', width: 55, type: 'number', render: renderLDS},
       {
