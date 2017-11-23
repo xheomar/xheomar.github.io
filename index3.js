@@ -42,7 +42,7 @@ var render55 = function(o) {
   return o;
 };
 
-var renderLDS = function(o) {
+var renderLds = function(o) {
   if (o.value <= 0 ) { o.style = { color: 'Red'};}
   else if (o.value < 5 ) { o.style = { color: 'OrangeRed'};}
   else if (o.value < 10 ) { o.style = { color: 'Orange'};}
@@ -105,14 +105,14 @@ $(function(){
     title: 
     {
     	text: 'Football',
-    	style: 
-      {
-      	'text-align': 'center'
+    	style: {
+			'text-align': 'center'
     	}
   	},
     renderTo: 'container',
-    width: 'fit',
+    width: 1700,
     height: 'fit',
+    resizable: true,
     data: data_football,
     selModel: 'rows',
     //multiSort: true,
@@ -124,24 +124,25 @@ $(function(){
       sortable: true
     },
 	//grouping: 
-	  //{
-		//  by: 'type'
-	  //},
+	//{
+	//  by: 'type'
+	//},
     paging: {
-	  barType: 'tbar',
-    pageSize: 15,
-    pageSizeData: [5,10,15,20,25,50,100]
-		},
+		barType: 'tbar',
+		pageSize: 15,
+		pageSizeData: [5,10,15,20,25,50,100]
+	},
     columnLines: false,	  
     columns: [
 	    {
 		    index: 'name', 
 		    title: 'League',
+			locked: true,
 		    width: 250, 
 		    filter: {
         		header: true,
         		emptyText: 'Поиск по лиге'
-      			}
+      		}
 	    },
       {
         text: 'Игры',
@@ -174,8 +175,8 @@ $(function(){
         {index: 'over5', title: 'ТБ5.5', width: 45, type: 'number', render: render55}
 	    	]
   	  },
-      {index: 'aos', title: 'ЛДС', width: 45, type: 'number', render: renderLDS},
-      {index: 'fourZeroOrZeroFour', title: '4:0 0:4', width: 55, type: 'number', render: renderLDS},
+      {index: 'aos', title: 'ЛДС', width: 45, type: 'number', render: renderLds},
+      {index: 'fourZeroOrZeroFour', title: '4:0 0:4', width: 55, type: 'number', render: renderLds},
       {
         text: 'П1, точный счёт',
         columns: [
@@ -308,13 +309,11 @@ $(function(){
 $(function(){
   new FancyGrid({
     theme: 'default',
-    title: 
-    {
+    title: {
     	text: 'ЛДС сегодня',
-    	style: 
-      {
-      	'text-align': 'center'
-    	}
+    	style: {
+			'text-align': 'center'
+		}
   	},
     renderTo: 'container3',
     width: 'fit',
@@ -333,17 +332,18 @@ $(function(){
 	  {
 		  by: 'type'
 	  },*/
-	  paging: {
-	  barType: 'tbar',
-    pageSize: 15,
-    pageSizeData: [5,10,15,20,25,50,100]
-		},
+	paging: {
+		barType: 'tbar',
+		pageSize: 15,
+		pageSizeData: [5,10,15,20,25,50,100]
+	},
     columnLines: false,	  
-    columns: [
-	    	{index: 'name', title: 'Чемпионат', width: 250, filter: {
-        		header: true,
-        		emptyText: 'Поиск по лиге'
-      			} },
+    columns: [{
+				index: 'name', title: 'Чемпионат', width: 250, filter: {
+					header: true,
+					emptyText: 'Поиск по лиге'
+      			} 
+			},
       		{index: 'date', title: 'Дата', width: 80, type: 'string'},
       		{index: 'event', title: 'Событие', width: 65, type: 'string'},
 	    	{index: 'count', title: 'Игры', width: 55, type: 'number'},
@@ -353,4 +353,4 @@ $(function(){
 			{index: 'games', title: 'Коэффы', width: 400, type: 'number'}
     ]
   });
-  });
+});
