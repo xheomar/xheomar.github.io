@@ -238,15 +238,17 @@ $(function(){
         columns: [
         {index: 'partOneMore', title: '1>2', width: 40, type: 'number', render: renderChangesParts},
         {index: 'partsEqual', title: '1=2', width: 40, type: 'number', render: renderChangesParts},
-        {index: 'partTwoMore', title: '1<2', width: 40, type: 'number', render: renderChangesParts}
+        {index: 'partTwoMore', title: '1<2', width: 40, type: 'number', render: renderChangesParts},
+		{index: 'ozEvetyParts', title: 'ОЗ в каждом', width: 80, type: 'number', render: renderChangesParts}
        ]
   		}, 
 	    {index: 'draw25', title: 'Н+ТБ2.5', width: 65, type: 'number', render: renderChangesFn},
 	    {index: 'bts', title: 'ОЗ', width: 40, type: 'number', render: renderChangesFn},
-      {index: 'bnts25', title: 'ОЗН+ТБ2.5', width: 80, type: 'number', render: renderChangesFn},
-      {index: 'ldsTrend', title: 'ЛДС Тренд', width: 500, type: 'string'},
-      {index: 'firstDay', title: 'Начало тура', width: 100, type: 'string'},
-      {index: 'lastDay', title: 'Конец тура', width: 100, type: 'string'},
+        {index: 'bnts25', title: 'ОЗН+ТБ2.5', width: 80, type: 'number', render: renderChangesFn},
+		{index: 'everyTb15', title: 'Каждая ИТБ1.5', width: 80, type: 'number', render: renderChangesFn},
+        {index: 'ldsTrend', title: 'ЛДС Тренд', width: 500, type: 'string'},
+        {index: 'firstDay', title: 'Начало тура', width: 100, type: 'string'},
+        {index: 'lastDay', title: 'Конец тура', width: 100, type: 'string'},
 	    {index: 'date', title: 'Дата генерации', width: 130, type: 'string'}
     ]
   });
