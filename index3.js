@@ -360,7 +360,7 @@ $(function(){
 
 $(function(){
   new FancyGrid({
-    theme: 'sand',
+    theme: 'bootstrap',
     title: 
     {
     	text: 'Teams',
@@ -370,12 +370,12 @@ $(function(){
     	}
   	},
     renderTo: 'container4',
-    width: 1700,
+    width: 1500,
     height: 'fit',
     resizable: true,
     data: data_teams,
     selModel: 'rows',
-    trackOver: true,
+    //trackOver: true,
     textSelection: true,
     defaults: {
       type: 'string',
@@ -387,12 +387,12 @@ $(function(){
     pageSize: 15,
     pageSizeData: [5,10,15,20,25,50,100]
 		},
-    columnLines: false,	  
+    columnLines: true,	  
     columns: [
 	    {
 		    index: 'name', 
 		    title: 'Team',
-        locked: true,
+			locked: true,
 		    width: 200, 
 		    filter: {
         		header: true,
@@ -402,7 +402,7 @@ $(function(){
       {
 		    index: 'country', 
 		    title: 'Country',
-        locked: true,
+			locked: true,
 		    width: 80, 
 		    filter: {
         		header: true,
@@ -412,7 +412,7 @@ $(function(){
       {
 		    index: 'leagueName', 
 		    title: 'League',
-        locked: true,
+			locked: true,
 		    width: 120, 
 		    filter: {
         		header: true,
