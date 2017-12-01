@@ -425,8 +425,8 @@ $(function(){
       {
         text: 'Тоталы',
         columns: [
-        {index: 'over25percent', title: 'ТМ2.5', width: 50, type: 'number'},
-        {index: 'under25percent', title: 'ТБ2.5', width: 50, type: 'number'}
+        {index: 'over25percent', title: 'ТБ2.5', width: 50, type: 'number'},
+        {index: 'under25percent', title: 'ТМ2.5', width: 50, type: 'number'}
 	    	]
   	  },
       {index: 'score_LDS', title: 'ЛДС', width: 50, type: 'number'},
