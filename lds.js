@@ -1,50 +1,80 @@
 var data_lds = [
- { name: 'Южноамериканский кубок. 1/2 финала. Ответные матчи', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '6.06', lds: '-', diff: '-', games: '16.50 '}
-, { name: 'Австралия. Эй-лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '10.00', lds: '10.26', diff: '0.26', games: '10.00 '}
-, { name: 'Австрия. 1-я лига', date: '2017/11/30', event: 'AnyOther', count: '5', avg: '15.71', lds: '17.89', diff: '2.18', games: '3.32 5.60 6.00 9.50 7.40 '}
-, { name: 'Азербайджан. Премьер-лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '14.08', lds: '5.88', diff: '-8.20', games: '7.10 '}
-, { name: 'Англия. Чемпион-лига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '7.69', lds: '9.21', diff: '1.52', games: '11.00 15.00 '}
-, { name: 'Англия. Кубок. 2-й раунд', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '19.61', lds: '-', diff: '-', games: '5.10 '}
-, { name: 'Аргентина. Примера дивизион', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '7.14', lds: '7.80', diff: '0.66', games: '10.00 18.00 '}
-, { name: 'Армения. Премьер-лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '9.09', lds: '4.76', diff: '-4.33', games: '11.00 '}
-, { name: 'Бельгия. 1-й дивизион А', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '10.00', lds: '-', diff: '-', games: '10.00 '}
-, { name: 'Бельгия. 1-й дивизион B', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '11.36', lds: '11.76', diff: '0.40', games: '8.80 '}
-, { name: 'Боливия. LFPB', date: '2017/11/30', event: 'AnyOther', count: '3', avg: '14.38', lds: '12.04', diff: '-2.34', games: '3.66 7.20 10.00 '}
-, { name: 'Германия. Бундеслига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '8.33', lds: '9.40', diff: '1.07', games: '12.00 '}
-, { name: 'Германия. 2-я бундеслига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '8.51', lds: '9.63', diff: '1.12', games: '11.50 12.00 '}
-, { name: 'Германия. 3-я лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '7.14', lds: '12.35', diff: '5.21', games: '14.00 '}
-, { name: 'Германия. Региональная лига. Юго-Запад', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '11.63', lds: '18.52', diff: '6.89', games: '8.30 8.90 '}
-, { name: 'Германия. Региональная лига. Бавария', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '30.30', lds: '18.63', diff: '-11.67', games: '3.30 '}
-, { name: 'Германия. Региональная лига. Запад', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '20.51', lds: '19.75', diff: '-0.76', games: '4.45 5.30 '}
-, { name: 'Германия. Региональная лига. Северо-Восток', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '21.05', lds: '18.44', diff: '-2.61', games: '4.75 '}
-, { name: 'Гондурас. Национальная лига. Плей-офф. 1/4 финала. Первые матчи', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '11.56', lds: '-', diff: '-', games: '7.60 9.70 '}
-, { name: 'Дания. Суперлига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '14.93', lds: '21.01', diff: '6.08', games: '6.70 '}
-, { name: 'Израиль. Лига Леумит', date: '2017/11/30', event: 'AnyOther', count: '5', avg: '10.00', lds: '7.95', diff: '-2.05', games: '10.50 12.00 8.10 9.70 9.70 '}
-, { name: 'Индия. I-лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '9.09', lds: '0.00', diff: '-9.09', games: '11.00 '}
-, { name: 'Индия. Суперлига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '6.67', lds: '25.00', diff: '18.33', games: '15.00 '}
-, { name: 'Иордания. Премьер-лига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '6.25', lds: '-', diff: '-', games: '16.50 15.50 '}
-, { name: 'Иран. Про-лига', date: '2017/11/30', event: 'AnyOther', count: '4', avg: '5.37', lds: '2.80', diff: '-2.57', games: '17.50 15.00 21.00 21.00 '}
-, { name: 'Испания. Примера дивизион', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '9.52', lds: '13.08', diff: '3.56', games: '10.50 '}
-, { name: 'Испания. 2-й дивизион', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '8.70', lds: '5.68', diff: '-3.02', games: '11.50 '}
-, { name: 'Италия. Серия А', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '19.25', lds: '12.32', diff: '-6.93', games: '2.59 7.80 '}
-, { name: 'Италия. Серия C', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '5.88', lds: '5.04', diff: '-0.84', games: '17.00 '}
-, { name: 'Катар. Старз Лига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '14.71', lds: '25.00', diff: '10.29', games: '9.00 4.60 '}
-, { name: 'Колумбия. Примера A дивизион. Плей-офф. 1/4 финала. Ответные матчи', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '9.09', lds: '-', diff: '-', games: '11.00 '}
-, { name: 'Мексика. Примера дивизион', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '9.09', lds: '5.88', diff: '-3.21', games: '11.00 '}
-, { name: 'Нидерланды. Эредивизи', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '12.20', lds: '17.95', diff: '5.75', games: '8.20 '}
-, { name: 'Нидерланды. 1-й дивизион', date: '2017/11/30', event: 'AnyOther', count: '8', avg: '20.16', lds: '14.00', diff: '-6.16', games: '3.10 3.78 4.00 5.10 5.50 5.60 5.70 6.90 '}
-, { name: 'ОАЭ. Арабиан Галф Лиг', date: '2017/11/30', event: 'AnyOther', count: '3', avg: '19.54', lds: '14.04', diff: '-5.50', games: '4.70 6.00 4.65 '}
-, { name: 'Перу. Примера дивизион', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '14.08', lds: '9.06', diff: '-5.02', games: '7.10 '}
-, { name: 'Польша. Экстракласа', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '10.31', lds: '5.15', diff: '-5.16', games: '9.80 9.60 '}
-, { name: 'Португалия. Примейра-лига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '13.68', lds: '10.19', diff: '-3.49', games: '3.62 11.00 '}
-, { name: 'Португалия. 2-я лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '7.69', lds: '8.51', diff: '0.82', games: '13.00 '}
-, { name: 'Россия. Премьер-лига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '12.58', lds: '6.94', diff: '-5.64', games: '6.00 9.90 '}
-, { name: 'Румыния. Лига 1', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '6.06', lds: '6.77', diff: '0.71', games: '16.50 '}
-, { name: 'Саудовская Аравия. Про-лига', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '11.76', lds: '12.99', diff: '1.23', games: '9.30 7.70 '}
-, { name: 'США. МЛС. Плей-офф. 1/2 финала. Ответные матчи', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '13.89', lds: '-', diff: '-', games: '7.20 '}
-, { name: 'Турция. 1-я лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '7.14', lds: '10.26', diff: '3.12', games: '14.00 '}
-, { name: 'Франция. Лига 1', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '7.41', lds: '10.67', diff: '3.26', games: '13.50 '}
-, { name: 'Франция. Кубок. 8-й раунд', date: '2017/11/30', event: 'AnyOther', count: '2', avg: '9.09', lds: '-', diff: '-', games: '11.50 10.50 '}
-, { name: 'Чехия. 1-я лига', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '30.86', lds: '9.17', diff: '-21.69', games: '3.24 '}
-, { name: 'Чили. Примера дивизион', date: '2017/11/30', event: 'AnyOther', count: '1', avg: '10.64', lds: '5.77', diff: '-4.87', games: '9.40 '}
+ { name: 'Товарищеские турниры. Сборные. Банда-Ачех, Индонезия. Круговой турнир', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '42.19', lds: '-', diff: '-', games: '2.65 2.09 '}
+, { name: 'Австралия. Эй-лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '13.25', lds: '10.00', diff: '-3.25', games: '6.80 8.30 '}
+, { name: 'Австрия. Бундеслига', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '9.05', lds: '12.94', diff: '3.89', games: '12.00 11.00 14.00 7.20 '}
+, { name: 'Азербайджан. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '7.14', lds: '5.77', diff: '-1.37', games: '14.00 '}
+, { name: 'Англия. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '8', avg: '10.90', lds: '16.43', diff: '5.53', games: '3.22 12.00 19.50 5.80 6.00 8.00 9.90 9.00 '}
+, { name: 'Англия. Чемпион-лига', date: '2017/12/02', event: 'AnyOther', count: '9', avg: '10.47', lds: '9.17', diff: '-1.30', games: '10.00 12.00 13.00 5.40 6.00 8.00 9.70 9.90 12.00 '}
+, { name: 'Англия. Кубок. 2-й раунд', date: '2017/12/02', event: 'AnyOther', count: '9', avg: '13.44', lds: '-', diff: '-', games: '3.16 10.00 10.50 4.50 5.80 6.10 7.60 9.40 9.90 '}
+, { name: 'Англия. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '12.12', lds: '9.36', diff: '-2.76', games: '7.50 9.00 '}
+, { name: 'Англия. Истмийская лига. Премьер-дивизион', date: '2017/12/02', event: 'AnyOther', count: '11', avg: '18.10', lds: '18.72', diff: '0.62', games: '3.26 4.70 4.70 5.60 5.60 5.90 5.90 6.10 6.20 6.40 6.40 '}
+, { name: 'Англия. Национальная лига', date: '2017/12/02', event: 'AnyOther', count: '7', avg: '8.84', lds: '6.87', diff: '-1.97', games: '10.50 11.50 12.00 13.50 15.50 6.80 9.40 '}
+, { name: 'Англия. Северная Национальная лига', date: '2017/12/02', event: 'AnyOther', count: '10', avg: '16.99', lds: '16.35', diff: '-0.64', games: '3.92 4.85 5.40 5.60 5.70 6.00 6.30 6.60 6.90 7.60 '}
+, { name: 'Англия. Северная Премьер-лига. Премьер-дивизион', date: '2017/12/02', event: 'AnyOther', count: '12', avg: '13.79', lds: '18.40', diff: '4.61', games: '5.20 6.60 6.90 7.00 7.30 7.30 7.40 7.70 7.70 7.80 8.00 8.10 '}
+, { name: 'Англия. Трофей Футбольной лиги. 1/16 финала', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '10.00', lds: '-', diff: '-', games: '10.00 10.00 '}
+, { name: 'Англия. Южная Национальная лига', date: '2017/12/02', event: 'AnyOther', count: '10', avg: '14.33', lds: '11.59', diff: '-2.74', games: '5.10 5.60 6.00 6.20 7.20 7.30 7.70 7.80 8.30 8.60 '}
+, { name: 'Англия. Южная футбольная лига. Премьер-дивизион', date: '2017/12/02', event: 'AnyOther', count: '9', avg: '18.04', lds: '21.28', diff: '3.24', games: '3.25 4.333 5.10 5.80 5.80 6.10 6.30 6.60 6.60 '}
+, { name: 'Аргентина. Примера дивизион', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '7.03', lds: '7.75', diff: '0.72', games: '10.50 9.90 13.50 23.00 '}
+, { name: 'Аргентина. Примера B Насьональ', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '4.84', lds: '0.83', diff: '-4.01', games: '23.00 16.00 23.00 '}
+, { name: 'Бельгия. 1-й дивизион А', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '11.66', lds: '-', diff: '-', games: '5.90 10.50 7.40 10.50 '}
+, { name: 'Бельгия. 1-й дивизион B', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '12.35', lds: '11.59', diff: '-0.76', games: '8.20 8.00 '}
+, { name: 'Болгария. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '10.64', lds: '14.29', diff: '3.65', games: '13.00 5.80 '}
+, { name: 'Боливия. LFPB', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '14.98', lds: '11.61', diff: '-3.37', games: '9.30 4.05 '}
+, { name: 'Bенгрия. Лига NB I', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '11.54', lds: '-', diff: '-', games: '7.20 7.30 8.70 8.90 8.90 11.00 '}
+, { name: 'Германия. Бундеслига', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '15.20', lds: '9.32', diff: '-5.88', games: '11.50 2.27 5.20 7.10 7.90 5.50 '}
+, { name: 'Германия. 2-я бундеслига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '11.41', lds: '10.22', diff: '-1.19', games: '7.10 9.60 9.60 '}
+, { name: 'Германия. 3-я лига', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '8.72', lds: '12.28', diff: '3.56', games: '10.50 10.50 11.00 12.50 14.50 9.80 '}
+, { name: 'Германия. Региональная лига. Юго-Запад', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '13.51', lds: '18.42', diff: '4.91', games: '4.20 6.20 7.80 8.00 8.50 9.70 '}
+, { name: 'Германия. Региональная лига. Бавария', date: '2017/12/02', event: 'AnyOther', count: '8', avg: '13.63', lds: '18.54', diff: '4.91', games: '5.50 5.80 6.80 7.00 7.80 8.10 8.50 9.20 '}
+, { name: 'Германия. Региональная лига. Запад', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '12.36', lds: '19.50', diff: '7.14', games: '10.00 10.50 4.95 6.90 '}
+, { name: 'Германия. Региональная лига. Север', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '16.81', lds: '16.33', diff: '-0.48', games: '4.40 7.50 '}
+, { name: 'Германия. Региональная лига. Северо-Восток', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '9.50', lds: '19.01', diff: '9.51', games: '10.50 17.50 5.30 8.80 '}
+, { name: 'Греция. Суперлига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '9.21', lds: '7.29', diff: '-1.92', games: '12.50 17.00 3.08 '}
+, { name: 'Дания. Суперлига', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '8.33', lds: '20.83', diff: '12.50', games: '12.00 '}
+, { name: 'Египет. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '8.13', lds: '3.19', diff: '-4.94', games: '23.00 8.00 5.90 '}
+, { name: 'Израиль. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '10.02', lds: '7.79', diff: '-2.23', games: '3.82 19.50 11.00 5.60 '}
+, { name: 'Индия. I-лига', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '9.52', lds: '0.00', diff: '-9.52', games: '10.50 '}
+, { name: 'Индия. Суперлига', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '11.36', lds: '23.08', diff: '11.72', games: '8.80 '}
+, { name: 'Иордания. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '9.26', lds: '-', diff: '-', games: '11.50 13.50 7.40 '}
+, { name: 'Испания. Примера дивизион', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '22.77', lds: '13.08', diff: '-9.69', games: '2.02 6.90 4.30 4.35 '}
+, { name: 'Испания. 2-й дивизион', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '8.23', lds: '5.68', diff: '-2.55', games: '8.10 10.00 17.00 13.50 '}
+, { name: 'Испания. 2-й дивизион B', date: '2017/12/02', event: 'AnyOther', count: '8', avg: '8.41', lds: '5.16', diff: '-3.25', games: '17.00 17.50 10.50 12.00 5.40 6.20 15.00 11.50 '}
+, { name: 'Италия. Серия А', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '12.66', lds: '12.23', diff: '-0.43', games: '7.90 '}
+, { name: 'Италия. Серия В', date: '2017/12/02', event: 'AnyOther', count: '7', avg: '14.37', lds: '10.23', diff: '-4.14', games: '4.45 4.65 6.30 6.40 8.30 8.70 9.90 '}
+, { name: 'Италия. Серия C', date: '2017/12/02', event: 'AnyOther', count: '7', avg: '7.01', lds: '5.04', diff: '-1.97', games: '7.40 11.50 13.50 14.50 18.00 18.50 16.50 '}
+, { name: 'Катар. Старз Лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '23.17', lds: '24.14', diff: '0.97', games: '2.43 6.20 '}
+, { name: 'Кипр. 1-й дивизион', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '17.30', lds: '18.39', diff: '1.09', games: '3.74 4.40 9.20 '}
+, { name: 'Марокко. Ботола. 1-й дивизион', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '5.00', lds: '2.99', diff: '-2.01', games: '17.50 26.00 16.50 '}
+, { name: 'Нидерланды. Эредивизи', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '17.04', lds: '17.80', diff: '0.76', games: '3.58 7.60 5.00 7.30 '}
+, { name: 'Норвегия. Элитсериен. Матчи за право играть в Элитсериен. Финал. Ответный матч', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '10.99', lds: '-', diff: '-', games: '9.10 '}
+, { name: 'Польша. Экстракласа', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '8.96', lds: '5.07', diff: '-3.89', games: '13.00 10.00 10.50 '}
+, { name: 'Португалия. Примейра-лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '5.26', lds: '10.09', diff: '4.83', games: '23.00 16.00 18.00 '}
+, { name: 'Португалия. 2-я лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '9.84', lds: '8.45', diff: '-1.39', games: '10.50 12.00 8.00 '}
+, { name: 'Россия. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '5.84', lds: '7.53', diff: '1.69', games: '26.00 4.40 21.00 '}
+, { name: 'Румыния. Лига 1', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '8.16', lds: '6.72', diff: '-1.44', games: '12.50 12.00 '}
+, { name: 'Северная Ирландия. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '28.75', lds: '21.00', diff: '-7.75', games: '2.54 2.94 3.26 3.58 4.15 4.40 '}
+, { name: 'Сербия. Суперлига', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '29.94', lds: '12.50', diff: '-17.44', games: '3.34 '}
+, { name: 'Словакия. Фортуна-лига', date: '2017/12/02', event: 'AnyOther', count: '5', avg: '14.45', lds: '12.75', diff: '-1.70', games: '10.00 2.61 7.10 9.10 5.80 '}
+, { name: 'Словения. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '11.11', lds: '12.94', diff: '1.83', games: '12.00 8.40 6.60 '}
+, { name: 'Турция. Суперлига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '11.76', lds: '11.97', diff: '0.21', games: '8.90 8.40 8.20 '}
+, { name: 'Турция. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '3', avg: '8.38', lds: '10.17', diff: '1.79', games: '14.50 6.80 14.50 '}
+, { name: 'Украина. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '12.02', lds: '8.91', diff: '-3.11', games: '13.00 3.64 '}
+, { name: 'Уругвай. Примера дивизион', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '10.31', lds: '10.43', diff: '0.12', games: '8.40 11.00 '}
+, { name: 'Франция. Лига 1', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '10.64', lds: '10.60', diff: '-0.04', games: '2.31 13.50 14.00 16.00 4.80 5.80 '}
+, { name: 'Франция. Кубок. 8-й раунд', date: '2017/12/02', event: 'AnyOther', count: '17', avg: '14.36', lds: '-', diff: '-', games: '2.79 8.80 4.05 3.65 5.10 9.00 4.60 9.50 9.80 12.50 4.55 4.95 5.50 5.90 7.40 9.80 10.50 '}
+, { name: 'Хорватия. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '10.58', lds: '8.24', diff: '-2.34', games: '10.50 8.40 '}
+, { name: 'Черногория. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '7.04', lds: '9.88', diff: '2.84', games: '11.50 17.00 23.00 5.30 '}
+, { name: 'Чехия. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '6', avg: '8.42', lds: '9.09', diff: '0.67', games: '10.50 12.00 13.00 15.50 15.50 4.80 '}
+, { name: 'Чили. Примера дивизион', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '8.33', lds: '5.71', diff: '-2.62', games: '12.00 '}
+, { name: 'Швейцария. Суперлига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '14.87', lds: '15.00', diff: '0.13', games: '4.75 8.70 '}
+, { name: 'Швейцария. Челлендж-лига', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '11.24', lds: '12.50', diff: '1.26', games: '8.80 9.00 '}
+, { name: 'Шотландия. Премьер-лига', date: '2017/12/02', event: 'AnyOther', count: '5', avg: '10.88', lds: '9.09', diff: '-1.79', games: '16.00 2.875 8.50 9.30 9.30 '}
+, { name: 'Шотландия. Чемпион-лига', date: '2017/12/02', event: 'AnyOther', count: '5', avg: '12.25', lds: '12.86', diff: '0.61', games: '11.50 4.90 5.10 9.60 9.70 '}
+, { name: 'Шотландия. 1-я лига', date: '2017/12/02', event: 'AnyOther', count: '5', avg: '16.84', lds: '27.54', diff: '10.70', games: '3.55 4.35 6.10 6.90 8.80 '}
+, { name: 'Шотландия. 2-я лига', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '14.41', lds: '10.77', diff: '-3.64', games: '4.45 7.20 7.80 8.30 '}
+, { name: 'Эквадор. Серия A', date: '2017/12/02', event: 'AnyOther', count: '4', avg: '13.88', lds: '-', diff: '-', games: '10.50 3.72 4.90 9.70 '}
+, { name: 'ЮАР. Кубок лиги. Финал. Дурбан', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '5.13', lds: '-', diff: '-', games: '19.50 '}
+, { name: 'Япония. Джей-лига. 1-й дивизион', date: '2017/12/02', event: 'AnyOther', count: '9', avg: '13.37', lds: '7.74', diff: '-5.63', games: '10.00 11.00 2.92 5.60 5.60 6.60 6.80 9.20 9.60 '}
+, { name: 'Женщины. Англия. Кубок Суперлиги. Групповой этап', date: '2017/12/02', event: 'AnyOther', count: '2', avg: '21.19', lds: '-', diff: '-', games: '2.84 6.60 '}
+, { name: 'Женщины. Испания. Примера дивизион', date: '2017/12/02', event: 'AnyOther', count: '1', avg: '26.60', lds: '17.50', diff: '-9.10', games: '3.76 '}
 ];
