@@ -7,7 +7,7 @@ var teams =
 	{userId: "1892280", name: "ymat", result: 650}];
 var ids = 0;
 var SportsRuUrlTemplate = "https://cors.io/?https://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/8329.json";
+var JsonUrlTemplate = "/8330.json";
 
 a();
 
