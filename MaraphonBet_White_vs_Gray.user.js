@@ -4,7 +4,7 @@
 // @version      0.2
 // @description  find AnyOtherScore on the page and click on it!
 // @author       xheomar
-// @match        https://www.marathonbet.ru/su/*
+// @match        https://www.marathonbet.by/su/*
 // @grant        none
 // ==/UserScript==
 
