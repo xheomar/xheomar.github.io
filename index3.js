@@ -370,7 +370,7 @@ $(function(){
     	}
   	},
     renderTo: 'container4',
-    width: 1500,
+    width: 1700,
     height: 'fit',
     resizable: true,
     data: data_teams,
@@ -389,122 +389,127 @@ $(function(){
 		},
     columnLines: true,	  
     columns: [
-	    {
-		    index: 'name', 
-		    title: 'Team',
-			locked: true,
-		    width: 200, 
-		    filter: {
-        		header: true,
-        		emptyText: 'Поиск'
-      			}
-	    },
-      {
-		    index: 'country', 
-		    title: 'Country',
-			locked: true,
-		    width: 80, 
-		    filter: {
-        		header: true,
-        		emptyText: 'Поиск'
-      			}
-	    },
-      {
-		    index: 'leagueName', 
-		    title: 'League',
-			locked: true,
-		    width: 120, 
-		    filter: {
-        		header: true,
-        		emptyText: 'Поиск'
-      			}
-	    },
-      {index: 'gamesPlayed', title: 'GP', locked: true, width: 35, type: 'number'},
-      {index: 'currentPosition', title: 'Pos', locked: true, width: 40, type: 'number'},
-	    {index: 'averageGoalsPerMatch', title: 'AVG', locked: true, width: 40, type: 'number'},
-      {
-        text: 'Тоталы',
-        columns: [
-        {index: 'over25percent', title: 'ТБ2.5', width: 50, type: 'number'},
-        {index: 'under25percent', title: 'ТМ2.5', width: 50, type: 'number'}
-	    	]
-  	  },
-      {index: 'score_LDS', title: 'ЛДС', width: 50, type: 'number'},
-      {
-        text: 'П1, точный счёт',
-        columns: [
-        {index: 'score_1_0', title: '1:0', width: 40, type: 'number'},
-        {index: 'score_2_0', title: '2:0', width: 40, type: 'number'},
-        {index: 'score_2_1', title: '2:1', width: 40, type: 'number'},
-        {index: 'score_3_0', title: '3:0', width: 40, type: 'number'},
-        {index: 'score_3_1', title: '3:1', width: 40, type: 'number'},
-        {index: 'score_3_2', title: '3:2', width: 40, type: 'number'}
-      	]
-  		},
-      {
-        text: 'Ничья, точный счёт',
-        columns: [
-        {index: 'score_0_0', title: '0:0', width: 40, type: 'number'},
-        {index: 'score_1_1', title: '1:1', width: 40, type: 'number'},
-        {index: 'score_2_2', title: '2:2', width: 40, type: 'number'},
-        {index: 'score_3_3', title: '3:3', width: 40, type: 'number'}
-      	]
-  		},
-      {
-        text: 'Интервалы',
-        columns: [
-        {index: 'goalsScoredBetween01And15', title: '1-15', width: 45, type: 'number'},
-        {index: 'goalsScoredBetween16And30', title: '16-30', width: 47, type: 'number'},
-        {index: 'goalsScoredBetween31And45', title: '31-45', width: 47, type: 'number'},
-        {index: 'goalsScoredBetween46And60', title: '46-60', width: 47, type: 'number'},
-        {index: 'goalsScoredBetween61And75', title: '61-75', width: 47, type: 'number'},
-        {index: 'goalsScoredBetween76And90', title: '75-90', width: 47, type: 'number'}
-       ]
+		{ index: 'name', title: 'Team', locked: true, width: 200, filter: { header: true, emptyText: 'Поиск' } },
+		{ index: 'country', title: 'Country', locked: true, width: 80, filter: { header: true, emptyText: 'Поиск' } },
+		{ index: 'leagueName', title: 'League', locked: true, width: 120, filter: { header: true, emptyText: 'Поиск' } },
+		{ index: 'gamesPlayed', title: 'GP', locked: true, width: 35, type: 'number'},
+		{ index: 'currentPosition', title: 'Pos', locked: true, width: 40, type: 'number'},
+		{ index: 'averageGoalsPerMatch', title: 'AVG', locked: true, width: 40, type: 'number'},
+		{
+			text: 'Результаты в чемпионате',
+			columns: [
+			{ index: 'gp', title: 'GP', width: 40, type: 'number'},
+			{ index: 'pts', title: 'PTS', width: 40, type: 'number'},
+			{ index: 'w', title: 'W', width: 40, type: 'number'},
+			{ index: 'd', title: 'D', width: 40, type: 'number'},
+			{ index: 'l', title: 'L', width: 40, type: 'number'},
+			{ index: 'gf', title: 'GF', width: 40, type: 'number'},
+			{ index: 'ga', title: 'GA', width: 40, type: 'number'},
+			{ index: 'plusminus', title: '+/-', width: 40, type: 'number'}]
+		},		
+		{
+			text: 'Тоталы',
+			columns: [
+			{ index: 'over25percent', title: 'ТБ2.5', width: 50, type: 'number'},
+			{ index: 'under25percent', title: 'ТМ2.5', width: 50, type: 'number'}]
+		},
+		{ index: 'score_LDS', title: 'ЛДС', width: 50, type: 'number'},
+		{
+			text: 'Победа одной из команд',
+			columns: [
+			{ index: 'score_1_0', title: '1:0', width: 40, type: 'number'},
+			{ index: 'score_2_0', title: '2:0', width: 40, type: 'number'},
+			{ index: 'score_2_1', title: '2:1', width: 40, type: 'number'},
+			{ index: 'score_3_0', title: '3:0', width: 40, type: 'number'},
+			{ index: 'score_3_1', title: '3:1', width: 40, type: 'number'},
+			{ index: 'score_3_2', title: '3:2', width: 40, type: 'number'}]
+		},
+		{
+			text: 'Ничейный исход',
+			columns: [
+			{ index: 'score_0_0', title: '0:0', width: 40, type: 'number'},
+			{ index: 'score_1_1', title: '1:1', width: 40, type: 'number'},
+			{ index: 'score_2_2', title: '2:2', width: 40, type: 'number'},
+			{ index: 'score_3_3', title: '3:3', width: 40, type: 'number'}]
+		},
+		{
+			text: 'Процент игр, в которых были забиты голы в интервалах',
+			columns: [
+			{ index: 'goalsScoredBetween01And15', title: '1-15', width: 45, type: 'number'},
+			{ index: 'goalsScoredBetween16And30', title: '16-30', width: 47, type: 'number'},
+			{ index: 'goalsScoredBetween31And45', title: '31-45', width: 47, type: 'number'},
+			{ index: 'goalsScoredBetween46And60', title: '46-60', width: 47, type: 'number'},
+			{ index: 'goalsScoredBetween61And75', title: '61-75', width: 47, type: 'number'},
+			{ index: 'goalsScoredBetween76And90', title: '75-90', width: 47, type: 'number'}]
   		}, 
-      {
-        text: 'Матчи с голами после 65й',
-        columns: [
-        {index: 'gamesWithLateGoalsOverallPercent', title: 'Да', width: 85, type: 'number'},
-        {index: 'gamesWithoutLateGoalsOverallPercent', title: 'Нет', width: 85, type: 'number'}
-       ]
-  		}, 
-      {
-        text: 'Забитые после 65й',
-        columns: [
-        {index: 'gamesWithLateGoalsScoredPercent', title: 'Да', width: 75, type: 'number'},
-        {index: 'gamesWithoutLateGoalsScoredPercent', title: 'Нет', width: 75, type: 'number'}
-       ]
-  		},
-      {
-        text: 'Пропущенные после 65й',
-        columns: [
-        {index: 'gamesWithLateGoalsConceededPercent', title: 'Да', width: 80, type: 'number'},
-        {index: 'gamesWithoutLateGoalsConceededPercent', title: 'Нет', width: 80, type: 'number'}
-       ]
-  		},
-      {
-        text: 'Сухие ворота',
-        columns: [
-        {index: 'gamesWithCleanSheetPercent', title: 'Да', width: 55, type: 'number'},
-        {index: 'gamesWithoutCleanSheetPercent', title: 'Нет', width: 55, type: 'number'}
-       ]
-  		}, 
-      {
-        text: 'Тайм / Матч',
-        columns: [
-        {index: 'gamesWith_1_1_percent', title: '1/1', width: 47, type: 'number'},
-        {index: 'gamesWith_X_1_percent', title: 'X/1', width: 47, type: 'number'},
-        {index: 'gamesWith_2_1_percent', title: '2/1', width: 47, type: 'number'},
-        {index: 'gamesWith_1_X_percent', title: '1/X', width: 47, type: 'number'},
-        {index: 'gamesWith_X_X_percent', title: 'X/X', width: 47, type: 'number'},
-        {index: 'gamesWith_2_X_percent', title: '2/X', width: 47, type: 'number'},
-        {index: 'gamesWith_1_2_percent', title: '1/2', width: 47, type: 'number'},
-        {index: 'gamesWith_X_2_percent', title: 'X/2', width: 47, type: 'number'},
-        {index: 'gamesWith_2_2_percent', title: '2/2', width: 47, type: 'number'}
-       ]
-  		}, 
-      {index: 'biggestVictory', title: 'Лучший счет', width: 100, type: 'string'},
-	    {index: 'biggestDefeat', title: 'Худший счет', width: 100, type: 'string'}
-    ]
+		{
+			text: 'Матчи с голами после 65й',
+			columns: [
+			{ index: 'gamesWithLateGoalsOverallPercent', title: 'Да', width: 85, type: 'number'},
+			{ index: 'gamesWithoutLateGoalsOverallPercent', title: 'Нет', width: 85, type: 'number'}]
+		}, 
+		{
+			text: 'Забитые после 65й',
+			columns: [
+			{ index: 'gamesWithLateGoalsScoredPercent', title: 'Да', width: 75, type: 'number'},
+			{ index: 'gamesWithoutLateGoalsScoredPercent', title: 'Нет', width: 75, type: 'number'}]
+		},
+		{
+			text: 'Пропущенные после 65й',
+			columns: [
+			{ index: 'gamesWithLateGoalsConceededPercent', title: 'Да', width: 80, type: 'number'},
+			{ index: 'gamesWithoutLateGoalsConceededPercent', title: 'Нет', width: 80, type: 'number'}]
+		},
+		{
+			text: 'Сухие ворота',
+			columns: [
+			{ index: 'gamesWithCleanSheetPercent', title: 'Да', width: 55, type: 'number'},
+			{ index: 'gamesWithoutCleanSheetPercent', title: 'Нет', width: 55, type: 'number'}]
+		}, 
+		{
+			text: 'Тайм / Матч',
+			columns: [
+			{ index: 'gamesWith_1_1_percent', title: '1/1', width: 47, type: 'number'},
+			{ index: 'gamesWith_X_1_percent', title: 'X/1', width: 47, type: 'number'},
+			{ index: 'gamesWith_2_1_percent', title: '2/1', width: 47, type: 'number'},
+			{ index: 'gamesWith_1_X_percent', title: '1/X', width: 47, type: 'number'},
+			{ index: 'gamesWith_X_X_percent', title: 'X/X', width: 47, type: 'number'},
+			{ index: 'gamesWith_2_X_percent', title: '2/X', width: 47, type: 'number'},
+			{ index: 'gamesWith_1_2_percent', title: '1/2', width: 47, type: 'number'},
+			{ index: 'gamesWith_X_2_percent', title: 'X/2', width: 47, type: 'number'},
+			{ index: 'gamesWith_2_2_percent', title: '2/2', width: 47, type: 'number'}]
+		}, 
+		{
+			text: 'Серии',
+			columns: [
+			{ index: 'games_won_in_a_row', title: 'П1', width: 47, type: 'number'},
+			{ index: 'games_without_a_win_in_a_row', title: 'Х2', width: 47, type: 'number'},
+			{ index: 'games_drawn_in_a_row', title: 'Х', width: 47, type: 'number'},
+			{ index: 'games_without_a_draw_in_a_row', title: 'П1П2', width: 47, type: 'number'},
+			{ index: 'games_lost_in_a_row', title: 'П2', width: 47, type: 'number'},
+			{ index: 'games_without_a_loss_in_a_row', title: '1Х', width: 47, type: 'number'}]
+		},
+		{
+			text: 'Серии дома',
+			columns: [
+			{ index: 'home_games_won_in_a_row', title: 'П1', width: 47, type: 'number'},
+			{ index: 'home_games_without_a_win_in_a_row', title: 'Х2', width: 47, type: 'number'},
+			{ index: 'home_games_drawn_in_a_row', title: 'Х', width: 47, type: 'number'},
+			{ index: 'home_games_without_a_draw_in_a_row', title: 'П1П2', width: 47, type: 'number'},
+			{ index: 'home_games_lost_in_a_row', title: 'П2', width: 47, type: 'number'},
+			{ index: 'home_games_without_a_loss_in_a_row', title: '1Х', width: 47, type: 'number'}]
+		},
+		{
+			text: 'Серии в гостях',
+			columns: [
+			{ index: 'away_games_won_in_a_row', title: 'П1', width: 47, type: 'number'},
+			{ index: 'away_games_without_a_win_in_a_row', title: 'Х2', width: 47, type: 'number'},
+			{ index: 'away_games_drawn_in_a_row', title: 'Х', width: 47, type: 'number'},
+			{ index: 'away_games_without_a_draw_in_a_row', title: 'П1П2', width: 47, type: 'number'},
+			{ index: 'away_games_lost_in_a_row', title: 'П2', width: 47, type: 'number'},
+			{ index: 'away_games_without_a_loss_in_a_row', title: '1Х', width: 47, type: 'number'}]
+		}, 		
+		{ index: 'biggestVictory', title: 'Лучший счет', width: 100, type: 'string'},
+		{ index: 'biggestDefeat', title: 'Худший счет', width: 100, type: 'string'}]
   });
 });
