@@ -393,11 +393,11 @@ $(function(){
 		{ index: 'country', title: 'Country', locked: true, width: 80, filter: { header: true, emptyText: 'Поиск' } },
 		{ index: 'leagueName', title: 'League', locked: true, width: 120, filter: { header: true, emptyText: 'Поиск' } },
 		{ index: 'gamesPlayed', title: 'GP', locked: true, width: 35, type: 'number'},
-		{ index: 'currentPosition', title: 'Pos', locked: true, width: 40, type: 'number'},
 		{ index: 'averageGoalsPerMatch', title: 'AVG', locked: true, width: 40, type: 'number'},
 		{
 			text: 'Результаты в чемпионате',
 			columns: [
+			{ index: 'currentPosition', title: 'pos', width: 40, type: 'number'},
 			{ index: 'gp', title: 'GP', width: 40, type: 'number'},
 			{ index: 'pts', title: 'PTS', width: 40, type: 'number'},
 			{ index: 'w', title: 'W', width: 40, type: 'number'},
@@ -433,7 +433,7 @@ $(function(){
 			{ index: 'score_3_3', title: '3:3', width: 40, type: 'number'}]
 		},
 		{
-			text: 'Процент игр, в которых были забиты голы в интервалах',
+			text: 'Процент игр с голами в интервалах',
 			columns: [
 			{ index: 'goalsScoredBetween01And15', title: '1-15', width: 45, type: 'number'},
 			{ index: 'goalsScoredBetween16And30', title: '16-30', width: 47, type: 'number'},
@@ -480,7 +480,7 @@ $(function(){
 			{ index: 'gamesWith_2_2_percent', title: '2/2', width: 47, type: 'number'}]
 		}, 
 		{
-			text: 'Серии',
+			text: 'Серии дома и в гостях',
 			columns: [
 			{ index: 'games_won_in_a_row', title: 'П1', width: 47, type: 'number'},
 			{ index: 'games_without_a_win_in_a_row', title: 'Х2', width: 47, type: 'number'},
