@@ -7,7 +7,7 @@ var teams =
 	{userId: "1892280", name: "ymat", result: 0}];
 var ids = 0;
 // var SportsRuUrlTemplate = "https://cors.io/?https://www.sports.ru/fantasy/football/team/points/";
-var SportsRuUrlTemplate = "https://cdn.tribuna.com/fetch/?url=https://www.sports.ru/fantasy/football/team/points/";
+var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
 var JsonUrlTemplate = "/8331.json";
 
 a();
@@ -16,20 +16,10 @@ function a(){
 	for (ids = 0; ids < teams.length; ids++) 
 	{
 	   (function(ids) {
-	    var yql_url = 'https://query.yahooapis.com/v1/public/yql';
 		var json_url = SportsRuUrlTemplate + teams[ids].userId + JsonUrlTemplate;
-		$.ajax({
-			'url': json_url,
-			//'data': {
-			//	'q': 'SELECT * FROM json WHERE url="'+json_url+'"',
-			//	'format': 'json',
-			//	'jsonCompat': 'new',
-			//},
-		'dataType': 'json',
-		'success': function(response) {
-	   	
-			// var json = response.query.results.json;
-			var json = response;
+		$.getJSON('http://cors-proxy.htmldriven.com/?url=' + encodeURIComponent(json_url), function(response){
+			
+			var json = JSON.parse(response.body);
 			
 			var MIN_GOALKEEPER_COUNT = 1, MIN_DEFENDER_COUNT = 3, MIN_HALFBACK_COUNT = 2, MIN_FORWARD_COUNT = 1;
 
@@ -181,7 +171,7 @@ function a(){
 				$(".cssload-jumping").fadeOut(300);	
 
 			}
-        });
+        );
 	})(ids);
   }
 }
