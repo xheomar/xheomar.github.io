@@ -8,7 +8,7 @@ var teams =
 var ids = 0;
 // var SportsRuUrlTemplate = "https://cors.io/?https://www.sports.ru/fantasy/football/team/points/";
 var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
-var JsonUrlTemplate = "/8331.json";
+var JsonUrlTemplate = "/8332.json";
 
 a();
 
