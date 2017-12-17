@@ -96,7 +96,8 @@ function getGames() {
                             $('.spoiler-title' + '#' + customId).css('color', 'blue');
 
                         $('.spoiler-title' + '#' + customId)
-                            .text(homeTeamName + " - " + awayTeamName + score + "(" + startDate + " " + startTime + ")");
+                            .text("[" + tournaments[i].tournament.name + "] " +
+                                homeTeamName + " - " + awayTeamName + score + "(" + startDate + " " + startTime + ")");
 
                         if (confirmedLineups || hasLineupsList) {
                             $('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
