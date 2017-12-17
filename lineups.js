@@ -225,11 +225,21 @@ function getGames() {
 
                                                 if (pos < homeTeam.length &&
                                                     typeof homeTeam[pos].player !== 'undefined') {
-                                                    if (typeof homeTeam[pos].position !== 'undefined') {
-                                                        content += '<tr class = "in_a_row">';
+                                                    if (lineups.homeTeam.formation.length != 0) {
+                                                        if (typeof homeTeam[pos].position !== 'undefined') {
+                                                            content += '<tr class = "in_a_row">';
+                                                        } else {
+                                                            content += '<tr class = "not_in_a_row">';
+                                                        }
                                                     } else {
-                                                        content += '<tr class = "not_in_a_row">';
+                                                        if (!homeTeam[pos].substitute) {
+                                                            content += '<tr class = "in_a_row">';
+                                                        } else {
+                                                            content += '<tr class = "not_in_a_row">';
+                                                        }
                                                     }
+
+
 
                                                     content += '<td>' + arr[id].homeTeamName + '</td>';
                                                     //content += '<td>' + homeTeam[pos].shirtNumber + '</td>';	
