@@ -32,6 +32,35 @@ console.log(today);
 var liveUrl = "http://www.sofascore.com/football/livescore/json";
 var todayUrl = 'http://www.sofascore.com/football//' + today + '/json';
 
+$.YQL("SELECT * FROM json WHERE url='" + todayUrl + "' LIMIT 1", function(data) {
+    var response = data.query.results.json;
+    console.log(response);
+    var tournaments = response.sportItem.tournaments;
+    if (typeof tournaments.length === 'undefined') {
+        var temptournaments = tournaments;
+        tournaments = new Array(1);
+        tournaments[0] = temptournaments;
+    }
+    $("#country")
+        .empty()
+        .append('<option selected="selected" value="Live">Live</option>')
+        .append('<option selected="selected" value="All">All</option>');
+    var countries = [];
+    for (var i = 0; i < tournaments.length; i++) {
+        countries.push(tournaments[i].category.name);
+    }
+
+    var uniqueNames = [];
+    $.each(countries, function(i, el) {
+        if ($.inArray(el, uniqueNames) === -1) {
+            uniqueNames.push(el);
+            $("#country")
+                .append('<option value="whatever">' + el + '</option>');
+        }
+    });
+
+
+});
 
 $('#runGameButton').click(function() {
     getGames();
