@@ -18,7 +18,8 @@ img {
 width: 70%; 
 height: 70%;
 }
-.spoiler-title, table {
+table {
+ // display: inline-table;
 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 font-size: 14px;
 border-radius: 10px;
@@ -26,6 +27,7 @@ border-spacing: 0;
 text-align: center;
 table-layout:fixed;
 }
+
 .spoiler-title {
 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
 font-size: 14px;
