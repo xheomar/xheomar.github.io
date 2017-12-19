@@ -48,6 +48,9 @@ background: #bbff99;
 tr.not_in_a_row {
 background: #ffcce6;	
 }
+tr.stayed_home {
+background: #61c3ff;	
+}
 th, td {
 border-style: solid;
 border-width: 0 1px 1px 0;
