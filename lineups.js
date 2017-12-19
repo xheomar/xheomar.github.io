@@ -1,3 +1,11 @@
+function getUnixTs() {
+  var ts = Math.round((new Date()).getTime() / 1000).toString();
+  ts = ts.slice(0, -1);
+  return ts;
+}
+
+console.log(getUnixTs());
+
 $.YQL = function(query, callback) {
 
     if (!query || !callback) {
@@ -33,7 +41,7 @@ var liveUrl = "http://www.sofascore.com/football/livescore/json";
 var todayUrl = 'http://www.sofascore.com/football//' + today + '/json';
     //todayUrl = 'http://www.sofascore.com/football//' + '2017-12-19' + '/json';
 
-$.YQL("SELECT * FROM json WHERE url='" + todayUrl + "' LIMIT 1", function(data) {
+$.YQL("SELECT * FROM json WHERE url='" + todayUrl + '?_=' + getUnixTs() + "' LIMIT 1", function(data) {
     var response = data.query.results.json;
     console.log(response);
     var tournaments = response.sportItem.tournaments;
@@ -71,7 +79,7 @@ function getGames() {
 
     var countryName = $("#country :selected").text();
     var isLive = false;
-    console.log(countryName);
+    //console.log(countryName);
 
     var url = "";
     if (countryName == "Live") {
@@ -87,7 +95,7 @@ function getGames() {
 
     $(".container").remove();
 
-    $.YQL("SELECT * FROM json WHERE url='" + url + "' LIMIT 1", function(data) {
+    $.YQL("SELECT * FROM json WHERE url='" + url + '?_=' + getUnixTs() + "' LIMIT 1", function(data) {
         console.log(data);
         //console.log(url);
         var response = data.query.results.json;
@@ -102,9 +110,9 @@ function getGames() {
         }
 
         for (var i = 0; i < tournaments.length; i++) {
-            console.log(tournaments[i].category.name);
+            //console.log(tournaments[i].category.name);
             if (!isLive && tournaments[i].category.name != countryName) {
-                console.log("Nothing will be get");
+                //console.log("Nothing will be get");
                 continue;
             } {
                 console.log(tournaments[i]);
@@ -184,17 +192,9 @@ function getGames() {
                     console.log("confirmedLineups = " + confirmedLineups);
                     console.log("hasLineupsList = " + hasLineupsList);
                     
-                    if (typeof confirmedLineups != null)
-                      {
-                        if (confirmedLineups == "true" || hasLineupsList == "true") {
-                         $('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
-                        }
-                      }
-                    else {
-                        if (confirmedLineups || hasLineupsList ) {
+                    if (confirmedLineups != "false" && hasLineupsList != "false" ) {
                           $('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
-                        }
-                      }                    
+                     }                  
 
                     $('.spoiler-title' + '#' + customId).click(function() {
                         var id = $(this).attr('id');
@@ -243,10 +243,11 @@ function getGames() {
                                 "&order=-appearances&filters=team.EQ." +
                                 arr[id].awayTeamId;
                             console.log("awayTeamStatsUrl = " + awayTeamStatsUrl);
-                            var whileNot = true;
+                          
                             var array = ["", "&offset=10", "&offset=20"];
 
-                            $.YQL("SELECT * FROM json WHERE url='" + "http://www.sofascore.com/event/" + arr[id].gameId + "/lineups/json" + "' LIMIT 1",
+                            $.YQL("SELECT * FROM json WHERE url='" + "http://www.sofascore.com/event/" + 
+                                  arr[id].gameId + "/lineups/json" + '?_=' + getUnixTs() + "' LIMIT 1",
                                 function(data) {
                                     var lineups = data.query.results.json;
                                     console.log(lineups);
@@ -274,7 +275,7 @@ function getGames() {
                                         "</tr>";
                                     content += "\n";
                                     var homeTeam = lineups.homeTeam.lineupsSorted;
-
+                                    if (homeTeam.length)
                                     for (var pos = 0; pos < homeTeam.length; pos++) {
                                         content += '<tr id="player_' + homeTeam[pos].player.id + '" ';
                                         if (pos < homeTeam.length &&
@@ -409,7 +410,7 @@ function getGames() {
                                     var homeTeamPlayers = [];
                                     for (var i = 0; i < array.length; i++) {
                                         (function(i) {
-                                            $.YQL("SELECT * FROM json WHERE url='" + homeTeamStatsUrl + array[i] + "' LIMIT 1", function(data) {
+                                            $.YQL("SELECT * FROM json WHERE url='" + homeTeamStatsUrl + array[i] + '?_=' + getUnixTs() + "' LIMIT 1", function(data) {
                                                 var homeStats = data.query.results.json;
                                                 console.log(homeStats);
                                                 var playerArray = homeStats.results;
@@ -471,7 +472,7 @@ function getGames() {
                                     var awayTeamPlayers = [];
                                     for (var i = 0; i < array.length; i++) {
                                         (function(i) {
-                                            $.YQL("SELECT * FROM json WHERE url='" + awayTeamStatsUrl + array[i] + "' LIMIT 1", function(data) {
+                                            $.YQL("SELECT * FROM json WHERE url='" + awayTeamStatsUrl + array[i] + '?_=' + getUnixTs() + "' LIMIT 1", function(data) {
                                                 var awayStats = data.query.results.json;
                                                 var playerArray = awayStats.results;
                                                 for (var res = 0; res < playerArray.length; res++) {
