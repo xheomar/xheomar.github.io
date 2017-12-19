@@ -31,6 +31,7 @@ console.log(today);
 
 var liveUrl = "http://www.sofascore.com/football/livescore/json";
 var todayUrl = 'http://www.sofascore.com/football//' + today + '/json';
+    //todayUrl = 'http://www.sofascore.com/football//' + '2017-12-19' + '/json';
 
 $.YQL("SELECT * FROM json WHERE url='" + todayUrl + "' LIMIT 1", function(data) {
     var response = data.query.results.json;
@@ -182,9 +183,18 @@ function getGames() {
 
                     console.log("confirmedLineups = " + confirmedLineups);
                     console.log("hasLineupsList = " + hasLineupsList);
-                    if (confirmedLineups == "true" || hasLineupsList == "true") {
-                        $('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
-                    }
+                    
+                    if (typeof confirmedLineups != null)
+                      {
+                        if (confirmedLineups == "true" || hasLineupsList == "true") {
+                         $('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
+                        }
+                      }
+                    else {
+                        if (confirmedLineups || hasLineupsList ) {
+                          $('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
+                        }
+                      }                    
 
                     $('.spoiler-title' + '#' + customId).click(function() {
                         var id = $(this).attr('id');
@@ -198,7 +208,19 @@ function getGames() {
                                 arr[id].tournamentId +
                                 "/" +
                                 arr[id].seasonId +
-                                "/json?fields=goals%2Cassists%2CyellowCards%2Cappearances%2CmatchesStarted%2Crating&order=-appearances&filters=team.EQ." +
+                                "/json?fields=" + 
+                                "goals" + "%2C" + 
+                                "assists" + "%2C" + 
+                                "yellowCards" + "%2C" + 
+                                "appearances" + "%2C" + 
+                                "matchesStarted" + "%2C" + 
+                                "rating" + "%2C" + 
+                                "tackles" + "%2C" + 
+                                "accuratePassesPercentage" + "%2C" + 
+                                "keyPasses" + "%2C" + 
+                                "cleanSheet" + "%2C" + 
+                                "redCards" +
+                                "&order=-appearances&filters=team.EQ." +
                                 arr[id].homeTeamId;
                             console.log("homeTeamStatsUrl = " + homeTeamStatsUrl);
 
@@ -206,7 +228,19 @@ function getGames() {
                                 arr[id].tournamentId +
                                 "/" +
                                 arr[id].seasonId +
-                                "/json?fields=goals%2Cassists%2CyellowCards%2Cappearances%2CmatchesStarted%2Crating&order=-appearances&filters=team.EQ." +
+                                "/json?fields=" + 
+                                "goals" + "%2C" + 
+                                "assists" + "%2C" + 
+                                "yellowCards" + "%2C" + 
+                                "appearances" + "%2C" + 
+                                "matchesStarted" + "%2C" + 
+                                "rating" + "%2C" + 
+                                "tackles" + "%2C" + 
+                                "accuratePassesPercentage" + "%2C" + 
+                                "keyPasses" + "%2C" + 
+                                "cleanSheet" + "%2C" + 
+                                "redCards" +
+                                "&order=-appearances&filters=team.EQ." +
                                 arr[id].awayTeamId;
                             console.log("awayTeamStatsUrl = " + awayTeamStatsUrl);
                             var whileNot = true;
@@ -217,7 +251,7 @@ function getGames() {
                                     var lineups = data.query.results.json;
                                     console.log(lineups);
                                     var content = "";
-                                    content += '<table ';
+                                    content += '<table id="team_'+ arr[id].homeTeamId +'"';
                                     content += " border='2'>";
                                     if (arr[id].confirmedLineups)
                                         content += "<caption><b>" + arr[id].homeTeamName + "</b> : Confirmed lineups</caption>";
@@ -225,26 +259,37 @@ function getGames() {
                                         content += "<caption><b>" + arr[id].homeTeamName + "</b> : Non-confirmed lineups</caption>";
                                     content += "<tr>" +
                                         "<th>#</th><th>name</th><th>pos</th>" +
-                                        "<th> App </th><th> Start </th><th> Min </th><th> Rat </th><th> Goals </th><th> Assists </th><th> Yellow </th>" +
+                                        "<th> App </th>" + 
+                                        "<th> Start </th>" + 
+                                        "<th> Min </th>" +                                         
+                                        "<th> Goals </th>" + 
+                                        "<th> Assists </th>" + 
+                                        "<th> Tack </th>" + 
+                                        "<th> AP% </th>" + 
+                                        "<th> KeyP </th>" + 
+                                        "<th> Clean </th>" + 
+                                        "<th> Yellows </th>" +
+                                        "<th> Reds </th>" +
+                                        "<th> Rat </th>" + 
                                         "</tr>";
                                     content += "\n";
                                     var homeTeam = lineups.homeTeam.lineupsSorted;
 
                                     for (var pos = 0; pos < homeTeam.length; pos++) {
-
+                                        content += '<tr id="player_' + homeTeam[pos].player.id + '" ';
                                         if (pos < homeTeam.length &&
                                             typeof homeTeam[pos].player !== 'undefined') {
                                             if (typeof lineups.homeTeam.formation !== 'undefined') {
                                                 if (typeof homeTeam[pos].position !== 'undefined') {
-                                                    content += '<tr class = "in_a_row">';
+                                                    content += 'class="in_a_row">';
                                                 } else {
-                                                    content += '<tr class = "not_in_a_row">';
+                                                    content += 'class="not_in_a_row">';
                                                 }
                                             } else {
-                                                if (!homeTeam[pos].substitute) {
-                                                    content += '<tr class = "in_a_row">';
+                                                if (homeTeam[pos].substitute == "false") {
+                                                    content += 'class = "in_a_row">';
                                                 } else {
-                                                    content += '<tr class = "not_in_a_row">';
+                                                    content += 'class = "not_in_a_row">';
                                                 }
                                             }
 
@@ -260,11 +305,16 @@ function getGames() {
                                             var playerId = homeTeam[pos].player.id;
                                             content += '<td id="appearance_' + playerId + '">' + '-' + '</td>';
                                             content += '<td id="matchesStarted_' + playerId + '">' + '-' + '</td>';
-                                            content += '<td id="minutesPlayed_' + playerId + '">' + '-' + '</td>';
-                                            content += '<td id="rating_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="minutesPlayed_' + playerId + '">' + '-' + '</td>';                                            
                                             content += '<td id="goals_' + playerId + '">' + '-' + '</td>';
-                                            content += '<td id="assists_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="assists_' + playerId + '">' + '-' + '</td>';                                            
+                                            content += '<td id="tackles_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="accuratePassesPercentage_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="keyPasses_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="cleanSheet_' + playerId + '">' + '-' + '</td>';
                                             content += '<td id="yellowCards_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="redCards_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="rating_' + playerId + '">' + '-' + '</td>';
                                         }
 
                                         content += '</tr>';
@@ -277,7 +327,7 @@ function getGames() {
                                     content += "<tr>&nbsp</tr>"
                                     content += "</table>";*/
 
-                                    content += '<table ';
+                                    content += '<table id="team_'+ arr[id].awayTeamId +'"';
                                     content += " border='2'>";
                                     if (arr[id].confirmedLineups)
                                         content += "<caption><b>" + arr[id].awayTeamName + "</b> : Confirmed lineups</caption>";
@@ -285,27 +335,38 @@ function getGames() {
                                         content += "<caption><b>" + arr[id].awayTeamName + "</b> : Non-confirmed lineups</caption>";
                                     content += "<tr>" +
                                         "<th>#</th><th>name</th><th>pos</th>" +
-                                        "<th> App </th><th> Start </th><th> Min </th><th> Rat </th><th> Goals </th><th> Assists </th><th> Yellow </th>" +
+                                        "<th> App </th>" + 
+                                        "<th> Start </th>" + 
+                                        "<th> Min </th>" +                                         
+                                        "<th> Goals </th>" + 
+                                        "<th> Assists </th>" + 
+                                        "<th> Tack </th>" + 
+                                        "<th> AP% </th>" + 
+                                        "<th> KeyP </th>" + 
+                                        "<th> Clean </th>" + 
+                                        "<th> Yellows </th>" +
+                                        "<th> Reds </th>" +
+                                        "<th> Rat </th>" + 
                                         "</tr>";
                                     content += "\n";
 
                                     var awayTeam = lineups.awayTeam.lineupsSorted;
 
                                     for (var pos = 0; pos < awayTeam.length; pos++) {
-
+                                        content += '<tr id="player_' + awayTeam[pos].player.id + '" ';
                                         if (pos < awayTeam.length &&
                                             typeof awayTeam[pos].player !== 'undefined') {
                                             if (typeof lineups.awayTeam.formation !== 'undefined') {
                                                 if (typeof awayTeam[pos].position !== 'undefined') {
-                                                    content += '<tr class = "in_a_row">';
+                                                    content += 'class = "in_a_row">';
                                                 } else {
-                                                    content += '<tr class = "not_in_a_row">';
+                                                    content += 'class = "not_in_a_row">';
                                                 }
                                             } else {
-                                                if (!awayTeam[pos].substitute) {
-                                                    content += '<tr class = "in_a_row">';
+                                                if (awayTeam[pos].substitute == "false") {
+                                                    content += 'class = "in_a_row">';
                                                 } else {
-                                                    content += '<tr class = "not_in_a_row">';
+                                                    content += 'class = "not_in_a_row">';
                                                 }
                                             }
 
@@ -320,12 +381,16 @@ function getGames() {
                                             var playerId = awayTeam[pos].player.id;
                                             content += '<td id="appearance_' + playerId + '">' + '-' + '</td>';
                                             content += '<td id="matchesStarted_' + playerId + '">' + '-' + '</td>';
-                                            content += '<td id="minutesPlayed_' + playerId + '">' + '-' + '</td>';
-                                            content += '<td id="rating_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="minutesPlayed_' + playerId + '">' + '-' + '</td>';                                            
                                             content += '<td id="goals_' + playerId + '">' + '-' + '</td>';
-                                            content += '<td id="assists_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="assists_' + playerId + '">' + '-' + '</td>';                                            
+                                            content += '<td id="tackles_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="accuratePassesPercentage_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="keyPasses_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="cleanSheet_' + playerId + '">' + '-' + '</td>';
                                             content += '<td id="yellowCards_' + playerId + '">' + '-' + '</td>';
-
+                                            content += '<td id="redCards_' + playerId + '">' + '-' + '</td>';
+                                            content += '<td id="rating_' + playerId + '">' + '-' + '</td>';
                                         }
 
 
@@ -341,26 +406,53 @@ function getGames() {
                                     $(this).toggleClass('opened').toggleClass('closed').next().slideToggle();
 
 
-
-
                                     var homeTeamPlayers = [];
                                     for (var i = 0; i < array.length; i++) {
                                         (function(i) {
                                             $.YQL("SELECT * FROM json WHERE url='" + homeTeamStatsUrl + array[i] + "' LIMIT 1", function(data) {
                                                 var homeStats = data.query.results.json;
-                                                //console.log(homeStats);
+                                                console.log(homeStats);
                                                 var playerArray = homeStats.results;
                                                 for (var res = 0; res < playerArray.length; res++) {
-
+                                                  if ( $('tr#player_' + playerArray[res].player.id).length ) {                                                        
                                                     $('td#matchesStarted_' + playerArray[res].player.id).text(playerArray[res].matchesstarted);
                                                     $('td#minutesPlayed_' + playerArray[res].player.id).text(playerArray[res].minutesPlayed);
                                                     $('td#rating_' + playerArray[res].player.id).text(playerArray[res].rating);
                                                     $('td#goals_' + playerArray[res].player.id).text(playerArray[res].goals);
                                                     $('td#assists_' + playerArray[res].player.id).text(playerArray[res].assists);
                                                     $('td#yellowCards_' + playerArray[res].player.id).text(playerArray[res].yellowcards);
-                                                    $('td#appearance_' + playerArray[res].player.id).text(playerArray[res].appearances);
+                                                    $('td#appearance_' + playerArray[res].player.id).text(playerArray[res].appearances);                                                  
+                                                    $('td#tackles_' + playerArray[res].player.id).text(playerArray[res].tackles);
+                                                    $('td#accuratePassesPercentage_' + playerArray[res].player.id).text(playerArray[res].accuratepassespercentage);
+                                                    $('td#keyPasses_' + playerArray[res].player.id).text(playerArray[res].keypasses);
+                                                    $('td#cleanSheet_' + playerArray[res].player.id).text(playerArray[res].cleansheet);
+                                                    $('td#redCards_' + playerArray[res].player.id).text(playerArray[res].redcards);
+                                                  }
+                                                  else {
+                                                    var newTr = "";
+                                                    var playerId = playerArray[res].player.id;
+                                                    newTr += '<tr id="player_' + playerId + '" class="stayed_home">';                                                    
+                                                    newTr += '<td id="number_' + playerId + '">' + '-' + '</td>';
+                                                    newTr += '<td class="name" id="name_' + playerId + '">' + playerArray[res].player.name + '</td>';
+                                                    newTr += '<td id="pos_' + playerId + '">' + '-' + '</td>';
+                                                    newTr += '<td id="appearance_' + playerId + '">' + playerArray[res].appearances + '</td>';
+                                                    newTr += '<td id="matchesStarted_' + playerId + '">' + playerArray[res].matchesstarted + '</td>';
+                                                    newTr += '<td id="minutesPlayed_' + playerId + '">' + playerArray[res].minutesPlayed + '</td>';                                            
+                                                    newTr += '<td id="goals_' + playerId + '">' + playerArray[res].goals + '</td>';
+                                                    newTr += '<td id="assists_' + playerId + '">' + playerArray[res].assists + '</td>';                                            
+                                                    newTr += '<td id="tackles_' + playerId + '">' + playerArray[res].tackles + '</td>';
+                                                    newTr += '<td id="accuratePassesPercentage_' + playerId + '">' + playerArray[res].accuratepassespercentage + '</td>';
+                                                    newTr += '<td id="keyPasses_' + playerId + '">' + playerArray[res].keypasses + '</td>';
+                                                    newTr += '<td id="cleanSheet_' + playerId + '">' + playerArray[res].cleansheet + '</td>';
+                                                    newTr += '<td id="yellowCards_' + playerId + '">' + playerArray[res].yellowcards + '</td>';
+                                                    newTr += '<td id="redCards_' + playerId + '">' + playerArray[res].redcards + '</td>';
+                                                    newTr += '<td id="rating_' + playerId + '">' + playerArray[res].rating + '</td>';
+                                                    newTr += '</tr>';
+                                                    $("table#team_" + arr[id].homeTeamId).append( newTr );
+                                                  }
+                                                    
 
-                                                    homeTeamPlayers[playerArray[res].player.id] = {
+                                                    /*homeTeamPlayers[playerArray[res].player.id] = {
                                                         key: playerArray[res].player.id,
                                                         name: playerArray[res].player.name,
                                                         rating: playerArray[res].rating,
@@ -370,7 +462,7 @@ function getGames() {
                                                         goals: playerArray[res].goals,
                                                         assists: playerArray[res].assists,
                                                         yellowCards: playerArray[res].yellowCards
-                                                    };
+                                                    };*/
                                                 }
                                             });
                                         })(i);
@@ -383,16 +475,43 @@ function getGames() {
                                                 var awayStats = data.query.results.json;
                                                 var playerArray = awayStats.results;
                                                 for (var res = 0; res < playerArray.length; res++) {
-
+                                                  if ( $('tr#player_' + playerArray[res].player.id).length ) {  
                                                     $('td#matchesStarted_' + playerArray[res].player.id).text(playerArray[res].matchesstarted);
                                                     $('td#minutesPlayed_' + playerArray[res].player.id).text(playerArray[res].minutesPlayed);
                                                     $('td#rating_' + playerArray[res].player.id).text(playerArray[res].rating);
                                                     $('td#goals_' + playerArray[res].player.id).text(playerArray[res].goals);
                                                     $('td#assists_' + playerArray[res].player.id).text(playerArray[res].assists);
                                                     $('td#yellowCards_' + playerArray[res].player.id).text(playerArray[res].yellowcards);
-                                                    $('td#appearance_' + playerArray[res].player.id).text(playerArray[res].appearances);
-
-                                                    awayTeamPlayers[playerArray[res].player.id] = {
+                                                    $('td#appearance_' + playerArray[res].player.id).text(playerArray[res].appearances);                                                  
+                                                    $('td#tackles_' + playerArray[res].player.id).text(playerArray[res].tackles);
+                                                    $('td#accuratePassesPercentage_' + playerArray[res].player.id).text(playerArray[res].accuratepassespercentage);
+                                                    $('td#keyPasses_' + playerArray[res].player.id).text(playerArray[res].keypasses);
+                                                    $('td#cleanSheet_' + playerArray[res].player.id).text(playerArray[res].cleansheet);
+                                                    $('td#redCards_' + playerArray[res].player.id).text(playerArray[res].redcards);
+                                                  }
+                                                  else {
+                                                    var newTr = "";
+                                                    var playerId = playerArray[res].player.id;
+                                                    newTr += '<tr id="player_' + playerId + '" class="stayed_home">';                                                    
+                                                    newTr += '<td id="number_' + playerId + '">' + '-' + '</td>';
+                                                    newTr += '<td class="name" id="name_' + playerId + '">' + playerArray[res].player.name + '</td>';
+                                                    newTr += '<td id="pos_' + playerId + '">' + '-' + '</td>';
+                                                    newTr += '<td id="appearance_' + playerId + '">' + playerArray[res].appearances + '</td>';
+                                                    newTr += '<td id="matchesStarted_' + playerId + '">' + playerArray[res].matchesstarted + '</td>';
+                                                    newTr += '<td id="minutesPlayed_' + playerId + '">' + playerArray[res].minutesPlayed + '</td>';                                            
+                                                    newTr += '<td id="goals_' + playerId + '">' + playerArray[res].goals + '</td>';
+                                                    newTr += '<td id="assists_' + playerId + '">' + playerArray[res].assists + '</td>';                                            
+                                                    newTr += '<td id="tackles_' + playerId + '">' + playerArray[res].tackles + '</td>';
+                                                    newTr += '<td id="accuratePassesPercentage_' + playerId + '">' + playerArray[res].accuratepassespercentage + '</td>';
+                                                    newTr += '<td id="keyPasses_' + playerId + '">' + playerArray[res].keypasses + '</td>';
+                                                    newTr += '<td id="cleanSheet_' + playerId + '">' + playerArray[res].cleansheet + '</td>';
+                                                    newTr += '<td id="yellowCards_' + playerId + '">' + playerArray[res].yellowcards + '</td>';
+                                                    newTr += '<td id="redCards_' + playerId + '">' + playerArray[res].redcards + '</td>';
+                                                    newTr += '<td id="rating_' + playerId + '">' + playerArray[res].rating + '</td>';
+                                                    newTr += '</tr>';
+                                                    $("table#team_" + arr[id].awayTeamId).append( newTr );
+                                                  }
+                                                    /*awayTeamPlayers[playerArray[res].player.id] = {
                                                         key: playerArray[res].player.id,
                                                         name: playerArray[res].player.name,
                                                         rating: playerArray[res].rating,
@@ -402,14 +521,11 @@ function getGames() {
                                                         goals: playerArray[res].goals,
                                                         assists: playerArray[res].assists,
                                                         yellowCards: playerArray[res].yellowCards
-                                                    };
+                                                    };*/
                                                 }
                                             });
                                         })(i);
                                     }
-
-
-
 
                                 })
                         } else {
