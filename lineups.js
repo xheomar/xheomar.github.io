@@ -139,6 +139,7 @@ function getGames() {
                     var status = events[j].status.type;
                     var confirmedLineups = events[j].confirmedLineups;
                     var hasLineupsList = events[j].hasLineupsList;
+                    var hasLineups = events[j].hasLineups;
                     var gameId = events[j].id;
 
                     // common data for tournament
@@ -162,6 +163,7 @@ function getGames() {
                         awayTeamId: awayTeamId,
                         confirmedLineups: confirmedLineups,
                         hasLineupsList: hasLineupsList,
+                        hasLineups: hasLineups,
                         status: status,
                         tournamentId: tournamentId,
                         seasonId: seasonId
@@ -220,11 +222,11 @@ function getGames() {
                     }
 
 
-                    if (confirmedLineups != "false" && hasLineupsList != "false") {
+                    if (confirmedLineups == "true" || hasLineupsList == "true" || hasLineups == "true") {
                         //$('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
                         $("tr#" + customId).css('text-decoration', 'underline');
                     }
-                    if (confirmedLineups != "false" && hasLineupsList != "false")
+                    if (confirmedLineups == "true" || hasLineupsList == "true" || hasLineups == "true")
                         //$('.spoiler-title' + '#' + customId)
                         $("tr#" + customId).click(function() {
                             var id = $(this).attr('id');
@@ -284,7 +286,7 @@ function getGames() {
                                         var content = "";
                                         content += '<table id="team_' + arr[id].homeTeamId + '"';
                                         content += " border='2'>";
-                                        if (arr[id].confirmedLineups)
+                                        if (arr[id].confirmedLineups == "true")
                                             content += "<caption><b>" + arr[id].homeTeamName + "</b> : Confirmed lineups</caption>";
                                         else
                                             content += "<caption><b>" + arr[id].homeTeamName + "</b> : Non-confirmed lineups</caption>";
@@ -360,7 +362,7 @@ function getGames() {
 
                                         content += '<table id="team_' + arr[id].awayTeamId + '"';
                                         content += " border='2'>";
-                                        if (arr[id].confirmedLineups)
+                                        if (arr[id].confirmedLineups == "true")
                                             content += "<caption><b>" + arr[id].awayTeamName + "</b> : Confirmed lineups</caption>";
                                         else
                                             content += "<caption><b>" + arr[id].awayTeamName + "</b> : Non-confirmed lineups</caption>";
