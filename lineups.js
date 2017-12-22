@@ -517,7 +517,13 @@ function getGames() {
                                                     var homeStats = data.query.results.json;
   
                                                     var playerArray = homeStats.results;
-                                                    if (typeof playerArray !== 'undefined')
+                                                    if (typeof playerArray.length === 'undefined') {
+                                                      console.log("UNDEFINED!");
+                                                      var tempPlayerArray = playerArray;
+                                                      playerArray = new Array(1);
+                                                      playerArray[0] = tempPlayerArray;
+                                                    }
+                                                    //if (typeof playerArray !== 'undefined')
                                                         for (var res = 0; res < playerArray.length; res++) {
                                                             if ($('tr#player_' + playerArray[res].player.id).length) {
                                                                 $('td#matchesStarted_' + playerArray[res].player.id).text(playerArray[res].matchesstarted);
@@ -581,7 +587,13 @@ function getGames() {
                                                     var awayStats = data.query.results.json;
   
                                                     var playerArray = awayStats.results;
-                                                    if (typeof playerArray !== 'undefined')
+                                                    if (typeof playerArray.length === 'undefined') {
+                                                      console.log("UNDEFINED!");
+                                                      var tempPlayerArray = playerArray;
+                                                      playerArray = new Array(1);
+                                                      playerArray[0] = tempPlayerArray;
+                                                    }
+                                                    //if (typeof playerArray !== 'undefined')
                                                         for (var res = 0; res < playerArray.length; res++) {
                                                             if ($('tr#player_' + playerArray[res].player.id).length) {
                                                                 $('td#matchesStarted_' + playerArray[res].player.id).text(playerArray[res].matchesstarted);
