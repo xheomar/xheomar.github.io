@@ -120,7 +120,7 @@ table.newtable tr.odd-row td {
     background:#f6f6f6;
 }
 table.newtable td, th {
-    text-align:left
+    /*text-align:left*/
 }
 table.newtable td.last {
     border-right:none;
