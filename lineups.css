@@ -1,23 +1,18 @@
-.disqual {
-text-decoration: line-through;	
+
+caption.popup {
+ color: white;  
 }
-.injured {
-text-decoration: line-through;	
+
+
+.spoiler-title {
+font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+font-size: 14px;
+//border-radius: 10px;
+//border-spacing: 0;
+//text-align: left;
+//table-layout:fixed;
 }
-.italic {
-font-style: italic;	
-}
-.capitan {
-font-weight: bold;
-}
-.starr {
-display: inline-block;
-background-image: url("http://s5o.ru/common/css/i/onlines/inferno.png");
-}
-img {
-width: 70%; 
-height: 70%;
-}
+
 table {
 display: inline-table;
 font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
@@ -87,37 +82,96 @@ tr td:last-child {
 border-right: none;
 }
 
-
-.action-column-remove {
-  cursor: pointer;
-  padding: 5px;
-  position: relative;
-  top: -5px;
-  border-radius: 2px;
-  background-color: #E4827D;
-  color: #FFF;
+/*
+	Table 2 Styling
+	*/
+ table.newtable {
+    overflow:hidden;
+    border:1px solid #d3d3d3;
+    background:#fefefe;
+    width:100%;
+    margin:5% auto 0;
+    -moz-border-radius:5px;
+    /* FF1+ */
+    -webkit-border-radius:5px;
+    /* Saf3-4 */
+    border-radius:5px;
+    -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-collapse: separate !important;
 }
-
-.action-column-remove:hover {
-  background-color: #F9DDE0;
-}
-
-
-table.newtable {
-font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
-text-align: left;
-border-collapse: separate;
-border-spacing: 5px;
-  background: #ECE9E0;
-//color: #656665;
-border: 16px solid #ECE9E0;
-//border-radius: 20px;
+table.newtable th, td {
+    padding: 4px 14px 4px;
+    text-align:center;
 }
 table.newtable th {
-font-size: 18px;
-padding: 10px;
+    padding-top:14px;
+    padding-bottom:10px;
+    text-shadow: 1px 1px 1px #333;
+    background:#043168;
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
 }
 table.newtable td {
-background: #F5D7BF;
-padding: 10px;
+    border-top:1px solid #e0e0e0;
+    border-right:1px solid #e0e0e0;
 }
+table.newtable tr.odd-row td {
+    background:#f6f6f6;
+}
+table.newtable td, th {
+    text-align:left
+}
+table.newtable td.last {
+    border-right:none;
+}
+table.newtable th.small {
+    font-size:13px;
+}
+/*
+	Background gradients are completely unnecessary but a neat effect.
+	*/
+ table.newtable td {
+    background: -moz-linear-gradient(100% 25% 90deg, #fefefe, #f9f9f9);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f9f9f9), to(#fefefe));
+}
+table.newtable tr.odd-row td {
+    background: -moz-linear-gradient(100% 25% 90deg, #f6f6f6, #f1f1f1);
+    background: -webkit-gradient(linear, 0% 0%, 0% 25%, from(#f1f1f1), to(#f6f6f6));
+}
+table.newtable th {
+    background: -moz-linear-gradient(100% 60% 90deg, #043168, #0D4D8E);
+    background: -webkit-gradient(linear, 0% 0%, 0% 60%, from(#0D4D8E), to(#043168));
+}
+/*
+	I know this is annoying, but we need additional styling so webkit will recognize rounded corners on background elements.
+	And, since we've applied the background colors to td/th element because of IE, Gecko browsers also need it.
+	*/
+ table.newtable tr:first-child th.first {
+    -moz-border-radius-topleft:5px;
+    -webkit-border-top-left-radius:5px;
+    border-top-left-radius:5px;
+    /* Saf3-4 */
+}
+table.newtable tr:first-child th.last {
+    -moz-border-radius-topright:5px;
+    -webkit-border-top-right-radius:5px;
+    border-top-right-radius:5px;
+    /* Saf3-4 */
+}
+table.newtable tr:last-child td.first {
+    -moz-border-radius-bottomleft:5px;
+    -webkit-border-bottom-left-radius:5px;
+    border-bottom-left-radius:5px;
+    /* Saf3-4 */
+}
+table.newtable tr:last-child td.last {
+    -moz-border-radius-bottomright:5px;
+    -webkit-border-bottom-right-radius:5px;
+    border-bottom-right-radius:5px;
+    /* Saf3-4 */
+}
+
+
+cursor: pointer;

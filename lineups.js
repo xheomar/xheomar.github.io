@@ -202,27 +202,37 @@ function getGames() {
 
                     var gameTr = "<tr id='" + customId + "'>";
 
-                    gameTr += "<td>" + startTime + "</td>";
+                    //gameTr += "<td>" + startDate + "</td>";
+                    gameTr += "<td width='35px'>" + startTime + "</td>";
+                  
+                    if (confirmedLineups == "true" || hasLineupsList == "true" || hasLineups == "true") {
+                        //$('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
+                        //$("tr#" + customId).css('text-decoration', 'underline');
+                        gameTr += "<td width='45px' id='" + customId + "'>" + "lineups" + "</td>";                        
+                    }
+                    else {
+                      gameTr += "<td width='45px'>" + " " + "</td>";
+                    }
 
                     if (status == "finished") {
-                        gameTr += "<td>" + "finished" + "</td>";
+                        gameTr += "<td width='80px'>" + "finished" + "</td>";
                         //$('.spoiler-title' + '#' + customId).css('color', 'black');
                         //score = " " + homeScoreCurrent + " : " + awayScoreCurrent + " ";
                     } else if (status == "inprogress") {
-                        gameTr += "<td>" + "inprogress" + "</td>";
+                        gameTr += "<td width='80px'>" + "inprogress" + "</td>";
                         //$('.spoiler-title' + '#' + customId).css('color', 'green');
                         //score = " " + homeScoreCurrent + " : " + awayScoreCurrent + " ";
                     } else if (status == "canceled") {
-                        gameTr += "<td>" + "canceled" + "</td>";
+                        gameTr += "<td width='80px'>" + "canceled" + "</td>";
                         //$('.spoiler-title' + '#' + customId).css('color', 'red');
                     } else if (status == "notstarted") {
-                        gameTr += "<td>" + "notstarted" + "</td>";
+                        gameTr += "<td width='80px'>" + "notstarted" + "</td>";
                         //$('.spoiler-title' + '#' + customId).css('color', 'blue');
                     }
 
                     gameTr += "<td>" + homeTeamName + "</td>";
-                    gameTr += "<td>" + homeScoreCurrent + "</td>";
-                    gameTr += "<td>" + awayScoreCurrent + "</td>";
+                    gameTr += "<td width='20px'>" + homeScoreCurrent + "</td>";
+                    gameTr += "<td width='20px'>" + awayScoreCurrent + "</td>";
                     gameTr += "<td>" + awayTeamName + "</td>";
                     gameTr += "</tr>";
                   
@@ -246,15 +256,14 @@ function getGames() {
                     }
                     
 
-                    if (confirmedLineups == "true" || hasLineupsList == "true" || hasLineups == "true") {
-                        //$('.spoiler-title' + '#' + customId).css('text-decoration', 'underline');
-                        $("tr#" + customId).css('text-decoration', 'underline');
-                    }
+                    $("td#" + customId).css('text-decoration', 'underline');
+                    $("td#" + customId).css('cursor', 'pointer');
+                  
                     
                     // ВЕШАЕМ НА СТРОКУ ОТКРЫТИЕ ПОПАПА ПО КЛИКУ
                     if (confirmedLineups == "true" || hasLineupsList == "true" || hasLineups == "true")
                         //$('.spoiler-title' + '#' + customId)
-                        $("tr#" + customId).click(function() {
+                        $("td#" + customId).click(function() {
                             if ($('.spoiler-body').length) {
                               $('.spoiler-body').find('table').remove();
                             }
@@ -392,10 +401,10 @@ function getGames() {
                                             }
                                         content += "</table>";
 
-                                        /*content += '<table ';
+                                        content += '<table ';
                                         content += " border='1'>";
-                                        content += "<tr>&nbsp</tr>"
-                                        content += "</table>";*/
+                                        content += "<tr> vs </tr>"
+                                        content += "</table>";
 
                                         content += '<table id="team_' + arr[id].awayTeamId + '"';
                                         content += " border='2'>";
