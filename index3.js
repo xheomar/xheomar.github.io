@@ -410,74 +410,74 @@ $(function(){
 		{
 			text: 'Тоталы',
 			columns: [
-			{ index: 'over25percent', title: 'ТБ2.5', width: 50, type: 'number'},
-			{ index: 'under25percent', title: 'ТМ2.5', width: 50, type: 'number'}]
+			{ index: 'over25percent', title: 'ТБ2.5', width: 50, type: 'number', render: renderGTP},
+			{ index: 'under25percent', title: 'ТМ2.5', width: 50, type: 'number', render: renderGTP}]
 		},
 		{ index: 'score_LDS', title: 'ЛДС', width: 50, type: 'number'},
 		{
 			text: 'Победа одной из команд',
 			columns: [
-			{ index: 'score_1_0', title: '1:0', width: 40, type: 'number'},
-			{ index: 'score_2_0', title: '2:0', width: 40, type: 'number'},
-			{ index: 'score_2_1', title: '2:1', width: 40, type: 'number'},
-			{ index: 'score_3_0', title: '3:0', width: 40, type: 'number'},
-			{ index: 'score_3_1', title: '3:1', width: 40, type: 'number'},
-			{ index: 'score_3_2', title: '3:2', width: 40, type: 'number'}]
+			{ index: 'score_1_0', title: '1:0', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_2_0', title: '2:0', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_2_1', title: '2:1', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_3_0', title: '3:0', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_3_1', title: '3:1', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_3_2', title: '3:2', width: 40, type: 'number', render: renderGTP}]
 		},
 		{
 			text: 'Ничейный исход',
 			columns: [
-			{ index: 'score_0_0', title: '0:0', width: 40, type: 'number'},
-			{ index: 'score_1_1', title: '1:1', width: 40, type: 'number'},
-			{ index: 'score_2_2', title: '2:2', width: 40, type: 'number'},
-			{ index: 'score_3_3', title: '3:3', width: 40, type: 'number'}]
+			{ index: 'score_0_0', title: '0:0', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_1_1', title: '1:1', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_2_2', title: '2:2', width: 40, type: 'number', render: renderGTP},
+			{ index: 'score_3_3', title: '3:3', width: 40, type: 'number', render: renderGTP}]
 		},
 		{
 			text: 'Процент игр с голами в интервалах',
 			columns: [
-			{ index: 'goalsScoredBetween01And15', title: '1-15', width: 45, type: 'number'},
-			{ index: 'goalsScoredBetween16And30', title: '16-30', width: 47, type: 'number'},
-			{ index: 'goalsScoredBetween31And45', title: '31-45', width: 47, type: 'number'},
-			{ index: 'goalsScoredBetween46And60', title: '46-60', width: 47, type: 'number'},
-			{ index: 'goalsScoredBetween61And75', title: '61-75', width: 47, type: 'number'},
-			{ index: 'goalsScoredBetween76And90', title: '75-90', width: 47, type: 'number'}]
+			{ index: 'goalsScoredBetween01And15', title: '1-15', width: 45, type: 'number', render: renderGTP},
+			{ index: 'goalsScoredBetween16And30', title: '16-30', width: 47, type: 'number', render: renderGTP},
+			{ index: 'goalsScoredBetween31And45', title: '31-45', width: 47, type: 'number', render: renderGTP},
+			{ index: 'goalsScoredBetween46And60', title: '46-60', width: 47, type: 'number', render: renderGTP},
+			{ index: 'goalsScoredBetween61And75', title: '61-75', width: 47, type: 'number', render: renderGTP},
+			{ index: 'goalsScoredBetween76And90', title: '75-90', width: 47, type: 'number', render: renderGTP}]
   		}, 
 		{
 			text: 'Матчи с голами после 65й',
 			columns: [
-			{ index: 'gamesWithLateGoalsOverallPercent', title: 'Да', width: 85, type: 'number'},
-			{ index: 'gamesWithoutLateGoalsOverallPercent', title: 'Нет', width: 85, type: 'number'}]
+			{ index: 'gamesWithLateGoalsOverallPercent', title: 'Да', width: 85, type: 'number', render: renderGTP},
+			{ index: 'gamesWithoutLateGoalsOverallPercent', title: 'Нет', width: 85, type: 'number', render: renderGTP}]
 		}, 
 		{
 			text: 'Забитые после 65й',
 			columns: [
-			{ index: 'gamesWithLateGoalsScoredPercent', title: 'Да', width: 75, type: 'number'},
-			{ index: 'gamesWithoutLateGoalsScoredPercent', title: 'Нет', width: 75, type: 'number'}]
+			{ index: 'gamesWithLateGoalsScoredPercent', title: 'Да', width: 75, type: 'number', render: renderGTP},
+			{ index: 'gamesWithoutLateGoalsScoredPercent', title: 'Нет', width: 75, type: 'number', render: renderGTP}]
 		},
 		{
 			text: 'Пропущенные после 65й',
 			columns: [
-			{ index: 'gamesWithLateGoalsConceededPercent', title: 'Да', width: 80, type: 'number'},
-			{ index: 'gamesWithoutLateGoalsConceededPercent', title: 'Нет', width: 80, type: 'number'}]
+			{ index: 'gamesWithLateGoalsConceededPercent', title: 'Да', width: 80, type: 'number', render: renderGTP},
+			{ index: 'gamesWithoutLateGoalsConceededPercent', title: 'Нет', width: 80, type: 'number', render: renderGTP}]
 		},
 		{
 			text: 'Сухие ворота',
 			columns: [
-			{ index: 'gamesWithCleanSheetPercent', title: 'Да', width: 55, type: 'number'},
-			{ index: 'gamesWithoutCleanSheetPercent', title: 'Нет', width: 55, type: 'number'}]
+			{ index: 'gamesWithCleanSheetPercent', title: 'Да', width: 55, type: 'number', render: renderGTP},
+			{ index: 'gamesWithoutCleanSheetPercent', title: 'Нет', width: 55, type: 'number', render: renderGTP}]
 		}, 
 		{
 			text: 'Тайм / Матч',
 			columns: [
-			{ index: 'gamesWith_1_1_percent', title: '1/1', width: 47, type: 'number'},
-			{ index: 'gamesWith_X_1_percent', title: 'X/1', width: 47, type: 'number'},
-			{ index: 'gamesWith_2_1_percent', title: '2/1', width: 47, type: 'number'},
-			{ index: 'gamesWith_1_X_percent', title: '1/X', width: 47, type: 'number'},
-			{ index: 'gamesWith_X_X_percent', title: 'X/X', width: 47, type: 'number'},
-			{ index: 'gamesWith_2_X_percent', title: '2/X', width: 47, type: 'number'},
-			{ index: 'gamesWith_1_2_percent', title: '1/2', width: 47, type: 'number'},
-			{ index: 'gamesWith_X_2_percent', title: 'X/2', width: 47, type: 'number'},
-			{ index: 'gamesWith_2_2_percent', title: '2/2', width: 47, type: 'number'}]
+			{ index: 'gamesWith_1_1_percent', title: '1/1', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_X_1_percent', title: 'X/1', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_2_1_percent', title: '2/1', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_1_X_percent', title: '1/X', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_X_X_percent', title: 'X/X', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_2_X_percent', title: '2/X', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_1_2_percent', title: '1/2', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_X_2_percent', title: 'X/2', width: 47, type: 'number', render: renderGTP},
+			{ index: 'gamesWith_2_2_percent', title: '2/2', width: 47, type: 'number', render: renderGTP}]
 		}, 
 		{
 			text: 'Серии дома и в гостях',
