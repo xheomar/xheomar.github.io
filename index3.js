@@ -413,7 +413,7 @@ $(function(){
 			{ index: 'over25percent', title: 'ТБ2.5', width: 50, type: 'number', render: renderGTP},
 			{ index: 'under25percent', title: 'ТМ2.5', width: 50, type: 'number', render: renderGTP}]
 		},
-		{ index: 'score_LDS', title: 'ЛДС', width: 50, type: 'number'},
+		{ index: 'score_LDS', title: 'ЛДС', width: 50, type: 'number', render: renderGTP},
 		{
 			text: 'Победа одной из команд',
 			columns: [
@@ -482,7 +482,7 @@ $(function(){
 		{
 			text: 'Серии дома и в гостях',
 			columns: [
-			{ index: 'games_won_in_a_row', title: 'П1', width: 47, type: 'number'},
+			{ index: 'games_won_in_a_row', title: 'П1', width: 47, type: 'number'  },
 			{ index: 'games_without_a_win_in_a_row', title: 'Х2', width: 47, type: 'number'},
 			{ index: 'games_drawn_in_a_row', title: 'Х', width: 47, type: 'number'},
 			{ index: 'games_without_a_draw_in_a_row', title: 'П1П2', width: 47, type: 'number'},
