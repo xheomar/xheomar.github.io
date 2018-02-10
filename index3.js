@@ -123,10 +123,6 @@ $(function(){
       resizable: true,
       sortable: true
     },
-	//grouping: 
-	//{
-	//  by: 'type'
-	//},
     paging: {
 		barType: 'tbar',
 		pageSize: 15,
@@ -256,7 +252,7 @@ $(function(){
 });
 
 
-
+/*
 $(function(){
   new FancyGrid({
     theme: 'blue',
@@ -281,10 +277,6 @@ $(function(){
       resizable: true,
       sortable: true
     },
-	/*grouping: 
-	  {
-		  by: 'type'
-	  },*/
 	  paging: {
 	  barType: 'tbar',
     pageSize: 15,
@@ -307,8 +299,9 @@ $(function(){
 	    	{index: 'date', title: 'Дата', width: 130, type: 'string'}
     ]
   });
-  });
+  });*/
 
+/*
 $(function(){
   new FancyGrid({
     theme: 'default',
@@ -331,10 +324,6 @@ $(function(){
       resizable: true,
       sortable: true
     },
-	/*grouping: 
-	  {
-		  by: 'type'
-	  },*/
 	paging: {
 		barType: 'tbar',
 		pageSize: 15,
@@ -356,7 +345,9 @@ $(function(){
 			{index: 'games', title: 'Коэффы', width: 400, type: 'number'}
     ]
   });
-});
+}); */
+
+/*
 
 $(function(){
   new FancyGrid({
@@ -513,3 +504,4 @@ $(function(){
 		{ index: 'biggestDefeat', title: 'Худший счет', width: 100, type: 'string'}]
   });
 });
+*/
