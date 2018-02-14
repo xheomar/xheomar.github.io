@@ -1,34 +1,258 @@
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>xheoTotals</title>
-	</head>	
-	<body>
-		<script src="http://code.jquery.com/jquery.js"></script>
-		<link href="https://code.fancygrid.com/fancy.min.css" rel="stylesheet">
-		<script src="https://code.fancygrid.com/fancy.min.js"></script>
- 		<script src="js/bootstrap.min.js"></script>
-		<script src="football.js"></script>
-		<!-- <script src="handball.js"></script> -->
-		<!-- <script src="lds.js"></script> -->
-		<!-- <script src="teams.js"></script> -->
-	  	<script src="index3.js"></script>
-		<div id="container"></div>
-    		<br/>
-    	<div id="container4"></div>
-		<br/>
-    	<div id="container3"></div>
-		<br/>
-    	<div id="container2"></div>
-	</body>	
-	
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<!--script async src="https://www.googletagmanager.com/gtag/js?id=UA-111520620-2"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <head>
+    <title>xheoTotals 2.0</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+    <!--link href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css" rel="stylesheet">
+    <link href="https://cdn.datatables.net/1.10.16/css/dataTables.jqueryui.min.css" rel="stylesheet"-->
 
-  gtag('config', 'UA-111520620-2');
-</script-->
 
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="football2.js"></script>
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script-->
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+	<!--script src="http://cdn.rawgit.com/xheomar/xheomar.github.io/master/football.js"></script-->
+    
+  </head>
+
+  <body>
+<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">xheoTotals</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="http://xheomar.github.io/totals">Home<span class="sr-only">(current)</span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Блоги на Sports.Ru<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a target="_blank" href="https://www.sports.ru/tribuna/blogs/stanemstavitstavki/">В нашей лавке суперставки</a></li>
+							<li><a target="_blank" href="https://www.sports.ru/tribuna/blogs/sportandcash/">Записки Дикого Попана</a></li>
+							<li><a target="_blank" href="https://www.sports.ru/tribuna/blogs/zapiskipresledovatelya/">Системный футбол</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Предлагайте свои варианты</a></li>
+						</ul>
+					</li>
+					<li><a target="_blank" href="https://ru.surebet.com/calculator">Онлайн калькулятор вилок</a></li>
+					<li><a target="_blank" href="http://alexbetting.com/system/">Расчет системы</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Probabili Formazioni<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a target="_blank" href="http://www.fantagazzetta.com/probabili-formazioni-serie-a">FantaGazzetta</a></li>
+							<li><a target="_blank" href="http://www.corrieredellosport.it/calcio/serie-a/probabili-formazioni/">CorriereDelloSport</a></li>
+							<li><a target="_blank" href="http://www.fantaformazione.com/fantacalcio.calendari/probabili/Home.htm">FantaFormazione</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Предлагайте свои варианты</a></li>
+						</ul>
+					</li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Twitter<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a target="_blank" href="https://twitter.com/TheCalcioGuy">Matteo Bonetti</a></li>
+							<li><a target="_blank" href="https://twitter.com/YuriiShevchenko">Юрий Шевченко</a></li>
+							<li><a target="_blank" href="https://twitter.com/alessiologinov">Алессио Логинов</a></li>
+							<li><a target="_blank" href="https://twitter.com/ANobelito">Нобель Арустамян</a></li>
+							<li><a target="_blank" href="https://twitter.com/shhhnyak">Дмитрий Шнякин</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Предлагайте свои варианты</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a target="_blank" href="http://tvplayer.pw/#">IPTV</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Программа передач<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a target="_blank" href="http://guidatv.sky.it/guidatv/grid.html?category=sport&day=0">Sky It</a></li>
+							<li><a target="_blank" href="http://ntvplus.ru/tv/#genre=3495&channel=121366&channel=121367&channel=26606&channel=28126&channel=3361&channel=3432&channel=3368&channel=3410&channel=68761&channel=51528&channel=3411&channel=68762&channel=3412&channel=3413&channel=3415&channel=65139&channel=97950&channel=3365&channel=101401&channel=3438&channel=68763&channel=101556&channel=3421&channel=3458&channel=3366&channel=68760&channel=55087&channel=102955&channel=112097&channel=120815&channel=120941&channel=120942&channel=121050">НТВ Плюс</a></li>
+							<li role="separator" class="divider"></li>
+							<li><a href="#">Предлагайте свои варианты</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	</nav>  	
+		<table id="example" class="table table-striped table-bordered" cellspacing="1" width="80%">
+			<thead>
+	            <tr>
+	                <th rowspan="2">Лига_____________________________</th>
+	                <th colspan="2">Игры</th>
+	                <th rowspan="2">AVG</th>
+	                <th colspan="3">Исходы</th>
+	                <th colspan="1">ТМ</th>
+	                <th colspan="4">ТБ</th>
+	                <th colspan="3">Другие счета</th>
+	                <th colspan="6">П1, точный счет</th>
+	                <th colspan="4">Н, точный счет</th>
+	                <th colspan="6">П2, точный счет</th>
+	                <th colspan="6">Количество голов</th>
+	                <th colspan="6">В итоговом счете есть цифра</th>
+	                <th colspan="2">Тотал 1 тайма</th>
+	                <th colspan="2">Тотал 2 тайма</th>
+	                <th colspan="4">Голы в таймах</th>
+	                <th colspan="9">Тайм / Матч</th>
+	                <th rowspan="2">Н + ТБ2.5</th>
+	                <th rowspan="2">ОБЗ</th>
+	                <th rowspan="2">ОБЗН + ТБ2.5</th>
+	                <th rowspan="2">ОБЗ ИТБ1.5</th>
+	                <th rowspan="2">Тест</th>
+
+	            </tr>
+	            <tr>
+	                <th>GP</th>
+	                <th>GP %</th>
+
+	                <th>П1</th>
+	                <th>Н</th>
+	                <th>П2</th>
+
+	                <th>ТМ1.5</th>
+
+	                <th>ТБ2.5</th>
+	                <th>ТБ3.5</th>
+	                <th>ТБ4.5</th>
+	                <th>ТБ5.5</th>
+
+	                <th>~ЛДС</th>
+	                <th>ЛДС</th>
+	                <th>4:0 0:4</th>
+
+	                <th>1:0</th>
+	                <th>2:0</th>
+	                <th>2:1</th>
+	                <th>3:0</th>
+	                <th>3:1</th>
+	                <th>3:2</th>
+
+	                <th>0:0</th>
+	                <th>1:1</th>
+	                <th>2:2</th>
+	                <th>3:3</th>
+
+	                <th>0:1</th>
+	                <th>0:2</th>
+	                <th>1:2</th>
+	                <th>0:3</th>
+	                <th>1:3</th>
+	                <th>2:3</th>
+
+	                <th>1</th>
+	                <th>2</th>
+	                <th>3</th>
+	                <th>4</th>
+	                <th>5</th>
+	                <th>6 и более</th>
+
+	                <th>"0"</th>
+	                <th>"1"</th>
+	                <th>"2"</th>
+	                <th>"3"</th>
+	                <th>"4"</th>
+	                <th>"5"</th>
+
+	                <th>ТМ0.5</th>
+	                <th>ТБ1.5</th>
+
+	                <th>ТМ0.5</th>
+	                <th>ТБ1.5</th>
+
+	                <th>1>2</th>
+	                <th>1=2</th>
+	                <th>1<2</th>
+	                <th>ОБЗ в каждом</th>
+
+	                <th>П1/П1</th>
+	                <th>П1/П2</th>
+	                <th>П1/Н</th>
+	                <th>П2/П1</th>
+	                <th>П2/П2</th>
+	                <th>П2/Н</th>
+	                <th>Н/П1</th>
+	                <th>Н/П2</th>
+	                <th>Н/Н</th>
+
+	            </tr>
+	        </thead>			
+    </table>
+
+		<script> 
+			$(document).ready(function() {
+			    var table = $('#example').DataTable( {
+			        data: data_football,
+			        "order": [[ 3, "desc" ]],
+			        "paging":   true,
+			        "ordering": true,
+			        "info":     true,
+			        //"scrollY": 200,
+        			"scrollX": true,
+        			"scrollY": '100vh',
+        			"scrollCollapse": true,
+        			"stateSave": false,
+        			"columnDefs": [ 
+	        			{
+	        				"targets": [ -1 ],
+				            "visible": false				            
+				        },
+				        {
+				        	"targets": [ 0 ],
+				        	/*"render": function ( data, type, row ) 
+				        	{
+			                    return data +' ('+ row[3]+')';
+			                },*/
+				        }
+			        ],
+			        "lengthMenu": [[15, 30, 50, -1], [15, 30, 50, "All"]]
+			    } );
+			} );
+		</script>
+		<!--script>
+			$(document).ready(function() {
+			    var table = $('#example').DataTable();
+			     
+			    $('#example tbody').on('click', 'tr', function () {
+			        var data = table.row( this ).data();
+			        alert( 'You clicked on '+data[0]+'\'s row' );
+			    } );
+			} );
+		</script-->
+		<script type="text/javascript">
+			$(document).ready(function() {
+			    var table = $('#example').DataTable();
+			 
+			    $('#example tbody').on( 'click', 'tr', function () {
+			        $(this).toggleClass('selected');
+			    } );
+			 
+			    /*$('#button').click( function () {
+			        alert( table.rows('.selected').data().length +' row(s) selected' );
+			    } );*/
+
+			    $('a.toggle-vis').on( 'click', function (e) {
+			        e.preventDefault();
+			 
+			        // Get the column API object
+			        var column = table.column( $(this).attr('data-column') );
+			 
+			        // Toggle the visibility
+			        column.visible( ! column.visible() );
+			    } );
+
+			} );
+		</script>
+
+	</body>
 </html>
+
