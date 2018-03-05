@@ -98,7 +98,7 @@ var renderLDS = function(o) {
   return o;
 };
 
-
+/*
 $(function(){
   new FancyGrid({
     theme: 'dark',
@@ -250,9 +250,9 @@ $(function(){
     ]
   });
 });
+*/
 
 
-/*
 $(function(){
   new FancyGrid({
     theme: 'blue',
@@ -299,7 +299,7 @@ $(function(){
 	    	{index: 'date', title: 'Дата', width: 130, type: 'string'}
     ]
   });
-  });*/
+  });
 
 /*
 $(function(){
@@ -345,7 +345,7 @@ $(function(){
 			{index: 'games', title: 'Коэффы', width: 400, type: 'number'}
     ]
   });
-}); */
+});
 
 /*
 
