@@ -3,30 +3,316 @@
 	<head>
 	  <meta charset="utf-8">
 	  <title>iCalcio 2.0</title>
-	  <link rel="stylesheet" type="text/css" href="index.css">
+	  <!-- <link rel="stylesheet" type="text/css" href="index.css"> -->
+
+	  <!-- JQuery -->
+	  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+	 <!-- <script src="index.js"></script> -->
+
+	  <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- DataTables -->
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+    <!-- Fixed Columns -->
+    <link href="https://cdn.datatables.net/fixedcolumns/3.2.4/css/fixedColumns.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/fixedcolumns/3.2.4/js/dataTables.fixedColumns.min.js"></script>
+
+    <!-- Responsive -->    
+    <!--link href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" rel="stylesheet"-->
+    <!--script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script-->
+
+    <!-- Select -->
+    <link href="https://cdn.datatables.net/select/1.2.5/css/select.dataTables.min.css" rel="stylesheet">    
+    <script src="https://cdn.datatables.net/select/1.2.5/js/dataTables.select.min.js"></script>	
+
+    <!-- DataTables Bootstrap -->
+    <!--link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet"-->  
+    <!--script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script-->	  
+    
+    <!-- Moment JS -->
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script-->
+    	
+	<!-- Buttons -->
+	<!-- <link href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css" rel="stylesheet">	
+	<script src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>		
+	<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.colVis.min.js"></script>	 -->
+
+	<!-- Export Buttons -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+
 	</head>
 	
 	<body>
 		
+		<select id="tours">
+			<option value="0">29</option>
+			<option selected="selected" value="1">30</option>
+			<option value="2">31</option>
+			<option value="3">32</option>
+		</select>
+
+		<input type="button" value="Обновить" id="runButton" >
+
 		<div id="tables">
 		</div>
 		
 		<div class="cssload-jumping">
 			<span></span><span></span><span></span><span></span><span></span>
 		</div>
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-		
-		<link href="https://code.fancygrid.com/fancy.min.css" rel="stylesheet">
-		<script src="https://code.fancygrid.com/fancy.min.js"></script>
 
-		<script src="https://code.highcharts.com/highcharts.js"></script>
-		<script src="https://code.fancygrid.com/highchart-gray-theme.js"></script>
+		<table id="example" class="stripe row-border order-column" cellspacing="1" width="80%">
+		<!--table id="example" class="table table-striped table-bordered" cellspacing="1" width="80%"-->				
+			<thead>
+	            <tr>
+	                <th>Участник</th>
+	                <th>Тур</th>
+	                <th>ОТ</th>
+	                <th>ОС</th>
+	            </tr>
+	        </thead>			
+    </table>
 
-		<div id="spline" style="height: 352px; width: 650px;"></div>
-		<div id="grid" style="visibility: hidden"></div>
-	
-		<script src="index.js"></script>
-		<!-- <script src="spline.js"></script> -->
+	    <script type="text/javascript">
+			var tour = $("#tours :selected").text();
+			console.log(tour);
+			$('#runButton').click(function() {
+			    updateCell(1, "xheo", tour);
+			});
+			var tourName = parseInt('8315') + parseInt(tour);
+			console.log(tourName);
+		</script>
+
+		<script type="text/javascript">
+			
+			var data_football = [
+ 						['PrincipessaMilana', '0','0', '0'],
+						['ymat', '0','0', '0'],
+						['xheo', '0','0', '0'],
+						['busotir', '0','0', '0'],
+						['pr-positive', '0','0', '0'],
+						['Евгений', '0','0', '0']
+					];
+		</script>
+
+    	<script> 
+    		var table = $('#example').DataTable( {
+				        "data": data_football,
+				        "order": [[ 2, "desc" ]],			        
+				        "ordering": true,
+				        "info":     false,
+				        "paging":   false,
+				        "searching": false,
+	        			"stateSave": false,
+				        "select": true,
+				        "dom": 'Bfrtip'
+				 });
+			
+		</script>
+
+		<script type="text/javascript">
+			function updateCell(cellNum, userName, value) {
+				var table = $('#example').DataTable();
+				table.rows().every( function ( rowIdx, tableLoop, rowLoop ) {
+				   var data = this.data();
+				   if(data[0] == userName)
+				   		data[parseInt(cellNum)] = value;
+				   this.data(data);
+				});
+			}
+			function orderTable() {
+				var table = $('#example').DataTable();
+				table
+				    .order( [ 2, 'desc' ] )
+				    .draw();
+			}
+		</script>
+
+		<script type="text/javascript">
+			$.YQL = function(query, callback) {
+
+		    if (!query || !callback) {
+		        throw new Error('$.YQL(): Parameters may be undefined');
+		    }
+
+		    var encodedQuery = encodeURIComponent(query.toLowerCase()),
+		        url = 'https://query.yahooapis.com/v1/public/yql?q=' +
+		        encodedQuery + '&format=json&callback=?';		  
+
+		    $.getJSON(url, callback);
+			};
+		</script>
+
+		<script type="text/javascript">
+
+			var teams = 
+			   [{userId: "1890113", name: "xheo", result: 0}, 
+				{userId: "1892071", name: "pr-positive", result: 0},
+				{userId: "1895810", name: "busotir", result: 0},
+				{userId: "1889520", name: "Евгений", result: 0},
+				{userId: "1892171", name: "PrincipessaMilana", result: 0},
+				{userId: "1892280", name: "ymat", result: 0}];
+			var ids = 0;
+			var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
+			var JsonUrlTemplate = ".json";
+
+				for (ids = 0; ids < teams.length; ids++) 
+				{
+				   (function(ids) {
+					var json_url = SportsRuUrlTemplate + teams[ids].userId + "/" + tourName + JsonUrlTemplate;
+					$.YQL("SELECT * FROM json WHERE url='" + json_url + "' LIMIT 1", function(response){
+						
+						//var json = JSON.parse(response.query.results.json);
+						var json = response.query.results.json;
+						
+						var MIN_GOALKEEPER_COUNT = 1, MIN_DEFENDER_COUNT = 3, MIN_HALFBACK_COUNT = 2, MIN_FORWARD_COUNT = 1;
+
+						var Goalkeepers = [], Defenders = [], Halfbacks = [], Forwards = [], Other = [], Bench = [];
+				
+						var need_goalkeepers = 0, need_defenders = 0, need_halfbacks = 0, need_forwards = 0;
+					
+						var Positions = [Goalkeepers, Defenders, Halfbacks, Forwards, Bench, Other];
+						var PositionsHTML = ["Вр", "Защ", "Пз", "Нап", "Зап", "n/a"];
+				
+						for (var i = 0; i < json.players.length; i++) 
+						{
+							if (json.players[i].points != '-') 
+								if (json.players[i].row != 0)
+									Positions[Number(json.players[i].amplua)-1].push(json.players[i]);
+								else
+									Positions[4].push(json.players[i]);
+							else 
+								Positions[5].push(json.players[i]);
+						}
+					
+						if (Goalkeepers.length < MIN_GOALKEEPER_COUNT) need_goalkeepers = MIN_GOALKEEPER_COUNT - Goalkeepers.length;
+						if (Defenders.length < MIN_DEFENDER_COUNT) need_defenders = MIN_DEFENDER_COUNT - Defenders.length;
+						if (Halfbacks.length < MIN_HALFBACK_COUNT) need_halfbacks = MIN_HALFBACK_COUNT - Halfbacks.length;
+						if (Forwards.length < MIN_FORWARD_COUNT) need_forwards = MIN_FORWARD_COUNT - Forwards.length;
+					
+						// К примеру, need_defenders = 2 означает, что нам необходимо найти в массиве Bench
+						// 2 защитника, у которых не "-" количество очков
+					
+						var needings = [need_goalkeepers, need_defenders, need_halfbacks, need_forwards];
+					
+						for (var need = 0; need < needings.length; need++)
+						{
+							if (needings[need] > 0)
+							{
+								for (i = 0; i < Bench.length; i++)
+								{
+									if (Bench[i].amplua != 1)
+									{
+										if (needings[need] > 0)
+										{
+											Positions[need].push(Bench[i]);
+											Bench.splice(i, 1);
+											needings[need]--;
+										}
+									}
+								}
+							}
+						}
+					
+						// Допустим, чисто технически замены не нужны, но в команде некомплект
+						// Нужно накинуть столько игроков, сколько не хватает до 11ти
+						// из тех, кто остался на скамейке
+
+						var need_to_be_completed = 11 - (Goalkeepers.length + Defenders.length + Halfbacks.length + Forwards.length);
+						console.log("Need To be completed: " + need_to_be_completed + ": for " + teams[ids].name + 
+						    + Number(Goalkeepers.length) + Number(Defenders.length) +
+						    Number(Halfbacks.length) + Number(Forwards.length));
+						if (need_to_be_completed > 0 && (need_defenders == 0 || need_halfbacks == 0 || need_forwards == 0))
+						{
+							for (i = 0; i < Bench.length; i++)
+							{
+								if (Bench[i].amplua != 1) // Это не должен быть вратарь
+								{
+									if (need_to_be_completed > 0)
+									{
+										if (Bench[i].amplua == 2) Defenders.push(Bench[i]);
+										else if (Bench[i].amplua == 3) Halfbacks.push(Bench[i]);
+										else if (Bench[i].amplua == 4) Forwards.push(Bench[i]);
+										Bench.splice(i, 1);
+										need_to_be_completed--;
+									}
+								}
+							}
+						}
+				
+						var points = 0;
+						var tr_class;
+						var teamName = teams[ids].name;	
+						var res = teams[ids].result;
+						var content = '<div class="container"><div class=' +teamName+' id=sorting points="0" data-sort="0"><h3 class="spoiler-title" id="' + teamName + '">' + teamName + "    ...loading..." + '</h3>'
+						content += '<div class="spoiler-body" id="'+teamName+ '">';
+						content += '<table ';
+						content += " border='1'><tr><th>Клуб</th><th>Фамилия</th><th>Позиция</th><th>Очки</th><th>Голы</th><th>Пасы</th><th>Мин</th><th>ЖК</th><th>КК</th></tr>";
+						for (var pos = 0; pos < Positions.length; pos++)
+						{
+							for (i = 0; i < Positions[pos].length; i++)
+							{
+								if (Positions[pos] != Bench && Positions[pos] != Other)
+								{
+									points += parseInt(Positions[pos][i].points);
+									var tr_class = "in_a_row";
+								}
+								else
+								{
+									var tr_class = "not_in_a_row";
+								}
+									
+								content += '<tr class="'
+								if (Number(Positions[pos][i].isCaptain) != 0) 
+									content += 'capitan '; 
+								if (Number(Positions[pos][i].is_disqual) != 0) 
+									content += 'disqual '; 
+								if (Number(Positions[pos][i].is_injured) != 0) 
+									content += 'injured '; 
+								if (Number(Positions[pos][i].row) == 0) 
+									content += 'italic '; 
+								content += tr_class + '">'
+								content += '<td>';
+								content += '<img ';
+								if (Positions[pos][i].is_star == 1) content += 'class=starr';
+								content += ' src="' + Positions[pos][i].img + '"></td>';
+								content += '<td class="name">' + Positions[pos][i].name + '</td>';
+								content += '<td>' + PositionsHTML[Number(Positions[pos][i].amplua)-1] + '</td>';
+								content += '<td>' + Positions[pos][i].points + '</td>';
+								if (Number(Positions[pos][i].amplua) == 1)
+									content += '<td>' + Number(Positions[pos][i].thru)*(-1) + '</td>';
+								else	
+									content += '<td>' + Positions[pos][i].goals + '</td>';
+								content += '<td>' + Positions[pos][i].pass + '</td>';
+								content += '<td>' + Positions[pos][i].min + '</td>';
+								content += '<td>' + Positions[pos][i].ycard + '</td>';
+								content += '<td>' + Positions[pos][i].rcard + '</td>';
+								content += '</tr>';
+							}
+						}
+						
+						content += "</table></div></div></div>";
+						//$("#animation_"+teamName).hide();
+						//$('#tables').append(content);
+						$('.spoiler-title' + '#' + teamName).text(teamName + " = " + points + " (" + Number(Number(res)+Number(points)) + ")");
+						updateCell(1, teamName, tour);
+						updateCell(2, teamName, points);
+						orderTable();
+						console.log(ids + " " + teamName + " " + points);
+						}
+			        );
+				})(ids);
+			}
+		</script>>
+
 	</body>
 
 	<!-- Global site tag (gtag.js) - Google Analytics -->
