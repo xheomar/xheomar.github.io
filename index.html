@@ -91,6 +91,17 @@
 	<body>
 
 		<select id="tours">
+			<option value="0">12</option>
+			<option value="0">13</option>
+			<option value="0">14</option>
+			<option value="0">15</option>
+			<option value="0">16</option>
+			<option value="0">17</option>
+			<option value="0">18</option>
+			<option value="0">19</option>
+			<option value="0">20</option>
+			<option value="0">21</option>
+			<option value="0">22</option>
 			<option value="0">23</option>
 			<option value="0">24</option>
 			<option value="0">25</option>
@@ -125,10 +136,11 @@
 			var tourName = parseInt('8315') + parseInt(tour);
 			console.log(tourName);
 			$('#runButton').click(function() {
+				$("#tables").empty();
 				tour = $("#tours :selected").text();
 				tourName = parseInt('8315') + parseInt(tour);
 				console.log(tourName);
-			    runFantasy('' + tourName);
+			    runFantasy('' + tourName, '');
 			});			
 		</script>
 
@@ -178,7 +190,7 @@
 		</script>
 
 		<script type="text/javascript">
-		function runFantasy(tourId) {
+		function runFantasy(tourId, userName) {
 			var teams = 
 			   [{userId: "1890113", name: "xheo", result: 0}, 
 				{userId: "1892071", name: "pr-positive", result: 0},
@@ -193,6 +205,10 @@
 				for (ids = 0; ids < teams.length; ids++) 
 				{
 				   (function(ids) {
+				   	if (userName != '' && userName != teams[ids].name)
+				   	{
+				   		return;
+				   	}
 					var json_url = SportsRuUrlTemplate + teams[ids].userId + "/" + tourId + JsonUrlTemplate;
 					console.log(json_url);
 					$.YQL("SELECT * FROM json WHERE url='" + json_url + "' LIMIT 1", function(response){
@@ -359,7 +375,7 @@
 	        			"stateSave": false,
 				        "select": true
 				 });
-			runFantasy('' + tourName);
+			runFantasy('' + tourName, '');
 		</script>
 
 		<script>
@@ -367,14 +383,14 @@
 			     
 			    $('#example tbody').on('click', 'tr', function () {
 			        var data = table.row( this ).data();
-			        //alert( 'You clicked on '+data[0]+'\'s row' );
+			        runFantasy('' + tourName, data[0]);
 			        $('.' + data[0]).bPopup({
 		            follow: [false, false], //x, y
 		            position: [5, 5] //x, y
 		        	});
 		        	$('.' + data[0]).click(function(){
-					    $('.' + data[0]).hide();
-					    $('.b-modal').hide();
+					    $('.' + data[0]).remove();
+					    $('.b-modal').remove();
 					});
 			    });
 
