@@ -74,7 +74,7 @@
         padding-left: 30px !important;
         padding-right: 30px !important;
     }
-    #dv
+    .text
 	{
 	    /*position:relative;
 	    /*top:-230px;
@@ -83,6 +83,20 @@
 	    color:red;
 	    font-weight:bold;
 	}
+	
+	#topleft, #bottomright {
+      border: solid 1px black;
+    }
+    
+    #topleft {
+        border-left-style: none;
+        border-top-style: none;
+    }
+    
+    #bottomright {
+      border-right-style: none;
+      border-bottom-style: none;
+    }
 	</style>
   </head>
 
@@ -259,11 +273,46 @@
 	        </thead>			
     </table>
 
-    <div id="chart1" style="width:1000px;height:300px;padding:5px;margin:auto;"></div>
+	<div class="chart_div" style="margin: 0 auto;">
+	    <table cellpadding="0">
+	     <tr>
+	      <!-- <td id="topleft"> -->
+	      <td>	
+	       <p class="chart1" style="text-align:center;color:red;font-weight:bold;">ТБ2.5</p>
+	       <div id="chart1" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	      <td>
+	        <p class="chart2" style="text-align:center;color:red;font-weight:bold;">ТБ3.5</p>
+	       <div id="chart2" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	      <td>
+	       <p class="chart3" style="text-align:center;color:red;font-weight:bold;">ТБ4.5</p>
+	       <div id="chart3" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	     </tr>
+	     <tr>
+	      <td>
+	       <p class="chart4" style="text-align:center;color:red;font-weight:bold;">Почти ЛДС</p>
+	       <div id="chart4" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	      <td>
+	        <p class="chart5" style="text-align:center;color:red;font-weight:bold;">ЛДС</p>
+	       <div id="chart5" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	      <td>
+	      <!-- <td id="bottomright"> -->
+	        <p class="chart6" style="text-align:center;color:red;font-weight:bold;">0:0</p>
+	       <div id="chart6" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	     </tr>
+	    </tbody>
+	   </table>
+	</div>
+	
 
-    <div id="dv">
+    <!-- <div id="dv">
         <span id="txt"></span>
-    </div>
+    </div> -->
 
     
 
@@ -373,88 +422,58 @@
 			    var table = $('#example').DataTable();
 			     
 			    $('#example tbody').on('click', 'tr', function () {
+			    	restoreLabelsForCharts();
 			        var data = table.row( this ).data();
 			        //alert( 'You clicked on '+data[68]+'\'s row' );
+					
+					printChart(window["trend_tb25_" + data[68]], 
+							window["animation_tb25_" + data[68]], 
+							"ТБ2.5 " + data[0] + ": " +  data[8],  
+							"chart1");
+					printChart(window["trend_tb35_" + data[68]], 
+							window["animation_tb35_" + data[68]], 
+							"ТБ3.5 " + data[0] + ": " +  data[9],  
+							"chart2");
+					printChart(window["trend_tb45_" + data[68]], 
+							window["animation_tb45_" + data[68]], 
+							"ТБ4.5 " + data[0] + ": " +  data[10],  
+							"chart3");
 
-			        var leagueInfo = data[0] + "</br>" + 
-			        	"Любой другой счет (хотя бы одна команда забила 4 и больше) = " + data[13] + "</br>" +
-			        	"Матчи, в которых до ЛДС не хватило 1 гола = " + data[12] + "</br>";
 
-			        var data_mass = "lds_" + data[68];
-			        console.log(data_mass);
-			        console.log(window[data_mass]);
-			        var animation_mass = "animation_" + data[68]; 
-			        console.log(animation_mass);
-			        console.log(window[animation_mass]);
-					printChart(window[data_mass], window[animation_mass],
-						leagueInfo);
+					printChart(window["trend_preLds_" + data[68]], 
+							window["animation_preLds_" + data[68]], 
+							"Почти ЛДС " + data[0] + ": " +  data[12],  
+							"chart4");
+					printChart(window["trend_lds_" + data[68]], 
+							window["animation_lds_" + data[68]], 
+							"ЛДС " + data[0] + ": " +  data[13], 
+							"chart5");										
+					printChart(window["trend_nullNull_" + data[68]], 
+							window["animation_nullNull_" + data[68]], 
+							"0:0 " + data[0] + ": " +  data[21],  
+							"chart6");
 
 			    } );
 			} );
 		</script>
-		<!--script type="text/javascript">
-			$(document).ready(function() {
-			    var table = $('#example').DataTable();
-			 
-			    $('#example tbody').on( 'click', 'tr', function () {
-			        $(this).toggleClass('selected');
-			    } );
-			 
-			    /*$('#button').click( function () {
-			        alert( table.rows('.selected').data().length +' row(s) selected' );
-			    } );*/
-
-			    $('a.toggle-vis').on( 'click', function (e) {
-			        e.preventDefault();
-			 
-			        // Get the column API object
-			        var column = table.column( $(this).attr('data-column') );
-			 
-			        // Toggle the visibility
-			        column.visible( ! column.visible() );
-			    } );
-
-			} );
-		</script-->
-		<!--script type="text/javascript">
-			var plot = $.plotAnimator($("#chart1"), 
-					[{
-						data : lds_42560, 
-						bars: { 
-							show: true, 
-							fill: true
-						}
-					},
-					{
-						data : animation_42560, 
-						lines: {
-							lineWidth:6
-						}, 
-						animator: {
-							start:100, 
-							steps:99, 
-							duration:1000, 
-							direction:"right"
-						}
-					}],
-					{
-						grid: { 
-							backgroundColor: { 
-								colors: [ "#fff", "#eee" ] 
-							}
-						}
-					}
-				);
-
-			$("#chart1").on("animatorComplete", function() {
-			    $("#txt").html('Истмийская Лига');
-			});
-		</script-->
 
 		<script type="text/javascript">
-			function printChart(data_array, animation_array, leagueInfo) 
+			function restoreLabelsForCharts()
 			{
-				var plot = $.plotAnimator($("#chart1"), 
+				$(".chart1").html("ТБ2.5");
+				$(".chart2").html("ТБ3.5");
+				$(".chart3").html("ТБ4.5");
+
+				$(".chart4").html("Почти ЛДС");
+				$(".chart5").html("ЛДС");
+				$(".chart6").html("0:0");
+			}
+		</script>
+	
+		<script type="text/javascript">
+			function printChart(data_array, animation_array, leagueInfo, div_chart_id) 
+			{
+				var plot = $.plotAnimator($("#" + div_chart_id), 
 						[{
 							data : data_array, 
 							bars: { 
@@ -483,8 +502,8 @@
 						}
 					);
 
-					$("#chart1").on("animatorComplete", function() {
-					    $("#txt").html(leagueInfo);
+					$("#" + div_chart_id).on("animatorComplete", function() {
+					    $("." + div_chart_id).html(leagueInfo);
 					});
 			}
 		</script>
