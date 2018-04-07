@@ -196,6 +196,14 @@
 		</script>
 
 		<script type="text/javascript">
+			function getUnixTs() {
+			    var ts = Math.round((new Date()).getTime() / 1000).toString();
+			    ts = ts.slice(0, -1);
+			    return ts;
+			}
+		</script>
+
+		<script type="text/javascript">
 		function runFantasy(tourId, userName) {
 			var teams = 
 			   [{userId: "1890113", name: "xheo", result: 0}, 
@@ -217,7 +225,7 @@
 				   	}
 					var json_url = SportsRuUrlTemplate + teams[ids].userId + "/" + tourId + JsonUrlTemplate;
 					console.log(json_url);
-					$.YQL("SELECT * FROM json WHERE url='" + json_url + "' LIMIT 1", function(response){
+					$.YQL("SELECT * FROM json WHERE url='" + json_url + '?_=' + getUnixTs() + "' LIMIT 1", function(response){
 						
 						var json = response.query.results.json;
 						
