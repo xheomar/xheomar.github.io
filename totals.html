@@ -97,6 +97,14 @@
       border-right-style: none;
       border-bottom-style: none;
     }
+    #flotTip {
+	    padding: 3px 5px;
+	    background-color: #000;
+	    z-index: 100;
+	    color: #fff;
+	    opacity: .80;
+	    filter: alpha(opacity=85);
+	}
 	</style>
   </head>
 
@@ -426,29 +434,35 @@
 			        var data = table.row( this ).data();
 			        //alert( 'You clicked on '+data[68]+'\'s row' );
 					
-					printChart(window["trend_tb25_" + data[68]], 
+					printChart(window["games_" + data[68]],
+							window["trend_tb25_" + data[68]], 
 							window["animation_tb25_" + data[68]], 
 							"ТБ2.5 " + data[0] + ": " +  data[8],  
 							"chart1");
-					printChart(window["trend_tb35_" + data[68]], 
+					printChart(window["games_" + data[68]],
+							window["trend_tb35_" + data[68]], 
 							window["animation_tb35_" + data[68]], 
 							"ТБ3.5 " + data[0] + ": " +  data[9],  
 							"chart2");
-					printChart(window["trend_tb45_" + data[68]], 
+					printChart(window["games_" + data[68]],
+							window["trend_tb45_" + data[68]], 
 							window["animation_tb45_" + data[68]], 
 							"ТБ4.5 " + data[0] + ": " +  data[10],  
 							"chart3");
 
 
-					printChart(window["trend_preLds_" + data[68]], 
+					printChart(window["games_" + data[68]],
+							window["trend_preLds_" + data[68]], 
 							window["animation_preLds_" + data[68]], 
 							"Почти ЛДС " + data[0] + ": " +  data[12],  
 							"chart4");
-					printChart(window["trend_lds_" + data[68]], 
+					printChart(window["games_" + data[68]],
+							window["trend_lds_" + data[68]], 
 							window["animation_lds_" + data[68]], 
 							"ЛДС " + data[0] + ": " +  data[13], 
 							"chart5");										
-					printChart(window["trend_nullNull_" + data[68]], 
+					printChart(window["games_" + data[68]],
+							window["trend_nullNull_" + data[68]], 
 							window["animation_nullNull_" + data[68]], 
 							"0:0 " + data[0] + ": " +  data[21],  
 							"chart6");
@@ -471,21 +485,37 @@
 		</script>
 	
 		<script type="text/javascript">
-			function printChart(data_array, animation_array, leagueInfo, div_chart_id) 
+			function printChart(games_array, data_array, animation_array, leagueInfo, div_chart_id) 
 			{
 				var plot = $.plotAnimator($("#" + div_chart_id), 
 						[{
-							data : data_array, 
+							data : games_array, 
+							color: "#F5F6CE",							
 							bars: { 
 								show: true, 
-								fill: true
+								fill: 0.5,
+								//barWidth: 0.8,
+        						align: "center",
+        						horizontal: false
 							}
 						},
 						{
+							data : data_array, 
+							color: "#DF3A01",
+							bars: { 
+								show: true, 
+								fill: true,
+								//barWidth: 0.8,
+        						align: "center",
+        						horizontal: false
+							}
+						},						
+						{
 							data : animation_array, 
 							lines: {
-								lineWidth:6
+								lineWidth:4
 							}, 
+							color: "#58D3F7",
 							animator: {
 								start:100, 
 								steps:99, 
