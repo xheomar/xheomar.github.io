@@ -284,7 +284,6 @@
 	<div class="chart_div" style="margin: 0 auto;">
 	    <table cellpadding="0">
 	     <tr>
-	      <!-- <td id="topleft"> -->
 	      <td>	
 	       <p class="chart1" style="text-align:center;color:red;font-weight:bold;">ТБ2.5</p>
 	       <div id="chart1" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
@@ -308,11 +307,24 @@
 	       <div id="chart5" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
 	      </td>
 	      <td>
-	      <!-- <td id="bottomright"> -->
 	        <p class="chart6" style="text-align:center;color:red;font-weight:bold;">0:0</p>
 	       <div id="chart6" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
 	      </td>
 	     </tr>
+	     <tr>
+	      <td>
+	       <p class="chart7" style="text-align:center;color:red;font-weight:bold;">1 тайм ТБ1.5</p>
+	       <div id="chart7" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	      <td>
+	        <p class="chart8" style="text-align:center;color:red;font-weight:bold;">ОБЗ</p>
+	       <div id="chart8" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	      <td>
+	        <p class="chart9" style="text-align:center;color:red;font-weight:bold;">2 тайм ТБ1.5</p>
+	       <div id="chart9" style="width:550px;height:200px;padding:5px;margin:auto;"></div>
+	      </td>
+	     </tr>	     
 	    </tbody>
 	   </table>
 	</div>
@@ -467,6 +479,23 @@
 							"0:0 " + data[0] + ": " +  data[21],  
 							"chart6");
 
+					printChart(window["games_" + data[68]],
+							window["trend_tb15_1_" + data[68]], 
+							window["animation_tb15_1_" + data[68]], 
+							"1 тайм ТБ1.5 " + data[0] + ": " +  data[45],  
+							"chart7");
+					printChart(window["games_" + data[68]],
+							window["trend_oz_" + data[68]], 
+							window["animation_oz_" + data[68]], 
+							"ОБЗ " + data[0] + ": " +  data[63], 
+							"chart8");										
+					printChart(window["games_" + data[68]],
+							window["trend_tb15_2_" + data[68]], 
+							window["animation_tb15_2_" + data[68]], 
+							"2 тайм ТБ1.5 " + data[0] + ": " +  data[48],  
+							"chart9");
+
+
 			    } );
 			} );
 		</script>
@@ -481,6 +510,10 @@
 				$(".chart4").html("Почти ЛДС");
 				$(".chart5").html("ЛДС");
 				$(".chart6").html("0:0");
+
+				$(".chart7").html("1 тайм ТБ1.5");
+				$(".chart8").html("ОБЗ");
+				$(".chart9").html("2 тайм ТБ1.5");
 			}
 		</script>
 	
