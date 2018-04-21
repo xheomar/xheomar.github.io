@@ -8,6 +8,8 @@ console.log(getUnixTs());
 
 $.YQL = function(query, callback) {
 
+    console.log(query);
+
     if (!query || !callback) {
         throw new Error('$.YQL(): Parameters may be undefined');
     }
