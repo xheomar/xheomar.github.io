@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html class="no-js oldie ie8" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->	
+<html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- basic page needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>NRL is pain</title>
+	<meta name="description" content="">  
+	<meta name="author" content="xheomar">
+
+   <!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+ 	<!-- CSS
+   ================================================== -->
+   <link rel="stylesheet" href="css/base.css">  
+   <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/flipclock.css">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet"> 
+
+   <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+   <!-- favicons
+	================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
+	<style type="text/css">
+
+    .vis-timeline {
+      border: 3px solid #034e4a;
+      font-family:  'roboto-light', 'serif';
+      font-size: 15pt;
+      //background: #ffecea;
+    }
+
+    .vis-item {
+      border-color: black;
+      background-color: black;
+      font-size: 12pt;
+      color: white;
+      //box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
+    }
+
+    .vis-item,
+    .vis-item.vis-line {
+      border-width: 3px;
+    }
+
+    .vis-item.vis-dot {
+      border-width: 10px;
+      border-radius: 10px;
+    }
+
+    .vis-item.vis-selected {
+      border-color: black;
+      background-color: green;
+    }
+
+    .vis-time-axis .vis-text {
+      color: white;
+      padding-top: 10px;
+      padding-left: 10px;
+    }
+
+    .vis-time-axis .vis-text.vis-major {
+      font-weight: bold;
+    }
+
+    .vis-time-axis .vis-grid.vis-minor {
+      border-width: 3px;
+      //border-color: pink;
+    }
+
+    .vis-time-axis .vis-grid.vis-major {
+      border-width: 3px;
+      //border-color: #F991A3;
+    }
+  </style>
+
+</head>
+
+<body id="top">
+
+	<!-- header 
+   ================================================== -->
+   <header>
+
+   	<div class="row">
+   		<div class="logo">
+	         <a href="index.html">Khronos</a>
+	      </div> 
+
+			<div class="social-links">
+			   <ul>
+					<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+				    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>				   
+				    <li><a href="#"><i class="fa fa-instagram"></i></a></li> 
+				    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>				     			
+				</ul>
+			</div>
+   	</div> 
+
+   </header> <!-- /header -->   
+
+   <!-- home
+   ================================================== -->
+   <section id="home" class="home-static">
+
+   	<div class="shadow-overlay"></div>
+
+   	<div class="content-wrap-table">		   
+
+		   <div class="main-content-tablecell">
+
+		   	<div class="row">
+
+		   		
+
+		   		<div class="col-twelve">
+
+		   			<div id="clock"><h1>HUJ</h1></div>
+
+		   			<!-- <div id="counter">
+		   				
+		   				<div class="half">
+		   					<span>334 <sup>days</sup></span> 
+		 					<span>23 <sup>hours</sup></span>
+		   				</div>
+						<div class="half">
+							<span>50 <sup>mins</sup></span>
+	 						<span>33 <sup>secs</sup></span>
+	 					</div>
+		   			</div> -->
+
+		   			
+
+		  			<div class="bottom-text">
+		  				<h1>прошло со времени последнего ничейного исхода в NRL 2018</h1>
+			  			<p>
+						Но у вас есть еще <span id="notStartedGames"></span> попыток поймать ЕЁ 
+			  			</p>
+			  			<p>
+						Кстати, в первых таймах ничья была уже <span id="firstPeriodDraw"></span> раз 
+			  			</p>			  				
+		  			</div> 	  						  			   			
+
+			   	</div> <!-- /twelve --> 
+
+			   	<div class="scroll-icon">
+
+					   <p class="scroll-text">Узнать больше</p>
+					   <a href="#info" class="smoothscroll">
+					   	<div class="mouse"></div>
+					   </a>
+				   	<div class="end-top"></div>
+
+					</div> <!-- /scroll-icon -->
+		   	</div> <!-- /row -->  
+
+		   </div> <!-- /main-content --> 
+		   
+		</div> <!-- /content-wrap -->
+	 
+   </section> <!-- /home -->
+
+
+   <!-- info
+   ================================================== -->
+   <section id="info" style="display:none">
+
+   	<div class="info-overlay"></div>
+
+   	
+
+   	<div class="row">   		
+   		<div class="col-twelve tabs-wrap">
+
+   			<ul class="tabs"> 
+   				<li class="active" data-id="tab-about"><i class="icon-user"></i><span>About</span></li>
+   				<li data-id="tab-contact"><i class="icon-mail"></i><span>Contact</span></li>							
+					<li data-id="tab-subscribe"><i class="icon-newspaper"></i><span>Subscribe</span></li>				
+				</ul> <!-- /tabs -->
+
+				<div class="tab-container">
+
+					<!-- tab content - about
+   				================================================== -->
+					<div id="tab-about" class="tab-content">
+						
+					   <div class="tab-entry">
+
+					   	<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Get To Know Us.</h1>
+
+					   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row about-content tab-entry-content">
+					     		
+					   		<div class="about-list block-1-3 block-s-1-2 block-tab-full">
+
+						      	<div class="bgrid item">	
+
+						      		<span class="icon"><i class="icon-mobile"></i></span>            
+
+						            <div class="item-content">	
+
+						            	 <h3 class="h05">Fully Resposive</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						         		</p>
+						         		
+						         	</div> 	         	 
+
+									</div> <!-- /bgrid -->
+
+									<div class="bgrid item">	
+
+										<span class="icon"><i class="icon-eye"></i></span>                          
+
+						            <div class="item-content">	
+						            	<h3 class="h05">Retina Ready</h3>  
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						         		</p>
+
+						         		
+						            </div>	                          
+
+								   </div> <!-- /bgrid -->
+
+								   <div class="bgrid item">
+
+								   	<span class="icon"><i class="icon-pencil-ruler"></i></span>		            
+
+						            <div class="item-content">
+						            	<h3 class="h05">Stylish Design</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						        			</p> 
+
+						        			
+						            </div> 	            	               
+
+								   </div> <!-- /bgrid -->
+
+									<div class="bgrid item">
+
+										<span class="icon"><i class="icon-objects"></i></span>	              
+
+						            <div class="item-content">
+						            	<h3 class="h05">Clean Code</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						         		</p> 
+
+						         		
+						            </div>                
+
+									</div> <!-- /bgrid -->
+
+								   <div class="bgrid item">
+
+								   	<span class="icon"><i class="icon-sliders"></i></span>	            
+
+						            <div class="item-content">	
+						            	<h3 class="h05">Easy To Customize</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						        			</p> 
+
+						        			
+						            </div>	               
+
+								   </div> <!-- /bgrid -->
+
+								   <div class="bgrid item">
+
+								   	<span class="icon"><i class="icon-gift"></i></span>	   	           
+
+						            <div class="item-content">
+						            	 <h3 class="h05">Free of Charge</h3>
+
+							            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.
+						        			</p> 
+						        			
+						            </div>	               
+
+								   </div> <!-- /bgrid -->
+
+						      </div> <!-- /about-list --> 
+
+					     	</div> <!-- /row about-content -->
+					     		
+					   </div> <!-- /tab-entry -->
+
+					</div> <!-- /tab-about -->	
+
+
+					<!-- tab content contact
+   				================================================== -->
+					<div id="tab-contact" class="tab-content">
+
+						<div class="tab-entry">
+
+							<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Get In Touch.</h1>
+
+					   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row form-wrap tab-entry-content">
+					   		<div class="col-twelve">
+
+					            <!-- form -->
+					            <form name="contactForm" id="contactForm" method="post" action="">
+					      			<fieldset>
+
+					                  <div class="form-field">
+					 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="">
+					                  </div>
+					                  <div class="form-field">
+						      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="">
+						               </div>
+					                  <div class="form-field">
+						     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
+						               </div>                       
+					                  <div class="form-field">
+						                 	<textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required=""></textarea>
+						               </div>                      
+					                 <div class="form-field">
+					                     <button class="submitForm button button-primary large">Submit</button>
+
+					                     <div id="submit-loader">
+					                        <div class="text-loader">Sending...</div>                             
+					       				      <div class="s-loader">
+													  	<div class="bounce1"></div>
+													  	<div class="bounce2"></div>
+													  	<div class="bounce3"></div>
+													</div>
+												</div><!-- submit-loader -->
+					                  </div>
+
+					      			</fieldset>
+					      		</form> <!-- /form -->
+
+					            <!-- contact-warning -->
+					            <div id="message-warning">            	
+					            </div>            
+					            <!-- contact-success -->
+					      		<div id="message-success">
+					               <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+					      		</div>
+
+					         </div> <!-- /col-twelve -->					   		
+					   	</div> <!-- /row contact-form -->
+
+						</div> <!-- /tab-entry --> 					
+
+					</div> <!-- /tab-contact -->
+
+
+					<!-- tab content - subscribe
+   				================================================== -->
+					<div id="tab-subscribe" class="tab-content">
+
+						<div class="tab-entry">
+
+							<div class="row tab-entry-intro">
+					   		<div class="col-twelve with-bottom-line">
+
+					   			<h1>Subcribe To Our Newsletter.</h1>
+
+					   			<p class="lead">Lorem ipsum Do commodo in proident enim in dolor cupidatat adipisicing dolore officia nisi aliqua incididunt Ut veniam lorem ipsum Consectetur ut in in eu do.</p>
+
+					   		</div>   		
+					   	</div> <!-- /tab-content-intro -->
+
+					   	<div class="row form-wrap tab-entry-content">
+					   		<div class="col-twelve">
+
+					   			<form id="mc-form" class="group" novalidate="true">
+
+										<div class="form-field">					
+						   				<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required="">					   				
+						   			</div>
+
+							   		<div class="form-field">	
+							   			<input type="submit" value="Get Notified" name="subscribe" class="button button-primary large">
+							   		</div>
+
+							   		<label for="mce-EMAIL" class="subscribe-message"></label>
+									
+									</form>
+
+					   		</div> <!-- /twelve -->
+					   	</div> <!-- subscribe-form -->
+
+						</div> <!-- /tab-entry --> 						
+
+					</div> <!-- /tab-subscribe -->										
+
+				</div> <!-- /tab-container -->
+   			
+   		</div> <!-- twelve -->
+   	</div> <!-- row -->   	
+
+   </section> <!-- /info -->
+
+
+   <!-- CTA Section
+   ================================================== -->
+	<section id="cta">
+
+   	<div class="row cta-wrap">
+
+
+
+   		<div class="col-twelve cta-content">  
+
+	     		<h2 class="h01">Освежите в памяти результаты</h2>
+
+		      <p class="lead">
+		      Красной линией показан сегодняшний день. Все результаты можно посмотреть <a href="https://www.flashscore.com/rugby-league/australia/nrl/results/">здесь</a>
+				</p>
+
+				<!-- <div class="action">
+			      <a class="button large" href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Sign Up Now</a>
+		      </div> -->		     	
+
+   		</div>
+
+   	</div> <!-- /cta-content -->
+
+   	<div id="visualization"></div>
+
+   </section> <!-- /cta --> 
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+   	<div class="social-wrap">
+   		<div class="row">
+				
+	         <ul class="footer-social-list">
+	            <li><a href="#">
+	             	<i class="fa fa-facebook"></i><span>Facebook</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-twitter"></i><span>Twitter</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-pinterest"></i><span>Pinterest</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-instagram"></i><span>Instagram</span>
+	            </a></li>
+	            <li><a href="#">
+	              	<i class="fa fa-dribbble"></i><span>Dribbble</span>
+	            </a></li>
+	         </ul>
+	         
+			</div> <!-- /row -->
+   	</div> <!-- /social-wrap -->
+
+   	<div class="footer-bottom">
+
+			<div class="footer-logo">
+					<img src="images/footer-logo.png" alt="">				
+			</div>
+
+   		<div class="copyright">
+		     	<span>© Copyright Xheomar 2018.</span> 
+		     	<span>Design by <a href="https://www.sports.ru/profile/1021034206/">xheo</a></span>		         	
+		   </div>		   
+
+   	</div> <!-- /footer-bottom -->
+
+   	<div class="back-to-top">
+		 	<a href="#top" class="smoothscroll"><span>Back to Top</span></a>
+		</div>
+
+   </footer>
+
+   <div id="preloader"> 
+    	<div id="loader"></div>
+   </div> 
+
+   <!-- Java Script
+   ================================================== --> 
+   <script src="js/jquery-2.1.3.min.js"></script>
+   <script src="js/plugins.js"></script>
+   <script src="js/main.js"></script>
+
+   <script src="js/flipclock.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js"></script>
+	
+   <script src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>
+
+    <script id="item-template" type="text/x-handlebars-template">
+    <table class="score">
+      <tr>
+        <td colspan="3" class="description">{{description}}</td>
+      </tr>
+      <tr>
+        <td>{{player1}}</td>   
+        <td>&nbsp;-&nbsp;</td>     
+        <td>{{player2}}</td>
+      </tr>
+      <tr>
+        <td>{{score1}}</td>
+        <td>&nbsp;</td>
+        <td>{{score2}}</td>
+      </tr>
+      <tr>
+        <td><img src="https://www.sofascore.com/images/team-logo/rugby_{{abbr1}}.png" width="50" height="50" alt="{{player1}}"></td>
+        <th></th>
+        <td><img src="https://www.sofascore.com/images/team-logo/rugby_{{abbr2}}.png" width="50" height="50" alt="{{player2}}"></td>
+      </tr>
+    </table>
+ 	</script>  
+
+ 	  <script type="text/javascript">
+			function getUnixTs() {
+			    var ts = Math.round((new Date()).getTime() / 1000).toString();
+			    ts = ts.slice(0, -1);
+			    return ts;
+			}
+		</script>
+
+		<script type="text/javascript">
+			function getCurrentUnixTs() {
+			    var ts = Math.round((new Date()).getTime() / 1000).toString();
+			    // ts = ts.slice(0, -1);
+			    return ts;
+			}
+		</script>
+
+		<script type="text/javascript">
+			function runCountUp(seconds) 
+			{
+				
+				var clock = $('#clock').FlipClock(seconds, {
+					clockFace: 'DailyCounter',
+					countdown: false
+				});
+			}
+		</script>   
+
+   <script type="text/javascript">
+			function runRugbyDraw(round) 
+			{
+				var json_url = "https://www.sofascore.com/u-tournament/294/season/15699/matches/round/" + round + '?_=' + getUnixTs();
+				$.getJSON('http://cors-proxy.htmldriven.com/?url=' + encodeURIComponent(json_url), function(response)
+				{
+					var json = JSON.parse(response.body);
+					var matches = json.roundMatches.tournaments[0].events;
+
+					for (var i = 0; i < matches.length; i++) 
+					{
+						// console.log(matches[i]);
+
+
+						
+						// if (matches[i].homeScore.period1 == matches[i].awayScore.period1 && typeof matches[i].homeScore.period1 !== 'undefined')
+						// {
+						// 	console.log("1st Period: " + "Round " + matches[i].roundInfo.round + ", " 
+						// 		+ matches[i].startTimestamp + " " 
+						// 		+ matches[i].homeTeam.name + " - " + matches[i].awayTeam.name + " = "
+						// 		+ matches[i].homeScore.period1 + ":" + matches[i].awayScore.period1);
+
+						// 	items.add([
+						// 	  {
+						// 	  	player1: matches[i].homeTeam.name, 
+						// 	  	abbr1: matches[i].homeTeam.id, 
+						// 	  	score1: matches[i].homeScore.period1,
+						// 	  	player2: matches[i].awayTeam.name,
+						// 	    abbr2: matches[i].awayTeam.id,
+						// 	    score2: matches[i].awayScore.period1,
+						// 	    description: "Тур " + matches[i].roundInfo.round + ", первый тайм",
+						// 	    start: new Date(matches[i].startTimestamp*1000)
+						// 	  }
+						// 	]);
+
+						// 	//timeline.itemsData.update(items);
+						// 	document.getElementsByClassName('vis-timeline')[0].remove();
+						// 	timeline = new vis.Timeline(container, items, options);
+						// }
+
+						if (matches[i].homeScore.period1 == matches[i].awayScore.period1 && typeof matches[i].homeScore.period1 !== 'undefined')
+						{							
+							firstPeriodDraw++;
+							$('#firstPeriodDraw').html(firstPeriodDraw);
+						}
+
+						var status = matches[i].statusDescription;
+						
+						if (status == 'AET')
+						{
+							console.log("Full Time: " + "Round " + matches[i].roundInfo.round + ". " 
+								+ matches[i].startTimestamp + " " 
+								+ matches[i].homeTeam.name + " - " + matches[i].awayTeam.name + " = "
+								+ matches[i].homeScore.normaltime + ":" + matches[i].awayScore.normaltime);
+
+							var ids = items.getIds();
+							console.log('ids', ids);
+							var maximumTime = matches[i].startTimestamp;
+							for (var j = 0; j < ids.length; j++)
+							{
+								var item = items.get(ids[j]);
+								console.log(items.get(ids[j]));
+								if ((item.start.getTime() / 1000) > maximumTime)
+								{
+									maximumTime = (item.start.getTime() / 1000);
+								}
+							}
+
+							items.add([
+							  {
+							  	player1: matches[i].homeTeam.name, 
+							  	abbr1: matches[i].homeTeam.id, 
+							  	score1: matches[i].homeScore.normaltime,
+							  	player2: matches[i].awayTeam.name,
+							    abbr2: matches[i].awayTeam.id,
+							    score2: matches[i].awayScore.normaltime,
+							    description: "Тур " + matches[i].roundInfo.round + "",
+							    start: new Date(matches[i].startTimestamp*1000)
+							  }
+							]);
+
+							document.getElementsByClassName('vis-timeline')[0].remove();
+							timeline = new vis.Timeline(container, items, options);
+
+							runCountUp((getCurrentUnixTs() - maximumTime));
+						}
+						else 
+						{
+							console.log(status);
+							if (status == "-")
+							{
+								notStartedGames++;
+								$('#notStartedGames').html(notStartedGames);
+							}
+						}
+					}
+				});
+			}
+		</script>	
+
+	<script type="text/javascript">
+		var notStartedGames = 0;
+		var firstPeriodDraw = 0;
+		var template = Handlebars.compile(document.getElementById('item-template').innerHTML);
+		var options = 
+		{
+		template: template,
+		start: new Date(1517443200*1000),
+		end: new Date(1541026740*1000),
+		zoomable: false
+		};
+		var container = document.getElementById('visualization');  
+		var items = new vis.DataSet(options);
+		var timeline = new vis.Timeline(container, items, options);
+
+		for (var i = 1; i <= 25; i++) 
+		{
+		runRugbyDraw(i);
+		// console.log(items);		
+		}
+
+		//var timeline = new vis.Timeline(container, items, options);
+	</script>	
+
+</body>
+
+</html>
