@@ -42,36 +42,36 @@
     }
 
     .vis-item {
-      border-color: black;
+      border-color: #81a7a5;
       background-color: #034e4a;
-      font-size: 12pt;
+      font-size: 10pt;
       color: white;
-      //box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
+      box-shadow: 5px 5px 20px rgba(128,128,128, 0.5);
     }
 
     .vis-item,
     .vis-item.vis-line {
-      border-width: 3px;
+      border-width: 2px;
     }
 
     .vis-item.vis-dot {
-      border-width: 10px;
-      border-radius: 10px;
+      border-width: 8px;
+      border-radius: 8px;
     }
 
     .vis-item.vis-selected {
-      border-color: black;
+      border-color: #81a7a5;
       background-color: #088e87;
     }
 
     .vis-time-axis .vis-text {
-      color: white;
+      color: #81a7a5;
       padding-top: 10px;
       padding-left: 10px;
     }
 
     .vis-time-axis .vis-text.vis-major {
-      font-weight: bold;
+      //font-weight: bold;
     }
 
     .vis-time-axis .vis-grid.vis-minor {
@@ -83,6 +83,11 @@
       border-width: 3px;
       //border-color: #F991A3;
     }
+
+    table.score {    	
+    	margin-bottom: 0px;  
+    }
+
   </style>
 
 </head>
@@ -529,13 +534,13 @@
       </tr>
       <tr>
         <td>{{score1}}</td>
-        <td>&nbsp;</td>
+        <th></th>
         <td>{{score2}}</td>
       </tr>
       <tr>
-        <td><img src="https://www.sofascore.com/images/team-logo/rugby_{{abbr1}}.png" width="50" height="50" alt="{{player1}}"></td>
+        <td><img src="https://www.sofascore.com/images/team-logo/rugby_{{abbr1}}.png" width="40" height="40" alt="{{player1}}"></td>
         <th></th>
-        <td><img src="https://www.sofascore.com/images/team-logo/rugby_{{abbr2}}.png" width="50" height="50" alt="{{player2}}"></td>
+        <td><img src="https://www.sofascore.com/images/team-logo/rugby_{{abbr2}}.png" width="40" height="40" alt="{{player2}}"></td>
       </tr>
     </table>
  	</script>  
@@ -639,10 +644,10 @@
 							  {
 							  	player1: matches[i].homeTeam.name, 
 							  	abbr1: matches[i].homeTeam.id, 
-							  	score1: matches[i].homeScore.normaltime,
+							  	score1: matches[i].homeScore.normaltime + " (" + matches[i].homeScore.period1 + ")",
 							  	player2: matches[i].awayTeam.name,
 							    abbr2: matches[i].awayTeam.id,
-							    score2: matches[i].awayScore.normaltime,
+							    score2: matches[i].awayScore.normaltime + " (" + matches[i].awayScore.period1 + ")",
 							    description: "Тур " + matches[i].roundInfo.round + "",
 							    start: new Date(matches[i].startTimestamp*1000)
 							  }
@@ -671,12 +676,11 @@
 		var notStartedGames = 0;
 		var firstPeriodDraw = 0;
 		var template = Handlebars.compile(document.getElementById('item-template').innerHTML);
-		var options = 
-		{
-		template: template,
-		start: new Date(1517443200*1000),
-		end: new Date(1541026740*1000),
-		zoomable: false
+		var options = {
+			template: template,
+			start: new Date(1519862400*1000),
+			end: new Date(1527811200*1000),
+			zoomable: true
 		};
 		var container = document.getElementById('visualization');  
 		var items = new vis.DataSet(options);
