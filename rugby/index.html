@@ -576,7 +576,7 @@
 			function runRugbyDraw(round) 
 			{
 				var json_url = "https://www.sofascore.com/u-tournament/294/season/15699/matches/round/" + round + '?_=' + getUnixTs();
-				$.getJSON('http://cors-proxy.htmldriven.com/?url=' + encodeURIComponent(json_url), function(response)
+				$.getJSON('https://cors-proxy.htmldriven.com/?url=' + encodeURIComponent(json_url), function(response)
 				{
 					var json = JSON.parse(response.body);
 					var matches = json.roundMatches.tournaments[0].events;
