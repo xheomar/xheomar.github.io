@@ -91,33 +91,9 @@
 	<body>
 
 		<select id="tours">
-			<option value="0">12</option>
-			<option value="0">13</option>
-			<option value="0">14</option>
-			<option value="0">15</option>
-			<option value="0">16</option>
-			<option value="0">17</option>
-			<option value="0">18</option>
-			<option value="0">19</option>
-			<option value="0">20</option>
-			<option value="0">21</option>
-			<option value="0">22</option>
-			<option value="0">23</option>
-			<option value="0">24</option>
-			<option value="0">25</option>
-			<option value="0">26</option>
-			<option value="0">27</option>
-			<option value="0">28</option>
-			<option value="0">29</option>
-			<option value="0">30</option>
-			<option value="1">31</option>
-			<option value="3">32</option>
-			<option value="3">33</option>
-			<option value="3">34</option>
-			<option value="3">35</option>
-			<option value="3">36</option>
-			<option value="3">37</option>
-			<option selected="selected" value="3">38</option>
+			<option value="0">1</option>
+			<option selected="selected" value="0">2</option>
+			<option value="0">3</option>
 		</select>
 
 		<input type="button" value="Обновить" id="runButton">
@@ -139,12 +115,12 @@
 
 	    <script type="text/javascript">
 			var tour = $("#tours :selected").text();
-			var tourName = parseInt('8315') + parseInt(tour);
+			var tourName = parseInt('8686') + parseInt(tour);
 			console.log(tourName);
 			$('#runButton').click(function() {
 				$("#tables").empty();
 				tour = $("#tours :selected").text();
-				tourName = parseInt('8315') + parseInt(tour);
+				tourName = parseInt('8686') + parseInt(tour);
 				console.log(tourName);
 			    runFantasy('' + tourName, '');
 			});			
@@ -157,8 +133,7 @@
 						['ymat', '0','0'],
 						['xheo', '0','0'],
 						['busotir', '0','0'],
-						['pr-positive', '0','0'],
-						['Евгений', '0','0']
+						['pr-positive', '0','0']
 					];					
 		</script>
 
@@ -206,12 +181,11 @@
 		<script type="text/javascript">
 		function runFantasy(tourId, userName) {
 			var teams = 
-			   [{userId: "1890113", name: "xheo", result: 0}, 
-				{userId: "1892071", name: "pr-positive", result: 0},
-				{userId: "1895810", name: "busotir", result: 0},
-				{userId: "1889520", name: "Евгений", result: 0},
-				{userId: "1892171", name: "PrincipessaMilana", result: 0},
-				{userId: "1892280", name: "ymat", result: 0}];
+			   [{userId: "1959391", name: "xheo", result: 0}, 
+				{userId: "1965062", name: "pr-positive", result: 0},
+				{userId: "1958861", name: "busotir", result: 0},
+				{userId: "1966688", name: "PrincipessaMilana", result: 0},
+				{userId: "1965781", name: "ymat", result: 0}];
 			var ids = 0;
 			var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
 			var JsonUrlTemplate = ".json";
