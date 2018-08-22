@@ -201,7 +201,9 @@
 	                <th rowspan="2">ОБЗ ИТБ1.5 [67]</th>
 					<th rowspan="2">ОБЗ 1т [68]</th>
 	                <th rowspan="2">ОБЗ 2т [69]</th>
-	                <th rowspan="2">ID лиги [70]</th>
+					<th rowspan="2">ЛДС 1т [70]</th>
+	                <th rowspan="2">ЛДС 2т [71]</th>
+	                <th rowspan="2">ID лиги [72]</th>
 
 	            </tr>
 	            <tr>
@@ -474,86 +476,86 @@
 			    $('#example tbody').on('click', 'tr', function () {
 			    	restoreLabelsForCharts();
 			        var data = table.row( this ).data();
-			        //alert( 'You clicked on '+data[70]+'\'s row' );
+			        //alert( 'You clicked on '+data[72]+'\'s row' );
 					
-					printChart(window["games_" + data[70]],
-							window["trend_tb25_" + data[70]], 
-							window["animation_tb25_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_tb25_" + data[72]], 
+							window["animation_tb25_" + data[72]], 
 							"ТБ2.5 " + data[0] + ": " +  data[8],  
 							"chart1");
-					printChart(window["games_" + data[70]],
-							window["trend_tb35_" + data[70]], 
-							window["animation_tb35_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_tb35_" + data[72]], 
+							window["animation_tb35_" + data[72]], 
 							"ТБ3.5 " + data[0] + ": " +  data[9],  
 							"chart2");
-					printChart(window["games_" + data[70]],
-							window["trend_tb45_" + data[70]], 
-							window["animation_tb45_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_tb45_" + data[72]], 
+							window["animation_tb45_" + data[72]], 
 							"ТБ4.5 " + data[0] + ": " +  data[10],  
 							"chart3");
 
 
-					printChart(window["games_" + data[70]],
-							window["trend_preLds_" + data[70]], 
-							window["animation_preLds_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_preLds_" + data[72]], 
+							window["animation_preLds_" + data[72]], 
 							"Почти ЛДС " + data[0] + ": " +  data[12],  
 							"chart4");
-					printChart(window["games_" + data[70]],
-							window["trend_lds_" + data[70]], 
-							window["animation_lds_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_lds_" + data[72]], 
+							window["animation_lds_" + data[72]], 
 							"ЛДС " + data[0] + ": " +  data[13], 
 							"chart5");										
-					printChart(window["games_" + data[70]],
-							window["trend_nullNull_" + data[70]], 
-							window["animation_nullNull_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_nullNull_" + data[72]], 
+							window["animation_nullNull_" + data[72]], 
 							"0:0 " + data[0] + ": " +  data[21],  
 							"chart6");
 
-					printChart(window["games_" + data[70]],
-							window["trend_tb15_1_" + data[70]], 
-							window["animation_tb15_1_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_tb15_1_" + data[72]], 
+							window["animation_tb15_1_" + data[72]], 
 							"1 тайм ТБ1.5 " + data[0] + ": " +  data[45],  
 							"chart7");
-					printChart(window["games_" + data[70]],
-							window["trend_oz_" + data[70]], 
-							window["animation_oz_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_oz_" + data[72]], 
+							window["animation_oz_" + data[72]], 
 							"ОБЗ " + data[0] + ": " +  data[63], 
 							"chart8");										
-					printChart(window["games_" + data[70]],
-							window["trend_tb15_2_" + data[70]], 
-							window["animation_tb15_2_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_tb15_2_" + data[72]], 
+							window["animation_tb15_2_" + data[72]], 
 							"2 тайм ТБ1.5 " + data[0] + ": " +  data[48],  
 							"chart9");
 							
-					printChart(window["games_" + data[70]],
-							window["trend_p1_" + data[70]], 
-							window["animation_p1_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_p1_" + data[72]], 
+							window["animation_p1_" + data[72]], 
 							"Победы хозяев " + data[0] + ": " +  data[4],  
 							"chart10");
-					printChart(window["games_" + data[70]],
-							window["trend_draw_" + data[70]], 
-							window["animation_draw_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_draw_" + data[72]], 
+							window["animation_draw_" + data[72]], 
 							"Ничьи " + data[0] + ": " +  data[5], 
 							"chart11");										
-					printChart(window["games_" + data[70]],
-							window["trend_p2_" + data[70]], 
-							window["animation_p2_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_p2_" + data[72]], 
+							window["animation_p2_" + data[72]], 
 							"Победы гостей " + data[0] + ": " +  data[6],  
 							"chart12");		
 							
-					printChart(window["games_" + data[70]],
-							window["trend_oz1_" + data[70]], 
-							window["animation_oz1_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_oz1_" + data[72]], 
+							window["animation_oz1_" + data[72]], 
 							"Обе забьют в 1 тайме " + data[0] + ": " +  data[68],  
 							"chart13");
-					printChart(window["games_" + data[70]],
-							window["trend_oz12_" + data[70]], 
-							window["animation_oz12_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_oz12_" + data[72]], 
+							window["animation_oz12_" + data[72]], 
 							"Обе забьют в обоих таймах " + data[0] + ": " +  data[52], 
 							"chart14");										
-					printChart(window["games_" + data[70]],
-							window["trend_oz2_" + data[70]], 
-							window["animation_oz2_" + data[70]], 
+					printChart(window["games_" + data[72]],
+							window["trend_oz2_" + data[72]], 
+							window["animation_oz2_" + data[72]], 
 							"Обе забьют во 2 тайме " + data[0] + ": " +  data[69],  
 							"chart15");		
 
