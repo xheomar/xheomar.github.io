@@ -92,7 +92,7 @@
 
 		<select id="tours">
 			<option>1</option>
-			<option>2</option>
+			<option selected="selected">2</option>
 			<option>3</option>
 			<option>4</option>
 			<option>5</option>
@@ -111,7 +111,7 @@
 			<option>18</option>
 			<option>19</option>
 			<option>20</option>
-			<option selected="selected">21</option>
+			<option>21</option>
 			<option>22</option>
 			<option>23</option>
 			<option>24</option>
@@ -137,12 +137,12 @@
 
 	    <script type="text/javascript">
 			var tour = $("#tours :selected").text();
-			var tourName = parseInt('9003') + parseInt(tour);
+			var tourName = parseInt('9958') + parseInt(tour);
 			console.log(tourName);
 			$('#runButton').click(function() {
 				$("#tables").empty();
 				tour = $("#tours :selected").text();
-				tourName = parseInt('9003') + parseInt(tour);
+				tourName = parseInt('9958') + parseInt(tour);
 				console.log(tourName);
 			    runFantasy('' + tourName, '');
 			});			
@@ -152,11 +152,8 @@
 			
 			var data_football = [
  						['Milana', '0','0'],
-						['ymat', '0','0'],
 						['xheo', '0','0'],
-						['Евгений', '0','0'],
 						['busotir', '0','0'],
-						['Denis', '0','0'],
 						['positive', '0','0']
 					];					
 		</script>
@@ -185,10 +182,8 @@
 		    if (!query || !callback) {
 		        throw new Error('$.YQL(): Parameters may be undefined');
 		    }
-
-		    var encodedQuery = encodeURIComponent(query.toLowerCase()),
-		        url = 'https://query.yahooapis.com/v1/public/yql?q=' +
-		        encodedQuery + '&format=json&callback=?';		  
+		    
+			var url = 'https://cors-anywhere.herokuapp.com/' + query;	  
 
 		    $.getJSON(url, callback);
 			};
@@ -205,13 +200,10 @@
 		<script type="text/javascript">
 		function runFantasy(tourId, userName) {
 			var teams = 
-			   [{userId: "2031326", name: "xheo", result: 0}, 
-				{userId: "2032309", name: "positive", result: 0},
-				{userId: "2029738", name: "busotir", result: 0},
-				{userId: "2032419", name: "Denis", result: 0},
-				{userId: "2032704", name: "Milana", result: 0},
-				{userId: "2032462", name: "Евгений", result: 0},
-				{userId: "2032585", name: "ymat", result: 0}];
+			   [{userId: "2172907", name: "xheo", result: 0},
+				{userId: "2175327", name: "positive", result: 0},
+				{userId: "2173548", name: "busotir", result: 0},
+				{userId: "2174837", name: "Milana", result: 0}];
 			var ids = 0;
 			var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
 			var JsonUrlTemplate = ".json";
@@ -225,9 +217,10 @@
 				   	}
 					var json_url = SportsRuUrlTemplate + teams[ids].userId + "/" + tourId + JsonUrlTemplate;
 					console.log(json_url);
-					$.YQL("SELECT * FROM json WHERE url='" + json_url + '?_=' + getUnixTs() + "' LIMIT 1", function(response){
+					$.YQL(json_url, function(response){
 						
-						var json = response.query.results.json;
+						// var json = response.query.results.json;
+						var json = response;
 						
 						var MIN_GOALKEEPER_COUNT = 1, MIN_DEFENDER_COUNT = 3, MIN_HALFBACK_COUNT = 2, MIN_FORWARD_COUNT = 1;
 
