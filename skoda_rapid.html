@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Skoda Rapid Prive</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- JQuery -->
+	<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+
+	<!-- Data -->
+	<script src="skoda_rapid.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- DataTables -->
+    <link href="https://cdn.datatables.net/1.10.16/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+
+    <!-- Fixed Columns -->
+    <link href="https://cdn.datatables.net/fixedcolumns/3.2.4/css/fixedColumns.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/fixedcolumns/3.2.4/js/dataTables.fixedColumns.min.js"></script>
+
+    <!-- Responsive -->    
+    <!--link href="https://cdn.datatables.net/responsive/2.2.1/css/responsive.dataTables.min.css" rel="stylesheet"-->
+    <!--script src="https://cdn.datatables.net/responsive/2.2.1/js/dataTables.responsive.min.js"></script-->
+
+    <!-- Select -->
+    <link href="https://cdn.datatables.net/select/1.2.5/css/select.dataTables.min.css" rel="stylesheet">    
+    <script src="https://cdn.datatables.net/select/1.2.5/js/dataTables.select.min.js"></script>	
+
+    <!-- DataTables Bootstrap -->
+    <!--link href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css" rel="stylesheet"-->  
+    <!--script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script-->	  
+    
+    <!-- Moment JS -->
+    <!--script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script-->
+    	
+	<!-- Buttons -->
+	<link href="https://cdn.datatables.net/buttons/1.5.1/css/buttons.dataTables.min.css" rel="stylesheet">	
+	<script src="https://cdn.datatables.net/buttons/1.5.1/js/dataTables.buttons.min.js"></script>		
+	<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.colVis.min.js"></script>	
+
+	<!-- Export Buttons -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/pdfmake.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.32/vfs_fonts.js"></script>
+	<script src="https://cdn.datatables.net/buttons/1.5.1/js/buttons.html5.min.js"></script>
+	
+	<!-- Flot + Animation -->
+	<script src="http://www.flotcharts.org/javascript/jquery.flot.min.js"></script>
+	<script src="http://www.codicode.com/demo/flotanimator/jquery.flot.animator.min.js"></script>
+	
+
+
+	
+
+    <style>
+    /* Ensure that the demo table scrolls */
+    th, td { white-space: nowrap; }
+    div.dataTables_wrapper {
+        width: 1600px;
+        margin: 0 auto;
+    }
+ 
+    div.ColVis {
+        float: left;
+    }
+    th, td {
+        white-space: nowrap;
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+    .text
+	{
+	    /*position:relative;
+	    /*top:-230px;
+	    left:30px;*/
+	    text-align:center;
+	    color:red;
+	    font-weight:bold;
+	}
+	
+	#topleft, #bottomright {
+      border: solid 1px black;
+    }
+    
+    #topleft {
+        border-left-style: none;
+        border-top-style: none;
+    }
+    
+    #bottomright {
+      border-right-style: none;
+      border-bottom-style: none;
+    }
+    #flotTip {
+	    padding: 3px 5px;
+	    background-color: #000;
+	    z-index: 100;
+	    color: #fff;
+	    opacity: .80;
+	    filter: alpha(opacity=85);
+	}
+	</style>
+  </head>
+
+  <body>
+  <nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Skoda Prices</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="http://xheomar.github.io/skoda_rapid">Home<span class="sr-only">(current)</span></a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Авто в наличии<span class="caret"></span></a>
+						<ul class="dropdown-menu">
+							<li><a target="_blank" href="http://xn----7sbbig9a2af9a4c.xn--90ais/category/view/114">RAPID</a></li>
+							<li><a target="_blank" href="http://xn----7sbbig9a2af9a4c.xn--90ais/category/view/116">OCTAVIA</a></li>
+							<li><a target="_blank" href="http://xn----7sbbig9a2af9a4c.xn--90ais/category/view/120">KODIAQ</a></li>
+							<li><a target="_blank" href="http://xn----7sbbig9a2af9a4c.xn--90ais/category/view/121">SUPERB</a></li>
+							<li role="separator" class="divider"></li>
+						</ul>
+					</li>
+					<li><a target="_blank" href="https://www.skoda-auto.by/models/rapid">RAPID</a></li>
+					<li><a target="_blank" href="https://www.skoda-auto.by/models/octavia">OCTAVIA</a></li>
+					<li><a target="_blank" href="https://www.skoda-auto.by/models/superbfl">SUPERB</a></li>
+					<li><a target="_blank" href="https://www.skoda-auto.by/models/kodiaq">KODIAQ</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div><!-- /.container-fluid -->
+	  </nav>
+	  
+	  <table id="example" class="stripe row-border order-column" cellspacing="1" width="100%">		
+			<thead>
+	            <tr>
+	                <th rowspan="1">Модель</th>
+	                <th rowspan="1">Тип кузова</th>
+	                <th rowspan="1">Комплектация</th>
+	                <th rowspan="1">Старая цена</th>
+	                <th rowspan="1">Новая цена</th>
+	                <th rowspan="1">л.с.</th>
+	                <th rowspan="1">кВт</th>
+	                <th rowspan="1">КПП</th>
+	                <th rowspan="1">Цвет</th>
+	                <th rowspan="1">Допы</th>
+	            </tr>
+	        </thead>			
+    </table>
+
+
+	<script> 
+		$(document).ready(function() {
+			var table = $('#example').DataTable( {
+				"data": data_rapid,
+				"order": [[ 4, "desc" ]],			        
+				"paging":   false,
+				//"ordering": true,
+				"info":     true,
+				//"scrollX": true,
+				//"scrollY": "300px",
+				//"scrollCollapse": true,			        
+				//"stateSave": false,
+				/*"columnDefs": [ 
+					{
+						"targets": [ -1 ],
+						"visible": false				            
+					},
+					{
+						"targets": [ 0 ],
+					}
+				],*/
+				//"lengthMenu": [[15, 30, 50, -1], [15, 30, 50, "All"]],
+				/*"fixedColumns":   {
+					"leftColumns": 3
+				},*/
+				//"select": true
+				// dom: 'Bfrtip'
+			} );
+		} );
+	</script>
+
+	</body>
+</html>
+
