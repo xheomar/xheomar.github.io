@@ -1,10 +1,4 @@
 #EXTM3U url-tvg="http://myott.tv/api/epg.xml.gz"
-#EXTINF:-1 tvg-id="33" group-title="Спорт" tvg-rec="7" timeshift="7",Беларусь 5 HD
-#EXTGRP:Спорт
-https://edge04.hoster.by/belarus5/liveabr/belarus5/livehd/chunks.m3u8
-#EXTINF:-1 tvg-id="33" group-title="Спорт" tvg-rec="7" timeshift="7",Беларусь 5 Internet
-#EXTGRP:Спорт
-https://edge04.hoster.by/belarus5internet/abr/belarus5internet/live_720p/chunks.m3u8
 #EXTINF:-1 tvg-id="176" group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/eurosport1/index.m3u8
@@ -128,3 +122,9 @@ https://or-be-01.mycdn.video/skysportsf1/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Sports Mix
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/skymix/index.m3u8
+#EXTINF:-1 tvg-id="33" group-title="Спорт" tvg-rec="7" timeshift="7",Беларусь 5 HD
+#EXTGRP:Спорт
+https://edge04.hoster.by/belarus5/liveabr/belarus5/livehd/chunks.m3u8
+#EXTINF:-1 tvg-id="33" group-title="Спорт" tvg-rec="7" timeshift="7",Беларусь 5 Internet
+#EXTGRP:Спорт
+https://edge04.hoster.by/belarus5internet/abr/belarus5internet/live_720p/chunks.m3u8
