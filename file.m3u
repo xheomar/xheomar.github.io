@@ -1,65 +1,65 @@
 #EXTM3U url-tvg="http://myott.tv/api/epg.xml.gz"
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Игра HD
-#EXTGRP:Спорт
-https://or-be-01.mycdn.video/matchigra/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport HD
+#EXTINF:-1 tvg-id="176" group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/eurosport1/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport 4K
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/eurosport4k/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport 2 HD
+#EXTINF:-1 tvg-id="192" group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport 2 HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/eurosport2/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport Gold HD
+#EXTINF:-1 tvg-id="286" group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport Gold HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/eurosportgold/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Арена HD
+#EXTINF:-1 tvg-id="188" group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Игра HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/matchigra/index.m3u8
+#EXTINF:-1 tvg-id="163" group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Арена HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/matcharena/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч ТВ HD
+#EXTINF:-1 tvg-id="169" group-title="Спорт" tvg-rec="7" timeshift="7",Матч ТВ HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/matchtv/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 1 HD
+#EXTINF:-1 tvg-id="130" group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 1 HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/football1/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 2 HD
+#EXTINF:-1 tvg-id="142" group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 2 HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/football2/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 3 HD
+#EXTINF:-1 tvg-id="185" group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 3 HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/football3/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч Премьер HD
+#EXTINF:-1 tvg-id="193" group-title="Спорт" tvg-rec="7" timeshift="7",Матч Премьер HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/nashfootball/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Футбол 1 HD Украина
+#EXTINF:-1 tvg-id="159" group-title="Спорт" tvg-rec="7" timeshift="7",Футбол 1 HD Украина
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/futbol1ukr/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Футбол 2 HD Украина
+#EXTINF:-1 tvg-id="191" group-title="Спорт" tvg-rec="7" timeshift="7",Футбол 2 HD Украина
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/futbol2ukr/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Viasat Sport Россия
+#EXTINF:-1 tvg-id="102" group-title="Спорт" tvg-rec="7" timeshift="7",Viasat Sport Россия
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/viasatsport/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sport 1 HD
+#EXTINF:-1 tvg-id="234" group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sport 1 HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/setanta1/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sport 2 HD
+#EXTINF:-1 tvg-id="235" group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sport 2 HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/setanta2/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sports HD UA
+#EXTINF:-1 tvg-id="313" group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sports HD UA
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/setantaua/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Боец
+#EXTINF:-1 tvg-id="112" group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Боец
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/boetstv/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Бокс ТВ
+#EXTINF:-1 tvg-id="154" group-title="Спорт" tvg-rec="7" timeshift="7",Бокс ТВ
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/bokstv/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",КХЛ HD
+#EXTINF:-1 tvg-id="178" group-title="Спорт" tvg-rec="7" timeshift="7",КХЛ HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/khlhd/index.m3u8
-#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",UFC ТВ HD
+#EXTINF:-1 tvg-id="279" group-title="Спорт" tvg-rec="7" timeshift="7",UFC ТВ HD
 #EXTGRP:Спорт
 https://or-be-01.mycdn.video/ufctv/index.m3u8
 #EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",BT Sport 1
