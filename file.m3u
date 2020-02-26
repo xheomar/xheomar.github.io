@@ -1,0 +1,124 @@
+#EXTM3U url-tvg="http://myott.tv/api/epg.xml.gz"
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Игра HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/matchigra/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/eurosport1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport 4K
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/eurosport4k/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport 2 HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/eurosport2/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Eurosport Gold HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/eurosportgold/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Арена HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/matcharena/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч ТВ HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/matchtv/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 1 HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/football1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 2 HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/football2/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Футбол 3 HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/football3/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч Премьер HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/nashfootball/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Футбол 1 HD Украина
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/futbol1ukr/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Футбол 2 HD Украина
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/futbol2ukr/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Viasat Sport Россия
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/viasatsport/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sport 1 HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/setanta1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sport 2 HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/setanta2/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Setanta Sports HD UA
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/setantaua/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Матч! Боец
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/boetstv/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Бокс ТВ
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/bokstv/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",КХЛ HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/khlhd/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",UFC ТВ HD
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/ufctv/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",BT Sport 1
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/btsport1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",BT Sport 2
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/btsport2/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",BT Sport 3
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/btsport3/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",BT Sport ESPN
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/btsportespn/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",ESPN
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/espn/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",ESPN 2
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/espn2/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Free Sports
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/freesports/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",NBA TV
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/nbatv/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",NBC Sports
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/nbcsn/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",NHL Network
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/nhltv/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Premier Sports 1
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/premiersports1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Premier Sports 2
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/premiersports2/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Action
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skyaction/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Arena
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skyarena/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Bundesliga
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skybundesliga/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Football
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skyfootball/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Main Event
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skysportsmain/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Premier League
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skypremier/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Sports F1
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skysportsf1/index.m3u8
+#EXTINF:-1 group-title="Спорт" tvg-rec="7" timeshift="7",Sky Sports Mix
+#EXTGRP:Спорт
+https://or-be-01.mycdn.video/skymix/index.m3u8
