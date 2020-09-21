@@ -91,7 +91,7 @@
 	<body>
 
 		<select id="tours">
-			<option>1</option>
+			<option selected="selected">1</option>
 			<option>2</option>
 			<option>3</option>
 			<option>4</option>
@@ -130,7 +130,7 @@
 			<option>37</option>
 			<option>38</option>
 			<option>39</option>
-			<option selected="selected">40</option>
+			<option>40</option>
 		</select>
 
 		<input type="button" value="Обновить" id="runButton">
@@ -152,12 +152,12 @@
 
 	    <script type="text/javascript">
 			var tour = $("#tours :selected").text();
-			var tourName = parseInt('9958') + parseInt(tour);
+			var tourName = parseInt('10769') + parseInt(tour);
 			console.log(tourName);
 			$('#runButton').click(function() {
 				$("#tables").empty();
 				tour = $("#tours :selected").text();
-				tourName = parseInt('9958') + parseInt(tour);
+				tourName = parseInt('10769') + parseInt(tour);
 				console.log(tourName);
 			    runFantasy('' + tourName, '');
 			});			
@@ -168,7 +168,7 @@
 			var data_football = [
  						['Milana', '0','0'],
 						['xheo', '0','0'],
-						['busotir', '0','0'],
+						<!-- ['busotir', '0','0'], -->
 						['positive', '0','0']
 					];					
 		</script>
@@ -215,10 +215,10 @@
 		<script type="text/javascript">
 		function runFantasy(tourId, userName) {
 			var teams = 
-			   [{userId: "2172907", name: "xheo", result: 0},
-				{userId: "2175327", name: "positive", result: 0},
-				{userId: "2173548", name: "busotir", result: 0},
-				{userId: "2174837", name: "Milana", result: 0}];
+			   [{userId: "2259242", name: "xheo", result: 0},
+				{userId: "2259248", name: "positive", result: 0},
+				<!-- {userId: "2173548", name: "busotir", result: 0}, -->
+				{userId: "2259092", name: "Milana", result: 0}];
 			var ids = 0;
 			var SportsRuUrlTemplate = "https://www.sports.ru/fantasy/football/team/points/";
 			var JsonUrlTemplate = ".json";
