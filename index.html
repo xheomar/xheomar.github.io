@@ -96,7 +96,7 @@
 			<option>3</option>
 			<option>4</option>
 			<option>5</option>
-			<option selected="selected">6</option>
+			<option>6</option>
 			<option>7</option>
 			<option>8</option>
 			<option>9</option>
@@ -108,7 +108,7 @@
 			<option>15</option>
 			<option>16</option>
 			<option>17</option>
-			<option>18</option>
+			<option selected="selected">18</option>
 			<option>19</option>
 			<option>20</option>
 			<option>21</option>
@@ -152,12 +152,12 @@
 
 	    <script type="text/javascript">
 			var tour = $("#tours :selected").text();
-			var tourName = parseInt('10769') + parseInt(tour);
+			var tourName = parseInt('10768') + parseInt(tour);
 			console.log(tourName);
 			$('#runButton').click(function() {
 				$("#tables").empty();
 				tour = $("#tours :selected").text();
-				tourName = parseInt('10769') + parseInt(tour);
+				tourName = parseInt('10768') + parseInt(tour);
 				console.log(tourName);
 			    runFantasy('' + tourName, '');
 			});			
