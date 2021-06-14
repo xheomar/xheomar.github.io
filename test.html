@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>ПРИМЕР</title>
+ </head>
+ <body>
+
+<b>Сила:</b><br>
+<input type="text" size="40" id="sila" onchange="changeSila()">
+<br>
+
+<b>Ловкость:</b><br>
+<input type="text" size="40" id="lovkost" onchange="changeLovkost()">
+<br>
+
+<b>Интеллект:</b><br>
+<input type="text" size="40" id="intellekt" onchange="changeIntellekt()">
+<br>
+
+<script type="text/javascript">
+
+    if(localStorage.getItem('sila') === 'null')
+    {
+        localStorage.setItem('sila', '5');
+    }
+
+    if(localStorage.getItem('lovkost') === 'null')
+    {
+        localStorage.setItem('lovkost', '5');
+    }
+
+    if(localStorage.getItem('intellekt') === 'null')
+    {
+        localStorage.setItem('intellekt', '5');
+    }
+
+    var sila = localStorage.getItem('sila');
+    var lovkost = localStorage.getItem('lovkost');
+    var intellekt = localStorage.getItem('intellekt');
+
+    document.getElementById("sila").value = sila;
+    document.getElementById("lovkost").value = lovkost;
+    document.getElementById("intellekt").value = intellekt;
+</script>
+
+<script>
+ function changeSila() {
+    var x = document.getElementById("sila").value;
+    localStorage.setItem('sila', x);
+}
+
+function changeLovkost() {
+    var x = document.getElementById("lovkost").value;
+    localStorage.setItem('lovkost', x);
+}
+
+function changeIntellekt() {
+    var x = document.getElementById("intellekt").value;
+    localStorage.setItem('intellekt', x);
+}
+</script>
+
+ </body>
+</html>
